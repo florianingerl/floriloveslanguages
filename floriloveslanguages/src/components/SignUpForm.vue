@@ -10,14 +10,27 @@ export default defineComponent({
     const person = ref<Person>( { name: "Hermann Ingerl", age : 80 });
     const checked = ref<Boolean>( false );
 
-    return { person, checked };
+    const skills = ref<String[]>(["Informatik", "Mathe"]);
+    const tempSkill = ref<String>("Religion");
+
+    return { person, checked , skills, tempSkill };
   },
   
   mounted() {
     
   },
   methods : {
-    
+    addSkill(){
+        console.log("Add skill function called!");
+        this.skills.push(this.tempSkill);
+        console.log("Add skill function finished!");
+    },
+
+    deleteSkill(skill : String) {
+        console.log("The delete functionw was called!");
+        this.skills = this.skills.filter ( (item:String) => { return item != skill; });
+        console.log("skill=" + skill );
+    }
   }
 })
 
@@ -27,19 +40,33 @@ export default defineComponent({
   
   {{ person.name }} is {{ person.age }} years old.
 
-  <form>
+  <div>
     <label for="name">Name:</label>
     <input type="text" v-model="person.name" />
 
     <div>
-        <input type="checkbox" v-model="checked" required />
+        <input type="checkbox" v-model="checked" />
         <label>Accept terms and conditions</label>
     </div>
-  </form>
 
+    <div>
+    <label for="tempSkill">Temp skill:</label>
+    <input type="text" v-model="tempSkill" @keyUp="addSkill"/>
+    <button @click="addSkill">Add skill</button>
+  
+<ol>
+<li v-for="skill in skills">
+<div @click="deleteSkill(skill)">{{ skill }}</div>
+</li>
+</ol>
+    </div>
+
+    
   <p>
   The value of checked is {{ checked }} .
   </p>
+  </div>
+
   
 </template>
 
