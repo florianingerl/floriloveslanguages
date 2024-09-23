@@ -4,10 +4,11 @@ import { defineComponent, reactive, toRefs , ref } from 'vue';
 import Person from './../types/Person.ts';
 import PersonList from './PersonList.vue';
 import Stupid from './Stupid.vue';
+import SignUpForm from './SignUpForm.vue';
 
 export default defineComponent({
   //components: { PersonList },
-  components: { Stupid, PersonList }, 
+  components: { Stupid, PersonList, SignUpForm }, 
   // type inference enabled
   props: {
     msg: String
@@ -92,6 +93,8 @@ export default defineComponent({
   <button @click="handleClick(100)" > Increase count by 100 </button>
   <button @click="handleClick(1000)"> Increase count by 1000 </button>
   <button @click="handleClick('Florian')"> Increase count by 1000 </button>
+
+  <SignUpForm />
   
 </template>
 
