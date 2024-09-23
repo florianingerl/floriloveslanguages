@@ -8,8 +8,9 @@ export default defineComponent({
   
   setup() {
     const person = ref<Person>( { name: "Hermann Ingerl", age : 80 });
+    const checked = ref<Boolean>( false );
 
-    return { person };
+    return { person, checked };
   },
   
   mounted() {
@@ -25,6 +26,20 @@ export default defineComponent({
 <template>
   
   {{ person.name }} is {{ person.age }} years old.
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" v-model="person.name" />
+
+    <div>
+        <input type="checkbox" v-model="checked" required />
+        <label>Accept terms and conditions</label>
+    </div>
+  </form>
+
+  <p>
+  The value of checked is {{ checked }} .
+  </p>
   
 </template>
 
