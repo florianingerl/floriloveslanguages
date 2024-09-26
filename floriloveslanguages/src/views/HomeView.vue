@@ -8,7 +8,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent(
   {
-    components: { TheWelcome, Stupid, VueWordOrder, ProvideArrayTest }
+    components: { TheWelcome, Stupid, VueWordOrder, ProvideArrayTest, VueWholeSentence }
   }
 );
 </script>
@@ -19,6 +19,8 @@ export default defineComponent(
     <Stupid />
     <ProvideArrayTest />
     <VueWordOrder lg="fr" :sentences="['Nenad is smart.', 'Florian is smart too.']" />
+
+    <h1>VueWholeSentence</h1>
     <VueWholeSentence lg="en" :sentences="[{task: 'Florian is what?', solution: 'smart'}, { task: 'Nenad is what?', solution: 'smart' }]" />
   </main>
 </template>
