@@ -35,7 +35,7 @@ export default defineComponent( {
     },
     sentences: {
       required: true,
-      type: Array as PropType<TaskSolution>
+      type: Array as PropType<TaskSolution[]>
     }
   },
 
