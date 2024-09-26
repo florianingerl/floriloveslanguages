@@ -1,7 +1,8 @@
 <script lang="ts">
 
-import { ref, computed, defineComponent, PropType } from 'vue';
-import Person from './../types/Person.ts';
+import { ref, computed, defineComponent } from 'vue';
+import type { PropType } from "vue";
+import type {Person} from './../types/Person.ts';
 
 export default defineComponent({
   // type inference enabled

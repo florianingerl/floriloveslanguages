@@ -1,23 +1,11 @@
+import './assets/main.css'
+
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
-/*
-import { createMemoryHistory, createRouter } from 'vue-router'
+import router from './router'
 
-import HomeView from './views/vue-home.vue' */
+const app = createApp(App)
 
-createApp(App).mount('#app')
+app.use(router)
 
-/*
-const routes = [
-  { path: '/', component: HomeView }
-];
-
-const router = createRouter({
-  history: createMemoryHistory(),
-  routes,
-});
-
-const app = createApp(App);
-app.use(router);
-app.mount('#app'); */
+app.mount('#app')

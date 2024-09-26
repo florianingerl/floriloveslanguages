@@ -1,7 +1,8 @@
 <script lang="ts">
 
-import { computed, defineComponent, PropType } from 'vue';
-import Person from './../types/Person.ts';
+import { computed, defineComponent } from 'vue';
+import type { PropType } from "vue";
+import type { Person } from './../types/Person.ts';
 
 export default defineComponent({
   // type inference enabled
@@ -26,7 +27,12 @@ export default defineComponent({
     const orderedPersons = computed( () => {
         let amen = [...props.persons];
         amen.sort( (a: Person, b: Person) => {
-            return a[props.order] > b[props.order] ? 1 : -1;
+            if( props.order === "age" ){
+              return a.age > b.age ? 1 : -1;
+            }
+            else { //props.order === "name"
+              return a.name > b.name ? 1 : -1;
+            }
         } );
         return amen;
     });

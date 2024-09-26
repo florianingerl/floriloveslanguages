@@ -3,4 +3,4 @@ interface Person {
     age: number
 };
 
-export default Person;
+export type { Person };
