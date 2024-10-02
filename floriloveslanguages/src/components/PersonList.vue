@@ -14,7 +14,7 @@ export default defineComponent({
     },
     order : {
         required: true,
-        type: String
+        type: String as PropType<keyof Person>
     }
   },
   setup(props) {
@@ -27,12 +27,7 @@ export default defineComponent({
     const orderedPersons = computed( () => {
         let amen = [...props.persons];
         amen.sort( (a: Person, b: Person) => {
-            if( props.order === "age" ){
-              return a.age > b.age ? 1 : -1;
-            }
-            else { //props.order === "name"
-              return a.name > b.name ? 1 : -1;
-            }
+            return a[props.order] > b[props.order] ? 1 : -1;
         } );
         return amen;
     });

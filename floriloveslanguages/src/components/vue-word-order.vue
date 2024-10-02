@@ -32,7 +32,7 @@ words.forEach( (word: string,index: number) => { s = s + word; if(index != words
 return s;
     }
 
-function shuffle(array: string[] ): void {
+function shuffle<T>(array: T[] ): void {
   let currentIndex = array.length;
 
   // While there remain elements to shuffle...
