@@ -20,10 +20,27 @@
 <li v-for="innergaps in gaps">
 <span v-for="gap in innergaps" >
   {{ gap.text }} 
+  <!--
   <select :disabled="validated" v-if="gap.options" :class="{ notcorrect: validated && gap.guess != gap.solution, correct: validated && gap.guess === gap.solution }" v-model="gap.guess">
     <option v-for="op in gap.options">{{ op }}</option>
-  </select> 
-  <input v-if="!validated && gap.gap" :style="{ width: ( gap.gap.length + 2 ) + 'ch' }" type="text" v-model="gap.guess"> </input>
+  </select> -->
+
+  <Select :v-bind="gap.guess" :disabled="validated" v-if="gap.options" :class="{ notcorrect: validated && gap.guess != gap.solution, correct: validated && gap.guess === gap.solution }">
+          <FormControl>
+            <SelectTrigger>
+              <SelectValue placeholder="Select something" />
+            </SelectTrigger>
+          </FormControl>
+          <SelectContent>
+            <SelectGroup>
+              <SelectItem v-for="op in gap.options" :value="op">
+                {{ op }}}
+              </SelectItem>
+              
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+  <Input v-if="!validated && gap.gap" :style="{ width: ( gap.gap.length + 2 ) + 'ch' }" type="text" v-model="gap.guess"> </Input>
   <span v-if="validated && gap.gap"  :class="{ notcorrect: validated && gap.guess != gap.solution, correct: validated && gap.guess === gap.solution }">{{ gap.guess }} </span>
   <span v-if="validated && gap.gap && gap.solution != gap.guess" class="correct">{{ gap.solution }} </span>
   <span v-if="validated && gap.options && gap.guess != gap.solution" class="correct"> {{ gap.solution }} </span>
@@ -33,12 +50,16 @@
 
 
 <p v-if="lg==='fr'">
-<button @click="buttonValidateClicked">Valider ma solution</button>
-<button @click="showSolutionClicked">Montre-moi la solution</button>
+<Button @click="buttonValidateClicked">Valider ma solution</Button>
+<Button @click="showSolutionClicked">Montre-moi la solution</Button>
 </p>
-<p v-else>
-<button @click="buttonValidateClicked">Validate</button>
-<button @click="showSolutionClicked">Show me the solution</button>
+<p v-if="lg==='en'">
+<Button @click="buttonValidateClicked">Validate</Button>
+<Button @click="showSolutionClicked">Show me the solution</Button>
+</p>
+<p v-if="lg==='de'">
+<Button @click="buttonValidateClicked">Meine Lösung prüfen</Button>
+<Button @click="showSolutionClicked">Lösung zeigen</Button>
 </p>
 
 
@@ -52,11 +73,23 @@ import { ref, defineComponent } from "vue";
 import type { Languages } from "../../types/Languages.ts";
 import type { PropType } from "vue";
 import type { Gap } from "../../types/Gap.ts";
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+
 
 export default defineComponent({
   name: "VueMCGaps",
   components: {
-  
+    Button, Input
   },
   props: {
     gaptext: {

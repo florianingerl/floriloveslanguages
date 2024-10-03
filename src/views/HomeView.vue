@@ -28,6 +28,9 @@ import { Button } from '@/components/ui/button';
     <h1>VueMCGaps</h1>
     <VueMCGaps lg="en" gaptext="Nenad is {smart} and Florian is {smart} too."></VueMCGaps>
 
+    <h1>VueMCGaps</h1>
+    <VueMCGaps lg="en" gaptext="Nenad is {smart|stupid} and Florian is {smart|stupid} too."></VueMCGaps>
+
     <h1>VueHideShow</h1>
     <VueHideShow lg="en">
     <p>Florian is smart and so is Nenad.</p>

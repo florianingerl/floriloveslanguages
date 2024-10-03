@@ -2,16 +2,16 @@
 
 <div v-for="(sentence ,index ) in sentences2">
 <p>{{index+1}}.{{ sentence.wrongOrder }}</p>
-<p><input :disabled="validated" style="display:block;width:100%" v-model="sentence.guess" type="text" :class="{ correct: validated && sentence.guess == sentence.solution, notcorrect: validated && sentence.guess != sentence.solution }"/></p>
+<p><Input :disabled="validated" style="display:block;width:100%" v-model="sentence.guess" type="text" :class="{ correct: validated && sentence.guess == sentence.solution, notcorrect: validated && sentence.guess != sentence.solution }"/></p>
 </div>
 
 <p v-if="lg==='fr'">
-<button @click="validateSolutionClicked">Valider</button>
-<button @click="showSolutionClicked">Montre-moi la solution!</button>
+<Button @click="validateSolutionClicked">Valider</Button>
+<Button @click="showSolutionClicked">Montre-moi la solution!</Button>
 </p>
 <p v-else>
-<button @click="validateSolutionClicked">Validate my answer</button>
-<button @click="showSolutionClicked">Show solution</button>
+<Button @click="validateSolutionClicked">Validate my answer</Button>
+<Button @click="showSolutionClicked">Show solution</Button>
 </p>
 
     
@@ -22,6 +22,9 @@
 import { ref ,defineComponent } from 'vue';
 import type { PropType } from "vue";
 import type { WordOrderExercise } from "../../types/WordOrderExercise.ts";
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+
 
 function shuffleWords(text: string) : string {
       
@@ -49,6 +52,7 @@ function shuffle<T>(array: T[] ): void {
 }
 
 export default defineComponent({
+  components: { Button , Input },
   props: {
     sentences: {
       required: true,

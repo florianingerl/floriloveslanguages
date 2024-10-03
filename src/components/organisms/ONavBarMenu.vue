@@ -39,7 +39,7 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
 
-const getSubItemDescription = (subItem) => {
+const getSubItemDescription = (subItem : string) => {
   // You can replace this with actual descriptions for each sub-item
   return `Entdecken Sie unsere maßgeschneiderten Angebote für ${subItem} und wie sie Ihren Erfolg fördern können.`
 }

@@ -1,18 +1,18 @@
 <template>
 
   <div v-if="lg === 'de'">
-    <button v-if="show" @click="show = false;">Lösung abdecken</button>
-    <button v-if="!show" @click="show = true;">Lösung zeigen</button>
+    <Button v-if="show" @click="show = false;">Lösung abdecken</Button>
+    <Button v-if="!show" @click="show = true;">Lösung zeigen</Button>
     <slot v-if="show"> </slot>
   </div>
   <div v-if="lg === 'fr'">
-    <button v-if="show" @click="show = false;">Couvrir solution</button>
-    <button v-if="!show" @click="show = true;">Montre-moi la solution</button>
+    <Button v-if="show" @click="show = false;">Couvrir solution</Button>
+    <Button v-if="!show" @click="show = true;">Montre-moi la solution</Button>
     <slot v-if="show"> </slot>
   </div>
   <div v-else>
-    <button v-if="show" @click="show = false;">Hide solution</button>
-    <button v-if="!show" @click="show = true;">Show solution</button>
+    <Button v-if="show" @click="show = false;">Hide solution</Button>
+    <Button v-if="!show" @click="show = true;">Show solution</Button>
     <slot v-if="show"> </slot>
   </div>
 
@@ -25,12 +25,13 @@
 import { defineComponent } from "vue";
 import type { PropType } from "vue";
 import type { Languages } from "../../types/Languages.ts";
+import { Button } from '@/components/ui/button';
 
 
 export default defineComponent({
   name: "VueHideShow",
   components: {
-
+    Button
   },
   props: {
     lg: {
