@@ -15,6 +15,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/en/english/vocabulary/conjunctions">conjunctions</RouterLink>
         <RouterLink to="/en/english/shortstories/thecatdetective">The cat detective</RouterLink>
+        <RouterLink to="/en/english">English</RouterLink>
+        <RouterLink to="/de/deutsch">Deutsch</RouterLink>
       </nav>
     </div>
   </header>
