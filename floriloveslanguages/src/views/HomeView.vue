@@ -17,6 +17,9 @@ export default defineComponent(
 
 <template>
   <main>
+  <p>
+  In this paragraph, you can click on any word to see a translation!
+  </p>
     <TheWelcome />
     <Stupid />
     <ProvideArrayTest />

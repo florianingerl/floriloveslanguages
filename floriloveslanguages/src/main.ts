@@ -1,10 +1,12 @@
-import './assets/main.css'
+import './assets/main.css';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
 
-const app = createApp(App)
+const app = createApp(App);
+//app.config.globalProperties.window = window;
+app.provide("window", window);
 
 app.use(router)
 
