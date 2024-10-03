@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue';
 import VueDict from "./../components/vue-dict.vue";
+import VueAnnaCat from "./../views/english/shortstories/vue-anna-cat.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,7 +59,7 @@ const router = createRouter({
         {
           name: 'The cat detective',
           path: 'thecatdetective',
-          component: HomeView
+          component: VueAnnaCat
   
         },
         {
