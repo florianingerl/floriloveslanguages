@@ -5,6 +5,8 @@ import VueAnnaCat from "./../views/english/shortstories/vue-anna-cat.vue";
 import VueEnglish from "./../views/english/vue-english.vue";
 import VueDeutsch from "./../views/deutsch/vue-deutsch.vue";
 import VueKatzeMagFisch from "./../views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
+import VueFrancais from "./../views/french/vue-francais.vue";
+import VueMonumentPoisson from "./../views/french/breveshistoires/vue-monument-poisson.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +23,29 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
+    },
+    {
+      name: 'Français',
+      path: '/fr/:language',
+      component: VueDict,
+      children: [
+        {
+          name: "navigation françaises",
+          path: '',
+          component: VueFrancais
+        },
+        {
+          name: "Histoires brèves",
+          path: 'breveshistoires',
+          children: [
+            {
+              name: 'Monument poisson',
+              path: 'monumentpoisson',
+              component: VueMonumentPoisson
+            }
+          ]
+        }
+      ]
     },
     {
       name: 'Deutsch',

@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/en/english/shortstories/thecatdetective">The cat detective</RouterLink>
         <RouterLink to="/en/english">English</RouterLink>
         <RouterLink to="/de/deutsch">Deutsch</RouterLink>
+        <RouterLink to="/fr/french">Français</RouterLink>
       </nav>
     </div>
   </header>
