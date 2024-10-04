@@ -44,6 +44,17 @@
   <span v-if="validated && gap.gap"  :class="{ notcorrect: validated && gap.guess != gap.solution, correct: validated && gap.guess === gap.solution }">{{ gap.guess }} </span>
   <span v-if="validated && gap.gap && gap.solution != gap.guess" class="correct">{{ gap.solution }} </span>
   <span v-if="validated && gap.options && gap.guess != gap.solution" class="correct"> {{ gap.solution }} </span>
+
+  <Select>
+  <SelectTrigger className="w-[180px]">
+    <SelectValue placeholder="Theme" />
+  </SelectTrigger>
+  <SelectContent>
+    <SelectItem value="light">Light</SelectItem>
+    <SelectItem value="dark">Dark</SelectItem>
+    <SelectItem value="system">System</SelectItem>
+  </SelectContent>
+</Select>
 </span>
 </li>
 </ol>

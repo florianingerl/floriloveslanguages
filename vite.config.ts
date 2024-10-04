@@ -12,11 +12,17 @@ export default defineConfig({
     },
   },
   plugins: [
-    vue(),
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag : string) => ['Select', 'FormControl', 'SelectTrigger', 'SelectContent', 'SelectGroup', 'SelectItem','SelectLabel','SelectTrigger','SelectValue'].includes(tag),
+        }
+      }
+    })
   ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-})
+});
