@@ -15,25 +15,21 @@ const isMenuOpen = ref(false)
 
 const menuItems = ref([
   { 
-    name: 'Sprachen', 
-    submenu: ['Deutsch', 'Informatik', 'Physik', 'Ingenieurwesen'] 
+    name: 'Englisch', 
+    submenu: ['Short stories', 'Grammar', 'Vocabulary', 'Books'] 
   },
-//   { 
-//     name: 'Schule', 
-//     submenu: ['Mathematik', 'Informatik', 'Physik', 'Franzoesisch', 'Englisch', 'Deutsch'] 
-//   },
-//   { 
-//     name: 'Leben', 
-//     submenu: ['Rohkost mit Sprossen', 'Bewusstsein', 'Schach', 'Webseiten'] 
-//   },
-//   { 
-//     name: 'Preise und andere Infos', 
-//     submenu: ['Preise Termine und Bezahlung', 'Unterrrichtsmethode', 'Online Nachhilfe', 'Praesenz Nachhilfe'] 
-//   },
-//   { 
-//     name: 'Über mich', 
-//     submenu: ['Ueber mich', 'Warum Nachhilfe bei Florian', 'Feedbacks', 'Links'] 
-//   }
+   { 
+     name: 'Français', 
+     submenu: ['Brèves histoires', 'Grammaire', 'Vocabulaire', 'Livres'] 
+   },
+   { 
+     name: 'Deutsch', 
+     submenu: ['Kurzgeschichten', 'Grammatik', 'Vokabeln', 'Bücher'] 
+   },
+   { 
+     name: 'Informatik', 
+     submenu: ['Reguläre Ausdrücke'] 
+   }
 ])
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
