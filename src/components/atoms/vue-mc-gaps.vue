@@ -19,6 +19,7 @@
 <ol style="list-style-type: none">
 <li v-for="innergaps in gaps">
 <span v-for="gap in innergaps" >
+<h1> {{ gap.options }} </h1>
   {{ gap.text }} 
   <!--
   <select :disabled="validated" v-if="gap.options" :class="{ notcorrect: validated && gap.guess != gap.solution, correct: validated && gap.guess === gap.solution }" v-model="gap.guess">
@@ -34,7 +35,7 @@
           <SelectContent>
             <SelectGroup>
               <SelectItem v-for="op in gap.options" :value="op">
-                {{ op }}}
+                {{ op }}
               </SelectItem>
               
             </SelectGroup>
