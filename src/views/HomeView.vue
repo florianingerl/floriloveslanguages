@@ -6,11 +6,15 @@ import VueWholeSentence from "../components/atoms/vue-whole-sentence.vue";
 import VueMCGaps from "../components/atoms/vue-mc-gaps.vue";
 import VueHideShow from "../components/atoms/vue-hideshow.vue";
 import { Button } from '@/components/ui/button';
+import UseSelectTest from '@/components/atoms/UseSelectTest.vue';
 
 </script>
 
 <template>
   <main>
+<h1>UseSelectTest component: </h1>
+    <UseSelectTest />
+
   <p>
   In this paragraph, you can click on any word to see a translation!
   </p>

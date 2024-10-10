@@ -56,7 +56,7 @@ const getSubItemDescription = (subItem : string) => {
     <div class="container mx-auto px-6 py-4">
       <div class="flex justify-evenly items-center">
         <a href="#" class="text-3xl font-extrabold tracking-tight hover:text-emerald-200 transition-colors duration-300">
-          FRAG FLORIAN!
+          FLORIAN LOVES LANGUAGES
         </a>
         
         <Button @click="toggleMenu" variant="ghost" size="icon" class="md:hidden text-white hover:text-emerald-200">
