@@ -1,7 +1,5 @@
 <template>
 
-<h1>Hello, my name is Florian</h1>
-<!--
 <div class="topnav" >
    <router-link :class="{active : $route.fullPath.includes('/french') }" to="/fr/french">Français</router-link>
    <router-link :class="{active : $route.fullPath.includes('/english') }" to="/en/english">English</router-link>
@@ -13,7 +11,7 @@
 
     <router-view></router-view>
 
-</div> -->
+</div>
     
 </template>
 

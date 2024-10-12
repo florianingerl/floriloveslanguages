@@ -1,6 +1,8 @@
-import './assets/index.css'
+//import './assets/index.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import { createApp } from 'vue'
 import App from './App.vue'
+//import HomeView from '@/views/vue-home.vue';
 import router from './router';
 
 const app = createApp(App);

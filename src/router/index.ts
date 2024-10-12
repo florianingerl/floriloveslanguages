@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomeView.vue';
+//import HomeView from '@/views/HomeView.vue';
+import HomeView from '@/views/vue-home.vue'
 import VueDict from "@/components/atoms/layouts/vue-dict.vue";
 import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
 import VueEnglish from "@/views/english/vue-english.vue";
@@ -14,13 +15,9 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
+      component: HomeView,
+      children: [
+  
     {
       name: 'Français',
       path: '/fr/:language',
@@ -144,7 +141,7 @@ const router = createRouter({
 
     },
 
-  ]
+  ]}]
 })
 
 export default router

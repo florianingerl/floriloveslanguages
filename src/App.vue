@@ -16,6 +16,8 @@ import ONavBarMenu from '@/components/organisms/ONavBarMenu.vue';
 
 <template>
   
+  <RouterView />
+  <!--
   <ONavBarMenu />
   <hr>
   <main>
@@ -24,7 +26,7 @@ import ONavBarMenu from '@/components/organisms/ONavBarMenu.vue';
   <footer>
     <hr>
     Footer
-  </footer>
+  </footer> -->
 
 
   <div>
