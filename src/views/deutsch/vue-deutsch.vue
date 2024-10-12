@@ -4,11 +4,28 @@
     <thead>
       <tr>
         <th>N°</th>
-        <th>Titre</th>
-        <th>Autheur</th>
+        <th>Titel</th>
+        <th>Autor</th>
+        <th>Schwierigkeitsgrad</th>
+        <th>Typ</th>
+        <th>Zuletzt bearbeitet</th>
       </tr>
     </thead>
     <tbody> 
+
+    
+
+      <tr>
+        <td>3</td>
+       <td><router-link to="/de/deutsch/kurzgeschichten/vogelundeichhoernchen">Ein Vogel und ein Eichhörnchen</router-link></td>
+       <td>Flori10</td>
+    </tr>
+
+      <tr>
+        <td>2</td>
+       <td><router-link to="/de/deutsch/kurzgeschichten/vogelmarcia">Mit Vögeln Äpfel teilen</router-link></td>
+       <td>Flori10</td>
+    </tr>
 
            <tr>
         <td>1</td>
@@ -26,15 +43,14 @@
  
 </template>
 
-<script lang="ts">
+<script>
 
-import { defineComponent } from "vue";
-
-export default defineComponent ({
+export default {
   name: "VueDeutsch",
   components: {
   
   },
+  props: [],
 
   data() {
     return {
@@ -55,11 +71,14 @@ export default defineComponent ({
   methods: {
     
   }
-});
+}
 </script>
 
 <style scoped>
 
+a {
+  text-transform: none
+}
 
 
 </style>

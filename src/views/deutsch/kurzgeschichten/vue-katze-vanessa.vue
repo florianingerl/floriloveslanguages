@@ -4,7 +4,7 @@
 <h1>Eine Katze, die Fisch mag</h1>
 <h4><i>von Florian Ingerl und Vanessa Feiller</i></h4>
 
-<!-- <img style="float: right; height: 200px" src="assets/img/deutsch/katze.JPG"></img> -->
+<img style="float: right; height: 200px" src="assets/img/deutsch/katze.JPG"></img>
 Natürlich verstaut eine Katze ihre Sachen nicht in einer Aktentasche,
 obwohl sich in der Tasche genug Platz finden würde, für alles was eine Katze so zum Leben braucht.
 Vielleicht bewachte die Katze die Aktentasche nur für ihr Herrchen, aber eigentlich wäre das die Aufgabe eines Wachhundes.
@@ -42,7 +42,7 @@ Melli hieß, ganz süß zu miauen an. Dabei schielte sie zu den Fischen, um ihre
 "Wenn ich dir einen kleinen Fisch gebe, begann der Fischer, dann möchte ich, dass du ihn woanders verspeist und nicht noch mehr hungrige Mäuler anziehst!" Melli bestätigte die Aussage mit einem Miauen und einem freudigen Wedeln ihres Schwanzes.
 Jedoch ist natürlich eine Aktentasche nicht geeignet, um einen kleinen Fisch darin zu transportieren, sondern in einer Aktentasche transportiert man Akten.
 <VueExercise lg="de" instruction="Fülle die Lücken mit sondern, aber, denn, und oder oder" >
-<VueMCGaps lg="de" :gaptexts="['Die Katze heißt nicht Melissa, {sondern} sie heißt Melli.',
+<VueMCGaps lg="de" :gaptext="['Die Katze heißt nicht Melissa, {sondern} sie heißt Melli.',
 'Die Katze kann zwar nicht bellen, {aber} sie kann miauen.',
 'Die Katze isst einen Fisch, {denn} sie hat Hunger.',
 'Du bezahlst den Fisch {oder} ich gebe ihn dir nicht.',
@@ -81,7 +81,7 @@ Die Katze, die ihren kleinen Fisch unter keinen Umständen verlieren wollte, öf
 Ungünstigerweise wurde die Katze Melli beim Transport des Fisches in ihrem Maul von einer Gruppe von streunenden Katzen beobachtet. Diese streunenden Katzen waren sehr ungebildet und hingen den ganzen Tag lang nur faul herum und fragten sich jetzt, wo Melli den leckeren Fisch herhatte.
 
 <VueExercise lg="de" instruction="Finde das Gegenteil">
-<VueMCGaps lg="de" :gaptexts="['öffnen -> {schließen}', 'stoppen -> {starten}', 'klein -> {groß}', 'verlieren -> {gewinnen}', 'faul -> {fleißig}']">
+<VueMCGaps lg="de" :gaptext="['öffnen -> {schließen}', 'stoppen -> {starten}', 'klein -> {groß}', 'verlieren -> {gewinnen}', 'faul -> {fleißig}']">
 
 </VueMCGaps>
 
@@ -95,7 +95,7 @@ Die Katze, deren Magen knurrte, wollte sich jedoch noch nicht geschlagen geben. 
 <VueExercise lg="de" instruction="Mache einen Satz aus den zwei Sätzen indem du einen Relativsätz mit Genitiv wie im Beispiel benutzt!">
 <p>Beispiel 1:</p>
 <p>Die Katze lief davon und bezahlte nicht. In ihrem Maul war der Fisch.</p>
-<p>Die Katze, in derem Maul der Fisch war, lief davon und bezahlte nicht.</p>
+<p>Die Katze, in derem Maul der Fisch war, lief davon und bezahlte nicht.
 
 <ol>
 <li>Das Fell der Katze war dreckig. Die Katze ging unter die Dusche.</li>
@@ -115,7 +115,7 @@ Der Fischer war diesmal jedoch nicht allein. An seinem Verkaufsstand, war ein Ku
 Der Fischer war jetzt völlig verwirrt. Hier der Lärm der miauenden Katze, die doch eben gerade einen Fisch bekommen hatte und jetzt wieder da war, und dort dieser Mann im Osterhasenköstum, obwohl gar kein Ostern war.
 
 <VueExercise lg="de" instruction="Fülle die Lücken mit dem gegebenen Verb im Präteritum aus!">
-<VueMCGaps lg="de" :gaptexts="['Die Katze {lief} (laufen) nach Hause.', 'Der Fischer {rief} (rufen) nach der Polizei', 'Die streunenden Katzen {gingen} (gehen) leer aus.', 'Die Katze {hatte} (haben) Hunger.']">
+<VueMCGaps lg="de" :gaptext="['Die Katze {lief} (laufen) nach Hause.', 'Der Fischer {rief} (rufen) nach der Polizei', 'Die streunenden Katzen {gingen} (gehen) leer aus.', 'Die Katze {hatte} (haben) Hunger.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -135,20 +135,24 @@ THE END
 
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script>
+import VueGaps from "./../../vue-gaps.vue";
+import VueMCGaps from "./../../vue-mc-gaps.vue";
+import VueQuestion from "./../../vue-question.vue";
+import VueExercise from "./../../vue-exercise.vue";
+import VueWholeSentence from "./../../vue-whole-sentence.vue";
+import VueHideShow from "./../../vue-hideshow.vue";
+import VueImage from "./../../vue-image.vue";
 
-import VueMCGaps from "../../../components/atoms/vue-mc-gaps.vue";
-import VueExercise from "../../../components/atoms/vue-exercise.vue";
-import VueWholeSentence from "../../../components/atoms/vue-whole-sentence.vue";
-import VueHideShow from "../../../components/atoms/vue-hideshow.vue";
-
-export default defineComponent ({
-  name: "VueKatzeVanessa",
+export default {
+  
   components: {
+     VueGaps,
+     VueQuestion,
      VueExercise,
      VueWholeSentence,
      VueHideShow,
+     VueImage,
      VueMCGaps
   },
 
@@ -167,7 +171,7 @@ export default defineComponent ({
   methods: {
        
   }
-});
+}
 </script>
 
 <style scoped>
