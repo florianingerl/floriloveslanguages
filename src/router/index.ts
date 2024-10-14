@@ -6,7 +6,6 @@ import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
 import VueEnglish from "@/views/english/vue-english.vue";
 import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
-import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-vogel-und-eichhoernchen.vue";
 import VueFrancais from "@/views/french/vue-francais.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 
@@ -59,7 +58,7 @@ const router = createRouter({
             {
               name: "Ein Vogel und ein Eichhörnchen",
               path: "vogelundeichhoernchen",
-              component: VueVogelUndEichhoernchen
+              component: VueKatzeMagFisch
               //niveau 2
 
             },

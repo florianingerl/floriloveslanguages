@@ -1,14 +1,16 @@
 //import './assets/index.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import { createApp } from 'vue'
-import App from './App.vue'
-//import HomeView from '@/views/vue-home.vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import { createApp } from 'vue';
+//import App from './App.vue'
+import HomeView from '@/views/vue-home.vue';
+//import App from './App.vue';
+//import HomeView from './views/AboutView.vue';
 import router from './router';
 
-const app = createApp(App);
+const app = createApp(HomeView);
 app.provide("window", window);
 
-app.use(router)
+app.use(router);
 
-app.mount('#app')
+app.mount('#app');
 

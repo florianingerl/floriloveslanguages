@@ -41,7 +41,7 @@ Vogel ein Eichhörnchen zum Freund haben wollen? Was kann denn ein Eichhörnchen
 </VueMCGaps>
 </VueExercise>
 
-<img style="float: right; height: 200px" src="assets/img/deutsch/eichhoernchen.PNG"></img>
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
 Werner war ein bisschen verwirrt. Was sollten zwei neue Freunde miteinander machen? "Gehen wir Würmer jagen! Magst du Würmer essen? Ich kann nie genug davon haben!" antwortete Werner fröhlich.
 "Würmer habe ich noch nie gegessen." erwiderte das Eichhörnchen. "Aber ich schlage etwas anderes vor. Was hältst du davon, wenn wir Nüsse suchen gingen? Ich mag Walnüsse, Haselnüsse, Eicheln, Cashewkerne und Macadamia."
 
@@ -54,7 +54,7 @@ Werner war ein bisschen verwirrt. Was sollten zwei neue Freunde miteinander mach
 </VueMCGaps>
 </VueExercise>
 
-<img style="float: right; height: 200px" src="assets/img/deutsch/vogel.jpg"></img>
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/vogel.jpg"></img>
 Das Eichhörnchen, das gerade gefragt worden ist, bekam Übelheit.
 Werner, der noch nie einen Freund mit so viel Fell gehabt hatte, überlegte, wie sie einen Kompromiss finden könnten.  "Ich habe gerade eine brilliante Idee!" rief er plötzlich beigeistert. "Als ich einmal neben dem gelben Haus gechillt habe, habe ich die Oma gehört, wie sie sehr böse darüber war, dass alle ihre Nüsse voll mit Würmern waren. Was hältst du von einem kleinen Diebstahl?"
 
@@ -80,7 +80,7 @@ Nach kurzem Überlegen schlug es aber vor: "Das finde ich eine tolle Idee von di
 </VueExercise>
 
 
-<img style="float: right; height: 200px" src="assets/img/deutsch/eichhoernchen.PNG"></img>
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
 "Na ja..." antwortete Werner. "Ich habe einmal eine sehr süße Ratte gesehen, die deine Strategie versucht hat. 
 Es ist schief gelaufen... aber versuchen wir es trotzdem. Im schlimmsten Fall werde ich dich schnappen und wir fliegen weg."
 Sie setzten ihren Plan also in die Tat um und setzten sich aufs Fensterbrett der Oma.

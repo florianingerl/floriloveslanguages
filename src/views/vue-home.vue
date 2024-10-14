@@ -15,9 +15,10 @@
     
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent({
   name: "HomeView",
   components: {
   
@@ -41,19 +42,12 @@ export default {
   methods: {
      myFunction() {
       this.responsive = !this.responsive;
-      /*
-      var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }*/
      }
   },
   computed: {
      
   }
-}
+});
 </script>
 
 <style scoped>
