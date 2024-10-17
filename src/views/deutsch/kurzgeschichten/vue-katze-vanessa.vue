@@ -137,14 +137,16 @@ THE END
 
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
+
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
 import VueQuestion from "@/components/atoms/vue-question.vue";
 import VueExercise from "@/components/atoms/vue-exercise.vue";
 import VueWholeSentence from "@/components/atoms/vue-whole-sentence.vue";
 import VueHideShow from "@/components/atoms/vue-hideshow.vue";
 
-export default {
+export default defineComponent ({
   
   components: {
      VueQuestion,
@@ -169,7 +171,7 @@ export default {
   methods: {
        
   }
-}
+});
 </script>
 
 <style scoped>
