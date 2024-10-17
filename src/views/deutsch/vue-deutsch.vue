@@ -13,8 +13,6 @@
     </thead>
     <tbody> 
 
-    
-
       <tr>
         <td>3</td>
        <td><router-link to="/de/deutsch/kurzgeschichten/vogelundeichhoernchen">Ein Vogel und ein Eichhörnchen</router-link></td>
@@ -43,14 +41,14 @@
  
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from "vue";
 
-export default {
+export default defineComponent ({
   name: "VueDeutsch",
   components: {
   
   },
-  props: [],
 
   data() {
     return {
@@ -71,7 +69,7 @@ export default {
   methods: {
     
   }
-}
+});
 </script>
 
 <style scoped>
