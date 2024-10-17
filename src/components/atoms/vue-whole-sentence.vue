@@ -53,7 +53,7 @@ export default defineComponent( {
      this.sentences2 = this.sentences;
      
   },
-  setup(props){
+  setup(){
    console.log("The setup function is executed!");
    const validated = ref<boolean>(false);
    const sentences2 = ref<TaskSolution[]>([]);

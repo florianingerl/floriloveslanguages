@@ -94,7 +94,7 @@ export default defineComponent({
     }
   },
 
-  setup(props){
+  setup(){
 
     const gaps = ref<Array<Array<Gap>>>([]);
     const validated = ref<boolean>(false);
@@ -176,7 +176,7 @@ export default defineComponent({
         return array;
       }
       let newarray = [...array];
-      newarray.sort( (a: T,b:T) => 0.5 - Math.random() );
+      newarray.sort( (_a: T,_b:T) => 0.5 - Math.random() );
       return newarray;
       },
      parseGapTexts(gaptexts: string[] ){

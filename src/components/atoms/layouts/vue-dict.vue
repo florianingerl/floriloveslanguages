@@ -22,7 +22,7 @@ export default defineComponent ({
   components: {
   
   },
-  setup(props){
+  setup(){
     const selectedDict = ref<string>("The free dictionary French - French");
     const dictionaries = ref<Dictionary[]>([]);
     const window = inject("window") as any;
@@ -32,6 +32,8 @@ export default defineComponent ({
 
   watch:{
     $route (to, from){
+        console.log(to);
+        console.log(from);
         this.setDictionaries();
     }
   } ,
@@ -71,7 +73,7 @@ export default defineComponent ({
    this.selectedDict = this.dictionaries[0].name;
 
     },
-    openDict(event: Event ){
+    openDict(_event: Event ){
         
          let str = this.window.getSelection().toString() as string;
          let baseUrl = "https://fr.thefreedictionary.com/";
