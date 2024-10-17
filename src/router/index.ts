@@ -10,6 +10,7 @@ import VueFrancais from "@/views/french/vue-francais.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
+import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -57,6 +58,12 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Un renard religieux',
+              path: 'renardreligeux',
+              component: VueRenardPoule
+            },
+
             {
               name: 'Monument poisson',
               path: 'monumentpoisson',
