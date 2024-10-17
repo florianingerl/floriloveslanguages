@@ -2,19 +2,14 @@
 
 <div v-for="(sentence ,index ) in sentences2">
 <p>{{index+1}}.{{ sentence.wrongOrder }}</p>
-<p><Input :disabled="validated" style="display:block;width:100%" v-model="sentence.guess" type="text" :class="{ correct: validated && sentence.guess == sentence.solution, notcorrect: validated && sentence.guess != sentence.solution }"/></p>
 </div>
 
-<p v-if="lg==='fr'">
-<Button @click="validateSolutionClicked">Valider</Button>
-<Button @click="showSolutionClicked">Montre-moi la solution!</Button>
-</p>
-<p v-else>
-<Button @click="validateSolutionClicked">Validate my answer</Button>
-<Button @click="showSolutionClicked">Show solution</Button>
-</p>
+<VueHideShow :lg="lg">
+<div v-for="(sentence, index) in sentences">
+<p>{{index+1}}.{{ sentence }}</p>
+</div>
+</VueHideShow>
 
-    
 </template>
 
 <script lang="ts">
@@ -24,6 +19,8 @@ import type { PropType } from "vue";
 import type { WordOrderExercise } from "../../types/WordOrderExercise.ts";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import VueHideShow from '@/components/atoms/vue-hideshow.vue';
+import type { Languages } from "../../types/Languages.ts";
 
 
 function shuffleWords(text: string) : string {
@@ -52,7 +49,7 @@ function shuffle<T>(array: T[] ): void {
 }
 
 export default defineComponent({
-  components: { Button , Input },
+  components: { Button , Input, VueHideShow },
   props: {
     sentences: {
       required: true,
@@ -60,7 +57,7 @@ export default defineComponent({
     },
     lg: {
       required: true,
-      type: String
+      type: String as PropType<Languages>
     }
     
   },

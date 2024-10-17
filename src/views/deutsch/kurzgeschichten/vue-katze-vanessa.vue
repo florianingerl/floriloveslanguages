@@ -129,6 +129,14 @@ Der Fischer war eigentlich ein versierter Geschäftsmann. Die Katze hatte zwar n
 ein Ende zu bereiten.
 Überglücklich ob des geglückten Deals, nahm die Katze den gekauften Fisch, doch als sie ihn fressen wollte rief jemand ihren Namen, "Melli! Wo treibst du dich schon wieder rum, meine Mama wird mir den Hosenboden versohlen, wenn wir nicht pünktlich zu Hause sind!" Der kleine Malte nahm die Katze samt Aktentasche auf seine Arme und lief geschwind mit seinem Haustier nach Hause, wo beide hoffentlich keine Standpauke zu hören bekamen.
 
+<VueExercise lg="de" :topics="['Verneinung']" instruction="Bringe die Wörter in die richtige Reihenfolge!">
+<VueWordOrder lg="de" :sentences="['Ein Fisch isst keine Katze.',
+'Eine Katze ist nicht lecker.',
+'Kein Fisch isst Katzen.',
+'Die Katze isst nie gekochten Fisch.']" >
+
+</VueWordOrder>
+</VueExercise>
 
 THE END
 
@@ -145,6 +153,7 @@ import VueQuestion from "@/components/atoms/vue-question.vue";
 import VueExercise from "@/components/atoms/vue-exercise.vue";
 import VueWholeSentence from "@/components/atoms/vue-whole-sentence.vue";
 import VueHideShow from "@/components/atoms/vue-hideshow.vue";
+import VueWordOrder from '@/components/atoms/vue-word-order.vue';
 
 export default defineComponent ({
   
@@ -153,7 +162,8 @@ export default defineComponent ({
      VueExercise,
      VueWholeSentence,
      VueHideShow,
-     VueMCGaps
+     VueMCGaps,
+     VueWordOrder
   },
 
   mounted(){

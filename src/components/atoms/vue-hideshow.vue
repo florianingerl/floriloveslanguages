@@ -5,7 +5,7 @@
     <Button v-if="!show" @click="show = true;">Lösung zeigen</Button>
     <slot v-if="show"> </slot>
   </div>
-  <div v-if="lg === 'fr'">
+  <div v-else-if="lg === 'fr'">
     <Button v-if="show" @click="show = false;">Couvrir solution</Button>
     <Button v-if="!show" @click="show = true;">Montre-moi la solution</Button>
     <slot v-if="show"> </slot>
