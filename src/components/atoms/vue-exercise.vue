@@ -4,6 +4,14 @@
 <h2 v-if="lg==='en'">Exercise</h2>
 <h2 v-if="lg==='de'">Übung</h2>
 <h4 class="instruction">{{instruction}}</h4>
+<p v-if="topics !== undefined" class="topics">
+Topics:
+<div v-for="topic in topics" style="display: inline;">
+<span  class="topic">{{ topic }} </span>
+<button @click="google(topic)">Google</button>
+</div>
+</p>
+
 <slot> </slot>
 </div>
 
@@ -11,7 +19,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, inject } from "vue";
 import type { PropType } from "vue";
 import type { Languages } from "../../types/Languages.ts";
 
@@ -28,25 +36,32 @@ export default defineComponent ({
     lg : {
       required: true,
       type: String as PropType<Languages>
+    },
+    topics: {
+      required: false,
+      type: Array as PropType<string[]>
     }
 
+  },
+
+ setup(){
+    const window = inject("window") as any;
+
+    return {  window };
   },
 
   mounted(){
      console.log("The setup function is executed!");
      
   },
-  setup(){
-   console.log("The setup function is executed!");
-  },
-  
-  data() {
-    return {
-       
-    };
-  },
+
   methods: {
-  
+     google(topic: string){
+        let baseUrl = "https://www.google.com/search?q=";
+        this.window.open(baseUrl + topic, "_blank").focus();
+        
+     }
+
   }
 });
 </script>
@@ -65,6 +80,10 @@ export default defineComponent ({
 .instruction {
   background-color: yellow;
   color: black;
+}
+
+.topic {
+  color: orange;
 }
 
 

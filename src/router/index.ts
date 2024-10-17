@@ -7,6 +7,8 @@ import VueEnglish from "@/views/english/vue-english.vue";
 import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
 import VueFrancais from "@/views/french/vue-francais.vue";
+import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
+import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 
 const router = createRouter({
@@ -17,6 +19,29 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       children: [
+        {
+          name: 'Espagnol',
+          path: '/esp/:language',
+          component: VueDict,
+          children: [
+            {
+              name: 'Navigation Espagnol',
+              path: '',
+              component: VueEspagnol
+            },
+            {
+              name: 'grammaire',
+              path: 'grammaire',
+              children: [
+                {
+                  name: 'Négation en espagnol',
+                  path: 'negationenespagnol',
+                  component: VueNegationEspagnol
+                }
+              ]
+            }
+          ]
+        },
   
     {
       name: 'Français',
