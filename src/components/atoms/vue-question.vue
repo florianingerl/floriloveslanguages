@@ -10,7 +10,7 @@
 <p v-else-if="lg==='fr'">
 {{ question2.questionFr }}
 </p>
-<div v-for="option in getOptionsForLg()" :key="option" :class="{correct : question2.correctlyAnswered != undefined && option.checked && option.correct, notcorrect : question2.correctlyAnswered != undefined && option.checked && !option.correct}">
+<div v-for="option in getOptionsForLg()" :class="{correct : question2.correctlyAnswered != undefined && option.checked && option.correct, notcorrect : question2.correctlyAnswered != undefined && option.checked && !option.correct}">
 <input :disabled="question2.correctlyAnswered != undefined" type="checkbox" v-model="option.checked"/>
 <label>{{option.option}}</label>
 </div>
@@ -38,39 +38,53 @@
 
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent, ref } from "vue";
+import type { PropType } from "vue";
+import type { Languages } from "../../types/Languages.ts";
+import type { Question, Option } from "../../types/Question.ts";
+
+export default defineComponent ({
   name: "VueQuestion",
-  setup(){
-     console.log("The setup function is executed!");
-     
+  props: {
+    hasNextButton : {
+      required: false,
+      type: Boolean
+    },
+    lg : {
+      required: true,
+      type: String as PropType<Languages>
+    },
+    question: {
+      required: true,
+      type: Object as PropType<Question>
+    }
   },
-  
-  props: ['question', 'hasNextButton', 'lg'],
-  
-  data() {
-    return {
-       question2: {}
-    };
+  setup(props){
+    const question2 = ref<Question>(props.question);
+    return {question2}; 
   },
   watch: {
-    question(newQuestion, oldQuestion){
+    question(newQuestion: Question, _oldQuestion: Question){
       console.log("The watcher was called!");
       this.question2 = newQuestion;
       
     }
   },
   methods: {
-    getOptionsForLg(){
-      if(this.lg == undefined || this.lg==='de' || this.lg === 'en' && this.question2.optionsEn == undefined || this.lg === 'fr' && this.question2.optionsFr == undefined){
+    getOptionsForLg() : Array<Option> {
+      if(this.lg==='de' || this.lg === 'en' && this.question2.optionsEn == undefined || this.lg === 'fr' && this.question2.optionsFr == undefined){
         console.log("this.question2.options is returned!");
-        return this.question2.options;
+        return this.question2.options as Array<Option>;
       }
       else if(this.lg === 'en'){
-        return this.question2.optionsEn;
+        return this.question2.optionsEn as Array<Option>;
       }
       else if(this.lg === 'fr'){
-        return this.question2.optionsFr;
+        return this.question2.optionsFr as Array<Option>;
+      }
+      else {
+        return new Array<Option>(); //This case should never happens
       }
     },
     validate(){
@@ -79,7 +93,7 @@ export default {
       
       this.question2.correctlyAnswered = true;
 
-      this.getOptionsForLg().forEach( (option) => {
+      this.getOptionsForLg().forEach( (option: Option) => {
         if(option.checked == undefined ){
           option.checked = false;
         }
@@ -95,7 +109,7 @@ export default {
     showSolution(){
       console.log("The show solution button was clicked!");
      
-      this.getOptionsForLg().forEach( option => { option.checked = option.correct; });
+      this.getOptionsForLg().forEach( (option: Option) => { option.checked = option.correct; });
       if(this.question2.correctlyAnswered == undefined){
         this.question2.correctlyAnswered = false;
       }
@@ -110,7 +124,6 @@ export default {
       {
 		question: "Das ist eine Test-Frage aus vue-question.vue?",
 		imageUrl: "assets/img/rawfood/brokolisalat.JPG",
-		type: "multiple choice",
 		options: [{option:"Süßlupinen", correct: false },
      {option:"Brokoli", correct: false }, 
      {option:"Karotte", correct: false },
@@ -119,10 +132,10 @@ export default {
 	    };
     }
 
-    this.question2.options.forEach( option => { option.checked = false; });
+    this.getOptionsForLg().forEach( (option:Option) => { option.checked = false; });
     
   }
-};
+});
 </script>
 
 <style scoped>
