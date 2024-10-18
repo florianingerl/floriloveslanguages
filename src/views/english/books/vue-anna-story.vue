@@ -328,7 +328,7 @@ So don't cook anything else for her!"
 <VueExercise lg="en" :topics="['The plural in English']" instruction="Fill in the gaps by the given word in the plural form">
 <VueMCGaps lg="en" :gaptexts="['{Men} (Man) usually have short hair, whereas {women} (woman) have long ones.',
 '{Mice} (Mouse) have barely any hair.',
-'In Hogwarts, there are several {dormitories} (domitory), one for the boys and one for the girls.',
+'In Hogwarts, there are several {dormitories} (dormitory), one for the boys and one for the girls.',
 'Edwin doesn\'t have two {wives} (wife), he only has Brigitte.',
 'As everyone knows, a cat has nine {lives} (life).',
 'Brigitte is sometimes fed up with her {children} (child).']">
@@ -409,22 +409,68 @@ So just accept what I say and stay at home!"
 Brigitte didn't want to go on like this so she just accepted the words of Vanessa's mother and decided to go upstairs to her 
 new room which was located above the kitchen. She sat down on her new bed and finally relaxed in peace.
 <VueExercise lg="en" :topics="['Prepositions of place', 'Above, on or onto']" instruction="Fill in the gaps by either above, on or onto!">
-<VueMCGaps lg="en" :gaptexts="['Hello']">
+<VueMCGaps lg="en" :same="true" :gaptexts="['I normally sleep {on|} the floor and not in my bed, because it\'s better for my back.',
+'My flat is {above|} the one of my landlords.',
+'If have to get {onto|} a chair in order to exchange a defect lamp on my ceiling.']">
 
 </VueMCGaps>
 </VueExercise>
 
 What a pleasure to take now some time off and do nothing and in doing so, even making Vanessa's mother happy for the time being. 
-In the kitchen below her room, she heard Vanessa's mother cleaning cups of tea and breaking some of these, because she probably had let them fall down.
-So let's now leave Brigitte to enjoy her time alone and the sounds of the breaking dishes in the kitchen and look at how Vanessa is doing in her new role. 
+In the kitchen below her room, she heard Vanessa's mother cleaning cups of tea and breaking some of these, 
+because she probably had let them fall down.
 
-When Vanessa arrived to Brigitte and Erwin's big family house, she noticed two small dogs who were treated really well: they had a big section of the garden just for them to play and were dressed in cute dog jackets. Concerning the rest of the family, when she entered the house, she was welcomed by six very energetic children and a tired Erwin.
-"I should switch roles with this Chinese tradesman who longs for a woman and a family" thought Erwin. After some reflection however, he put aside that idea because this particular Chinese man was twice as tall as him and had much too narrow eyes compared to his, so they wouldn't deceive anyone if they switched roles.
-"Welcome home, honey" said Erwin to Vanessa whom he believed to be his wife. "I know we wanted to go to the cinema tonight with the children but can we cancel our plan, please? I'm too tired to leave the house."
+<VueExercise lg="en" :topics="['Prepositions of place', 'Below or under']" instruction="Fill in the gaps by either below or under" >
+<VueMCGaps lg="en" :same="true" :gaptexts="['Given that Vanessa is almost 30, she shouln\'t live any more {under|} the roof of her mother.',
+'The flat of my landlords is {below|} mine.']">
 
-"Yes, sure, don't worry, I will take care of the children now" offered Vanessa. "I know you have an important phone call to make with your boss and I don't want you to postpone it because of us!"
-Happy about not having to leave the house, Edwin went to his office at home and locked the door twice and put the sign "I'm not available for anyone" on the outside of his door. 
-He had left his desk in total disoder, so first he tidied up a bit.
+</VueMCGaps>
+</VueExercise>
+
+So let's now leave Brigitte to enjoy her time alone and the sounds of the breaking dishes in the kitchen and look at how 
+Vanessa is doing in her new role. 
+
+When Vanessa arrived to Brigitte and Erwin's big family house, 
+she noticed two small dogs who were treated really well: they had a big section of the garden just for them to play 
+and were dressed in cute dog jackets. Concerning the rest of the family, when she entered the house, 
+she was welcomed by six very energetic children and a tired Erwin.
+
+<VueExercise lg="en" :topics="['The opposite adjectif']" instruction="Fill in the gaps by the opposite adjectif!" >
+<VueMCGaps lg="en" :gaptexts="['The hut of the dog is quite {big} (small).',
+'Vanessa has to play her {new} (old) role as a wife and mother convincingly.',
+'After having cared for her children all day, Brigitte is extremely {tired} (awake).']">
+
+</VueMCGaps>
+</VueExercise>
+
+"I should switch roles with this Chinese tradesman who longs for a woman and a family" thought Erwin. 
+After some reflection though, he put aside this idea because this particular Chinese man was twice as tall as him 
+and had much too narrow eyes compared to his, so they wouldn't deceive anyone if they switched roles.
+
+<VueExercise lg="en" :topics="['deceive, distract or deflect']" instruction="Fill in the gaps by either deceive, distract or deflect!">
+<VueMCGaps lg="en" :gaptexts="['While Alexander is writing on his new novel, he doesn\'t want to be {distracted|deceived|deflected}',
+'The false smile of the man in the bar coudn\'t {deceive|distract|deflect} Vanessa. She knew that this man wasn\'t rich.',
+'When Brigitte woke up the next morning, the rays of the sun {deflected|deceived|distracted} by the mirror fell into her face.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Welcome home, honey" said Erwin to Vanessa whom he believed to be his wife. "I know we wanted to go to the cinema tonight 
+with the children but can we cancel our plan, please? I'm too tired to leave the house."
+
+<VueExercise lg="en" :topics="['cancel, postpone or delay']" instruction="Fill in the gaps by either cancel, postpone or delay!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['Edwin was so tired that he {postponed|} the phone call with his boss and just went to bed.',
+'The next morning, the train that should bring Edwin to work, was {delayed|} by 10 minutes.',
+'Because of the violent storm, all the flights from Heathrow were {cancelled|}.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Yes, sure, don't worry, I will take care of the children now" offered Vanessa. "I know you have an important phone call to make 
+with your boss and I don't want you to postpone it because of us!"
+Happy about not having to leave the house, Edwin went to his office at home and locked the door twice and put the sign
+ "I'm not available for anyone" on the outside of his door. 
+He had left his desk in total disorder, so first he tidied up a bit.
 
 </div>
 

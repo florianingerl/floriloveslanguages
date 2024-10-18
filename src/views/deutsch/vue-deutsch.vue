@@ -13,6 +13,7 @@
     </thead>
     <tbody> 
 
+<!--
       <tr>
         <td>3</td>
        <td><router-link to="/de/deutsch/kurzgeschichten/vogelundeichhoernchen">Ein Vogel und ein Eichhörnchen</router-link></td>
@@ -23,7 +24,7 @@
         <td>2</td>
        <td><router-link to="/de/deutsch/kurzgeschichten/vogelmarcia">Mit Vögeln Äpfel teilen</router-link></td>
        <td>Flori10</td>
-    </tr>
+    </tr> -->
 
            <tr>
         <td>1</td>

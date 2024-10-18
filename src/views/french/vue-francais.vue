@@ -12,11 +12,11 @@
     
 
     <tr>
-<td>21</td>
+    <td>1</td>
        <td><router-link to="/fr/french/breveshistoires/renardreligeux">Un renard religeux</router-link></td>
        <td>Flori10</td>
     </tr>
-
+<!--
          <tr>
 <td>20</td>
        <td><router-link to="/fr/french/vocabulaire/mettre">Mettre à présent de l'indicatif</router-link></td>
@@ -125,7 +125,7 @@
         <td>1</td>
         <td><router-link to="/fr/french/grammaire/en">Pronom en</router-link></td>
         <td>Flori10</td>
-      </tr>
+      </tr> -->
       
     </tbody>
   </table>
