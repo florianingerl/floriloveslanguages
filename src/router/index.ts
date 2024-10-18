@@ -11,6 +11,7 @@ import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
+import VueAnnaStory from "@/views/english/books/vue-anna-story.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -128,6 +129,11 @@ const router = createRouter({
         {
           name: 'Books', path: 'books',
           children: [
+            {
+              name: 'Life is not a toy',
+              path: 'lifeisnotatoy',
+              component: VueAnnaStory
+            },
             {
               name: 'Raw food',
               path: 'rawfood/:page',

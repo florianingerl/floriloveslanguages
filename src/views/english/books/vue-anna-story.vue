@@ -1,25 +1,24 @@
 <template>
-<div v-if="$route.params.page == 1">
+<div>
 
-<h1>A book about Fred</h1>
-<h4><i>by Florian Ingerl and <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz<a></i></h4>
-<h2>Chapter 1</h2>
+<h1>Life isn't a toy</h1>
+<h4><i>by Florian Ingerl and <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz</a></i></h4>
 
 Fred was a very stubborn fellow. His ideas were so rigid that it was hard to
 collaborate with him. Nevertheless, Fred was the head of a 5-men-6-women company which made toys for very small children.
 Fred was also a really superstitious man and he liked to start all the staff meetings by singing a Christmas song to bring peace and love into his company. So this is how they started the first meeting of the week which was scheduled to discuss a big new project.
 It was June, the most children-loving among the company's employees, that began to speak about their big new project. All the others listened very attentively. "As we all now, this new project of ours will be very costly unless we have the toys made in China. But I'm still very motivated to set off the project, because if it succeeds, it will warm up the hearts of so many young children and their mothers! "
 
-<VueExercise instruction="Fill in the correct compound adjective!">
+<VueExercise lg="en" instruction="Fill in the correct compound adjective!">
 
-<VueGaps lg="en" :gaptext="['The (fast, pace) {fast-paced} environment of big cities always make me feel overwhelmed.',
+<VueMCGaps lg="en" :gaptexts="['The (fast, pace) {fast-paced} environment of big cities always make me feel overwhelmed.',
 'A (self, confidence) {self-confident} leader never has any doubts.',
 'The song was so (heart, break ) {heart-breaking} that it made me cry for serveral hours.',
 'The non-sense she always tells is not only brain- but also (ear , harm) {ear-harming}.',
 'My new shirt was (snow, white) {snow-white} until I spilled my coffee on it one morning. Now it has a brown stain.',
 'This computer is so simple and (fool,proof) {fool-proof} to use that even a little child could use it.']">
 
-</VueGaps>
+</VueMCGaps>
 
 </VueExercise>
 
@@ -33,20 +32,20 @@ totally new toys."
 "I fancy the idea of a toy that's similiar to a stick. A two-player-game can be played with it. One player has to punch the other one in some limb and ..... " Sally began, but her idea was not yet so sophisticated that she could formulate it all.
 
 
-<VueExercise instruction="Make one sentence out of the two like in the example!">
+<VueExercise lg="en" instruction="Make one sentence out of the two like in the example!">
 
 <p>
 Example: Cooking food is the greatest babarism. Mankind is capable of it. -> <br>
 Cooking food is the greatest barbarism that mankind is capable of.
 </p>
 
-<VueGaps lg="en" :gaptext="['Scoring goals is a game-winning capabilty. Our number 9 is responsible for it. {Scoring goals is a game-winning capability that our number 9 is responsible for.}',
+<VueMCGaps lg="en" :gaptexts="['Scoring goals is a game-winning capabilty. Our number 9 is responsible for it. {Scoring goals is a game-winning capability that our number 9 is responsible for.}',
 'Going into a ghost-haunted castle is an adventure. Erwin is not afraid of it.{Going into a ghost-haunted castle is an adventure that Erwin is not afraid of.}',
 'Organising projects is an important job. Tom is responsible for it.{Organising projects is an important job that Tom is responsible for.}',
 'Learning English is a great free time activity. I am interested in it.{Learning English is a great free time activity that I am interested in.}',
 ]">
 
-</VueGaps>
+</VueMCGaps>
 
 </VueExercise>
 
@@ -62,7 +61,7 @@ After opening the door with his keys, he announced his return by calling the nam
 His wife looked both happy and tired when she came to welcome him. Just like most days, it was her who took care of their altogether 6 children that day, hence she was exhausted. But it was important to them to come all together every evening for dinner exactly at 8:23 PM.
 
 <VueExercise instruction="Choose between all together or altogether" lg="en">
-<VueGaps lg="en" :gaptext="['Kevin, the squirrel, ate five nuts in the morning, three at noon and six in the afternoon, so he ate 14 nuts {altogether}.',
+<VueMCGaps lg="en" :gaptexts="['Kevin, the squirrel, ate five nuts in the morning, three at noon and six in the afternoon, so he ate 14 nuts {altogether}.',
 'Let\'s sing the refrain once again {all together}!',
 'Kevin knew that he had made stupid mistakes at questions 44 and 46, but he was still pleased with his performence in the exam {altogether}.',
 'Kevin, Sally and me, we needed to carry the cupboard {all together}, because it was so heavy.',
@@ -70,7 +69,7 @@ His wife looked both happy and tired when she came to welcome him. Just like mos
 'The food was good, the bed was soft and I had a nice view of the ocean. I was thus {altogether} pleased with my hotel room.',
 'He gave one explanation after another, didn\'t interrupt to hear my questions and I just couldn\'t follow the pace of his monologue. In the end, I was {altogether} confused.']">
 
-</VueGaps>
+</VueMCGaps>
 
 </VueExercise>
 
@@ -105,10 +104,10 @@ She was young and beautiful so she wanted to be in a bar meeting handsome men in
 
 
 <VueExercise lg="en" instruction="Fill in the gaps with such, such a or so!">
-<VueGaps lg="en" gaptext="What a pity that Vannessa didn't think that she was {so} handsome herself.  Otherwise, she could have saved {so} much time putting on her make-up.
+<VueMCGaps lg="en" gaptext="What a pity that Vannessa didn't think that she was {so} handsome herself.  Otherwise, she could have saved {so} much time putting on her make-up.
 In spite of a few freckles and a few pimples, Vanessa had {such a} beautiful face. A few men in the bars turned their head towards her, found her attractive and then immediately wanted to marry her. But Vanessa dispised {such} overly direct behaviour.
 Vanessa felt {so} bored and disappointed by these men that she decided to go back home to her mother.  She felt unhappy with her romantic life and thought that she was {such a} failure. {Such} ideas were also reinforced by her mother who always told her that it's shameful if a woman is not married by 20 years old." >
-</VueGaps>
+</VueMCGaps>
 </VueExercise>
 
 "Why don't you find yourself a rich husband and settle down with him somewhere in the country!" her mother kept saying. "Instead, you keep eating these candies that distort your face with pimples and lose your time in the bar.
@@ -116,9 +115,9 @@ Upon hearing her mother's words for the thousandth time, Vanessa wished she had 
 "I had better go to bed now, Mum, I have work tomorrow" she said to get rid of her mother and she went to her room.
 
 <VueExercise lg="en" instruction="Fill in the gaps with had better or should!">
-<VueGaps lg="en" gaptext="Sally had already passed her twentieth too, but unlike Vanessa she had a serious relationship with a smart man working at the univerity as a history teacher. It {should} be surprising that a smart professor and Sally, being rather daft, can fit together. But opposites seem to attract each other.
+<VueMCGaps lg="en" gaptext="Sally had already passed her twentieth too, but unlike Vanessa she had a serious relationship with a smart man working at the univerity as a history teacher. It {should} be surprising that a smart professor and Sally, being rather daft, can fit together. But opposites seem to attract each other.
 However, the professor knew that he {had better} not speak about the complicated details of his job because Sally wouldn't understand." >
-</VueGaps>
+</VueMCGaps>
 </VueExercise>
 
 The university professor's name was Anton by the way. Anton appreciated Sally because - though sometimes a bit daft - of her refreshing laugther and her good energy.
@@ -129,7 +128,7 @@ And Sally liked Anton because of his wisdom and because he was a great chess pla
 But no matter how many times did Sally try to explain her relationship to her mother, sadly she never understood it. Still, Sally could have never imagined giving up on her love for Anton.
 
 <VueExercise lg="en" instruction="Choose the replacement of to say that fits best!">
-<VueMCGaps lg="en" :gaptext="['\'With your skills, you will easily find a well-paid job.\' {predicted|replied|told} his teacher to Anton.',
+<VueMCGaps lg="en" :gaptexts="['\'With your skills, you will easily find a well-paid job.\' {predicted|replied|told} his teacher to Anton.',
 
 '\'I am the best player of our team!\' {claimed|assured|asked} Anton a bit overconfidently.',
 
@@ -152,7 +151,7 @@ So she asked her friend: "How would you give him the proposal? During a nice din
 "Yes, that's a fantastic idea! That's how I will do it. Plus, we will also play this new game that my company created for couples. It'll be very romantic, thank you for the idea!"
 
 <VueExercise lg="en" instruction="Fill in the gaps with either talk, tell or discuss">
-<VueMCGaps lg="en" :gaptext="['With stubborn people, you can\'t {discuss|talk|tell}.',
+<VueMCGaps lg="en" :gaptexts="['With stubborn people, you can\'t {discuss|talk|tell}.',
 '{Tell|Discuss|Talk} me truth! How many grandchildren do you have?',
 'Let\'s not waste time {talking|discussing|telling} about random stuff.']" >
 
@@ -169,7 +168,7 @@ Always appreciating nice clothing herself, she was immediately all excited about
 That was the usual thing with Sally! Her ideas and plans changed so quickly that it was difficult to keep up with them! Let's now leave Hannah and Sally to themselves and see what Fred is doing in this very moment.
 
 <VueExercise lg="en" instruction="Fill in the gaps with either let or leave!">
-<VueMCGaps lg="en" :gaptext="['My parents don\'t {let|leave} me stay out late.',
+<VueMCGaps lg="en" :gaptexts="['My parents don\'t {let|leave} me stay out late.',
 'My boss never {leaves|lets} me alone.',
 'Katy {left|leaves} school before graduation.']">
 
@@ -190,7 +189,7 @@ His father of course had difficulty accepting his answer but at least, he left h
 "No! Leave me alone! I just want to be free and self-independent!" replied Alexander.
 
 <VueExercise lg="en" instruction="Form correct conditional sentences of type 3">
-<VueMCGaps lg="en" :gaptext="['If his mother {had not told} (not tell) him these news, Alexander {would have asked} (ask) her to read a book with him.',
+<VueMCGaps lg="en" :gaptexts="['If his mother {had not told} (not tell) him these news, Alexander {would have asked} (ask) her to read a book with him.',
 
 'If Alexander {hadn\'t interrupted} (not interrupt) his father, his father {would have suggested} (suggest) something stupid to him.',
 
@@ -239,7 +238,7 @@ His father of course had difficulty accepting his answer but at least, he left h
 <li>The woman was too daft to understand the Maths problem.</li>
 
 <li>Fred was too stubborn to accept help from his colleagues.</li>
-<li>June wasn't prissy enough to care about her clothes.
+<li>June wasn't prissy enough to care about her clothes.</li>
 </ol>
 </VueHideShow>
 </VueExercise>
@@ -255,7 +254,7 @@ Let's look to Sally and Hannah.
 Finally, Satruday morning arrived and Sally met her friend, Hannah in front of the city's most expensive bridal shop, Beate's fashion. Although Sally didn't have a lot of money, nor an engagement ring for the moment but she didn't hesitate to explore her wedding dress options. But there were so many dresses that she felt really unsure about which one to choose.
 
 <VueExercise lg="en" instruction="Fill in the gaps with a conjunction of coordination!">
-<VueMCGaps lg="en" :same="true" :gaptext="['{Not only|} is he very smart, but also very sympathetic.',
+<VueMCGaps lg="en" :same="true" :gaptexts="['{Not only|} is he very smart, but also very sympathetic.',
 '{Neither|} my mom nor my dad can cheer me up, when I am really sad.',
 'I honour my mom {and|} my dad.',
 'He {not only|} has stomach ache, but also fever.',
@@ -269,7 +268,7 @@ With these words, the shop assistant handed over an in fact nice-looking white w
 Sally tried on the beautiful dress and she instantly felt like a princess so she decided to buy the dress. But the problem was that she only had a few coins in her pocket and didn't have enough money to pay for it. But suddenly she had a genious idea.
 
 <VueExercise lg="en" instruction="Fill in the gaps with either litte, a little, few or a few">
-<VueMCGaps lg="en"  :same="true" :gaptext="['{A few|} points may require some additional explanation.',
+<VueMCGaps lg="en"  :same="true" :gaptexts="['{A few|} points may require some additional explanation.',
 'He wears the clothes he finds abandoned in the streets because he has only {little|} money.',
 'Can I have {a little|} bit of your attention, please?',
 '{Few|} days in Germany are as sunny as this one has been!']">
@@ -302,7 +301,7 @@ Before the video games, Brigitte always had to make up small stories to entertai
 </p>
 
 <VueExercise lg="en" instruction="Use either prevent sb from doing sth oder can't help doing sth to fill in the gaps!">
-<VueMCGaps lg="en" :same="true"  :gaptext="['The policeman {prevented|} the murderer from shooting his victim.',
+<VueMCGaps lg="en" :same="true"  :gaptexts="['The policeman {prevented|} the murderer from shooting his victim.',
 'I {cannot help|} laughing when you tell a funny joke.',
 'The teacher {prevented|} the students from cheating on the test.',
 'She is addicted and {cannot help|} smoking one cigarette after another.',
@@ -321,25 +320,130 @@ So Brigitte met Vanessa at a restaurant in town to exchange some gossip which pl
 "I have an interesting story for you today" started Vanessa."One of my colleagues, Sally went and bought a marvelous wedding dress this week! But you know what's crazy? She's not even engaged yet!"
 </p>
 
+"Ok! I start telling you something about my mum!" said Vanessa. 
+"She goes to a club once a week to play bridge with some other old women, 
+who -like her- have nothing better do do. And she eats nothing else than spagetti with mint sauce! 
+So don't cook anything else for her!"
+
+<VueExercise lg="en" :topics="['The plural in English']" instruction="Fill in the gaps by the given word in the plural form">
+<VueMCGaps lg="en" :gaptexts="['{Men} (Man) usually have short hair, whereas {women} (woman) have long ones.',
+'{Mice} (Mouse) have barely any hair.',
+'In Hogwarts, there are several {dormitories} (domitory), one for the boys and one for the girls.',
+'Edwin doesn\'t have two {wives} (wife), he only has Brigitte.',
+'As everyone knows, a cat has nine {lives} (life).',
+'Brigitte is sometimes fed up with her {children} (child).']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Okay, so I have to look up a good spagetti recipe by dinner" said Brigitte. 
+"But I can do that on my phone actually by the time we get to the hair salon 
+because taking the metro will take us half an hour anyway."
+<VueExercise lg="en" :topics="['By, by the time or until']" instruction="Fill in the gaps by either by, by the time or until!">
+<VueMCGaps lg="en" :gaptexts="['Will Alexander have gotten grey hair {until} he has published his first book?',
+'{By the time} Edwin will realise that Vanessa isn\'t his wife, Vanessa will have understood that being a mother isn\'t heaven on earth.',
+'{By} 1 p.m. the children will have returned from school and Vanessa will have to cope with them.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Well! You shouldn't meet my mum until you haven't learned that recipe off by heart!" 
+Having reached the hair salon, they told the suprised hairdresser: 
+"Just give us both the same haircut, how it looks like is of secondary importance."
+As soon as the haidresser, who was a bit taken aback by this unusual customer demand, 
+grasped these instructions, he started his work.
+He was a very talented and experienced professional so it only took him 30 minutes to complete both haircuts.
+ Despite the quick work though, the result was remarkable and the two women were very happy with their new, short hair.
+
+ <VueExercise lg="en" :topics="['Prepositions of time','As soon as, until or in']" instruction="Fill in the gaps by either as soon as, until or in!">
+<VueMCGaps lg="en" :gaptexts="['{Until} he hasn\'t cut the hair of all his customers, the hairdresser won\'t return home.',
+'{As soon as} the current customer\'s hair is cut, a new customer from the waiting room will follow up.',
+'With the London Underground, you can reach almost any place {in} only a little time.']" >
+
+</VueMCGaps>
+ </VueExercise>
+
+"I think it's time for us to switch places and go home", suggested Brigitte.
+ "I left my husband alone with the children and I think he might need help by now."
+Each woman went to her new destination. Brigitte needed some time to get over the loss of her beautiful hair whereas Vanessa's
+ hair had not been very nice before and she even admired her new haircut in the mirror.
+  Vanessa was sure that this new beautiful haircut marked the end of her loneliness.
+<VueExercise lg="en" :topics="['Alternatives for to say']" instruction="Fill in the gaps with the alternative for to say that fits best!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['<< I also want a rich husband and five children >> , {wished|} Vanessa.',
+'<< But I seem to be far away from this goal. >> she {sighed|}.',
+'<< Father in heaven, please help me! >> she {prayed|} to God.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Brigitte felt very happy and excited as she was going home to Vanessa's mother but she shouldn't have been.
+She thought she would finally have some peace and could stay alone without her children but it turned out that Vanessa's mother 
+was a very intense lady.
+
+<VueExercise lg="en" :topics="['Relax, rest or stay']" instruction="Fill in the gaps by either relax, rest or stay!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['<< {Rest|} assured that I will cut your hair to the best of my aibilities.>> the hairdresser told Brigitte.',
+'<< Just {relax|} and read one of our magazines while I am working. >> he adviced and showed Brigitte some magazines.',
+'<< But for heaven\'s sake, don\'t move quickly but {stay|} still. Otherwise, I might cut your ears instead of your hair.>> warned the hairdresser.']" >
+
+</VueMCGaps>
+</VueExercise>
+
+"I already told you, my daughter, you mustn't go out alone! And look at your hair! 
+What did you do to your beautiful long hair?!"
+Brigitte needed some time to grasp the meaning of these words and how to reply to them. 
+In order to play her role convincingly, she came up with: "The haircut may be ugly, but rest assured that my hair will regrow, 
+unfortunaltely I can't speed up this process. And why shouldn't I go out alone? I am an adult of almost 30 years 
+who can take care of herself. And of course I wouldn't enter the car of a drunken man who can't control his hormones."
+
+<VueExercise lg="en" :topics="['Opposite']" instruction="Fill in the gaps by the opposite!">
+<VueMCGaps lg="en" :gaptexts="['A lot of {women} (men) are beautiful, but some are {ugly} (beautiful).',
+'Brigitte has to be {quick} (slow) in learning how to play Vanessa\'s role convincingly.',
+'When Brigitte left the hair salon, she had {short} (long) hair.']">
+
+</VueMCGaps>
+</VueExercise>
+
+
+"You are still my child and I disagree, you are always in danger out there because of these men! 
+So just accept what I say and stay at home!"
+Brigitte didn't want to go on like this so she just accepted the words of Vanessa's mother and decided to go upstairs to her 
+new room which was located above the kitchen. She sat down on her new bed and finally relaxed in peace.
+<VueExercise lg="en" :topics="['Prepositions of place', 'Above, on or onto']" instruction="Fill in the gaps by either above, on or onto!">
+<VueMCGaps lg="en" :gaptexts="['Hello']">
+
+</VueMCGaps>
+</VueExercise>
+
+What a pleasure to take now some time off and do nothing and in doing so, even making Vanessa's mother happy for the time being. 
+In the kitchen below her room, she heard Vanessa's mother cleaning cups of tea and breaking some of these, because she probably had let them fall down.
+So let's now leave Brigitte to enjoy her time alone and the sounds of the breaking dishes in the kitchen and look at how Vanessa is doing in her new role. 
+
+When Vanessa arrived to Brigitte and Erwin's big family house, she noticed two small dogs who were treated really well: they had a big section of the garden just for them to play and were dressed in cute dog jackets. Concerning the rest of the family, when she entered the house, she was welcomed by six very energetic children and a tired Erwin.
+"I should switch roles with this Chinese tradesman who longs for a woman and a family" thought Erwin. After some reflection however, he put aside that idea because this particular Chinese man was twice as tall as him and had much too narrow eyes compared to his, so they wouldn't deceive anyone if they switched roles.
+"Welcome home, honey" said Erwin to Vanessa whom he believed to be his wife. "I know we wanted to go to the cinema tonight with the children but can we cancel our plan, please? I'm too tired to leave the house."
+
+"Yes, sure, don't worry, I will take care of the children now" offered Vanessa. "I know you have an important phone call to make with your boss and I don't want you to postpone it because of us!"
+Happy about not having to leave the house, Edwin went to his office at home and locked the door twice and put the sign "I'm not available for anyone" on the outside of his door. 
+He had left his desk in total disoder, so first he tidied up a bit.
+
 </div>
 
-<button @click="nextPageClicked">Next page</button>
 </template>
 
-<script>
-import VueGaps from "./../../vue-gaps.vue";
-import VueMcGaps from "./../../vue-mc-gaps.vue";
-import VueQuestion from "./../../vue-question.vue";
-import VueExercise from "./../../vue-exercise.vue";
-import VueWholeSentence from "./../../vue-whole-sentence.vue";
-import VueWordOrder from "./../../vue-word-order.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
-import VueMCGaps from "./../../vue-mc-gaps.vue";
+<script lang="ts">
 
-export default {
+import { defineComponent } from "vue";
+
+import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
+import VueQuestion from "@/components/atoms/vue-question.vue";
+import VueExercise from "@/components/atoms/vue-exercise.vue";
+import VueWholeSentence from "@/components/atoms/vue-whole-sentence.vue";
+import VueWordOrder from "@/components/atoms/vue-word-order.vue";
+import VueHideShow from "@/components/atoms/vue-hideshow.vue";
+
+export default defineComponent ({
   
   components: {
-     VueGaps,
      VueQuestion,
      VueExercise,
      VueWholeSentence,
@@ -349,30 +453,21 @@ export default {
   },
 
   mounted(){
-     console.log("The mounted function of VueRowFood was called!");
+     console.log("The mounted function of VueBookAna was called!");
      
   },
   setup(){
-   console.log("The setup function of VueRawFood  is executed!");
+   console.log("The setup function of VueBookAna  is executed!");
   },
   data(){
         return {
-                numPages: 3
+            
         };
   },
   methods: {
-       nextPageClicked(){
-      
-      let page = parseInt(this.$route.params.page);
-      if(page == this.numPages){
-         alert("There is no next page!");
-         return;
-      }
-      this.$router.push({ ...this.$route, params: { page: page +1 } });
-      //this.$router.push("/french/alimentation/" + (page+1) );
-    }
+       
   }
-}
+});
 </script>
 
 <style scoped>
