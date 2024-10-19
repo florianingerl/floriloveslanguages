@@ -1,5 +1,15 @@
 Had Brian climbed more carefully, he might not have fallen off the tree and would not have broken his left leg.
-Katy was itching to climb the tree as well but after Brian's accident she didn't have the opportunity to do so. Instead, she quickly had to call an ambulance.
+
+<VueExercise lg="en" :topics="['Conditional sentences']" instruction="Fill in the gaps to form correct conditional sentences!">
+<VueMCGaps lg="en" :same="false" :gaptexts="['If there {hadn't been|have not been|wouldn\'t have been} (not be) an apple on the tree, Brian {would not have wanted|didn\'t want|would not wanted} (not want) to climb the tree in the first place.',
+'If the apples underneath the tree {hadn\'t been|have not} (not be) full of worms, Brian {would have eaten|would eat|would ate} (eat) some of those.',
+'If the worms {had not wanted|would not have wanted}(not want) to eat the apples, the apples {wouldn\'t have been|would not be} (not be) ripe.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Katy was itching to climb the tree as well but after Brian's accident she didn't have the opportunity to do so. 
+Instead, she quickly had to call an ambulance.
 Everybody needs an ambulance in case of a broken leg. Although Brian's wailing on the phone was a bit exagerated, it helped to make the ambulance arrive more quickly.
 In the hospital, Brian had the opportunity to meet very nice nurses who took good care of him while he was being examined. He even became friends with one of them.
 Her name was Sonja and her blue eyes were as beautiful as the moon. Or at least, Brian forgot completely about his broken limb when he looked at her smile.
