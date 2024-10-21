@@ -4,12 +4,13 @@
 <h1>Life isn't a toy</h1>
 <h4><i>by Florian Ingerl and <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz</a></i></h4>
 
+<img style="float: right; height: 200px" src="@/assets/img/english/toys.jpg"></img>
 Fred was a very stubborn fellow. His ideas were so rigid that it was hard to
 collaborate with him. Nevertheless, Fred was the head of a 5-men-6-women company which made toys for very small children.
 Fred was also a really superstitious man and he liked to start all the staff meetings by singing a Christmas song to bring peace and love into his company. So this is how they started the first meeting of the week which was scheduled to discuss a big new project.
 It was June, the most children-loving among the company's employees, that began to speak about their big new project. All the others listened very attentively. "As we all now, this new project of ours will be very costly unless we have the toys made in China. But I'm still very motivated to set off the project, because if it succeeds, it will warm up the hearts of so many young children and their mothers! "
 
-<VueExercise lg="en" instruction="Fill in the correct compound adjective!">
+<VueExercise lg="en" :topics="['compound adjectives']" instruction="Fill in the correct compound adjective!">
 
 <VueMCGaps lg="en" :gaptexts="['The (fast, pace) {fast-paced} environment of big cities always make me feel overwhelmed.',
 'A (self, confidence) {self-confident} leader never has any doubts.',
@@ -32,7 +33,7 @@ totally new toys."
 "I fancy the idea of a toy that's similiar to a stick. A two-player-game can be played with it. One player has to punch the other one in some limb and ..... " Sally began, but her idea was not yet so sophisticated that she could formulate it all.
 
 
-<VueExercise lg="en" instruction="Make one sentence out of the two like in the example!">
+<VueExercise lg="en" :topics="['Relative sentences', 'Relative sentences with prepositions']" instruction="Make one sentence out of the two like in the example!">
 
 <p>
 Example: Cooking food is the greatest babarism. Mankind is capable of it. -> <br>
@@ -60,7 +61,7 @@ Edwin went home swiftly, a smile on his face, very satisfied with the outcome of
 After opening the door with his keys, he announced his return by calling the name of his wife.
 His wife looked both happy and tired when she came to welcome him. Just like most days, it was her who took care of their altogether 6 children that day, hence she was exhausted. But it was important to them to come all together every evening for dinner exactly at 8:23 PM.
 
-<VueExercise instruction="Choose between all together or altogether" lg="en">
+<VueExercise :topics="['altogether or all together']" instruction="Choose between all together or altogether" lg="en">
 <VueMCGaps lg="en" :gaptexts="['Kevin, the squirrel, ate five nuts in the morning, three at noon and six in the afternoon, so he ate 14 nuts {altogether}.',
 'Let\'s sing the refrain once again {all together}!',
 'Kevin knew that he had made stupid mistakes at questions 44 and 46, but he was still pleased with his performence in the exam {altogether}.',
@@ -77,7 +78,7 @@ His wife looked both happy and tired when she came to welcome him. Just like mos
 Then they usually played a few of the games that Edwin's company made and this activity never became dull.
 In fact, you could say, that Edwin himself was still a kid. But of course, if needed, he became their responsible father.
 
-<VueExercise lg="en" instruction="Put the words in the correct order">
+<VueExercise lg="en" :topcis="['Position of adverbs']" instruction="Put the words in the correct order">
 
 <VueWordOrder lg="en" :sentences="['My father had always wanted to travel to Greece.',
 'You should never eat candies for breakfast.',
@@ -89,6 +90,8 @@ In fact, you could say, that Edwin himself was still a kid. But of course, if ne
 
 </VueExercise>
 
+
+<img style="float: right; height: 200px" src="@/assets/img/english/toys.jpg"></img>
 The whole family played together with various toys until one of Edwin's children said:
 "Daddy, I feel nauseous. Please help me!"
 Edwin and his wife didn't think much of it first but their little boy was still feeling unwell a few hours later too.
@@ -103,7 +106,7 @@ She was young and beautiful so she wanted to be in a bar meeting handsome men in
 </p>
 
 
-<VueExercise lg="en" instruction="Fill in the gaps with such, such a or so!">
+<VueExercise lg="en" :topics="['such, such a or so']" instruction="Fill in the gaps with such, such a or so!">
 <VueMCGaps lg="en" gaptext="What a pity that Vannessa didn't think that she was {so} handsome herself.  Otherwise, she could have saved {so} much time putting on her make-up.
 In spite of a few freckles and a few pimples, Vanessa had {such a} beautiful face. A few men in the bars turned their head towards her, found her attractive and then immediately wanted to marry her. But Vanessa dispised {such} overly direct behaviour.
 Vanessa felt {so} bored and disappointed by these men that she decided to go back home to her mother.  She felt unhappy with her romantic life and thought that she was {such a} failure. {Such} ideas were also reinforced by her mother who always told her that it's shameful if a woman is not married by 20 years old." >
@@ -114,7 +117,7 @@ Vanessa felt {so} bored and disappointed by these men that she decided to go bac
 Upon hearing her mother's words for the thousandth time, Vanessa wished she had rather stayed with her father when her parents divorced.
 "I had better go to bed now, Mum, I have work tomorrow" she said to get rid of her mother and she went to her room.
 
-<VueExercise lg="en" instruction="Fill in the gaps with had better or should!">
+<VueExercise lg="en" :topics="['had better or should']" instruction="Fill in the gaps with had better or should!">
 <VueMCGaps lg="en" gaptext="Sally had already passed her twentieth too, but unlike Vanessa she had a serious relationship with a smart man working at the univerity as a history teacher. It {should} be surprising that a smart professor and Sally, being rather daft, can fit together. But opposites seem to attract each other.
 However, the professor knew that he {had better} not speak about the complicated details of his job because Sally wouldn't understand." >
 </VueMCGaps>
@@ -127,7 +130,7 @@ And Sally liked Anton because of his wisdom and because he was a great chess pla
 "No, we haven't got anything special in common. At least, we don't have an on-and-off relationship!"
 But no matter how many times did Sally try to explain her relationship to her mother, sadly she never understood it. Still, Sally could have never imagined giving up on her love for Anton.
 
-<VueExercise lg="en" instruction="Choose the replacement of to say that fits best!">
+<VueExercise lg="en" :topics="['Alternatives for say']" instruction="Choose the replacement of to say that fits best!">
 <VueMCGaps lg="en" :gaptexts="['\'With your skills, you will easily find a well-paid job.\' {predicted|replied|told} his teacher to Anton.',
 
 '\'I am the best player of our team!\' {claimed|assured|asked} Anton a bit overconfidently.',
@@ -204,7 +207,7 @@ His father of course had difficulty accepting his answer but at least, he left h
 </VueExercise>
 
 
-
+<img style="float: right; height: 200px" src="@/assets/img/english/toys.jpg"></img>
 "Yesterday, I finished writing another short story. I have now written 20 short stories altogether. Why don't you two help me to find a publisher for my stories? " Alexander asked his parents.
 "But you're only 13 years old, you are too young to publish anything" objected his father.
 
@@ -294,6 +297,7 @@ After winning the money, they quickly rushed back to the shop to buy the most be
 </p>
 
 <p>
+<img style="float: right; height: 200px" src="@/assets/img/english/toys.jpg"></img>
 In the meantime, a new day had dawned at Edwin's house. Weekend!
 Last week, Edwin had installed a few new computer games on his children's computers, but now he was afraid that this had been a great mistake. It was difficult know to  bring them away from the computer and have a word with them.
 But his wife, Brigitte was happy about the video games. She was very tired of having 6 children and she also felt lonely from time to time because she didn't have time for herself or for spending time with her friends.
@@ -404,6 +408,7 @@ who can take care of herself. And of course I wouldn't enter the car of a drunke
 </VueExercise>
 
 
+<img style="float: right; height: 200px" src="@/assets/img/english/toys.jpg"></img>
 "You are still my child and I disagree, you are always in danger out there because of these men! 
 So just accept what I say and stay at home!"
 Brigitte didn't want to go on like this so she just accepted the words of Vanessa's mother and decided to go upstairs to her 

@@ -10,6 +10,12 @@
     </thead>
     <tbody>
 
+    <tr>
+        <td>2</td>
+        <td><router-link to="/en/english/shortstories/jealousyandfraud">Jealousy and fraud</router-link></td>
+        <td>Flori10</td>
+      </tr>
+
       <tr>
         <td>1</td>
         <td><router-link to="/en/english/books/lifeisnotatoy">Life is not a toy</router-link></td>
