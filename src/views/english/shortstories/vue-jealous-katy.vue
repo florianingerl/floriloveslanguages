@@ -129,14 +129,32 @@ Amanda had not been given food by Sonja but Sonja had eaten it all herself
 
 <VueExercise lg="en" :topics="['The passive voice']" instruction="Put the words in the sentences in the correct order!">
 <VueWordOrder lg="en" :sentences="['Sonja is accused by Amanda.',
-'']">
+'Brian was brought to the hospital by an ambulance.',
+'Brian is fancied by two women.']">
 
 </VueWordOrder>
 </VueExercise>
 
 And this list went on and on....
-By dinner time, Katy had a notebook full of the accusations about Sonja. The worst one was that she gave the wrong medication to Amanda because she was jealous of Amanda's beauty. These pills didn't help her injuries to heal but on the contrary, they made it worse and created a lot of scars.
-If Amanda hadn't been that poorly treated by Sonja, her scars and bruises might have healed more quickly. By this time, it all didn't matter, because Amanda had regained her gorgeous beauty simply by leaving the hospital and getting back to healthy nutrition.
+By dinner time, Katy had a notebook full of the accusations about Sonja. 
+The worst one was that she gave the wrong medication to Amanda because she was jealous of Amanda's beauty. 
+These pills didn't help her injuries to heal but on the contrary, they made it worse and created a lot of scars.
+<VueExercise lg="en" :topics="['Superlatif in English']" instruction="Fill in the gaps by the correct superlatif!">
+<VueMCGaps lg="en" :gaptexts="['Messi was {the best} (good) football player of the world for a long time.',
+'Brian\'s {worst} (bad) injury was on his forehead.',
+'For financial reasons, Sonja prefers to take care of {the richest} (rich) and at the same time {oldest} (old) patients.']">
+
+</VueMCGaps>
+</VueExercise>
+
+If Amanda hadn't been that poorly treated by Sonja, her scars and bruises might have healed more quickly. 
+By this time, it all didn't matter, because Amanda had regained her gorgeous beauty simply by leaving the hospital 
+and getting back to healthy nutrition.
+
+<VueExercise lg="en" :topics="['Conditional sentences of type 3']" instruction="Form conditional sentences of type 3 that make sense!">
+
+</VueExercise>
+
 After finishing the conversation and thanking Amanda for her time, Katy hurried back to the hospital. She pranced into Brian's room, eager to tell him the news that she had discovered that afternoon.
 When Brian heard all of this, despite of his broken limb, he jumped fiercely out of this bed
 and looked for the nurse. Having found her, he spat in front of her and said: "I have just heard about the story of how you treated Amanda! That behaviour of yours is really disgusting! Keep far away from me!"

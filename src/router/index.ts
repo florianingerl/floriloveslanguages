@@ -9,10 +9,12 @@ import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.
 import VueFrancais from "@/views/french/vue-francais.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
+import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAnnaStory from "@/views/english/books/vue-anna-story.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,6 +42,11 @@ const router = createRouter({
                   name: 'Négation en espagnol',
                   path: 'negationenespagnol',
                   component: VueNegationEspagnol
+                },
+                {
+                  name: 'Comparatif en espagnol',
+                  path: 'comparatifenespagnol',
+                  component: VueComparatifEspagnol
                 }
               ]
             }

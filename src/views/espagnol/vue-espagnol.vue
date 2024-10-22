@@ -10,6 +10,13 @@
     </thead>
 
 <tbody>
+       <tr>
+        <td>1</td>
+        <td><router-link to="/esp/espagnol/grammaire/comparatifenespagnol">Le comparatif en espagnol</router-link></td>
+        <td>Flori10</td>
+      </tr>
+
+
       <tr>
         <td>1</td>
         <td><router-link to="/esp/espagnol/grammaire/negationenespagnol">La négation en espagnol</router-link></td>
