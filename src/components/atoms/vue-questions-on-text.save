@@ -1,0 +1,94 @@
+<template>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th>True</th>
+        <th>False</th>
+        <th>Not in the text</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr v-for="question in questions2">
+        <td> {{ question.question }} </td>
+        <td :class="{ correct: question.checked && question.answer, notcorrect: question.checked && (question.answer == undefined || !question.answer ) }" > <input :disabled="validated" type="checkbox" v-model="question.checked"/> </td>
+        <td> :class="{ notcorrect: question.} </td>
+
+        <div v-for="option in getOptionsForLg()" :class="{correct : question2.correctlyAnswered != undefined && option.checked && option.correct, notcorrect : question2.correctlyAnswered != undefined && option.checked && !option.correct}">
+<input :disabled="question2.correctlyAnswered != undefined" type="checkbox" v-model="option.checked"/>
+      </tr>
+
+      </tbody>
+
+     </table> 
+
+</table>
+
+</template>
+
+<script lang="ts">
+
+import { defineComponent, ref } from 'vue';
+import type { PropType } from "vue";
+import type { Languages } from "../../types/Languages.ts";
+import type { QuestionOnText } from "../../types/QuestionOnText.ts";
+
+
+export default defineComponent({
+  components: { },
+  props: {
+    questions: {
+      required: true,
+      type: Array as PropType<QuestionOnText[]>
+    },
+    lg: {
+      required: true,
+      type: String as PropType<Languages>
+    }
+    
+  },
+  setup(_props) {
+     const validated = ref<boolean>(false);
+     const questions2 = ref<QuestionOnText[]>(this.questions);
+     return { validated, questions2 };
+  },
+  mounted(){
+     console.log("The mounted function is executed!");
+     
+     
+  },
+  methods : {
+
+    validateSolutionClicked(){
+       
+        this.validated = true;
+    },
+    showSolutionClicked(){
+        console.log("Button show solution was clicked!");
+        this.validated = true;
+        this.questions2.forEach( (question: QuestionOnText) => {
+           question.checked = question.answer;
+        });
+    }
+  }
+});
+
+
+</script>
+
+<style scoped>
+
+.correct {
+    background-color: green;
+    border-color: green;
+}
+
+.notcorrect {
+    background-color: red;
+    border-color: red;
+}
+
+
+</style>

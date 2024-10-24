@@ -4,14 +4,14 @@
 <h1>Jealously and fraud</h1>
 <h4><i>par Florian Ingerl et <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz</a></i></h4>
 
-<img src="@/assets/img/francais/renard.jpg" style="height:200px; float: right;"></img>
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 
 Had Brian climbed more carefully, he might not have fallen off the tree and would not have broken his left leg.
 
 <VueExercise lg="en" :topics="['Conditional sentences']" instruction="Fill in the gaps to form correct conditional sentences!">
 <VueMCGaps lg="en" :same="false" :gaptexts="['If there {hadn\'t been|have not been|wouldn\'t have been} (not be) an apple on the tree, Brian {would not have wanted|didn\'t want|would not wanted} (not want) to climb the tree in the first place.',
 'If the apples underneath the tree {hadn\'t been|have not} (not be) full of worms, Brian {would have eaten|would eat|would ate} (eat) some of those.',
-'If the worms {had not wanted|would not have wanted}(not want) to eat the apples, the apples {wouldn\'t have been|would not be} (not be) ripe.']">
+'The worms {wouldn\'t have wanted|had not wanted}(not want) to eat the apples, if they {hadn\'t been|weren\'t} (not be) ripe.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -19,7 +19,7 @@ Had Brian climbed more carefully, he might not have fallen off the tree and woul
 Katy was itching to climb the tree as well but after Brian's accident she didn't have the opportunity to do so. 
 Instead, she quickly had to call an ambulance.
 
-<VueExercise lg="en" :topics="['Genitiv s in English']" instruction="Make a sentence with the same meaning using a Genitiv like in the example!">
+<VueExercise lg="en" :topics="['Possessive \'s and s\'']" instruction="Make a sentence with the same meaning using a Genitiv like in the example!">
 <p>Example: The accident of Brian was severe. -> Brian's accident was severe. </p>
 
 <ol>
@@ -35,6 +35,8 @@ Instead, she quickly had to call an ambulance.
 </ol>
 </VueHideShow>
 </VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 
 Everybody needs an ambulance in case of a broken leg. Although Brian's wailing on the phone was a bit exagerated, 
 it helped to make the ambulance arrive more quickly.
@@ -61,14 +63,14 @@ Although Katy was glad that Brian got the help he needed, she was not that pleas
 with Sonja, because secretly she was in love with Brian.
 
 <VueExercise lg="en" :topics="['Conjunctions']" instruction="Fill in the gaps with the conjunction that fits!">
-<VueMCGaps lg="en" :same="true" :gaptexts="['{Although|} Brian had a broken limb, he didn\'t feel bad, {because|} the Sonja\'s beautiful smile cheered him up.',
+<VueMCGaps lg="en" :same="true" :gaptexts="['{Although|} Brian had a broken limb, he didn\'t feel bad, {because|} Sonja\'s beautiful smile cheered him up.',
 '{While|} the moon was shining into Brian\'s face, the latter was fast asleep.',
 'Sonja smiled in a way {such that|} all men turned their head towards her.']">
 
 </VueMCGaps>
 </VueExercise>
 
-
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 To keep Brian away from Sonja, Katy told Brian that she knew the story of a nurse who had only been friendly to her patients
  in order to be mentioned in their testament.
 "Were I to keep this a secret from you, I would worry that your feelings get hurt if Sonja turns out to be this nurse. 
@@ -88,11 +90,12 @@ she was a good person.
 <VueExercise lg="en" :topcis="['used to do sth or get/be used to doing sth']" instruction="Fill in the gaps by used to do sth or get/be used to doing sth!">
 <VueMCGaps lg="en" :gaptexts="['Brian {is used to|used to} several women running after him at the same time.',
 'Sonja {is used to|used to} patients calling for help at midnight.',
-'In earlier days, doctors {used to|were used to} treat their patients with certains herbs and good nutrition. Nowadays, treating patients with poison is a much more lucrative business.']">
+'In earlier days, doctors {used to|were used to} treat their patients with certain herbs and good nutrition. Nowadays, treating patients with poison is a much more lucrative business.']">
 
 </VueMCGaps>
 </VueExercise>
 
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 "Should it turn out that the nurse Sonja was guilty, Brian would surely abandon her and maybe she had a chance then again. 
 So Katy started her investigations by talking to the old students of Sonja's.
 By the time one of Sonja's old patients agreed to talk to her, Brian had already asked the nurse out on a date. 
@@ -123,9 +126,11 @@ That first old patient Katy talked to had once been a breathtaking young women, 
 Katy felt sympathy for this poor woman instantly. Her name was Amanda and she had an incredible story to tell
  about the nurse Sonja. Katy was so excited that she even took notes about every word Amanda told her.
 The accusations of Amanda were as follows:
-Amanda had been told lies by Sonja
-Amanada had been fooled by Sonja
-Amanda had not been given food by Sonja but Sonja had eaten it all herself
+<ol>
+<li>Amanda had been told lies by Sonja.</li>
+<li>Amanada had been fooled by Sonja.</li>
+<li>Amanda had not been given food by Sonja but Sonja had eaten it all herself.</li>
+</ol>
 
 <VueExercise lg="en" :topics="['The passive voice']" instruction="Put the words in the sentences in the correct order!">
 <VueWordOrder lg="en" :sentences="['Sonja is accused by Amanda.',
@@ -135,12 +140,13 @@ Amanda had not been given food by Sonja but Sonja had eaten it all herself
 </VueWordOrder>
 </VueExercise>
 
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 And this list went on and on....
 By dinner time, Katy had a notebook full of the accusations about Sonja. 
 The worst one was that she gave the wrong medication to Amanda because she was jealous of Amanda's beauty. 
 These pills didn't help her injuries to heal but on the contrary, they made it worse and created a lot of scars.
 <VueExercise lg="en" :topics="['Superlatif in English']" instruction="Fill in the gaps by the correct superlatif!">
-<VueMCGaps lg="en" :gaptexts="['Messi was {the best} (good) football player of the world for a long time.',
+<VueMCGaps lg="en" :gaptexts="['Messi was {the best} (good) football player in the world for a long time.',
 'Brian\'s {worst} (bad) injury was on his forehead.',
 'For financial reasons, Sonja prefers to take care of {the richest} (rich) and at the same time {oldest} (old) patients.']">
 
@@ -152,16 +158,56 @@ By this time, it all didn't matter, because Amanda had regained her gorgeous bea
 and getting back to healthy nutrition.
 
 <VueExercise lg="en" :topics="['Conditional sentences of type 3']" instruction="Form conditional sentences of type 3 that make sense!">
+<p>Example: Katy/ask/Amanda/interview/tell/Sonja's wrongdoings -> If Katy hadn't asked Amanda for an interview, Amanda wouldn't have told Katy about Sonja's wrongdoings.</p>
+
+<ol>
+<li>Amanda/tell/Katy/warn/Brian</li>
+<li>Amanda/accident/come/hospital</li>
+<li>Sonja/wrong medication/Amanda/recover/quick</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>If Amanda hadn't told Katy all this, Katy could not have warned Brian.</li>
+<li>If Amanda hadn't had an accident, she would not have come to hospital.</li>
+<li>If Sonja hadn't given the wrong medication to Amanda, Amanada would have recovered more quickly.</li>
+</ol>
+</VueHideShow>
 
 </VueExercise>
 
-After finishing the conversation and thanking Amanda for her time, Katy hurried back to the hospital. She pranced into Brian's room, eager to tell him the news that she had discovered that afternoon.
+After finishing the conversation and thanking Amanda for her time, Katy hurried back to the hospital. 
+She pranced into Brian's room, eager to tell him the news that she had discovered that afternoon.
+
+<VueExercise lg="en" :topics="['Times of the day','morning, noon, afternoon, evening, night, midnight']" instruction="Fill in the gaps by the correct time of the day!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['School always starts in the {morning|}.',
+'Sonja is used to her patients calling for help even at {midnight|}',
+'At {noon|}, the sun stands at its highest point.',
+'It is very dark during the {night|} unless the moon shines.',
+'Brian wants to invite Sonja for dinner in the {evening|}.']">
+
+</VueMCGaps>
+</VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
 When Brian heard all of this, despite of his broken limb, he jumped fiercely out of this bed
-and looked for the nurse. Having found her, he spat in front of her and said: "I have just heard about the story of how you treated Amanda! That behaviour of yours is really disgusting! Keep far away from me!"
-Sonja didn't like how Brian talked to her so she had him and Katy thrown out of the hospital. Katy was over the moon that Brian was no longer in love with Sonja and she had a chance again to seduce him. 
+and looked for the nurse. Having found her, he spat in front of her and said: 
+"I have just heard about the story of how you treated Amanda! That behaviour of yours is really disgusting! Keep far away from me!"
+
+<VueExercise lg="en" :topics="['Possessive pronouns', 'mine, yours, his,hers,ours,yours,theirs']" instruction="Fill in the gaps by the correct possessive pronoun!">
+<VueMCGaps lg="en" :gaptexts="['Brian had forgotten his comics so he asked the patient next to him whether he could read some of {his}.',
+'All the towels of Brian were wet so he asked Amira, the patient next to him, whether he could borrow {hers}.',
+'Now all the towels of Brian and Amira were wet. So they went to the neighbouring room and asked the patients. <<Have you got dry towels? {Ours} are all wet. Can we borrow some of {yours}?>>']">
+
+</VueMCGaps>
+</VueExercise>
+
+
+Sonja didn't like how Brian talked to her so she had him and Katy thrown out of the hospital. 
+Katy was over the moon that Brian was no longer in love with Sonja and she had a chance again to seduce him. 
 
 "Let's go to a restaurant, then home." She suggested and so they went to celebrate their friendship with a nice dinner.
-To be continued...
+
+<h2>The end</h2>
 
 </div>
 
@@ -174,13 +220,15 @@ import { defineComponent } from "vue";
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
 import VueExercise from "@/components/atoms/vue-exercise.vue";
 import VueHideShow from "@/components/atoms/vue-hideshow.vue";
+import VueWordOrder from "@/components/atoms/vue-word-order.vue";
 
 export default defineComponent ({
   
   components: {
      VueExercise,
      VueMCGaps,
-     VueHideShow
+     VueHideShow,
+     VueWordOrder
   },
 
   mounted(){
