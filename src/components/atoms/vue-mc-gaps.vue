@@ -21,16 +21,16 @@
 
 
 <p v-if="lg==='fr'">
-<Button @click="buttonValidateClicked">Valider ma solution</Button>
-<Button @click="showSolutionClicked">Montre-moi la solution</Button>
+<button @click="buttonValidateClicked">Valider ma solution</button>
+<button @click="showSolutionClicked">Montre-moi la solution</button>
 </p>
 <p v-if="lg==='en'">
-<Button @click="buttonValidateClicked">Validate</Button>
-<Button @click="showSolutionClicked">Show me the solution</Button>
+<button @click="buttonValidateClicked">Validate</button>
+<button @click="showSolutionClicked">Show me the solution</button>
 </p>
 <p v-if="lg==='de'">
-<Button @click="buttonValidateClicked">Meine Lösung prüfen</Button>
-<Button @click="showSolutionClicked">Lösung zeigen</Button>
+<button @click="buttonValidateClicked">Meine Lösung prüfen</button>
+<button @click="showSolutionClicked">Lösung zeigen</button>
 </p>
 
 
@@ -45,14 +45,11 @@ import { ref, defineComponent } from "vue";
 import type { Languages } from "../../types/Languages.ts";
 import type { PropType } from "vue";
 import type { Gap } from "../../types/Gap.ts";
-import { Button } from '@/components/ui/button';
-
-
 
 export default defineComponent({
   name: "VueMCGaps",
   components: {
-    Button
+    
   },
   props: {
     gaptext: {
@@ -202,6 +199,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+button {
+  margin: 3px;
+}
 
 .correct {
     color: green;

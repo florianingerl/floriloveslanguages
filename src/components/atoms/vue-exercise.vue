@@ -8,7 +8,7 @@
 Topics:
 <div v-for="topic in topics" style="display: inline;">
 <span  class="topic">{{ topic }} </span>
-<button @click="google(topic)">Google</button>
+<button class="m-2" @click="google(topic)">Google</button>
 </div>
 </p>
 
