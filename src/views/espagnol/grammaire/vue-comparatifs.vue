@@ -18,9 +18,9 @@
 
 <p class="exemple"> Exemples de phrase avec un comparatif:
 <ul>
-<li>Soy más joven que mi padre.</li>
-<li>Mi padre es menos joven que yo.</li>
-<li>Soy tan joven como mi amigo.</li>
+<li>Soy más joven que mi padre. <i class=" ms-2 bi bi-globe" data-bs-toggle="tooltip" title="I am younger than my father."></i></li>
+<li>Mi padre es menos joven que yo.<i class=" ms-2 bi bi-globe" data-bs-toggle="tooltip" title="My father is less young than me."></i></li>
+<li>Soy tan joven como mi amigo. <i class=" ms-2 bi bi-globe" data-bs-toggle="tooltip" title="I am as young as my friend."></i></li>
 </ul>
 </p>
 

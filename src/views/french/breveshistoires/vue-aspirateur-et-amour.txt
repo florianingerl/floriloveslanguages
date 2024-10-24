@@ -1,0 +1,49 @@
+Marion était un peu jalouse de sa sœur parce que celle-ci était en train d'étreindre son ami. 
+Et elle, elle n'en avait pas. Pas encore au moins.
+<VueExercise lg="fr" :topics="['Adjectif féminin']" instruction="Remplis le trou avec l'adjectif au féminin!">
+<VueMCGaps lg="fr" :gaptexts="['Quand Marion a un rendez-vous avec un garçon, elle est toujours un peu {nerveuse} (nerveux).',
+'Beatrice ne travaille rien. Elle est {parresseuse} (parresseux).',
+'Si Marion trouvait enfin l\'homme de ses rêves, elle serait très {heureuse} (heureux).']">
+
+</VueMCGaps>
+</VueExercise>
+En réalité , elle doutait d'elle-même mais elle ne se doutait pas que son voisin l'admirait beaucoup.
+Elle fut tellement surprise la premìère fois que son voisin, du nom de Fabrice, lui avoua
+son amour. Bien qu'elle ne voulût rien de lui et le trouvait même un peu moche,
+Fabrice avait bien réussi à élever son estime d'elle même.
+<VueExercise lg="fr" :topics="['Adjectif opposé']" instruction="Remplis les trous avec l'adjectif opposé!">
+<VueMCGaps lg="fr" :gaptexts="['Bien que Marion fût très {jolie} (moche), elle n\'avait pas encore trouvé un ami.',
+'Elle avait de {grands} (petit) yeux bleus comme le ciel.',
+'Et elle était si {maigre} (gros) que une balance n\'indiquait que quelques kilos.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Un jour, il lui demanda s'il pouvait emprunter son aspirateur car le sien était cassé. 
+Bien entendu, elle n'eut pas le choix de le lui prêter.
+
+<VueExercise lg="fr" :topics="['Les pronoms possessifs', 'mien,tien,sien,notre,votre,leur']" instruction="Remplis les trous avec le pronom possessif qui convient!">
+<VueMCGaps lg="fr" :gaptexts="['']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Mais il faut que tu me le rendes!" dit Marion à Fabrice après lui avoir prêté
+l'aspirateur. "Sinon, je dois utiliser mon balai pour toujours et ça me ferait mal au dos."
+Fabrice se sentit pris d'une allégresse légère lorsque Marion accepta sa demande et il répondit par l'affirmative.
+"Si tu ne me le rendait pas, je te dénoncerais à la police." plaisanta Marion en souriant.
+Pendant que les deux parlaient ainsi, l'autre couple, la sœur de Marion, du nom de Eyana, et son ami qui s'appelait Gérard, s'approchèrent d'eux.
+Eyana adressa la parole à sa soeur: << Marion. Notre appartement est plein de poussière.
+Est-ce que nous pouvons emprunter ton aspirateur? >>
+Marion se sentit un peu embarrassée puisqu'elle venait d'accepter de le prêter à Fabrice. Comment résoudre ce dilemme? se demanda-t-elle. C'est tout simple, finit-elle par penser, mon voisin habite sur le trajet de ma sœur. Ils n'ont qu'à se débrouiller tous les deux.
+Alors, Marion répondit à sa sœur: << Malheureusement, j'ai déjà prêté mon aspirateur à Fabrice qui est toujours assis à côté de moi dans les cours d'espagnol. Mais il habite au 13 Rue du château, ce qui est sur ton trajet. Tu peux aller chercher l'aspirateur chez lui et le transporter avec ta nouvelle voiture d'occasion. >>
+Puisque le problème venait d'être résolu, Fabrice se dit que ce serait peut-être le bon moment pour proposer à Marion une sortie au cinéma car un film d'aventure très captivant était à l'affiche.
+Émue, Marion eut un sourire. Plus Fabrice s'approchait d'elle, plus Marion le trouvait sympa et moins elle le trouvait moche. Bien qu'elle avait toujours eu peur des souris dans le cinéma, elle accepta l'invitation.
+Fou de joie, Fabrice lui donna un baiser sur la joue et compta jusqu'à cinq avant de filer.
+<< Est-ce que nous pouvons vous accompagner ? >> voulait savoir Eyana. << Moi et Gérard voulons aussi regarder un film excitant. Et les critiques sont vraiment superbes. Je crois que à la fin du film, tout le monde chante de joie, non seulement les personnages du film mais aussi ceux de la salle de cinéma. >>
+Ce que disait Eyana était vrai, Fabrice avait lu quelques critiques du film, et il en émanait une impression de liberté et une grande sagesse.
+Mais lorsque les quatre étaient assis dans le cinéma, regardant le film, Fabrice désirait être seul avec son amour Marion. Comment s'y prendre pour faire sortir Eyana et son Gérard?
+Il eut une idée. "Prend ce billet de 100 euros pour je tu me laisses seul avec ta soeur" siffla Fabrice à l'oreille de Eyana. "Tu me ferais un grand plaisir!"
+Et parce que l'argent aide toujours, heureusement, Eyana et Gérard s'en allèrent et dès ce moment, Fabrice étreignit Marion tendrement.
+
+Fin!
