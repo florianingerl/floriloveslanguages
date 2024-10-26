@@ -6,6 +6,8 @@ import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
 import VueEnglish from "@/views/english/vue-english.vue";
 import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
+import VueVogelMarcia from "@/views/deutsch/kurzgeschichten/vue-marcia-vogel.vue";
+import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/vue-vogel-und-eichhoernchen.vue";
 import VueFrancais from "@/views/french/vue-francais.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
@@ -15,6 +17,7 @@ import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue"
 import VueAnnaStory from "@/views/english/books/vue-anna-story.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueSignUp from "@/views/vue-signup.vue";
+import VueLogin from "@/views/vue-login.vue";
 
 
 const router = createRouter({
@@ -29,6 +32,11 @@ const router = createRouter({
           name: 'Sign up',
           path: '/signup',
           component: VueSignUp
+        },
+        {
+          name: 'Login',
+          path: '/login',
+          component: VueLogin
         },
         {
           name: 'Espagnol',
@@ -105,7 +113,7 @@ const router = createRouter({
             {
               name: "Ein Vogel und ein Eichhörnchen",
               path: "vogelundeichhoernchen",
-              component: VueKatzeMagFisch
+              component: VueVogelEichhoernchen
               //niveau 2
 
             },
@@ -113,6 +121,12 @@ const router = createRouter({
               name: "Katze mag Fisch",
               path: 'katzemagfisch',
               component: VueKatzeMagFisch
+            }
+            ,
+            {
+              name: "Äpfel mit Würmern für einen Vogel",
+              path: 'vogelmarcia',
+              component: VueVogelMarcia
             }
           ]
         }
