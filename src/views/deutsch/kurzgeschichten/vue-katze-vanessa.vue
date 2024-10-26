@@ -4,7 +4,7 @@
 <h1>Eine Katze, die Fisch mag</h1>
 <h4><i>von Florian Ingerl und Vanessa Feiller</i></h4>
 
-<!-- <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img> -->
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img>
 Natürlich verstaut eine Katze ihre Sachen nicht in einer Aktentasche,
 obwohl sich in der Tasche genug Platz finden würde, für alles was eine Katze so zum Leben braucht.
 Vielleicht bewachte die Katze die Aktentasche nur für ihr Herrchen, aber eigentlich wäre das die Aufgabe eines Wachhundes.
@@ -38,7 +38,7 @@ Melli hieß, ganz süß zu miauen an. Dabei schielte sie zu den Fischen, um ihre
 </VueHideShow>
 </VueExercise>
 
-<!-- <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img> -->
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img>
 "Wenn ich dir einen kleinen Fisch gebe, begann der Fischer, dann möchte ich, dass du ihn woanders verspeist und nicht noch mehr hungrige Mäuler anziehst!" Melli bestätigte die Aussage mit einem Miauen und einem freudigen Wedeln ihres Schwanzes.
 Jedoch ist natürlich eine Aktentasche nicht geeignet, um einen kleinen Fisch darin zu transportieren, sondern in einer Aktentasche transportiert man Akten.
 <VueExercise lg="de" instruction="Fülle die Lücken mit sondern, aber, denn, und oder oder" >
@@ -87,7 +87,7 @@ Ungünstigerweise wurde die Katze Melli beim Transport des Fisches in ihrem Maul
 
 </VueExercise>
 
-<!-- <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img> -->
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img>
 Als Melli darauf nicht wirklich antworten wollte, um dem Fischer keine Probleme zu bereiten, richtete sich die Meute von Katzen gegen sie. Diese nun fauchenden Ungetüme versuchten der armen Melli den Weg zu versperren und sie in eine Ecke der Gasse zu drängen.
 Wie schade! Hätte Melli jetzt das Nudelholz ihrer Großmutter zur Hand, so hätte sie sich damit gut zur Wehr setzten können. Ihre Großmutter hatte öfter Nudeln mit Fisch gekocht.
 In dem kurzen Moment jedoch, wo Melli in alten Erinnerungen schwelgte, war sie den Fisch losgeworden.
@@ -111,7 +111,7 @@ Die Katze, deren Magen knurrte, wollte sich jedoch noch nicht geschlagen geben. 
 </VueHideShow>
 </VueExercise>
 
-<!-- <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img> -->
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.jpg"></img>
 Keinen Blick in die Schaufenster verschwendend und von ihrem knurrenden Magen getrieben, lief die Katze zurück zum Fischer, wo sie wieder zum Miauen begann.
 Der Fischer war diesmal jedoch nicht allein. An seinem Verkaufsstand, war ein Kunde verkleidet als Osterhase, der seine Bestellungen abholte. Ob der Mann im Kostüm heute Waschtag und deswegen nichts anderes zum Anziehen hatte? Den seltsamen Mann ignorierend maunzte sie sich die Seele aus dem Leib.
 Der Fischer war jetzt völlig verwirrt. Hier der Lärm der miauenden Katze, die doch eben gerade einen Fisch bekommen hatte und jetzt wieder da war, und dort dieser Mann im Osterhasenköstum, obwohl gar kein Ostern war.
