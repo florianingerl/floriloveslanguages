@@ -14,6 +14,7 @@ import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-pois
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAnnaStory from "@/views/english/books/vue-anna-story.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
+import VueSignUp from "@/views/vue-signup.vue";
 
 
 const router = createRouter({
@@ -24,6 +25,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       children: [
+        {
+          name: 'Sign up',
+          path: '/signup',
+          component: VueSignUp
+        },
         {
           name: 'Espagnol',
           path: '/esp/:language',

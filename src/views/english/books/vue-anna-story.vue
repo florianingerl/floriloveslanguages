@@ -477,6 +477,131 @@ Happy about not having to leave the house, Edwin went to his office at home and 
  "I'm not available for anyone" on the outside of his door. 
 He had left his desk in total disorder, so first he tidied up a bit.
 
+<VueExercise lg="en" :topics="['Impersonal pronouns', 'Someone, anyone or noone']" instruction="Fill in the gaps by someone, anyone or noone!">
+<VueMCGaps lg="en" :gaptexts="['{Noone} helps me. I have to do all by myself.',
+'Edwin locked his door because he doesn\'t want to be disturbed by {anyone}.',
+'{Someone} had taken away the biro from his desk, because Edwin couldn\'t find it.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Then, he opened the windows to let some fresh air in and did some Yoga exercises to relax.
+He often said to his wife that he had an urgent call to make just to have some alone-time in his office without the children. 
+Sometimes he pretended to be on the phone and had a fake call. But he was not a fraud, just a tired dad.
+
+<VueExercise lg="en" :topics="['Somewhere, sometime, somebody, something']" instruction="Fill in the gaps by somewhere, sometime, somebody or something!">
+<VueMCGaps lg="en" :gaptexts="['Some people are always unhappy whereever they are and want to be {somewhere} else.',
+'Edwin was tired. He needed to to {something} relaxing.',
+'{Somebody} had cleaned the floor of his office, probably his wife or his oldest daughter.',
+'Edwin should take better care of himself {sometime} in the future.']">
+
+</VueMCGaps>
+</VueExercise>
+
+During his Yoga exercises, he observed that the longer he practised, the more smooth his movements became and the better he felt.
+He was so engaged into this activity, that he didn't notice his boss ringing on the phone nor two of his children knocking 
+on the door.
+<VueExercise lg="en" :topics="['ing-form or infinitiv after verbs of perception']" instruction="Fill in the gaps by an ing-form or by an infinitiv!">
+<VueMCGaps lg="en" :gaptexts="['{Doing|Do} Yoga exercises is Edwin\'s favorite activity to relax.',
+'Downstairs, Edwin heard his wife {break|breaking} a cup.',
+'Edwin heard his oldest son {knock|knocking} once at the door and call his name.',
+'After his oldest son had gone, Edwin heard his second-oldest son {knocking|knock} on his door for 5 minutes. Finally he too went away.']">
+
+</VueMCGaps>
+</VueExercise>
+
+After five missed calls though, he finally realised that his boss was trying to reach him. 
+After seeing the angry and urgent messages from Fred, he quickly put on his favourite orange shirt and hurried 
+to the office because Fred called everyone for an urgent meeting.
+
+<VueExercise lg="en" :topics="['Adjectif or adverb']" instruction="Fill in the gaps by quick or quickly!">
+<VueMCGaps lg="en" :gaptexts="['Edwin is very {quick} in choosing the appropriate clothing for any occasion.',
+'{Quickly}, Edwin ran to the office.',
+'Snails aren\'t {quick} animals.',
+'Edwin usually kills the snails in his garden {quickly} by stepping on them.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"You certainly wonder, why I have scheduled this urgent meeting" were the words that Fred began the meeting with.
+"Concering our project with the big toy house on top of the hill, some obstacles block our path for the time being. 
+The smallest of these obstacles is my son Alexander which doesn't want to help but is only interested in his short stories and books.
+So we can not count an him as in the past.
+And the bank has just informed me, that they have set a limit for a credit they would grant us."
+
+<VueExercise lg="en" :topics="['Superlatif']" instruction="Fill in the gaps by a superlatif!">
+<VueMCGaps lg="en" :gaptexts="['As the boss, Edwin takes care of {the most difficult|the easiest} tasks in the company.',
+'Fred only employs {the cheapest|the most expensive} workers from China to produce the toys.',
+'Fred gives them {the lowest|the highest} salary that is still legal.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"These teenagers nowadays are so defiant", commented Dave. "I also have a niece who is very stubborn."
+
+"But I'm sure that Alexander's stories are really good that's why he is prioritizing them instead of our project" added June.
+ "But the lack of funding can be a real problem."
+"I often argue with my wife, often very long. 
+It is nearly always me who wins in the end or at least has the last word! 
+I am thus a trained convincer and if I go to the bank, I am sure that I can convince the responible person
+ to let down the limit for our credit." said Dave.
+
+ <VueExercise lg="en" :topics="['That\'s why or because']" instruction="Fill in the gaps by either because or that's why">
+<VueMCGaps lg="en" :same="true" :gaptexts="['{Because|} nobody had objections, Dave got the job to talk to the bank.',
+'{That\'s why|} Dave skipped his favorite series on television and prepared to got to the bank.']">
+
+</VueMCGaps>
+ </VueExercise>
+
+"But what do you argue about with your wife?" asked June. "About who is first to use the bathroom.
+ And you are proud to succeed in letting your wife wait while you get in there first. 
+ This isn't the same as making the bank consultant do what we want."
+
+<VueExercise lg="en" :topics="['Male and female nouns']" instruction="Fill in the gaps by the male noun!">
+<VueMCGaps lg="en" :gaptexts="['An ugly woman usually can\'t find a {husband} (wife).',
+'A girl with a face covered with spots has low chances of finding a {boyfriend} (girlfriend).',
+'The {brother} (sister) of Edwin is a bodybuilder.']">
+
+</VueMCGaps>
+</VueExercise>
+
+"Not just about the bathroom but sometimes that too" confessed Dave.
+ "But don't worry, dear June, I will put on my fanciest clothes, 
+ get a nice haircut and I will use my best arguments to get us what we want in the bank."
+
+ <VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['Edwin never argues with his wife {about|} unimportant stuff.',
+'Edwin is good {in|} finding stuff {on|} his unordered desk.',
+'Don\'t worry {about|} the future because it is not there yet.',
+'To tidy up, Edwin stuffed all the papers {into|} the drawer of his desk.']">
+
+</VueMCGaps>
+ </VueExercise>
+
+"Okay, thank you, Dave for taking care about this problem for us! 
+Just don't ruin it because then the bank might freeze our accunt" warned him Fred. 
+"But if you succeed, you will get a bonus!"
+
+<VueExercise lg="en" :topics="['Conditional sentences']" instruction="Form conditional sentences that make sense!">
+<p>Example: </p>
+</VueExercise>
+
+After that mission had been given thus to Dave, the meeting ended and
+Dave went home to his wife, having a clear plan in mind.
+Of course, he would go to the bank together with his beautiful wife.
+Not only would his wife distract and soften the bank consultant by her beauty, but she could also make the bank consultant dizzy by offering some special tea to him and by flirting a bit with him. Her influence - Dave knew - was irresistable.
+His wife was in a good mood that day and she agreed to help him so they went to city centre to the bank together. 
+They found a young bank consultant who immediately started admiring his beautiful wife.
+"Break a leg!" whispered his wife to Dave's ear as he started to present his case. After only five minutes of talking and defending his company, the bank consultant cancelled the limit completely.
+After having tbus achieved the Dave's company's interests, the couple went outside and
+Dave's wife Treena, began: "Just to clarify something. I never help anyone for free, including you. In return for my assistance know, you not only have to sort our trash for the rest of the year but also you need to invite me now for lunch to my preferred restaurant. It's the Japanese Shusy restaurant just around the corner . Let's go! "
+"Of course, my beautiful, cute wife" agreed Dave immediately. "You are the best thing in my life and a very talented woman so you deserve this nice meal right now." he continued, flattering his wife because he knew that she loved the flattery. But he wisely didn't share what their success today really meant: a hopefully big bonus from Fred that he can maybe spend on nice things for himself.
+How Treena and Dave found one another is an interesting story. They didn't get together via an online dating service or Facebook. In fact, they knew each other since primary school, Dave had always given Treena some structure and Treena has given some creativity to Dave, so they profited a lot from each other.
+But they also had a few things in common. For example, they both liked expensive and fashionable clothes and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and get married at the young age of 18.
+With Dave receiving very often big bonuses from his boss Fred, it is clear that he could afford all the afore mentioned expensive stuff.
+What is less obvious is, how his wife managed to fulfill her need for the most expensive thiings.
+Although Dave often got these bonuses, usually he wasn't ready to share the money with his wife. On the other hand, whenever he got some new toys from the company, he always gave those to Treena which the woman hated and this was one of the reasons why they argued a lot.
+
 </div>
 
 </template>

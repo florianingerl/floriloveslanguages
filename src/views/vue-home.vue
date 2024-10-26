@@ -6,6 +6,7 @@
    <router-link :class="{active : $route.fullPath.includes('/deutsch') }" to="/de/deutsch">Deutsch</router-link>
    <router-link :class="{active : $route.fullPath.includes('/espagnol') }" to="/esp/espagnol">Espagnol</router-link>
    <!-- <router-link :class="{active : $route.fullPath.includes('/informatik') }" to="/informatik">Computer science</router-link> -->
+   <router-link class="btn btn-primary" to="/signup">Sign up</router-link>
 </div>
 
 <div id="main" style="padding-left:16px">
