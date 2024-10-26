@@ -41,7 +41,7 @@ export default defineComponent({
         return; //Not yet implemented!
 
         const client = axios.create({
-  baseURL: 'https://httpbin.org',
+  baseURL: 'http://localhost:8080/api',
 });
 
 (async () => {
@@ -53,7 +53,7 @@ export default defineComponent({
 
   try {
     const data = {'name': this.user.name, 'mail': this.user.mail, 'password': this.user.password };
-    const response: AxiosResponse = await client.post(`/get`, data , config);
+    const response: AxiosResponse = await client.post('/login', data , config);
     console.log(response.status);
     console.log(response.data.json);    
   } catch(err) {

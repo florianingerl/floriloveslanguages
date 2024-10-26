@@ -11,6 +11,13 @@
     <tbody> 
     
 
+   <tr>
+    <td>1</td>
+       <td><router-link to="/fr/french/breveshistoires/antoineetlespoules">Antoine et les poules</router-link></td>
+       <td>Flori10</td>
+    </tr>
+
+
     <tr>
     <td>1</td>
        <td><router-link to="/fr/french/breveshistoires/renardreligeux">Un renard religeux</router-link></td>
