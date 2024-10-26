@@ -131,6 +131,15 @@ Il a aussi faim. Par conséquent, il mange quelques plantes sauvages de la forê
 
 Puis, il n'a plus faim. 
 
+
+<VueExercise lg="fr" :topics="['La négation']" instruction="Remplis les trous avec plus, jamais, rien ou pas!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['Si tu bois de l\'eau, tu n\'auras {plus|} soif.',
+'Je ne bois {jamais|} du coca, même pas si quelqu\'un m\'en offre une bouteille gratuitement, parce que cela ferait du mal aux dents.',
+'Je n\'ai {pas|} soif. Par conséquent, je ne veux {rien|} boire.']">
+
+</VueMCGaps>
+</VueExercise> 
+
 <img src="@/assets/img/francais/antoineloupe.png" style="height:200px; float: right;"></img>
 L'animal que Antoine aime est dans la forêt. Ce sont les oiseaux qui chantent tellement bien.
 
@@ -138,22 +147,58 @@ Ce sont les oiseaux que Antoine trouve drôles.
 
 Les oiseaux que Antoine trouve drôles habitent dans la forêt.
 
+<VueExercise lg="fr" :topics="['Les pronoms relatifs qui ou que']" instruction="Remplis les trous avec qui ou que!">
+<VueMCGaps lg="fr" :gaptexts="['Le renard {que} Antoine a vendu au marché n\'est probablement pas aussi delicieux qu\'une poule.',
+'Antoine, {qui} chasse souvent des animaux sauvages, les vendent après au marché.',
+'Antoine, {qui} porte des lunettes, s\'achete un livre sur les animaux.',
+'Le livre {que} Antoine a acheté a 300 pages.']">
+
+</VueMCGaps>
+</VueExercise>
+
 Pourquoi ne sont-ils pas drôles? Parce qu'ils ne plaisantent jamais et
 ils restent toujours sérieux.
 
 La forêt où les oiseaux habitent est sale. Les oiseaux ont beaucoup d'amis.
 
+<VueExercise lg="fr" :topics="['Les adjectifs', 'L\'accord des adjectifs']" instruction="Remplis les trous avec l'adjectif qui convient! Fais attention à l'accord de l'adjectif. Utilise delicieux, lent, intelligent, blanc!">
+<VueMCGaps lg="fr" :gaptexts="['La poule que Antoine a chassée est {delicieuse}.',
+'Les esgargots sont {lents}.',
+'Les renards sont {intelligents}.',
+'Il y a des poules qui sont {blanches}, il y en a d\'autres qui sont brunes.']">
+
+</VueMCGaps>
+</VueExercise>
+
 Les amis des oiseaux, ce sont les renards, les poules, les esgargots, les lapins,
 les souris et les serpents.
 
+<VueExercise lg="fr" :topics="['Les animaux']" instruction="Remplis le trou avec le bon animal!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['Les {renards|} sont rouges.',
+'Les {ours|} mangent du miel et des poissons.',
+'Les {esgargots|} ne sont pas vites.',
+'Les {oiseaux|} savent chanter et voler.',]">
+
+</VueMCGaps>
+</VueExercise>
+
 Antoine met un pull bleu.
 
-Antoine pénètre plus loin dans la forêt et il y trouve une jolie femme avec des cheveux longs et blonds.
+Antoine pénètre plus loin dans la forêt.
 
 Les oiseaux que Antoine aime bien sont dans la forêt. Antoine sait beaucoup sur les animaux.
 
 Mais Antoine amerait savoir encore plus sur les animaux. C'est pourquoi il rentre, prends son argent et
 va à un magasin pour y acheter un livre sur les animaux de la forêt.
+
+<VueExercise lg="fr" :topics="['savoir ou connaître']" instruction="Remplis les trous avec savoir ou connaître à la bonne conjugaison!">
+<VueMCGaps lg="fr" :gaptexts="['Antoine {sait} faire la cuisine.',
+'Je ne {sais} pas comment préparer une poule parce que je ne mange que de la nourriture crue.',
+'Antoine {connaît} une recette pour préparer une poule.',
+'Les poules ne {connaissent} jamais Antoine parce que celui-ci les a tués d\'abord.']">
+
+</VueMCGaps>
+</VueExercise>
 
 <img src="@/assets/img/francais/poule.png" style="height:200px; float: right;"></img>
 Antoine ne connaît pas encore les choses qui sont écrites dans le livre. 
@@ -161,18 +206,40 @@ Antoine ne connaît pas encore les choses qui sont écrites dans le livre.
 Il lit que les poules sont très delicieuses quand on les mange. Par conséquent, il revient 
 dans la forêt pour y en chasser une.
 
+
+
 <img src="@/assets/img/francais/antoineloupe.png" style="height:200px; float: right;"></img>
 Antoine lit aussi dans le livre que quelques animaux volent des poules.
 
 Antoine aime beaucoup la forêt où il y a beaucoup d'animaux. 
 
-Dans le livre, il apprend que les paysans en ont beaucoup. Il va donc chez le paysan qui
+Dans le livre, il apprend que les paysans en ont beaucoup. 
+<VueExercise lg="fr" :topics="['beaucoup de, quelques, peu de, assez de, trop de', 'les quantités imprécises']" instruction="Remplis les trous avec beaucoup de, pas mal de, quelques, peu de ou assez de!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['Antoine a mangé {trop|} de poules et il a des maux de ventre maintenant.',
+'Sa femme a simplement mangé {assez|} de poules et elle n\'a plus faim maintenant.',
+'Dans la forêt, il y a {beaucoup|} d\'arbres.',
+'Antoine ne mange que {peu|} de viande lui-même parce que il vend la plupart des animaux qu\'il a chassés.',
+'Parfois, Antoine trouve {quelques|} noix dans la forêt et il les mange.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Il va donc chez le paysan qui
 habite le plus proche.
 
 Il va à la ferme. Il monte dans sa voiture. Il met la clé de sa voiture sur la chaise à côté de lui.
 
 Il conduit très vite parce qu'il est pressé. Après être arrivé à la ferme, il ne cherche pas le paysan,
 mais il cherche les poules.
+
+<VueExercise lg="fr" :topics="['Après ou avant']" instruction="Remplis les trous avec après ou avant!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['{Après|} avoir mangé trop de poules, Antoine a des maux de ventre.',
+'{Avant|} que Antoine ne mange les poules, il les prépare dans sa cuisine.',
+'{Après|} avoir lu la recette, Antoine prépare la poule qu\'il a chassée.',
+'{Avant|} que Antoine ne lit la recette, il met ses lunettes.']">
+
+</VueMCGaps>
+</VueExercise>
 
 Il vole toutes les poules qui sont dans la cage à côté de la ferme. Il sait que les poules sont
 delicieuses.
