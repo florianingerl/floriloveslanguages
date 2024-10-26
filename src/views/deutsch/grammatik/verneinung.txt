@@ -1,0 +1,193 @@
+
+
+Q 1 
+Ich habe * das Buch
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 2 
+* gelesen, sondern ich habe nur den Film angeschaut. <br>
+
+Réponses:
+X
++-
+Explic:
+
+Q 3 
+Ich habe * das Buch
+
+Réponses:
+X
++-
+Explic:
+
+Q 4 
+* gelesen, sondern ich habe es nur eingekauft und in mein Bücherregal gestellt. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 5 
+Er hat * den Salat
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 6 
+* bestellt, sondern er hat die Suppe bestellt. <br>
+
+Réponses:
+X
++-
+Explic:
+
+Q 7 
+Er hat * den Salat
+
+Réponses:
+X
++-
+Explic:
+
+Q 8 
+* gekauft, sondern er hat ihn selbst angebaut. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 9 
+Ich stehe * um 4 Uhr morgens
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 10 
+* auf, sondern erst um 7 Uhr. <br>
+
+Réponses:
+X
++-
+Explic:
+
+Q 11 
+Ich stehe * um 4 Uhr morgens
+
+Réponses:
+X
++-
+Explic:
+
+Q 12 
+* auf, sondern um 4 Uhr morgens schlafe ich noch. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 13 
+* (d/D)as Haus ist
+
+Réponses:
+Nicht
++-
+Explic:
+
+Q 14 
+* groß, sondern nur der Garten. <br>
+
+Réponses:
+X
++-
+Explic:
+
+Q 15 
+* (d/D)as Haus ist
+
+Réponses:
+X
++-
+Explic:
+
+Q 16 
+* groß, sondern es ist klein. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 17 
+Ich habe * die Jacke
+
+Réponses:
+X
++-
+Explic:
+
+Q 18 
+* angezogen, sondern ich habe sie in der Gaderobe gelassen. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 19 
+Ich habe * die Jacke
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 20 
+* angezogen, sondern nur einen Pullover. <br>
+
+Réponses:
+X
++-
+Explic:
+
+Q 21 
+Ich habe * die Zusammenfassung
+
+Réponses:
+X
++-
+Explic:
+
+Q 22 
+* mit meinem Füller geschrieben, sondern mit meinem Bleistift. <br>
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 23 
+Ich habe * die Zusammenfassung
+
+Réponses:
+nicht
++-
+Explic:
+
+Q 24 
+* mit meinem Füller geschrieben, sondern nur die Einleitung. <br>
+
+Réponses:
+X
++-
+Explic:

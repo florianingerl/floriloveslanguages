@@ -1,0 +1,104 @@
+Subjekt-und Objektsätze
+
+Dans le test ci-dessous, formez des phrases de sujets (Subjektsätze) ou des phrases d'objects (Objektsätze) comme dans les exemples :
+ 
+
+ 
+
+Exemple pour une phrase de sujet:
+
+Sie ist wunderschön. Sie kann ein Top-Modell werden. -> Wer wunderschön ist, kann ein Top-Modell werden.
+
+ 
+
+Exemples pour une phrase d'object:
+
+Der Koch bereitet es zu. Die Kunden wollen es essen. -> Der Koch bereitet das zu, was die Kunden essen wollen.
+
+Ich vertraue ihm. Ich kenne ihn gut. -> Ich vertraue dem, den ich gut kenne.
+
+ 
+
+Maintenant, c'est à vous de former des phrases! Bonne chance!
+
+
+
+Q 1 
+Er hat keinen Spielstein mehr, er hat verloren. -> *, hat verloren.
+
+Réponses:
+Wer keinen Spielstein mehr hat
++-
+Explic:
+
+Q 2 
+Der Ehemann isst es. Die Ehefrau hat es eingekauft. -> Der Ehemann isst, *.
+
+Réponses:
+was die Ehefrau eingekauft hat
++-
+Explic:
+
+Q 3 
+Ich danke ihm. Ich bin ihm zu Dank verpflichtet. -> Ich danke, *.
+
+Réponses:
+wem ich zu Dank verpflichtet bin
++-
+Explic:
+
+Q 4 
+Er behauptet es. Es nützt ihm. -> Er behauptet, *.
+
+Réponses:
+was ihm nützt
++-
+Explic:
+
+Q 5 
+Er ist zu spät gekommen, er bekommt keinen Sitzplatz. -> *, bekommt keinen Sitzplatz.
+
+Réponses:
+Wer zu spät gekommen ist
++-
+Explic:
+
+Q 6 
+Ich tue es. Du hast es mir befohlen. -> Ich tue, *.
+
+Réponses:
+was du mir befohlen hast
++-
+Explic:
+
+Q 7 
+Ich erkläre es. Du willst es wissen. -> Ich erkläre, *.
+
+Réponses:
+was du wissen willst
++-
+Explic:
+
+Q 8 
+Wir loben ihn. Wir sind begeistert von ihm. -> Wir loben, *.
+
+Réponses:
+von wem wir begeistert sind
++-
+Explic:
+
+Q 9 
+Er arbeitet nicht, er verdient kein Geld. -> *, verdient kein Geld.
+
+Réponses:
+Wer nicht arbeitet
++-
+Explic:
+
+Q 10 
+Ich kaufe es ein. Es ist billig. -> Ich kaufe ein, *.
+
+Réponses:
+was billig ist
++-
+Explic:
