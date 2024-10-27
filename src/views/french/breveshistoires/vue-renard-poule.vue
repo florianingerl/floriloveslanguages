@@ -130,7 +130,7 @@ Affaire conclue!
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
+import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 
 export default defineComponent ({

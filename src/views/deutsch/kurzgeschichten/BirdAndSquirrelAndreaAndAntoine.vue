@@ -116,7 +116,7 @@ Ende
 
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
-import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
+import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
     
     export default defineComponent ({

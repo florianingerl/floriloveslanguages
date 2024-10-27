@@ -210,7 +210,7 @@ The interviewer didn't have to give up. What made his business flourish was the 
 
 <script>
 import VueGaps from "./../../vue-gaps.vue";
-import VueMCGaps from "./../../vue-mc-gaps.vue";
+import VueMCGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";

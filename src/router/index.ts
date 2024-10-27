@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 //import HomeView from '@/views/HomeView.vue';
 import HomeView from '@/views/vue-home.vue'
-import VueDict from "@/components/atoms/layouts/vue-dict.vue";
+import VueDict from "@/components/atoms/layouts/Dictionary.vue";
 import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
 import VueEnglish from "@/views/english/vue-english.vue";
 import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
-import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
-import VueVogelMarcia from "@/views/deutsch/kurzgeschichten/vue-marcia-vogel.vue";
-import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/vue-vogel-und-eichhoernchen.vue";
+import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/CatVanessa.vue";
+import VueVogelMarcia from "@/views/deutsch/kurzgeschichten/BirdMarcia.vue";
+import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/BirdAndSquirrelAndreaAndAntoine.vue";
 import VueFrancais from "@/views/french/NavigationFrench.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";

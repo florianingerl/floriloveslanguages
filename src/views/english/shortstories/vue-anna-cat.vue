@@ -114,7 +114,7 @@ In the end, this mission turned into an amazing travel experience for Gareth and
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import VueMCGaps from "../../../components/atoms/vue-mc-gaps.vue";
+import VueMCGaps from "../../../components/atoms/MCGaps.vue";
 import VueExercise from "../../../components/atoms/Exercise.vue";
 import VueWholeSentence from "../../../components/atoms/WholeSentences.vue";
 import VueHideShow from "../../../components/atoms/HideShow.vue";

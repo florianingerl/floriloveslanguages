@@ -52,7 +52,7 @@ This is just a stupid test
 import VueExercise from "./../../Exercise.vue";
 import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
-import VueMCGaps from "./../../vue-mc-gaps.vue";
+import VueMCGaps from "./../../MCGaps.vue";
 import VueWordOrder from "./../../vue-word-order.vue";
 
 export default {

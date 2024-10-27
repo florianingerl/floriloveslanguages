@@ -610,7 +610,7 @@ Although Dave often got these bonuses, usually he wasn't ready to share the mone
 
 import { defineComponent } from "vue";
 
-import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
+import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";

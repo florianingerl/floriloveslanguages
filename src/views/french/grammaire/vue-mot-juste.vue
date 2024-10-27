@@ -24,7 +24,7 @@ Puis reviens et fais le test ci-dessous.
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueMCGaps from "./../../vue-mc-gaps.vue";
+import VueMCGaps from "./../../MCGaps.vue";
 
 export default {
   name: "VueNeExpletif",

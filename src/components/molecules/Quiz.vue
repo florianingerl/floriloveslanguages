@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import VueMCGaps from "./vue-mc-gaps.vue";
+import VueMCGaps from "./MCGaps.vue";
 import VueQuestion from "./Question.vue";
 import VueImage from "./vue-image.vue";
 

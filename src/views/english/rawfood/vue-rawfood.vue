@@ -348,7 +348,7 @@ the cells.
 
 <script>
 import VueGaps from "./../../vue-gaps.vue";
-import VueMcGaps from "./../../vue-mc-gaps.vue";
+import VueMcGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
