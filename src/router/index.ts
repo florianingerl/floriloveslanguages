@@ -8,7 +8,7 @@ import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/vue-katze-vanessa.vue";
 import VueVogelMarcia from "@/views/deutsch/kurzgeschichten/vue-marcia-vogel.vue";
 import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/vue-vogel-und-eichhoernchen.vue";
-import VueFrancais from "@/views/french/vue-francais.vue";
+import VueFrancais from "@/views/french/NavigationFrench.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
 import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vue";

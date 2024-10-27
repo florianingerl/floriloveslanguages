@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import VueQuiz from "./vue-quiz.vue";
+import VueQuiz from "./Quiz.vue";
 
 export default {
 

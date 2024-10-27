@@ -118,7 +118,7 @@ import VueMCGaps from "../../../components/atoms/vue-mc-gaps.vue";
 import VueExercise from "../../../components/atoms/vue-exercise.vue";
 import VueWholeSentence from "../../../components/atoms/vue-whole-sentence.vue";
 import VueHideShow from "../../../components/atoms/vue-hideshow.vue";
-import VueWordOrder from "../../../components/atoms/vue-word-order.vue";
+import VueWordOrder from "../../../components/molecules/WordOrder.vue";
 
 export default defineComponent ({
   name: "VueAnnaCat",

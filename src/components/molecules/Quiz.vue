@@ -169,7 +169,7 @@ export default {
     if(!this.questions){
       this.questions = [
              {
-		question: "Das ist eine Test-Frage aus vue-quiz.vue?",
+		question: "Das ist eine Test-Frage aus Quiz.vue?",
 		imageUrl: "assets/img/rawfood/brokolisalat.JPG",
 		type: "multiple choice",
 		options: [{option:"Süßlupinen", correct: false },
@@ -180,7 +180,7 @@ export default {
 	    },
 
          {
-		question: "Das ist die zweite Test-Frage aus vue-quiz.vue!",
+		question: "Das ist die zweite Test-Frage aus Quiz.vue!",
 		imageUrl: "assets/img/rawfood/brokolisalat.JPG",
 		type: "multiple choice",
 		options: [{option:"Süßlupinen", correct: false },

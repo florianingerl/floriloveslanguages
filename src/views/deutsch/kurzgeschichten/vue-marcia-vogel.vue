@@ -105,7 +105,7 @@ In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bi
     import VueHideShow from "@/components/atoms/vue-hideshow.vue";
 
 import VueExercise from "@/components/atoms/vue-exercise.vue";
-import VueWordOrder from "@/components/atoms/vue-word-order.vue";
+import VueWordOrder from "@/components/molecules/WordOrder.vue";
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
     
     export default defineComponent ({
