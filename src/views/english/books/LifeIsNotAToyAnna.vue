@@ -529,7 +529,7 @@ The smallest of these obstacles is my son Alexander which doesn't want to help b
 So we can not count an him as in the past.
 And the bank has just informed me, that they have set a limit for a credit they would grant us."
 
-<VueExercise lg="en" :topics="['Superlatif']" instruction="Fill in the gaps by a superlatif!">
+<VueExercise lg="en" :topics="['The superlative of adjectives']" instruction="Fill in the gaps by a superlatif!">
 <VueMCGaps lg="en" :gaptexts="['As the boss, Edwin takes care of {the most difficult|the easiest} tasks in the company.',
 'Fred only employs {the cheapest|the most expensive} workers from China to produce the toys.',
 'Fred gives them {the lowest|the highest} salary that is still legal.']">
@@ -557,7 +557,7 @@ I am thus a trained convincer and if I go to the bank, I am sure that I can conv
  And you are proud to succeed in letting your wife wait while you get in there first. 
  This isn't the same as making the bank consultant do what we want."
 
-<VueExercise lg="en" :topics="['Male and female nouns']" instruction="Fill in the gaps by the male noun!">
+<VueExercise lg="en" :topics="['Nouns and gender', 'Masculine and feminine nouns']" instruction="Fill in the gaps by the male noun!">
 <VueMCGaps lg="en" :gaptexts="['An ugly woman usually can\'t find a {husband} (wife).',
 'A girl with a face covered with spots has low chances of finding a {boyfriend} (girlfriend).',
 'The {brother} (sister) of Edwin is a bodybuilder.']">
@@ -579,22 +579,68 @@ I am thus a trained convincer and if I go to the bank, I am sure that I can conv
  </VueExercise>
 
 "Okay, thank you, Dave for taking care about this problem for us! 
-Just don't ruin it because then the bank might freeze our accunt" warned him Fred. 
-"But if you succeed, you will get a bonus!"
+Just don't ruin it because then the bank might freeze our account" warned him Fred. 
+"Should you succeed, you will get a bonus!"
 
-<VueExercise lg="en" :topics="['Conditional sentences']" instruction="Form conditional sentences that make sense!">
-<p>Example: </p>
+<VueExercise lg="en" :topics="['Inverted conditional sentences']" instruction="Form inverted conditional sentences that make sense as in the example!">
+<p>Example 1: Edwin/need/rest/lock/room/Yoga -> Should Edwin need some rest, he will lock himself in his room and do Yoga.</p>
+
+<ol>
+<li>Edwin's children/annoy/occupy/new/toy</li>
+<li>Dave/argue/wife/all the time/negotiate/bank</li>
+<li>bank/limit/credit/Fred/schedule/urgent/meeting</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>Should Edwin's children annoy him, he just occupies them with some new toy.</li>
+<li>Were Dave not to argue with his wife all the time, he wouldn't be able to negotiate with the bank.</li>
+<li>Had the bank not set a limit for their credit, Fred wouldn't have scheduled an urgent meeting.</li>
+</ol>
+</VueHideShow>
 </VueExercise>
 
 After that mission had been given thus to Dave, the meeting ended and
 Dave went home to his wife, having a clear plan in mind.
 Of course, he would go to the bank together with his beautiful wife.
-Not only would his wife distract and soften the bank consultant by her beauty, but she could also make the bank consultant dizzy by offering some special tea to him and by flirting a bit with him. Her influence - Dave knew - was irresistable.
-His wife was in a good mood that day and she agreed to help him so they went to city centre to the bank together. 
+Not only would his wife distract and soften the bank consultant by her beauty, 
+but she could also make the bank consultant dizzy by offering some special tea to him and 
+by flirting a bit with him. Her influence - Dave knew - was irresistable.
+
+<VueExercise lg="en" :topics="['Negative prefixes', 'Negative adjectifs using prefixes']" instruction="Fill in the gaps by the corresponding negative adjectifs! You get the negative adjectif by adding the correct prefix!">
+<VueMCGaps lg="en" :gaptexts="['Five is an {uneven} (even) number.',
+'The plans of Fred\'s company are sometimes {impossible} (possible) to finance.',
+'The small children of Edwin act sometimes in an {irresponsible} (responsible) way, making Edwin tired.']">
+
+</VueMCGaps>
+</VueExercise>
+
+His wife was in a good mood that day and she agreed to help him so they went to the bank in the city center together. 
 They found a young bank consultant who immediately started admiring his beautiful wife.
 "Break a leg!" whispered his wife to Dave's ear as he started to present his case. After only five minutes of talking and defending his company, the bank consultant cancelled the limit completely.
-After having tbus achieved the Dave's company's interests, the couple went outside and
-Dave's wife Treena, began: "Just to clarify something. I never help anyone for free, including you. In return for my assistance know, you not only have to sort our trash for the rest of the year but also you need to invite me now for lunch to my preferred restaurant. It's the Japanese Shusy restaurant just around the corner . Let's go! "
+
+<VueExercise lg="de" :topics="['Break a leg', 'The expression: Break a leg']" instruction="Answer the question!">
+<VueQuestion lg="de" :question="{
+		question: 'What does the expression <<Break a leg!>> mean?',
+		options: [{option:'Beat your enemy!', correct: false },
+     {option:'Good luck!', correct: true },
+     {option:'Don\'t be afraid!', correct: false } ,
+     {option:'Start!', correct: false }
+     ]
+	    }" :hasNextButton="false" /></VueExercise>
+
+After having thus achieved Dave's company's interests, the couple went outside and
+Dave's wife Treena, began: "Just to clarify something. I never help anyone for free,
+ including you. In return for my assistance know, you not only have to sort our trash for the rest of the year 
+ but also you need to invite me now for lunch to my preferred restaurant. 
+ It's the Japanese Shusy restaurant just around the corner . Let's go! "
+
+<VueExercise lg="en" :topics="['Conjunctions']" instruction="Fill in the gaps by the conjunction that fits best!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['{Before|} the whole company could celebrate, Dave had to make the bank let down the credit limit.',
+'{After}']">
+
+</VueMCGaps>
+</VueExercise>
+
 "Of course, my beautiful, cute wife" agreed Dave immediately. "You are the best thing in my life and a very talented woman so you deserve this nice meal right now." he continued, flattering his wife because he knew that she loved the flattery. But he wisely didn't share what their success today really meant: a hopefully big bonus from Fred that he can maybe spend on nice things for himself.
 How Treena and Dave found one another is an interesting story. They didn't get together via an online dating service or Facebook. In fact, they knew each other since primary school, Dave had always given Treena some structure and Treena has given some creativity to Dave, so they profited a lot from each other.
 But they also had a few things in common. For example, they both liked expensive and fashionable clothes and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and get married at the young age of 18.
