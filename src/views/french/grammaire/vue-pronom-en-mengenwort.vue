@@ -45,8 +45,8 @@ Quel fruit contient beaucoup de magnesium?
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 
 export default {
   name: "VuePronomEnAvecMengenwort",

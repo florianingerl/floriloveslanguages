@@ -19,7 +19,7 @@ import type { PropType } from "vue";
 import type { WordOrderExercise } from "../../types/WordOrderExercise.ts";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import VueHideShow from '@/components/atoms/vue-hideshow.vue';
+import VueHideShow from '@/components/atoms/HideShow.vue';
 import type { Languages } from "../../types/Languages.ts";
 
 

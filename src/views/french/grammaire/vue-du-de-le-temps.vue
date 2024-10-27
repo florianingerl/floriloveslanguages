@@ -52,8 +52,8 @@ Non, je n'ai pas le temps (de/pour jouer aux cartes avec toi).
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
 

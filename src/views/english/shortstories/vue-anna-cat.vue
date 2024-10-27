@@ -115,9 +115,9 @@ In the end, this mission turned into an amazing travel experience for Gareth and
 import { defineComponent } from "vue";
 
 import VueMCGaps from "../../../components/atoms/vue-mc-gaps.vue";
-import VueExercise from "../../../components/atoms/vue-exercise.vue";
+import VueExercise from "../../../components/atoms/Exercise.vue";
 import VueWholeSentence from "../../../components/atoms/WholeSentences.vue";
-import VueHideShow from "../../../components/atoms/vue-hideshow.vue";
+import VueHideShow from "../../../components/atoms/HideShow.vue";
 import VueWordOrder from "../../../components/molecules/WordOrder.vue";
 
 export default defineComponent ({

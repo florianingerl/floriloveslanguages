@@ -49,8 +49,8 @@ This is just a stupid test
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueMCGaps from "./../../vue-mc-gaps.vue";
 import VueWordOrder from "./../../vue-word-order.vue";

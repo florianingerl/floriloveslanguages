@@ -38,8 +38,8 @@ Il y a déjà de l'huile d'olive dans ma salade. Pourtant, j'en rajoute un peu p
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {

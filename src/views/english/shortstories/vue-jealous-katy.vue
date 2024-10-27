@@ -218,8 +218,8 @@ Katy was over the moon that Brian was no longer in love with Sonja and she had a
 import { defineComponent } from "vue";
 
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
-import VueExercise from "@/components/atoms/vue-exercise.vue";
-import VueHideShow from "@/components/atoms/vue-hideshow.vue";
+import VueExercise from "@/components/atoms/Exercise.vue";
+import VueHideShow from "@/components/atoms/HideShow.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 
 export default defineComponent ({

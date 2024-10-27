@@ -112,9 +112,9 @@ Ende
     <script lang="ts">
     import { defineComponent } from "vue";
 
-    import VueHideShow from "@/components/atoms/vue-hideshow.vue";
+    import VueHideShow from "@/components/atoms/HideShow.vue";
 
-import VueExercise from "@/components/atoms/vue-exercise.vue";
+import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";

@@ -28,7 +28,7 @@ Un écrivain prend souvent de l'inspiration des autres écrivains.
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
+import VueExercise from "./../../Exercise.vue";
 import VueMCGaps from "./../../vue-mc-gaps.vue";
 
 export default {

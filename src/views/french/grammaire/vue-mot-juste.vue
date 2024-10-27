@@ -23,7 +23,7 @@ Puis reviens et fais le test ci-dessous.
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
+import VueExercise from "./../../Exercise.vue";
 import VueMCGaps from "./../../vue-mc-gaps.vue";
 
 export default {

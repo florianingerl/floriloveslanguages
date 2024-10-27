@@ -565,8 +565,8 @@ Exemple: Les noix sont surtout gras.
 <script>
 import VueGaps from "./../../vue-gaps.vue";
 import VueQuestion from "./../../Question.vue";
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueWholeSentences from "./../../WholeSentences.vue"; 
 
 export default {

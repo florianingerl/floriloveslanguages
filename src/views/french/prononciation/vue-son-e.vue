@@ -24,8 +24,8 @@ revenez ici et faites mon test en remplissant les trous! Bonne chance!
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {

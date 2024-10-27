@@ -131,7 +131,7 @@ Affaire conclue!
 import { defineComponent } from "vue";
 
 import VueMCGaps from "@/components/atoms/vue-mc-gaps.vue";
-import VueExercise from "@/components/atoms/vue-exercise.vue";
+import VueExercise from "@/components/atoms/Exercise.vue";
 
 export default defineComponent ({
   

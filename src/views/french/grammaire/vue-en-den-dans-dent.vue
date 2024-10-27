@@ -42,8 +42,8 @@ C'est à vous maintenant de remplir les trous avec "en", "d'en", "dans" ou "dent
 </template>
 
 <script>
-import VueExercise from "./../../vue-exercise.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueExercise from "./../../Exercise.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
 

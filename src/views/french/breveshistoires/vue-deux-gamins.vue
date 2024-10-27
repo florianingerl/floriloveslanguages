@@ -105,9 +105,9 @@ Heureusement, il n'y avait pas souvent de conflit entre les deux amis, et s'il e
 import VueGaps from "./../../vue-gaps.vue";
 import VueMCGaps from "./../../vue-mc-gaps.vue";
 import VueQuestion from "./../../Question.vue";
-import VueExercise from "./../../vue-exercise.vue";
+import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../vue-hideshow.vue";
+import VueHideShow from "./../../HideShow.vue";
 import VueImage from "./../../vue-image.vue";
 
 export default {
