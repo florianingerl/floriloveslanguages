@@ -491,7 +491,7 @@ Sometimes he pretended to be on the phone and had a fake call. But he was not a 
 
 <VueExercise lg="en" :topics="['Somewhere, sometime, somebody, something']" instruction="Fill in the gaps by somewhere, sometime, somebody or something!">
 <VueMCGaps lg="en" :gaptexts="['Some people are always unhappy whereever they are and want to be {somewhere} else.',
-'Edwin was tired. He needed to to {something} relaxing.',
+'Edwin was tired. He needed to do {something} relaxing.',
 '{Somebody} had cleaned the floor of his office, probably his wife or his oldest daughter.',
 'Edwin should take better care of himself {sometime} in the future.']">
 
@@ -548,7 +548,7 @@ I am thus a trained convincer and if I go to the bank, I am sure that I can conv
 
  <VueExercise lg="en" :topics="['That\'s why or because']" instruction="Fill in the gaps by either because or that's why">
 <VueMCGaps lg="en" :same="true" :gaptexts="['{Because|} nobody had objections, Dave got the job to talk to the bank.',
-'{That\'s why|} Dave skipped his favorite series on television and prepared to got to the bank.']">
+'{That\'s why|} Dave skipped his favorite series on television and prepared to go to the bank.']">
 
 </VueMCGaps>
  </VueExercise>
@@ -636,17 +636,72 @@ Dave's wife Treena, began: "Just to clarify something. I never help anyone for f
 
 <VueExercise lg="en" :topics="['Conjunctions']" instruction="Fill in the gaps by the conjunction that fits best!">
 <VueMCGaps lg="en" :same="true" :gaptexts="['{Before|} the whole company could celebrate, Dave had to make the bank let down the credit limit.',
-'{After}']">
+'{After|} the whole company had celebrated, everyone went home.',
+'{While|} I am writing all this, I am thinking about that these are not high quality exercises, but they are fast and cheap and you can still learn something from them.']">
 
 </VueMCGaps>
 </VueExercise>
 
-"Of course, my beautiful, cute wife" agreed Dave immediately. "You are the best thing in my life and a very talented woman so you deserve this nice meal right now." he continued, flattering his wife because he knew that she loved the flattery. But he wisely didn't share what their success today really meant: a hopefully big bonus from Fred that he can maybe spend on nice things for himself.
-How Treena and Dave found one another is an interesting story. They didn't get together via an online dating service or Facebook. In fact, they knew each other since primary school, Dave had always given Treena some structure and Treena has given some creativity to Dave, so they profited a lot from each other.
-But they also had a few things in common. For example, they both liked expensive and fashionable clothes and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and get married at the young age of 18.
-With Dave receiving very often big bonuses from his boss Fred, it is clear that he could afford all the afore mentioned expensive stuff.
-What is less obvious is, how his wife managed to fulfill her need for the most expensive thiings.
-Although Dave often got these bonuses, usually he wasn't ready to share the money with his wife. On the other hand, whenever he got some new toys from the company, he always gave those to Treena which the woman hated and this was one of the reasons why they argued a lot.
+"Of course, my beautiful, cute wife" agreed Dave immediately. 
+"You are the best thing in my life and a very talented woman so you deserve this nice meal right now." he continued.
+He was flattering his wife because he knew that she loved the flattery. But he wisely didn't share what their success today really meant: 
+a hopefully big bonus from Fred that he can maybe spend on nice things for himself.
+
+<VueExercise lg="en" :topics="['The superlative of adjectives']" instruction="Fill in the gaps by the correct superlatif!">
+<VueMCGaps lg="en" :gaptexts="['Dave says to his wife: <<You are the {most beautiful} (beautiful) woman in the world!',
+'As your husband, I am the {happiest} (happy) man on earth.',
+'I would follow you to the {farthest} (far) place on earth.>>']">
+
+</VueMCGaps>
+</VueExercise>
+
+How Treena and Dave found one another is an interesting story. They didn't get together via an online dating service 
+or Facebook. In fact, they knew each other since primary school, Dave had always given Treena some structure and Treena 
+had given some creativity to Dave, so they profited a lot from each other.
+
+<VueExercise lg="en" :topics="['Past perfect or simple past']" instruction="Fill in the gaps by the given verb in the past perfect or the simple past!">
+<VueMCGaps lg="en" :gaptexts="['After Dave and Treena {had seen} (see) each other for the first time, they immediately {married} (marry).',
+'Before Treena {could} (can) marry Dave, she {had asked} (ask) her mother and father for their approval.',
+'After her parents {had given} (give) their permission, Treena {married} (marry) Dave.']">
+
+</VueMCGaps>
+</VueExercise>
+
+But they also had a few things in common. For example, they both liked expensive and fashionable clothes 
+and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and 
+get married at the young age of 18.
+
+<VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['{For|} her wedding with Dave, Treena had bought a nice wedding dress.',
+'The wedding dress wasn\'t too tight, so Treena felt comfortable {in|} it.',
+'Only {at|} midnight, the wedding party was over.']">
+
+</VueMCGaps>
+</VueExercise>
+
+With Dave receiving very often big bonuses from his boss Fred, it is clear that he could afford all the afore mentioned 
+expensive stuff. What is less obvious is, how his wife managed to fulfill her need for the most expensive things.
+Although Dave often got these bonuses, usually he wasn't ready to share the money with his wife. 
+On the other hand, whenever he got some new toys from the company, he always gave those to Treena which the woman hated and this was one of the reasons why they argued a lot.
+
+<VueExercise lg="en" :topics="['Emphasis with what ... + is/was']" instruction="Emphasis the underlined part as in the example!">
+<p>Example 1: <u>More free time</u> would make me happier. -> What would make me happier is more free time.</p>
+<p>Example 2: You should <u>tidy up your room more regularly</u>. -> What you should do, is tidy up your room more regularly.</p>
+
+<ol>
+<li>You should <u>learn more English</u></li>
+<li><u>Dave's wife</u> makes him happy.</li>
+<li><u>Her eyes</u> make Treena such a beauty.</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>What you should do, is learn more English.</li>
+<li>What makes Dave happy is his wife.</li>
+<li>What makes Treena such a beauty are her eyes.</li>
+</ol>
+</VueHideShow>
+</VueExercise>
+
 
 </div>
 
