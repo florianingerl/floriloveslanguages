@@ -55,7 +55,7 @@ Some more examples like this:
 import VueExercise from "./../../vue-exercise.vue";
 import VueHideShow from "./../../vue-hideshow.vue";
 import VueGaps from "./../../vue-gaps.vue";
-import VueWholeSentence from "./../../vue-whole-sentence.vue";
+import VueWholeSentence from "./../../WholeSentences.vue";
 
 export default {
   name: "VueEnoughToo",

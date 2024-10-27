@@ -93,9 +93,9 @@ connerie.
 
 <script lang="ts">
 import VueMCGaps from "../../../components/atoms/vue-mc-gaps.vue";
-//import VueQuestion from "./../../../components/vue-question.vue";
+//import VueQuestion from "./../../../components/Question.vue";
 import VueExercise from "../../../components/atoms/vue-exercise.vue";
-import VueWholeSentence from "../../../components/atoms/vue-whole-sentence.vue";
+import VueWholeSentence from "../../../components/atoms/WholeSentences.vue";
 import VueHideShow from "../../../components/atoms/vue-hideshow.vue";
 import { defineComponent } from "vue";
 

@@ -97,9 +97,9 @@ couloir secret où il y a beaucoup de souris à manger ! >> Et l'homme montre le
 <script>
 import VueGaps from "./../../vue-gaps.vue";
 import VueMCGaps from "./../../vue-mc-gaps.vue";
-import VueQuestion from "./../../vue-question.vue";
+import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../vue-exercise.vue";
-import VueWholeSentence from "./../../vue-whole-sentence.vue";
+import VueWholeSentence from "./../../WholeSentences.vue";
 import VueHideShow from "./../../vue-hideshow.vue";
 import VueImage from "./../../vue-image.vue";
 

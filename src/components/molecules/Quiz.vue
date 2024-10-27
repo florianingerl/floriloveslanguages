@@ -46,7 +46,7 @@
 
 <script>
 import VueMCGaps from "./vue-mc-gaps.vue";
-import VueQuestion from "./vue-question.vue";
+import VueQuestion from "./Question.vue";
 import VueImage from "./vue-image.vue";
 
 export default {

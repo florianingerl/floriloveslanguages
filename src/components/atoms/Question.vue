@@ -122,7 +122,7 @@ export default defineComponent ({
     if(!this.question2){
       this.question2 = 
       {
-		question: "Das ist eine Test-Frage aus vue-question.vue?",
+		question: "Das ist eine Test-Frage aus Question.vue?",
 		imageUrl: "assets/img/rawfood/brokolisalat.JPG",
 		options: [{option:"Süßlupinen", correct: false },
      {option:"Brokoli", correct: false }, 

@@ -92,10 +92,10 @@ et en est le résumé. La Gîtâ affirme l'unité de la vie et sert parfaitement
 
 <script>
 import VueGaps from "./../../vue-gaps.vue";
-import VueQuestion from "./../../vue-question.vue";
+import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../vue-exercise.vue";
 import VueHideShow from "./../../vue-hideshow.vue";
-import VueWholeSentences from "./../../vue-whole-sentence.vue"; 
+import VueWholeSentences from "./../../WholeSentences.vue"; 
 
 export default {
   
