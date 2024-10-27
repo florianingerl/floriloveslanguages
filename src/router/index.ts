@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/vue-home.vue'
 import VueDict from "@/components/atoms/layouts/Dictionary.vue";
 import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
-import VueEnglish from "@/views/english/vue-english.vue";
-import VueDeutsch from "@/views/deutsch/vue-deutsch.vue";
+import VueEnglish from "@/views/english/NavigationEnglish.vue";
+import VueDeutsch from "@/views/deutsch/NavigationGerman.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/CatVanessa.vue";
 import VueVogelMarcia from "@/views/deutsch/kurzgeschichten/BirdMarcia.vue";
 import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/BirdAndSquirrelAndreaAndAntoine.vue";
@@ -15,7 +15,7 @@ import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vu
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
-import VueAnnaStory from "@/views/english/books/vue-anna-story.vue";
+import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueSignUp from "@/views/vue-signup.vue";
 import VueLogin from "@/views/vue-login.vue";
