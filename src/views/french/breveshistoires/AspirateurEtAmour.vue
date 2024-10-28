@@ -22,7 +22,7 @@ Fabrice avait bien réussi à élever son estime d'elle même.
 <VueExercise lg="fr" :topics="['Adjectif opposé']" instruction="Remplis les trous avec l'adjectif opposé!">
 <VueMCGaps lg="fr" :gaptexts="['Bien que Marion fût très {jolie} (moche), elle n\'avait pas encore trouvé un ami.',
 'Elle avait de {grands} (petit) yeux bleus comme le ciel.',
-'Et elle était si {maigre} (gros) que une balance n\'indiquait que quelques kilos.']">
+'Et elle était si {maigre} (gros) qu\'une balance n\'indiquait que quelques kilos.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -32,7 +32,7 @@ Bien entendu, elle n'eut pas le choix de le lui prêter.
 
 <VueExercise lg="fr" :topics="['Les pronoms possessifs', 'mien,mienne, miens,miennes']" instruction="Remplis les trous avec le pronom possessif qui convient!">
 <VueMCGaps lg="fr" :gaptexts="['Est-ce que je peux emprunter ta voiture. Quelqu\'un a volé la {mienne}.',
-'Les phrases de ma prof de français sont meilleur que les {miennes}.',
+'Les phrases de ma prof de français sont meilleures que les {miennes}.',
 'Je prends le vélo de mon père parce que j\'ai oublié le {mien} à la gare.',
 'Ma prof de français a des cheveux longs, les {miens} sont courts.']">
 
@@ -71,9 +71,9 @@ Marion se sentit un peu embarrassée puisqu'elle venait d'accepter de le prêter
 Comment résoudre ce dilemme? se demanda-t-elle. C'est tout simple, finit-elle par penser, 
 mon voisin habite sur le trajet de ma sœur. Ils n'ont qu'à se débrouiller tous les deux.
 
-<VueExercise lg="fr" :topics="['Les Quantités imprécises']" instruction="Remplis les trous avec peu de, beaucoup de, pas mal de, assez de, trop de, moins de, plus de!">
+<VueExercise lg="fr" :topics="['Les adverbes de quantité']" instruction="Remplis les trous avec peu de, beaucoup de, pas mal de, assez de ou trop de!">
 <VueMCGaps lg="fr" :same="true" :gaptexts="['Fabrice a besoin d\'un aspirateur parce qu\'il y a {beaucoup|} de poussière dans son appartement.',
-'Après que Fabrice a nettoyé son appartement avec l\'aspiratuer, il y ne reste que {peu|} de poussière.',
+'Après que Fabrice a nettoyé son appartement avec l\'aspirateur, il y ne reste que {peu|} de poussière.',
 'Fabrice a bu {trop|} d\'eau et doit maintenant aller aux toilettes tous les deux minutes.',
 'Si tu ne bois pas {assez|} d\'eau pendant la journée, tu auras des maux de tête.']">
 
@@ -110,16 +110,42 @@ Fou de joie, Fabrice lui donna un baiser sur la joue et compta jusqu'à cinq ava
  non seulement les personnages du film mais aussi ceux de la salle de cinéma. >>
 
 <VueExercise lg="fr" :topics="['Les pronoms démonstratif']" instruction="Remplis les trous avec le pronom démonstratif qui convient!">
-<VueMCGaps lg="fr" :gaptexts="['']">
+<VueMCGaps lg="fr" :gaptexts="['Fabrice aiment tous les films mais en particulier {celui} qu\'il va voir ensemble avec la femme de ses rêves Marion.',
+'La joie de Fabrice d\'avoir rencontré Marion est encore plus grande que {celle} de Gérard d\'avoir rencontré Eyana.',
+'Les sièges au cinéma sont plus doux que {ceux} de l\'appartement de Fabrice.',
+'Les lunettes de Fabrice lui permettent de voir plus clairement, {celles} du cinéma permettent de voir le film en 3D.']">
 
 </VueMCGaps>
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
-Ce que disait Eyana était vrai, Fabrice avait lu quelques critiques du film, et il en émanait une impression de liberté et une grande sagesse.
-Mais lorsque les quatre étaient assis dans le cinéma, regardant le film, Fabrice désirait être seul avec son amour Marion. Comment s'y prendre pour faire sortir Eyana et son Gérard?
-Il eut une idée. "Prend ce billet de 100 euros pour je tu me laisses seul avec ta soeur" siffla Fabrice à l'oreille de Eyana. "Tu me ferais un grand plaisir!"
-Et parce que l'argent aide toujours, heureusement, Eyana et Gérard s'en allèrent et dès ce moment, Fabrice étreignit Marion tendrement.
+Ce que disait Eyana était vrai, Fabrice avait lu quelques critiques du film, et il en émanait une impression de liberté 
+et une grande sagesse.
+Mais lorsque les quatre étaient assis dans le cinéma, regardant le film, Fabrice désirait être seul avec son amour Marion. 
+
+<VueExercise lg="fr" :topics="['Ce que, ce qui ou ce dont']" instruction="Remplis les trous avec ce que, ce qui ou ce dont!">
+<VueMCGaps lg="fr" :gaptexts="['L\'ami de Fabrice avait déjà vu le film deux fois {ce qui} veut dire qu\'il le trouve bon.',
+'{Ce que} Marion ne savait pas de Fabrice, c\'était que celui-ci avait 2 ans plus qu\'elle.',
+'{Ce dont} on a besoin pour regarder un film en 3D au cinéma, ce sont des lunettes spéciales.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Comment s'y prendre pour faire sortir Eyana et son Gérard?
+Il eut une idée. "Prend ce billet de 100 euros pour je tu me laisses seul avec ta soeur" siffla Fabrice à l'oreille de Eyana.
+ "Tu me ferais un grand plaisir!"
+
+<VueExercise lg="fr" :topics="['Les parties du corps']" instruction="Remplis les trous avec la partie du corps qui convient!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['Une giraffe a un {cou|} très long.',
+'Pour profiter d\'un film au cinéma, il faut avoir deux {yeux|} en bonne santé.',
+'Pour entendre les paroles des personnages d\'un film, il faut avoir deux {oreilles|} en bonne santé.',
+'Lorsque Fabrice donna son premier baiser à Marion, les {lèvres|} de Marion lui semblaient très douces.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Et parce que l'argent aide toujours, heureusement, Eyana et Gérard s'en allèrent et dès ce moment,
+ Fabrice étreignit Marion tendrement.
 
 Fin!
 
