@@ -9,10 +9,16 @@
       </tr>
     </thead>
     <tbody> 
+
+    <tr>
+    <td>3</td>
+       <td><router-link to="/fr/french/breveshistoires/aspirateuretamour">Un aspirateur n'avale pas l'amour</router-link></td>
+       <td>Flori10</td>
+    </tr>
     
 
    <tr>
-    <td>1</td>
+    <td>2</td>
        <td><router-link to="/fr/french/breveshistoires/antoineetlespoules">Antoine et les poules</router-link></td>
        <td>Flori10</td>
     </tr>

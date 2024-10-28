@@ -15,6 +15,7 @@ import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vu
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
+import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueSignUp from "@/views/vue-signup.vue";
@@ -82,6 +83,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Un aspirateur n\'avale pas l\'amour',
+              path: 'aspirateuretamour',
+              component: VueAspirateurEtAmour
+            },
             {
               name: 'Un renard religieux',
               path: 'renardreligeux',
