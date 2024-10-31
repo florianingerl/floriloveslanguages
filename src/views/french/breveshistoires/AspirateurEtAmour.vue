@@ -2,7 +2,7 @@
 <div>
 
 <h1>Un aspirateur n'avale pas l'amour</h1>
-<h4><i>par Florian Ingerl et <a href="https://mariefaure.fr/">Marie Faure</a></i></h4>
+<h4><i>par Florian Ingerl <!-- et <a href="https://mariefaure.fr/">Marie Faure</a> --></i></h4>
 
 
 <img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>

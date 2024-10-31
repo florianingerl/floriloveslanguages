@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 //import HomeView from '@/views/HomeView.vue';
 import HomeView from '@/views/vue-home.vue'
 import VueDict from "@/components/atoms/layouts/Dictionary.vue";
-import VueAnnaCat from "@/views/english/shortstories/vue-anna-cat.vue";
+import VueAnnaCat from "@/views/english/shortstories/CatAnna.vue";
 import VueEnglish from "@/views/english/NavigationEnglish.vue";
 import VueDeutsch from "@/views/deutsch/NavigationGerman.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/CatVanessa.vue";

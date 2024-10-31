@@ -5,21 +5,124 @@
 <h4><i>von Florian Ingerl und Anna Scakacs</i></h4>
 
 <img style="float: right; height: 200px" src="assets/img/deutsch/katze.JPG"></img>
-Once upon a time, there was a small village in the country which lay on top of a mountain. It was a very cold winter and they were short of food.
-With the lack of food, they struggled a lot to feed themselves and stay healthy. However, there was a young boy in the village, called Anton, who one day volunteered to help solve this food shortage problem, so he went to see the chief of the village.
-Anton had already met the chief of the village several times, because he had become a friend of the chief's daugther Clara.
-Anton didn't have a lot of other friends, he only had Clara and his dog, Benny who was a really loyal animal. Anton spent a lot of time with him and he could always count on Benny.
-"Big chief!" Anton adressed the latter. "Nothing more easy for me than to solve our big hunger problem. With the assistance of my dog, I will catch a big deer. If your daughter would like, I would appreciate also to be accompanied by her as well.
-dear = kind
+Once upon a time, there was a small village in the country which lay on top of a mountain. 
+It was a very cold winter and they were short of food
+<VueExercise lg="en" :topics="['lack, miss or be short of']" instruction="Fill in the gaps by lack, miss or be short of!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['In the village, there was a {lack|} of good hunters, that\'s why they were {short of|} meat.',
+'Everyone in the village {missed|} Helmeth, you had been their best hunter but had recently been killed by a tiger.']">
+</VueMCGaps>
+</VueExercise>
 
-deer - animal
+With the lack of food, they struggled a lot to feed themselves and stay healthy. However, there was a young boy in the village, 
+called Anton, who one day volunteered to help solve this food shortage problem, so he went to see the chief of the village.
+Anton had already met the chief of the village several times, because he had become a friend of the chief's daugther Clara.
+
+<VueExercise lg="en" :topics="['by accident or on purpose']" instruction="Fill in the gaps by <<on purpose>> or by <<by accident>>!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['The villagers thought that God had brought the famine to them {on purpose|}, because he wanted to punish them for their wrongdoings.',
+'Only Anton wasn\'t that superstitious and believed that the famine just came {by accident|}.']">
+
+</VueMCGaps>
+</VueExercise>
+
+Anton didn't have a lot of other friends, he only had Clara and his dog, Benny who was a really loyal animal. 
+Anton spent a lot of time with him and he could always count on Benny.
+"Big chief!" Anton adressed the latter. "Nothing more easy for me than to solve our big hunger problem. 
+With the assistance of my dog, I will catch a big deer. If your daughter wanted to, 
+I would appreciate also to be accompanied by her as well.
+
+<VueExercise lg="en" :topics="['dear or deer']" instruction="Fill in the gaps by dear or deer!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['A {deer|} is an animal that lives in the forest.',
+'The {dear|} daughter of the chief consented to accompany Anton on his adventure.',
+'{Deers|} are hunted by tigers in Indian forests.',
+'The chief had once eaten a whole {deer|} by himself and had left nothing to his tribe, which wasn\'t very {dear|}.']">
+</VueMCGaps>
+</VueExercise>
+
 The proposal announced, the chief looked at the boy with gratitude.
 
-"Yes, I will let my daughter go with you. Bring back a big deer for all of us, children. Be safe! It gets dark very suddenly in the forest and there are also a lot of wild animals. Pay attention to get back before sunset!"
-Unfortunately, it was already starting to get dark. So Clara, Benny and Anton were aware, that they didn't have plenty of time to catch a deer before sunset. They hurried thus into the forest and luckily , they immediately spotted a big deer. How to get hold on it?
-The problem they faced was a huge canyon. The deer was on the other side and there was no bridge to get through the deep abyss. Even just locating it from far away was difficult, let alone firing an arrow to kill it.
-What they needed was a bridge. Useless to fire an arrow from that distance! "Let's take the trunk of this dead tree and lay it over the abyss" suggested Clara. But as she spoke, her voice was a bit shaking because the trunk didn't look so stable with the tree having been dead for a long time probably.
-It was the old age and the unstability of the trunk that created the safety issue. But having no other choice, they started to carry out the plan. The trunk was so big and heavy though that while trying to push it, Clara tipped over and hurt her ankle.
+"Yes, I will let my daughter go with you. Bring back a big deer for all of us, children. Be safe! 
+It gets dark very suddenly in the forest and there are also a lot of wild animals. 
+Pay attention to get back before sunset!"
+
+<VueExercise lg="en" :topics="['Imperative']" instruction="Transform the sentences with should into sentences using an imperatif as in the example!">
+<p>Example: You should not fight against tigers. -> Don't fight against tigers!</p>
+
+<ol>
+<li>You should not steal the honey of a bear.</li>
+<li>You should wear waterproof boots.</li>
+<li>You should not let yourself be killed by tigers.</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>Don't steal the honey of a bear.</li>
+<li>Wear waterproof boots.</li>
+<li>Don't let yourself be killed by tigers.</li>
+</ol>
+</VueHideShow>
+</VueExercise>
+
+Unfortunately, it was already starting to get dark. So Clara, Benny and Anton were aware,
+that they didn't have plenty of time to catch a deer before sunset. They hurried thus into the forest and luckily,
+they immediately spotted a big deer. How to get hold on it?
+
+<VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
+<VueMCGaps lg="en" :same="true" :gaptexts="['It is not advisable to hunt deers {in|} the middle of the night, because you can\'t see anything.',
+'Deers live {in|} the forest.',
+'Anton, Clara and Benny have to rely {on|} good luck for their hunting to succeed.']">
+
+</VueMCGaps>
+</VueExercise>
+
+The problem they faced was a huge canyon. The deer was on the other side and there was no bridge to get through 
+the deep abyss. Even just locating it from far away was difficult, let alone firing an arrow to kill it.
+
+<VueExercise lg="en" :topics="['let alone']" instruction="Form sentences using let alone as in the example!">
+<p>Example:  I/afraid/spiders/dead/living -> I am not afraid of dead spiders, let alone living ones.</p>
+
+<ol>
+<li>I/bear/heat/here/summer/Spane</li>
+<li>Probability theory/difficult/stochastic differential equations</li>
+<li>Tomato/fresh/one week/one month</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>I can barely bear the heat here in summer, let alone that in Spane.</li>
+<li>Probability theory is already too difficult for me, let alone stchastic differential equations.</li>
+<li>A one-month-old tomato is not fresh any more, let alone a one-year-old.</li>
+</ol>
+</VueHideShow>
+</VueExercise>
+
+What they needed was a bridge. Useless to fire an arrow from that distance! 
+"Let's take the trunk of this dead tree and lay it over the abyss" suggested Clara. But as she spoke, 
+her voice was a bit shaking because the trunk didn't look so stable with the tree having been dead for a long time probably.
+
+<VueExercise lg="en" :topics="['Emphasis with what']" instruction="Put emphasis on the underlined part as in the example!">
+<p>Example 1: I need <u>food for my brain</u>. -> What I need, is food for my brain.</p>
+<p>Example 2: Benny <u>keeps the burglars away from the village.</u> -> What Benny does, is keep the burglars away from the village.</p>
+
+<ol>
+<li><u>The cress</u> on my window sill makes nice decoration.</li>
+<li>Benny <u>barks at burglars</u> to keep them at distance.</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>What makes nice decoration on my window sill, is the cress.</li>
+<li>What Benny does, is bark at burglars to keep them at distance.</li>
+</ol>
+</VueHideShow>
+</VueExercise>
+
+It was the old age and the unstability of the trunk that created the safety issue. 
+But having no other choice, they started to carry out the plan.
+ The trunk was so big and heavy though that while trying to push it, Clara tipped over and hurt her ankle.
+
+<VueExercise lg="en" :topics="['Parts of the human body']" instruction="Fill in the gaps by the correct part of the body!">
+<VueMCGaps lg="en" :gaptexts="['']">
+
+</VueMCGaps>
+</VueExercise>
+
 "Aua!" cried Clara in pain. "I haven't felt such a pain in my ankle since the last hunt!" 
 "Don't cry around and make the deer aware of us! We need to fire an arrow now! Hand me the basket with the arrows quickly!"
 Clara did what Anton asked her to do, although she felt a bit offended because he didn't care about her pain and was insensitive like her sister with whom she never got along.
