@@ -10,8 +10,15 @@
     </thead>
     <tbody>
 
+    
     <tr>
-        <td>2</td>
+        <td>4</td>
+        <td><router-link to="/en/english/shortstories/belovedrabbit">The beloved rabbit has gone</router-link></td>
+        <td>Flori10</td>
+      </tr>
+
+    <tr>
+        <td>3</td>
         <td><router-link to="/en/english/shortstories/advertisementwithturtoises">Advertisement with turtoises</router-link></td>
         <td>Flori10</td>
       </tr>

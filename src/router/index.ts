@@ -20,6 +20,7 @@ import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue"
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
+import VueBelovedRabbit from "@/views/english/shortstories/BelovedRabbitAnna.vue";
 import VueSignUp from "@/views/vue-signup.vue";
 import VueLogin from "@/views/vue-login.vue";
 
@@ -199,6 +200,11 @@ const router = createRouter({
           name: 'Short stories',
           path: 'shortstories',
           children: [
+            {
+              name: 'The beloved rabbit has gone',
+              path: 'belovedrabbit',
+              component: VueBelovedRabbit
+            },
             {
               name: 'Advertisement with turtoises',
               path: 'advertisementwithturtoises',
