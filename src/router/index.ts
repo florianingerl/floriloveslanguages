@@ -14,6 +14,7 @@ import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
 import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
+import VueEcureuilMarie from "@/views/french/breveshistoires/EcureuilMarie.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
@@ -84,6 +85,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Pas assez de noisettes pour un écureuil et un oiseau',
+              path: 'ecureuilmarie',
+              component: VueEcureuilMarie
+            },
             {
               name: 'Un aspirateur n\'avale pas l\'amour',
               path: 'aspirateuretamour',
