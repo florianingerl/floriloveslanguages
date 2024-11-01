@@ -1,7 +1,7 @@
 <template>
 <div>
 
-<h1>Un aspirateur n'avale pas l'amour</h1>
+<h1>Pas assez de noisettes pour un écureuil et un oiseau</h1>
 <h4><i>par Florian Ingerl <!-- et <a href="https://mariefaure.fr/">Marie Faure</a> --></i></h4>
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
@@ -9,10 +9,10 @@ Comme tout le  monde le sait, les écureuils aiment les noix.
 L'écureuil ci-contre ne faisait pas d'exception.
 Il se baladait ce jour-là d'arbre en arbre et ne put s'empêcher de sourire en apercevant un tas de noisettes 
 en bas du grand arbre sur lequel il se trouvait.
-<VueExercise lg="fr" :topics="['Subordonnée relative introduit par une preposition']" instruction="Fill in the gaps by the correct preposition and lequel, laquelle, lesquels ou lesquelles!">
+<VueExercise lg="fr" :topics="['Subordonnée relative introduite par une préposition']" instruction="Fill in the gaps by the correct preposition and lequel, laquelle, lesquels ou lesquelles!">
 <VueMCGaps lg="fr" :same="true" :gaptexts="['L\'arbre {sous lequel|} il y avait beaucoup de noisettes était la maison de l\'écureuil et sa famille!',
-'Les noix {a propos desquels|} se disputaient les écureuils souvent tombaient de l\'arbre et restaient sur la terre.',
-'La patte {avec laquelle} l\'écureuil ouvre les noisettes est très adepte.']">
+'Les noix {à propos desquelles|} se disputaient les écureuils souvent tombaient de l\'arbre et restaient sur la terre.',
+'La patte {avec laquelle} l\'écureuil ouvre les noisettes est très adroit.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -22,10 +22,11 @@ Pour les atteindre, l'écureuil, du nom de Fabrice, s'élança dans les airs et 
 Il était en train de stabiliser son atterrissage tout en gardant un œil protecteur sur les belles noisettes à proximité,
 lorsque soudain un oiseau vint à passer et prit dans son bec une belle noisette.
 
-<VueExercise lg="fr" :topics="['atterir, atteindre ou attendre']" instruction="Remplis les trous avec le verbe atterir, atteindre ou attendre à la bonne conjugaison!">
+<VueExercise lg="fr" :topics="['atterir, attirer, atteindre ou attendre']" instruction="Remplis les trous avec le verbe atterir, atteindre ou attendre à la bonne conjugaison!">
 <VueMCGaps lg="fr" :gaptexts="['L\'écureuil descendit de l\'arbre et {atteignit} les noisettes sans s\'être blessé.',
-'L\'écureuil n\'{attendit} bien sûr pas jusqu\'à ce que un autre animal vienne manger les noisettes.',
-'Un écureuil {atterrit} plus doucement qu\'un avion.']">
+'L\'écureuil n\'{attendait} bien sûr pas jusqu\'à ce que un autre animal vienne manger les noisettes.',
+'Un écureuil {atterrit} plus doucement qu\'un avion.',
+'Fabrice est toujours à la recherche d\'une femelle et veut donc {attirer} leur attention.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -36,7 +37,7 @@ L'oiseau ne prit pas ses propos à la légère : il se gonfla d'orgueil, ce qui 
 et se sentit prêt à lutter pour défendre son nouveau butin.
 
 <VueExercise lg="fr" :topics="['Alternatifs pour dire']" instruction="Remplis les trous avec l'alternatif pour dire qui convient!">
-<VueMCGaps lg="fr" :gaptexts="['<<Tu pourrais manger des vers au lieu de mes noisettes.>> {proposa|} l\'écureil à l\'oiseau.',
+<VueMCGaps lg="fr" :same="true" :gaptexts="['<<Tu pourrais manger des vers au lieu de mes noisettes.>> {proposa|} l\'écureil à l\'oiseau.',
 '<<Pour les oiseaux comme toi, les vers sont beaucoup plus sains que les noisettes>> {expliqua|} l\'écureuil à l\'oiseau.',
 '<<Tu as bien compris mes propos?>> {demanda|} l\'écureuil à l\'oiseau.']">
 
@@ -52,7 +53,7 @@ qui ne pouvaient même pas voler.
 
 <VueExercise lg="fr" :topics="['Phrases conditionnels']" instruction="Remplis les trous pour que les phrases conditionnels soient correctes!">
 <VueMCGaps lg="fr" :gaptexts="['Même si un écureuil {avait} (avoir) des ailes, il ne {pourrait} (pouvoir) pas voler étant trop lourd.',
-'Si un écureuil {était} (être) plus leger et {avait} (avoir) des ailes, il {volerait} de l\'arbre à l\'arbre.',
+'Si un écureuil {était} (être) plus léger et {avait} (avoir) des ailes, il {volerait} (voler) de l\'arbre à l\'arbre.',
 'Si les animaux ne se {disputaient} (disputer) pas ainsi, cette histore {serait} (être) ennuyeux.']">
 
 </VueMCGaps>
@@ -77,11 +78,11 @@ car il avait beau apaiser la situation,
  l'oiseau sentit ses plumes s'agiter comme avant la tempête. 
  <VueExercise lg="fr" :topics="['Avoir beau faire qc']" instruction="Réponds à la question!">
 <VueQuestion lg="fr" :question="{
-		question: 'Qu\'est-ce que avoir beau faire qc veut dire?',
+		question: 'Qu\'est-ce que <<avoir beau faire qc>> veut dire?',
 		options: [{option:'essayer qc en vain', correct: true },
      {option:'mentir', correct: false },
      {option:'avoir envie de faire qc', correct: false } ,
-     {option:'être d\'un beau apparence', correct: false }
+     {option:'être d\'une belle apparence', correct: false }
      ]
 	    }" :hasNextButton="false" />
  </VueExercise>
@@ -92,17 +93,28 @@ car il avait beau apaiser la situation,
 C'est à prendre ou à laisser! Si tu n'es pas d'accord, j'irai chercher mon grand frère qui te tuera sans pitié."
 
 <VueExercise lg="fr" :topics="['Phrases conditionnels']" instruction="Remplis les trous de sorte que les phrases conditionnels soient correctes!">
-<VueMCGaps lg="fr" :gaptexts="['Si tu ne me {laisses} (laisser) tranquille, j\'{appelerai} (appeler) la police.',
-'']">
+<VueMCGaps lg="fr" :gaptexts="['Si tu ne me {laisses} (laisser) pas tranquille, j\'{appelerai} (appeler) la police.',
+'Si tu {appelles} (appeler) la police, je te {tuerai} (tuer) avant que la police ne vienne.',
+'Si tu me {tues} (tuer), le diable {emportera} (emporter) ton âme.']">
 
 </VueMCGaps>
 </VueExercise>
 
-Par hasard, le grand frère de l'écureuil était au-dessus des deux animaux, et en entendant ces mots, descendit en cascade de l'arbre pour joindre son frère.
+Par hasard, le grand frère de l'écureuil était au-dessus des deux animaux,
+ et en entendant ces mots, descendit en cascade de l'arbre pour joindre son frère.
 "Calme-toi!" lui dit-il prudemment. Il savait que la moutarde lui montait vite au nez parfois.
+
+<VueExercise lg="fr" :topics="['Prépositions']" instruction="Remplis les trous avec la bonne préposition!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['Les animaux se disputent {à propos|} des noisettes.',
+'{Grâce au|} frère de l\'écureuil, la dispute n\'éclata pas.',
+'{Sans|} le frère de l\'écureuil, la dispute aurait éclaté.']">
+
+</VueMCGaps>
+</VueExercise>
+
 "Il n'y a pas de raison pour s'agiter ainsi " ajouta le frère qui s'appelait Martin, " car j'ai découvert un autre arbre pas très loin qui porte beaucoup de noisettes lui aussi. Cher oiseau, si tu veux bien quitter cet arbre, je te dirai l'endroit où se trouve l'autre arbre!"
 Soulagé qu'un compromis soit annoncé, l'oiseau consentit à faire la paix en acceptant la proposition de Martin.
-FIN
+<h2>FIN</h2>
 
 </div>
 
