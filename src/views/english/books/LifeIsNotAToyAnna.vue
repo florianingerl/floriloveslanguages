@@ -679,10 +679,12 @@ get married at the young age of 18.
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 With Dave receiving very often big bonuses from his boss Fred, it is clear that he could afford all the afore mentioned 
 expensive stuff. What is less obvious is, how his wife managed to fulfill her need for the most expensive things.
 Although Dave often got these bonuses, usually he wasn't ready to share the money with his wife. 
 On the other hand, whenever he got some new toys from the company, he always gave those to Treena which the woman hated and this was one of the reasons why they argued a lot.
+</VueGoogleTranslate>
 
 <VueExercise lg="en" :topics="['Emphasis with what ... + is/was']" instruction="Emphasis the underlined part as in the example!">
 <p>Example 1: <u>More free time</u> would make me happier. -> What would make me happier is more free time.</p>
@@ -717,10 +719,12 @@ import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 import VueHideShow from "@/components/atoms/HideShow.vue";
+import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
   
   components: {
+     VueGoogleTranslate,
      VueQuestion,
      VueExercise,
      VueWholeSentence,

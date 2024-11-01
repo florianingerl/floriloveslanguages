@@ -2,9 +2,9 @@
 <div>
 
 <h1>Advertisement with turtoises</h1>
-<h4><i>by Florian Ingerl and  <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz<a></i></h4>
+<h4><i>by Florian Ingerl and  <a href="https://www.professeurparticulier.com/244477-annonce-professeur-unlock-your-english-potential-with-personalized-online-lessons-anglais-a-lannion-22300-en-anglais.html">Anna Scakaz</a></i></h4>
 
-<img style="float: right; height: 200px" src="assets/img/english/turtoise.PNG"></img>
+<img style="float: right; height: 200px" src="@/assets/img/english/turtoise.png"></img>
 
 <p>Once upon a time, there was a turtoise who was very happy most of the time.
 Her name was Clara and she used to cry a lot when she was a small tutoise but over time, she learnt to be more optimistic and have a positive view on life.
@@ -13,7 +13,7 @@ She could have stayed unhappy all her life if she hadn't changed her perspective
 
 
 <VueExercise lg="en" instruction="Fill in the gaps with either be/get used to doing sth or used to do sth!">
-<VueMCGaps lg="en" :gaptext="['When I was young, I {used to play|am used to playing} football. Now, I don\'t play it anymore because of other priorities.',
+<VueMCGaps lg="en" :gaptexts="['When I was young, I {used to play|am used to playing} football. Now, I don\'t play it anymore because of other priorities.',
 'I {am used to getting up|used to get up} at 4 o\'clock in the morning. That gives me more time to read books.',
 'There {used to be|is used to being|used to being} a bridge, but the terrible storm of last month has destroyed it.',
 'Mr Chips {is used to working|used to work} 10 hours a day. His job is funny, so he does it voluntarily.',
@@ -31,7 +31,7 @@ Fortunately, Anton was in a good mood and - after everyone had sat down and gott
 
 
 <VueExercise lg="en" instruction="Use either an infinitv or an -ing-form">
-<VueMCGaps lg="en" :gaptext="['Although Bryan\'s stomach was already full, he continued {eating|to eat}.',
+<VueMCGaps lg="en" :gaptexts="['Although Bryan\'s stomach was already full, he continued {eating|to eat}.',
 'Where has Anton learnt {telling|to telling} such funny jokes and short stories?',
 'Clara, Anton and Bryan were all looking forward {to eating|eating|to eat} delicious turtoise-food at the restaurant.']">
 
@@ -43,7 +43,7 @@ Anton shortly appreciated Clara's comment by smiling into her direction, then co
 Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did the cashier let you leave without paying?"
 
 <VueExercise lg="en" instruction="Fill in the gaps using either have sth. done, let sb do sth, or make sb do sth">
-<VueMCGaps lg="en" :gaptext="['His overfull stomach {made Bryan stop|let Bryan stop|have Bryan stopped} eating.',
+<VueMCGaps lg="en" :gaptexts="['His overfull stomach {made Bryan stop|let Bryan stop|have Bryan stopped} eating.',
 'The funny jokes of Anton {made everybody laugh|have everybody laughed|let everybody laugh}.',
 'His friends {let Bryan fart|make Bryan fart|have Bryan farted} in the restaurant without making any reproches.',
 'In the restaurant, the three friends {have their food brought|let their food bring|make their food bring} to their table. What a service!']">
@@ -55,7 +55,7 @@ Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did t
 "What a funny turtoise you are, Anton!" said Bryan laughing. "I hope they didn't ban you from entering this supermarket again because we will need more food for our dinner party next week, added the food-obssessed turtoise.
 
 <VueExercise lg="en" instruction="Fill in the gaps with a compound-adjective!">
-<VueMCGaps lg="en" :gaptext="['Bryan is so {dim-witted|sky-blue} that he cannot even add one and one.',
+<VueMCGaps lg="en" :gaptexts="['Bryan is so {dim-witted|sky-blue} that he cannot even add one and one.',
 'Clara is such a {breath-taking|ugly-looking} turtoise that all the male turtoises turn their head towars her.',
 'The {Oxford-University-educated|LMU-University-educated} Bryan is very intelligent.']">
 
@@ -68,7 +68,7 @@ Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did t
 "Can I continue with my story?" asked Anton who was a bit annoyed about having been interrupted. In reply to this, the other two stopped talking and looked attentively in the direction of Anton to encourage him to continue.
 
 <VueExercise lg="en" instruction="Fill in the gaps by using either an infinitiv or an ing-form">
-<VueMCGaps lg="en" :gaptext="['Let\'s stop {to have|having} a break.',
+<VueMCGaps lg="en" :gaptexts="['Let\'s stop {to have|having} a break.',
 'Remember {to close|closing} the window before you leave!',
 'Clara will never forget Bryan {telling|to tell} his funny jokes.']">
 
@@ -80,7 +80,7 @@ So first the reporter paid my salad and thus calmed the shop assistant's anger a
 "I haven't eaten anything today yet! So why don't we sit and eat something together here and I can question you about tortoise-matters? "
 
 <VueExercise lg="en" instruction="Use either the simple past or the present perfect!">
-<VueMCGaps lg="en" :gaptext="['Anton {has never been|was never} interviewed before.',
+<VueMCGaps lg="en" :gaptexts="['Anton {has never been|was never} interviewed before.',
 'Clara {was told|has been told} a joke by Anton on Friday.',
 '{Have you finished|Did you finish} dinner yet?']">
 
@@ -91,7 +91,7 @@ So first the reporter paid my salad and thus calmed the shop assistant's anger a
 After taking seat at a table in the supermarket's restaurant, Anton was given his first question: "Do tortoises ever clean their shell. I am genuinely curious about that, because your tongue isn't long enough to reach your shell, is it? "
 
 <VueExercise lg="en" instruction="Complete the sentences with question tags!">
-<VueMCGaps lg="en" :gaptext="['You will help me, {won\'t you|will not you|don\'t you}?',
+<VueMCGaps lg="en" :gaptexts="['You will help me, {won\'t you|will not you|don\'t you}?',
 'You are a reporter for BBC, {aren\'t you|are you|do you}?',
 'Don\'t ask me stupid questions, {will you|won\'t you}?']">
 
@@ -119,13 +119,13 @@ And you would be the turtoise that I need to advertise.
 </VueHideShow>
 </VueExercise>
 
-<img style="float: left; height: 200px" src="assets/img/english/turtoise.PNG"></img>
+<img style="float: left; height: 200px" src="@/assets/img/english/turtoise.png"></img>
 "Okay, I love the idea! I have always wanted to participate in a business project and become rich! I also want to have my picture and our boat in the newspaper so I can become famous as well. I will also ask my turtoise friends to take part in this project with me, we can work  all together! I remember already talking about this idea with Clara and Bryan a few years ago when a businessman contacted me. But unfortunately he didn't have enough money to pay us, so we said no."
 "That business man must have been a complete idiot!" exclaimed the interviewer.
 "Me by contrast, I will pay you 10 000  dollars in advance of course for your services." To prove this, he immediately handed over an enveloppe with the money.
 
 <VueExercise lg="en" instruction="Fill in the gaps with either all together or altogether!">
-<VueMCGaps lg="en" :gaptext="['Anton ate two salads for breakfast, three salads for lunch and four salads for dinner. So he ate nine salads {altogether|all together}',
+<VueMCGaps lg="en" :gaptexts="['Anton ate two salads for breakfast, three salads for lunch and four salads for dinner. So he ate nine salads {altogether|all together}',
 'The salad was too big for one turtoise, so Clara, Bryan and Anton had to eat it {all together|altogether}',
 'The food was cheap and delicious, the room was warm and the chairs were soft. The three friends were {altogether|all together} pleased with the restaurant.']">
 
@@ -136,7 +136,7 @@ And you would be the turtoise that I need to advertise.
 "Okay, perfect but I have some requests! You should also give us 100 salads as a bonus next to the money. Plus invite an architect to build the boat and a clown as well who will entertain us and make us laugh for the video. I'm more handsome when I'm laughing. See you tomorrow morning!"
 
 <VueExercise lg="en" instruction="Fill in the gaps with either nothing or not...anything">
-<VueMCGaps lg="en" :gaptext="['I don\'t want to hear {anything|nothing}.',
+<VueMCGaps lg="en" :gaptexts="['I don\'t want to hear {anything|nothing}.',
 'Turtoises can make an advertisement for {anything|nothing}.',
 'The advertised product is good for {nothing|anything} although it is cheap.']">
 
@@ -165,7 +165,7 @@ Having finished telling the story of what happened to him that afternoon, Anton 
 "So do you want to come with me tomorrow?"
 
 <VueExercise lg="en" instruction="Fill in the gaps by an expression with make sb do sth or have sth done or let sb do sth!">
-<VueMCGaps lg="en" :gaptext="['I don\'t buy food in the supermarket. Instead, I {have my food delivered|make my food deliver|let my food deliver}.',
+<VueMCGaps lg="en" :gaptexts="['I don\'t buy food in the supermarket. Instead, I {have my food delivered|make my food deliver|let my food deliver}.',
 'This exercise {makes you think|has you thought}.',
 'This film is so boring that it {makes you fall|lets you fall|has you fallen} asleep.',
 'The shop assistant doesn\'t {let Bryian buy|make Bryian buy|have Bryian bought} alcohol.']">
@@ -177,7 +177,7 @@ Having finished telling the story of what happened to him that afternoon, Anton 
 Because they had received the money in advance, the three turtoises had enough means to make themselves beautiful. In order to do that, they booked an expert in Laugh Yoga who trained them all night.
 So they appeared for the meeting all nice and in good mood.
 <VueExercise lg="en" instruction="Fill in the gaps by a self-pronoun!">
-<VueMCGaps lg="en" :gaptext="['For this exercise, I do not need any help. I can do it {myself}.',
+<VueMCGaps lg="en" :gaptexts="['For this exercise, I do not need any help. I can do it {myself}.',
 'I cannot help you with this exercise. You have to do it {yourself}.',
 'Clara finds {herself} attractive.',
 'The three friends take pictures of {themselves}.']">
@@ -185,11 +185,11 @@ So they appeared for the meeting all nice and in good mood.
 </VueMCGaps>
 </VueExercise>
 
-<img style="float: right; height: 200px" src="assets/img/english/turtoise.PNG"></img>
+<img style="float: right; height: 200px" src="@/assets/img/english/turtoise.png"></img>
 The small advertisement clip was made. It has to be admitted, that the boat was really rubbish but the clip became very, very good.
 Despite the product being garbage because of the cheap material, people loved the boat and bought a lot of them, making the turtoises the richest turtoises ever. However, Anton, Clara and Bryan were not satisfied with this reporter and his lack of quality product so they found another businessman after and continued to model for better products.
 <VueExercise lg="en" instruction="Fill in the gaps with unlike, instead of, despite, although, whereas or though">
-<VueMCGaps lg="en" :gaptext="['{Unlike} the other businessman, the new one appreciated quality.',
+<VueMCGaps lg="en" :gaptexts="['{Unlike} the other businessman, the new one appreciated quality.',
 'The advertised boat was rubbish, the advertisement was entertaining {though}.',
 '{Instead of} advertising a lot of rubbish, you should improve the quality of your services.',
 '{Despite} his lack of confidence, he showed up in front of the audience and made a good speech.',
@@ -208,24 +208,22 @@ The interviewer didn't have to give up. What made his business flourish was the 
 
 </template>
 
-<script>
-import VueGaps from "./../../vue-gaps.vue";
-import VueMCGaps from "./../../MCGaps.vue";
-import VueQuestion from "./../../Question.vue";
-import VueExercise from "./../../Exercise.vue";
-import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../HideShow.vue";
-import VueImage from "./../../vue-image.vue";
+<script lang="ts">
+import { defineComponent } from "vue";
 
-export default {
+import VueMCGaps from "@/components/atoms/MCGaps.vue";
+import VueQuestion from "@/components/atoms/Question.vue";
+import VueExercise from "@/components/atoms/Exercise.vue";
+import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
+import VueHideShow from "@/components/atoms/HideShow.vue";
+
+export default defineComponent ({
   
   components: {
-     VueGaps,
      VueQuestion,
      VueExercise,
      VueWholeSentence,
      VueHideShow,
-     VueImage,
      VueMCGaps
   },
 
@@ -244,7 +242,7 @@ export default {
   methods: {
        
   }
-}
+});
 </script>
 
 <style scoped>

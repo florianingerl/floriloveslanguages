@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/vue-home.vue'
 import VueDict from "@/components/atoms/layouts/Dictionary.vue";
 import VueAnnaCat from "@/views/english/shortstories/CatAnna.vue";
+import VueTurtoiseAnna from "@/views/english/shortstories/TurtoiseAnna.vue";
 import VueEnglish from "@/views/english/NavigationEnglish.vue";
 import VueDeutsch from "@/views/deutsch/NavigationGerman.vue";
 import VueKatzeMagFisch from "@/views/deutsch/kurzgeschichten/CatVanessa.vue";
@@ -192,6 +193,11 @@ const router = createRouter({
           name: 'Short stories',
           path: 'shortstories',
           children: [
+            {
+              name: 'Advertisement with turtoises',
+              path: 'advertisementwithturtoises',
+              component: VueTurtoiseAnna
+            },
             {
               name: 'Jealousy and fraud',
               path: 'jealousyandfraud',
