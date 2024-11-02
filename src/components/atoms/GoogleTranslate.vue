@@ -2,7 +2,11 @@
 
   <div>
   <slot></slot>
-  <i class="ms-2 bi bi-globe" data-bs-toggle="tooltip" :title="translateText()"></i>
+
+  <div class="mytranslatehelper translate">
+  <i class="ms-2 bi bi-globe"></i>
+    <div class="visibleonlyonhover" > {{ translateText  }} </div>
+  </div>
   </div>
 
 
@@ -31,13 +35,24 @@ export default defineComponent({
   },
 
   methods: {
-    translateText() {
-        return "Not yet implemented!";
-        //let textToTranslate : string = this.$slots.default[0].text;
-        //return textToTranslate;
-        //Get the text content of slot and translate it with the google-translate-api
-    }
+    getSlotChildrenText(children) {
+    return children.map(node => {
+    if (!node.children || typeof node.children === 'string') return node.children || ''
+    else if (Array.isArray(node.children)) return this.getSlotChildrenText(node.children)
+    else if (node.children.default) return this.getSlotChildrenText(node.children.default())
+    }).join('')
+  }
   },
+
+  computed: {
+  translateText() {
+      if (this.$slots.default()) {
+        return this.getSlotChildrenText(this.$slots.default());
+      } else {
+        return '';
+      }
+  }
+},
 
   data() {
     return {
@@ -48,5 +63,24 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+
+
+.visibleonlyonhover {
+  visibility: hidden;
+  position: absolute;
+  top: 105 %;
+  border: 1px solid blue;
+  background-color: #66ffcc;
+}
+
+.mytranslatehelper {
+  position: relative;
+}
+
+.mytranslatehelper:hover .visibleonlyonhover {
+  visibility: visible;
+  
+}
 
 </style>

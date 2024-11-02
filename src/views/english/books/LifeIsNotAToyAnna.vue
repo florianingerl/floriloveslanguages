@@ -667,9 +667,11 @@ had given some creativity to Dave, so they profited a lot from each other.
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 But they also had a few things in common. For example, they both liked expensive and fashionable clothes 
 and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and 
 get married at the young age of 18.
+</VueGoogleTranslate>
 
 <VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
 <VueMCGaps lg="en" :same="true" :gaptexts="['{For|} her wedding with Dave, Treena had bought a nice wedding dress.',
