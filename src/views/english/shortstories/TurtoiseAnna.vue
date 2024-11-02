@@ -6,10 +6,11 @@
 
 <img style="float: right; height: 200px" src="@/assets/img/english/turtoise.png"></img>
 
-<p>Once upon a time, there was a turtoise who was very happy most of the time.
+<VueGoogleTranslate>Once upon a time, there was a turtoise who was very happy most of the time.
 Her name was Clara and she used to cry a lot when she was a small tutoise but over time, she learnt to be more optimistic and have a positive view on life.
 Because of her positive attitude towards life, she attracted only fellow tortoises who were also very positive and creative.
-She could have stayed unhappy all her life if she hadn't changed her perspective. But thankfully she did and so she managed to meet these other amazing turtoises and they became a tight-knit (=close) group of friends.</p>
+She could have stayed unhappy all her life if she hadn't changed her perspective. But thankfully she did and so she managed to meet these other amazing turtoises and they became a tight-knit (=close) group of friends.
+</VueGoogleTranslate>
 
 
 <VueExercise lg="en" instruction="Fill in the gaps with either be/get used to doing sth or used to do sth!">
@@ -21,13 +22,13 @@ She could have stayed unhappy all her life if she hadn't changed her perspective
 
 </VueMCGaps>
 </VueExercise>
-<p>
+<VueGoogleTranslate>
 Anton was the funniest of the group and often told jokes about humans or snakes and there was also Bryan, who was eating all the time and weighted a lot.
 Anton and Clara knew that they shouldn't always invite Bryan to have nice dinners together because of his weight problem but they also really appreciated food and dinner-time was the best occasion for the three friends to share what happened to them during the day.
 Bryan had invited everyone for a dinner today and so Clara, Anton and Bryan were looking forward to that evening and expected Anton to tell funny stories.
 If the three friends knew how many other turtoises would show up, they wouldn't cook that much food. They expected the whole tutoise village to come to this dinner but in the end, unfortunately, only a few animals showed up for the dinner party.
 Fortunately, Anton was in a good mood and - after everyone had sat down and gotten their salads - began to tell an anecdote: "Yesterday, the idea came to my mind that - because the salads in the supermarkets are so expensive - they must be really high quality and I went in there to buy one."
-</p>
+</VueGoogleTranslate>
 
 
 <VueExercise lg="en" instruction="Use either an infinitv or an -ing-form">
@@ -38,9 +39,11 @@ Fortunately, Anton was in a good mood and - after everyone had sat down and gott
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 "Yes, I also went to the supermarket yesterday and I saw the price and the quality of the salads, commented Clara. "But next time it might be better if we planted our own salads and had organic food for dinner."
 Anton shortly appreciated Clara's comment by smiling into her direction, then continued his story: "Not having any money in my pockets, I simply took the salad in my mouth to the cassier and asked him whether I can bring him the money later and take the salad now with me."
 Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did the cashier let you leave without paying?"
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps using either have sth. done, let sb do sth, or make sb do sth">
 <VueMCGaps lg="en" :gaptexts="['His overfull stomach {made Bryan stop|let Bryan stop|have Bryan stopped} eating.',
@@ -51,8 +54,12 @@ Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did t
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 "No!" answered Anton. "He wasn't happy that I had taken the salad already in my mouth and that I had no money. I suggested of course to simply put the salad back."
-"What a funny turtoise you are, Anton!" said Bryan laughing. "I hope they didn't ban you from entering this supermarket again because we will need more food for our dinner party next week, added the food-obssessed turtoise.
+"What a funny turtoise you are, Anton!" said Bryan laughing. 
+"I hope they didn't ban you from entering this supermarket again because we will need more food for our dinner party 
+next week, added the food-obssessed turtoise.
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps with a compound-adjective!">
 <VueMCGaps lg="en" :gaptexts="['Bryan is so {dim-witted|sky-blue} that he cannot even add one and one.',
@@ -62,10 +69,13 @@ Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did t
 </VueMCGaps>
 </VueExercise>
 
-
+<VueGoogleTranslate>
 "I am listening to you but I don't understand you, because your mouth is still halfful, Bryan." - said Clara. "Please finish eating first before you speak!"
 "In case I was rude, I apologize for my poor manners, Clara. You are right, I should first finish eating my food but I like to eat a lot and also talk a lot so I sometimes do both at the same time, said Bryan.
-"Can I continue with my story?" asked Anton who was a bit annoyed about having been interrupted. In reply to this, the other two stopped talking and looked attentively in the direction of Anton to encourage him to continue.
+"Can I continue with my story?" asked Anton who was a bit annoyed about having been interrupted. 
+In reply to this, the other two stopped talking and looked attentively in the direction of Anton to encourage him 
+to continue.
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps by using either an infinitiv or an ing-form">
 <VueMCGaps lg="en" :gaptexts="['Let\'s stop {to have|having} a break.',
@@ -75,9 +85,12 @@ Bryan being a bit surprised by Anton's anecdote, asked his friend: "And so did t
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 Without waiting another second, Anton happily continued his story: "So no, they didn't ban me from the supermarket. Actually, something amazing happened while I was at the till. A young man with a nice camera saw me and filmed me with my salad in the mouth. He was a reporter and wanted to do an interview with me because he had never seen such a good-looking turtoise like me."
 So first the reporter paid my salad and thus calmed the shop assistant's anger and said:
-"I haven't eaten anything today yet! So why don't we sit and eat something together here and I can question you about tortoise-matters? "
+"I haven't eaten anything today yet! So why don't we sit and eat something together here and 
+I can question you about tortoise-matters? "
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Use either the simple past or the present perfect!">
 <VueMCGaps lg="en" :gaptexts="['Anton {has never been|was never} interviewed before.',
@@ -87,8 +100,12 @@ So first the reporter paid my salad and thus calmed the shop assistant's anger a
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 "Okay, great, let's do that! I'm genuinely excited about this interview because this is the first time that someone wants to interview me, said Anton.
-After taking seat at a table in the supermarket's restaurant, Anton was given his first question: "Do tortoises ever clean their shell. I am genuinely curious about that, because your tongue isn't long enough to reach your shell, is it? "
+After taking seat at a table in the supermarket's restaurant, Anton was given his first question: 
+"Do tortoises ever clean their shell. I am genuinely curious about that, because your tongue isn't long enough 
+to reach your shell, is it? "
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Complete the sentences with question tags!">
 <VueMCGaps lg="en" :gaptexts="['You will help me, {won\'t you|will not you|don\'t you}?',
@@ -97,9 +114,13 @@ After taking seat at a table in the supermarket's restaurant, Anton was given hi
 
 </VueMCGaps>
 </VueExercise>
+
+<VueGoogleTranslate>
 "No, we don't clean our shells because as you said, our tongue is not long enough. But also we don't need to clean it because it cleans itself from the inside. And from the outside we don't clean it, unless we get it dirty. If that's the case, we go and wash ourselves in a river."
 "What you just said, suddenly gave me an idea! What about constructing a boat in the form and the material of a turtoise shell and sell it to people, so that they can travel with it along the river!"
 And you would be the turtoise that I need to advertise.
+</VueGoogleTranslate>
+
 <VueExercise lg="en" instruction="Make one sentences out of the two as in the example!">
 <p>Example 1: You can't drink the tea. It is hot. => The tea is too hot to drink.</p>
 <p>Example 2: This therapy can't heal. It is not powerful. => This therapy isn't powerful enough to heal.</p>
@@ -120,9 +141,13 @@ And you would be the turtoise that I need to advertise.
 </VueExercise>
 
 <img style="float: left; height: 200px" src="@/assets/img/english/turtoise.png"></img>
+
+<VueGoogleTranslate>
 "Okay, I love the idea! I have always wanted to participate in a business project and become rich! I also want to have my picture and our boat in the newspaper so I can become famous as well. I will also ask my turtoise friends to take part in this project with me, we can work  all together! I remember already talking about this idea with Clara and Bryan a few years ago when a businessman contacted me. But unfortunately he didn't have enough money to pay us, so we said no."
 "That business man must have been a complete idiot!" exclaimed the interviewer.
-"Me by contrast, I will pay you 10 000  dollars in advance of course for your services." To prove this, he immediately handed over an enveloppe with the money.
+"Me by contrast, I will pay you 10 000  dollars in advance of course for your services." 
+To prove this, he immediately handed over an enveloppe with the money.
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps with either all together or altogether!">
 <VueMCGaps lg="en" :gaptexts="['Anton ate two salads for breakfast, three salads for lunch and four salads for dinner. So he ate nine salads {altogether|all together}',
@@ -132,8 +157,12 @@ And you would be the turtoise that I need to advertise.
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 "So let's meet tomorrow at the river. I will bring a boat and a camera so we can make a short advertisement video clip. Nothing can go wrong!"
-"Okay, perfect but I have some requests! You should also give us 100 salads as a bonus next to the money. Plus invite an architect to build the boat and a clown as well who will entertain us and make us laugh for the video. I'm more handsome when I'm laughing. See you tomorrow morning!"
+"Okay, perfect but I have some requests! You should also give us 100 salads as a bonus next to the money.
+ Plus invite an architect to build the boat and a clown as well who will entertain us and make us laugh for the video.
+  I'm more handsome when I'm laughing. See you tomorrow morning!"
+  </VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps with either nothing or not...anything">
 <VueMCGaps lg="en" :gaptexts="['I don\'t want to hear {anything|nothing}.',
@@ -143,7 +172,12 @@ And you would be the turtoise that I need to advertise.
 </VueMCGaps>
 </VueExercise>
 
-"Of course, the best architect on earth will construct this boat, no need for you tortoises to worry about that. Otherwise I would endager your lives by sending you on the river in an unsafe boat. And of course, the material of the boat will not be real tortoise shell material but some cheap replacement.
+<VueGoogleTranslate>
+"Of course, the best architect on earth will construct this boat, no need for you tortoises to worry about that. 
+Otherwise I would endager your lives by sending you on the river in an unsafe boat. 
+And of course, the material of the boat will not be real tortoise shell material but some cheap replacement.
+</VueGoogleTranslate>
+
 <VueExercise lg="en" instruction="From singular to plural. Transform the sentences as in the example!">
 <p>Example: A cat likes to eat a mouse. => Cats like to eat mice.</p>
 <ol>
@@ -160,9 +194,11 @@ And you would be the turtoise that I need to advertise.
 </VueHideShow>
 </VueExercise>
 
+<VueGoogleTranslate>
 And your words make me realize that you are a real marketing expert. I will book the best clown I can find. He will be there tomorrow.
 Having finished telling the story of what happened to him that afternoon, Anton turned towards his friends with great excitement and asked them:
 "So do you want to come with me tomorrow?"
+</VueGoogleTranslate>
 
 <VueExercise lg="en" instruction="Fill in the gaps by an expression with make sb do sth or have sth done or let sb do sth!">
 <VueMCGaps lg="en" :gaptexts="['I don\'t buy food in the supermarket. Instead, I {have my food delivered|make my food deliver|let my food deliver}.',
@@ -173,9 +209,12 @@ Having finished telling the story of what happened to him that afternoon, Anton 
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 "Yes, of course, being in a video is something I have always dreamt about! replied Clara happily and Bryan also agreed.
 Because they had received the money in advance, the three turtoises had enough means to make themselves beautiful. In order to do that, they booked an expert in Laugh Yoga who trained them all night.
 So they appeared for the meeting all nice and in good mood.
+</VueGoogleTranslate>
+
 <VueExercise lg="en" instruction="Fill in the gaps by a self-pronoun!">
 <VueMCGaps lg="en" :gaptexts="['For this exercise, I do not need any help. I can do it {myself}.',
 'I cannot help you with this exercise. You have to do it {yourself}.',
@@ -186,8 +225,15 @@ So they appeared for the meeting all nice and in good mood.
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/turtoise.png"></img>
+
+<VueGoogleTranslate>
 The small advertisement clip was made. It has to be admitted, that the boat was really rubbish but the clip became very, very good.
-Despite the product being garbage because of the cheap material, people loved the boat and bought a lot of them, making the turtoises the richest turtoises ever. However, Anton, Clara and Bryan were not satisfied with this reporter and his lack of quality product so they found another businessman after and continued to model for better products.
+Despite the product being garbage because of the cheap material, people loved the boat and bought a lot of them,
+ making the turtoises the richest turtoises ever. 
+ However, Anton, Clara and Bryan were not satisfied with this reporter and his lack of quality product
+  so they found another businessman after and continued to model for better products.
+  </VueGoogleTranslate>
+
 <VueExercise lg="en" instruction="Fill in the gaps with unlike, instead of, despite, although, whereas or though">
 <VueMCGaps lg="en" :gaptexts="['{Unlike} the other businessman, the new one appreciated quality.',
 'The advertised boat was rubbish, the advertisement was entertaining {though}.',
@@ -198,10 +244,12 @@ Despite the product being garbage because of the cheap material, people loved th
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 They became very rich and very popular turtoises.
 The interviewer didn't have to give up. What made his business flourish was the fact, that the boat got destroyed very quickly and people had to buy an expensive new one.
+</VueGoogleTranslate>
 
-<h2>The end</h2>
+<h3>The end</h3>
 
 </div>
 
@@ -216,6 +264,7 @@ import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
 import VueHideShow from "@/components/atoms/HideShow.vue";
+import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
   
@@ -224,7 +273,8 @@ export default defineComponent ({
      VueExercise,
      VueWholeSentence,
      VueHideShow,
-     VueMCGaps
+     VueMCGaps,
+     VueGoogleTranslate
   },
 
   mounted(){
