@@ -35,8 +35,8 @@ export default defineComponent({
   },
 
   methods: {
-    getSlotChildrenText(children) {
-    return children.map(node => {
+    getSlotChildrenText(children: any) {
+    return children.map( (node:any) => {
     if (!node.children || typeof node.children === 'string') return node.children || ''
     else if (Array.isArray(node.children)) return this.getSlotChildrenText(node.children)
     else if (node.children.default) return this.getSlotChildrenText(node.children.default())
@@ -46,8 +46,8 @@ export default defineComponent({
 
   computed: {
   translateText() {
-      if (this.$slots.default()) {
-        return this.getSlotChildrenText(this.$slots.default());
+      if ( (this as any).$slots.default()) {
+        return this.getSlotChildrenText( (this as any).$slots.default());
       } else {
         return '';
       }
