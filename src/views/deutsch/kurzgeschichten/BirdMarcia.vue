@@ -6,9 +6,10 @@
     
     <img style="float: right; height: 200px" src="@/assets/img/deutsch/vogel.jpg"></img>
 
+<VueGoogleTranslate>
     Es war einmal ein Vogel, dessen Federn schwarz waren, und der Anton hieß.
 Anton flog gerne in der Luft, aber an jenem Tag regnete es. Die Luft war nass und Anton wollte ausschlafen. Der Baum war grün und die Blumen waren schön. Anton war in dem Baum.
-
+</VueGoogleTranslate>
 <VueExercise lg="de" instruction="Fülle die Lücken mit dem Artikel im Datif oder Akkusativ aus!">
 <VueMCGaps lg="de" :gaptexts="['Der Vogel sitzt auf {einem|einen} Ast.',
     'Der Vogel fliegt auf {einen|einem} Ast.',
@@ -18,9 +19,14 @@ Anton flog gerne in der Luft, aber an jenem Tag regnete es. Die Luft war nass un
 </VueMCGaps>
 </VueExercise>
 
+<VueGoogleTranslate>
 Leider konnte Anton nicht den ganzen Tag schlafen, denn er bekam Hunger.
 Deswegen musste er losfliegen, um einen Wurm oder einen Apfel zu finden.
-"Wo ist ein Apfel?" dachte Anton. Ich will einen schönen, roten Apfel essen. Anton sah einen großen Baum in dem Garten der Nachbarin. Anton flog zu dem (zu dem = zum) Baum und aß einen Apfel. In dem Apfel war ein Wurm. "Mmm" denkt Anton - "Nachtisch und Abendessen zusammen!".
+"Wo ist ein Apfel?" dachte Anton. Ich will einen schönen, roten Apfel essen.
+ Anton sah einen großen Baum in dem Garten der Nachbarin. Anton flog zu dem (zu dem = zum) Baum und aß einen Apfel.
+ 
+  In dem Apfel war ein Wurm. "Mmm" denkt Anton - "Nachtisch und Abendessen zusammen!".
+  </VueGoogleTranslate>
 <VueExercise lg="de" instruction="Fülle die Lücken mit der passenden Präposition und Artikel aus und kontrahiere Präposition und Artikel wie im Beispiel!">
 <p>
     Beispiel: Ich gehe _______ Kino. -> Ich gehe ins (in das) Kino. 
@@ -31,8 +37,16 @@ Deswegen musste er losfliegen, um einen Wurm oder einen Apfel zu finden.
 </VueMCGaps>
 </VueExercise>
 
-Gerne hätte Anton den ganzen Tag Äpfel mit Würmern gegessen. Unglücklicherweise wollte die Nachbarin Apfelkuchen backen und brauchte deshalb alle Äpfel. Sie kam zum Apfelbaum spaziert mit einem Korb.
-Ein Apfelkuchen braucht drei Äpfel. In dem Baum sind vier rote Äpfel (und ein Vogel). Die Nachbarin ist sehr verärgert! "Du stiehlst meine Äpfel!". Die Nachbarin verscheuchte den Vogel, aber Anton kam wieder. "Du hast vier rote Äpfel in dem ( in dem = im ) Baum. Wie viele Äpfel brauchst du?", "Ich habe einen großen Hunger. Wir müssen den Apfel teilen. Ich will Musik machen und du kannst einen Apfelkuchen backen, und wir werden glücklich zusammen leben."
+<VueGoogleTranslate>
+Gerne hätte Anton den ganzen Tag Äpfel mit Würmern gegessen. 
+Unglücklicherweise wollte die Nachbarin Apfelkuchen backen und brauchte deshalb alle Äpfel. 
+Sie kam zum Apfelbaum spaziert mit einem Korb.
+Ein Apfelkuchen braucht drei Äpfel. In dem Baum sind vier rote Äpfel (und ein Vogel). 
+Die Nachbarin ist sehr verärgert! "Du stiehlst meine Äpfel!". Die Nachbarin verscheuchte den Vogel, 
+aber Anton kam wieder. "Du hast vier rote Äpfel in dem ( in dem = im ) Baum. Wie viele Äpfel brauchst du?",
+ "Ich habe einen großen Hunger. Wir müssen den Apfel teilen. 
+ Ich will Musik machen und du kannst einen Apfelkuchen backen, und wir werden glücklich zusammen leben."
+ </VueGoogleTranslate>
 
 <VueExercise lg="de" instruction="Fülle die Lücken mit dem Präteritum des entsprechenden Verbs aus!">
 <VueMCGaps lg="de" :gaptexts="['Der Vogel {stahl} (stehlen) einen Apfel.',
@@ -45,8 +59,12 @@ Ein Apfelkuchen braucht drei Äpfel. In dem Baum sind vier rote Äpfel (und ein 
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/vogel.jpg"></img>
+
+<VueGoogleTranslate>
 "Dein Vorschlag, lieber Vogel, gefällt mir nicht!" Mit diesen Worten lehnte die Nachbarin
-den Vorschlag von Anton verärgert ab. "Ich will die Äpfel nicht mit Vögeln wie dir teilen! Ich brauche Apfelkuchen für meine Enkelkinder!"
+den Vorschlag von Anton verärgert ab. "Ich will die Äpfel nicht mit Vögeln wie dir teilen! 
+Ich brauche Apfelkuchen für meine Enkelkinder!"
+</VueGoogleTranslate>
 
 <VueExercise lg="de" instruction="Bilde Sätze im Präteritum mit teilbaren Verben wie im Beispiel!">
 <p>wegessen/der Nachbarin/die Äpfel/der Vogel -> Der Vogel aß der Nachbarin die Äpfel weg.</p>
@@ -64,9 +82,12 @@ den Vorschlag von Anton verärgert ab. "Ich will die Äpfel nicht mit Vögeln wi
 </ol>
 </VueHideShow>
 </VueExercise>
+
+<VueGoogleTranslate>
 In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bist du?"
 "Ich bin hier in dem Garten. Ich will den Vogel verscheuchen."
 "Oma, das ist nicht schön, das ist eklig. Wir mussen mit dem Vogel teilen".
+</VueGoogleTranslate>
 
 <VueExercise lg="de" instruction="Fülle die Lücken mit der richtigen konjugierten Form von verscheuen oder verseuchen aus!">
 <VueMCGaps lg="de" :gaptexts="['Die Papierfabrik {verseucht} den Fluss.',
@@ -78,7 +99,13 @@ In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bi
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/vogel.jpg"></img>
-"Ein Apfel mit Würmern ist eklig. Ich will keinen Apfel mit Würmern. Der Vogel kann den Apfel mit dem Wurm essen. Ich will einen Apfelkuchen mit anderen Äpfeln backen, und wir werden den Apfelkuchen unter dem Baum essen." sagte die Enkeltochter.
+
+<VueGoogleTranslate>
+"Ein Apfel mit Würmern ist eklig. Ich will keinen Apfel mit Würmern. Der Vogel kann den Apfel mit dem Wurm essen.
+ Ich will einen Apfelkuchen mit anderen Äpfeln backen, und wir werden den Apfelkuchen unter dem Baum essen." 
+ sagte die Enkeltochter.
+ </VueGoogleTranslate>
+
 <VueExercise lg="de" instruction="Bringe die Wörter in die richtige Reihenfolge!">
 <VueWordOrder lg="de" :sentences="['Ich will einen Apfel essen.',
 'Ich muss danach die Zähne putzen.',
@@ -88,8 +115,10 @@ In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bi
 </VueWordOrder>
 </VueExercise>
 
+<VueGoogleTranslate>
 "Einverstanden." sagte die Nachbarin zu ihrer Enkeltochter. "Vielen Dank!" sagen der Vogel und das Mädchen zusammen. 
 "Humph" dachte die alte Frau "Ich will nicht gern meine Äpfel teilen, aber ich liebe meine Enkeltochter."
+</VueGoogleTranslate>
 
 
 
@@ -107,10 +136,12 @@ In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bi
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 import VueMCGaps from "@/components/atoms/MCGaps.vue";
+import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
     
     export default defineComponent ({
       
       components: {
+         VueGoogleTranslate,
          VueExercise,
          VueHideShow,
          VueMCGaps,
