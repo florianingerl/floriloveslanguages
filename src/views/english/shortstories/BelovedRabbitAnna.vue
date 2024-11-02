@@ -117,7 +117,7 @@ unlike the others who usually come here. So you have to climb a tree and get the
  </VueGoogleTranslate>
 
 <VueExercise lg="en" :topics="['ing-form or infinitiv with our without to']" instruction="Fill in the gaps by an ing-form or an infinitv with or without to!">
-<VueMCGaps lg="en" :gaptext="['Lisa is really looking forward {to meeting|to meet|meet} her beloved rabbit again!',
+<VueMCGaps lg="en" :gaptexts="['Lisa is really looking forward {to meeting|to meet|meet} her beloved rabbit again!',
 'Lisa is able {to find|to finding|find|finding} her way back althougth the forest is dark.',
 'Lisa wants the monkey {to shut|to shutting|shutting|shut} up and not to tell any nonsense.']">
 
