@@ -145,30 +145,101 @@ But upon receiving his share of bananas, he told Lisa:
 <VueGoogleTranslate>
 "Your rabbit was exploring the river nearby when it was caught by a fox. 
 You should hurry if you want to see it alive ever again" the monkey informed Lisa before quickly disappearing.
-In this forest, Lisa knew only one fox and that one must certainly hide in his hole next to the big oak tree
+In this forest, Lisa knew only one fox and that one must certainly hide in its hole next to the big oak tree
  in the middle of the forest.
  </VueGoogleTranslate>
 
-<VueExercise lg="en" :topics="['Possessive pronouns']" instruction="Fill in the gaps by a possessive pronoun such as my,your,his,her,our,your,their!">
-<VueMCGaps lg="en" :gaptexts="['']">
+<VueExercise lg="en" :topics="['Possessive pronouns']" instruction="Fill in the gaps by a possessive pronoun such as my,your,his,her,its,our,your,their!">
+<VueMCGaps lg="en" :gaptexts="['The rabbit eats {its} carrot.',
+'Lisa has forgotten {her} mobile phone.',
+'{Your} level of English is quite good, if you can do this exercise.',
+'I have created this exercise with {my} time.',
+'Lisa\'s father loves {his} daughter.',
+'Lisa\'s parents love {their} daughter.']">
 
 </VueMCGaps>
 </VueExercise>
+
+<VueGoogleTranslate>
 Lisa started to run towards the oak tree in the hope of saving and finally getting her rabbit back.
-The most expensive map or cell phone could not have led Lisa the way. But Lisa knew the forrest very well and reached the oak tree in no time. There she found her rabbit, imprisoned in a cage.
-Had she arrived a little bit later, she might not have found her rabbit alive because hiding in the bushes, she could see the fox preparing for dinner. She quickly needed to come up with a plan to save her beloved pet.
-Nobody came unexpectedly out of the bushes to hand over a key for the cage. So what to do? She put on her cleaning gloves, went to the fox and asked him to hand her over the key for the cage because she was the cleaning service.
-Lisa didn't want to fail so she even offered to do the cleaning for free. The fox really appreciated this offer and handed over the key.
+The most expensive map or cell phone could not have led Lisa the way. 
+But Lisa knew the forrest very well and reached the oak tree in no time. 
+There she found her rabbit, imprisoned in a cage.
+</VueGoogleTranslate>
 
+<VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
+danger of, risk of, talent for, reason for, question about, matter of
+<VueMCGaps lg="en" :gaptexts="['There is no reason {for} becoming frustrated if you can\'t do this exercise. Just google prepositions and read a bit.',
+'Because of the danger {of} meeting a fox, a rabbit is always watchful.',
+'As a rabbit, evading all foxes is just a matter {of} experience.',
+'Rabbits have a talent {for} reproducing.']">
+
+</VueMCGaps>
+</VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+<VueGoogleTranslate>
+Had she arrived a little bit later, she might not have found her rabbit alive because hiding in the bushes,
+ she could see the fox preparing for dinner. She quickly needed to come up with a plan to save her beloved pet.
+Nobody came unexpectedly out of the bushes to hand over a key for the cage. 
+</VueGoogleTranslate>
+
+<VueExercise lg="en" :topics="['Inverted conditional sentences']" instruction="Form inverted conditional sentences as in the example!">
+<p>Lisa/forget/cell phone/call/police/help -> Had Lisa not forgotten her cell phone, she could have called the police for help.</p>
+
+<ol>
+<li>Lisa's rabbit/run away/catch/fox</li>
+<li>Lisa/put/rabbit/cage/run/away</li>
+<li>Lisa's rabbit/more watchful/evade/encounter/fox</li>
+</ol>
+<VueHideShow lg="en">
+<ol>
+<li>Had Lisa's rabbit not run away, it wouldn't have been caught by the fox.</li>
+<li>Had Lisa put her rabbit into a cage, it wouldn't have run away.</li>
+<li>Had Lisa's rabbit been more watchful, it could have evaded the encounter with the fox.</li>
+</ol>
+</VueHideShow>
+</VueExercise>
+
+<VueGoogleTranslate>
+So what to do? She put on her cleaning gloves, went to the fox and asked him to hand her over the key for the cage
+ because she was the cleaning service.
+Lisa didn't want to fail so she even offered to do the cleaning for free. 
+The fox really appreciated this offer and handed over the key.
+</VueGoogleTranslate>
+
+<VueExercise lg="en" :topics="['Simple past irregular verbes']" instruction="Fill in the gaps by the given verbs in the simple past!">
+<VueMCGaps lg="en" :gaptexts="['Lisa {went} (go) inside the cage and started to clean it.',
+'Lisa {was} (be) thirsty so he {drank} (drink) a bit of water.',
+'Lisa {took} (take) a deep breath and then started her cleaning duty.']">
+
+</VueMCGaps>
+</VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+<VueGoogleTranslate>
 "Also clean the rabbit! I want to eat a clean one." requested the fox.
-Luckily, Lisa had brought a few of the carrots and the bananas with her and by telling the fox  that eating those beforehand would make the rabbit easier digestable afterwards, she could thus distract the fox and avoid him watching her.
+Luckily, Lisa had brought a few of the carrots and the bananas with her and by telling the fox  
+that eating those beforehand would make the rabbit easier digestable afterwards, 
+she could thus distract the fox and avoid him watching her.
+</VueGoogleTranslate>
 
+<VueExercise lg="en" :topics="['few or a few']" instruction="Fill in the gaps by <<few>> or <<a few>>!">
+<VueMCGaps lg="en" :gaptexts="['{Few} foxes have any pity with the rabbits they eat.',
+'The fox ate {a few} carrots and became full so he couldn\'t eat the rabbit any more.']">
+
+</VueMCGaps>
+</VueExercise>
+
+<VueGoogleTranslate>
 Then she opened the cage and embrassed her beloved rabbit.
-Her rabbit was really cute but not too clever, so first, it didn't even want to leave the cage. Therefore, Lisa had to pick it up to escape while the fox was not paying attention. 
+Her rabbit was really cute but not too clever, so first, it didn't even want to leave the cage. 
+Therefore, Lisa had to pick it up to escape while the fox was not paying attention. 
 
 Once they arrived home, Lisa promised to herself to never take his pet for a walk again. 
+</VueGoogleTranslate>
 
-The end
+<h3>The end</h3>
 
 </div>
 
