@@ -10,7 +10,7 @@
 Tears were pouring down Lisa's cheeks. Why?
 </VueGoogleTranslate>
 
-<VueExercise lg="en" instruction="Fill in the gaps with the correct interrogative pronoun!">
+<VueExercise lg="en" :topics="['Question words why, when, etc...']" instruction="Fill in the gaps with the correct question word!">
 <VueMCGaps lg="en" :gaptexts="['{Why} are you so sad?',
 '{What} is your preferred colour?',
 '{When} do you usually get up?']">
@@ -71,12 +71,12 @@ Lisa hoped and waited for hours for her rabbit but sadly, it didn't show up. She
 gotten into some trouble and needed her help, so she went back to the forest.
 </VueGoogleTranslate> 
 
-<VueExercise lg="en" :topics="['']" instruction="Fill in the gaps by either unless, nevertheless, despite, although or whereas!">
+<VueExercise lg="en" :topics="['Contrasting ideas: unless, nevertheless, despite, although, whereas']" instruction="Fill in the gaps by either unless, nevertheless, despite, although or whereas!">
 <VueMCGaps lg="en" :gaptexts="['The ears of a rabbit are pretty big, {whereas} its tail is rather small.',
 '{Although} a rabbit has pretty big ears, it can\'t understand any human language.',
 '{Despite} her fear of wolves, Lisa went into the forest to look for her beloved rabbit.',
 '{Unless} she found her rabbit immediately, she would search for it in the forest the whole night.',
-'List was already pretty tired. {Nevertheless}, he continued searching for her beloved rabbit.']">
+'List was already pretty tired. {Nevertheless}, she continued searching for her beloved rabbit.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -87,7 +87,7 @@ Suprisingly, the monkey could also speak English and adressed his speach to her:
 I could tell you where it has gone but I don't give you the information for free."
 </VueGoogleTranslate>
 
-<VueExercise lg="en" :topics="['']" instruction="Fill in the gaps by <<By the time>>, <<Until>, <<before>> or <<by>>" >
+<VueExercise lg="en" :topics="['Prepositions of time: by the time, by, until or before']" instruction="Fill in the gaps by <<By the time>>, <<Until>, <<before>> or <<by>>" >
 <VueMCGaps lg="en" :gaptexts="['{Until} Lisa hasn\'t found her rabbit, she won\'t stop searching for it.',
 '{By the time} Lisa realized the absence of it, her rabbit was already far away from home.',
 'Ideally, Lisa will find her rabbit {before} sunset, because she is afraid of the darkness in the forest.',
@@ -98,11 +98,11 @@ I could tell you where it has gone but I don't give you the information for free
 
 <VueGoogleTranslate>
 Although Lisa was really surprised by this speaking monkey and she was even a little afraid of what the monkey might want from her,
- but she was determined to find her rabbit and wouldn't give up because of a small challenge.
+ she was determined to find her rabbit and wouldn't give up because of a small challenge.
 "So just tell me what you want in return for giving me your information?" -Lisa told the monkey.
 </VueGoogleTranslate>
 
-<VueExercise lg="en" :topics="['Participle 1 or 2']" instruction="Fill in the gaps by a participle 1 ou participle 2!">
+<VueExercise lg="en" :topics="['Present or past participle']" instruction="Fill in the gaps by the present or past participle!">
 <VueMCGaps lg="en" :gaptexts="['Not {knowing|known} what to say, Lisa stayed quiet.',
 'Completely {exhausted|exhausting}, Lisa sat down and ate some dandelions.',
 'Not {believing|believed} the monkey, Lisa dismissed its information and went into the direction of her nose.']">
@@ -118,7 +118,7 @@ unlike the others who usually come here. So you have to climb a tree and get the
 
 <VueExercise lg="en" :topics="['ing-form or infinitiv with our without to']" instruction="Fill in the gaps by an ing-form or an infinitv with or without to!">
 <VueMCGaps lg="en" :gaptexts="['Lisa is really looking forward {to meeting|to meet|meet} her beloved rabbit again!',
-'Lisa is able {to find|to finding|find|finding} her way back althougth the forest is dark.',
+'Lisa is able {to find|to finding|find|finding} her way back although the forest is dark.',
 'Lisa wants the monkey {to shut|to shutting|shutting|shut} up and not to tell any nonsense.']">
 
 </VueMCGaps>
@@ -135,7 +135,7 @@ But upon receiving his share of bananas, he told Lisa:
 <VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
 <VueMCGaps lg="en" :same="true" :gaptexts="['Finally, there had been no reason {for|} not accepting the help of the monkey.',
 'If the search for her beloved rabbit takes long, there would be a risk for Lisa {of|} not finding her way back in the dark.',
-'Despite her talent {in|} finding things quickly on her unordered desk at home, Lisa met difficulties {in|} finding her beloved rabbit in the forest now.']">
+'Despite her talent {for|} finding things quickly on her unordered desk at home, Lisa met difficulties {in|} finding her beloved rabbit in the forest now.']">
 
 </VueMCGaps>
 </VueExercise>
@@ -168,7 +168,6 @@ There she found her rabbit, imprisoned in a cage.
 </VueGoogleTranslate>
 
 <VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
-danger of, risk of, talent for, reason for, question about, matter of
 <VueMCGaps lg="en" :gaptexts="['There is no reason {for} becoming frustrated if you can\'t do this exercise. Just google prepositions and read a bit.',
 'Because of the danger {of} meeting a fox, a rabbit is always watchful.',
 'As a rabbit, evading all foxes is just a matter {of} experience.',
