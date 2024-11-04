@@ -12,6 +12,7 @@ import VueVogelEichhoernchen from "@/views/deutsch/kurzgeschichten/BirdAndSquirr
 import VueFrancais from "@/views/french/NavigationFrench.vue";
 import VueEspagnol from "@/views/espagnol/vue-espagnol.vue";
 import VueNegationEspagnol from "@/views/espagnol/grammaire/vue-negation-espagnol.vue";
+import VueLapinOlivia from "@/views/espagnol/breveshistoires/LapinOlivia.vue";
 import VueComparatifEspagnol from "@/views/espagnol/grammaire/vue-comparatifs.vue";
 import VueMonumentPoisson from "@/views/french/breveshistoires/vue-monument-poisson.vue";
 import VueEcureuilMarie from "@/views/french/breveshistoires/EcureuilMarie.vue";
@@ -52,6 +53,17 @@ const router = createRouter({
               name: 'Navigation Espagnol',
               path: '',
               component: VueEspagnol
+            },
+            {
+              name: 'breves histoires',
+              path: 'breveshistoires',
+              children: [
+                {
+                  name: 'El conejo Carlos',
+                  path: 'conejocarlos',
+                  component: VueLapinOlivia
+                }
+              ]
             },
             {
               name: 'grammaire',
