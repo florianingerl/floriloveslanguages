@@ -238,7 +238,7 @@ Therefore, Lisa had to pick it up to escape while the fox was not paying attenti
 Once they arrived home, Lisa promised to herself to never take his pet for a walk again. 
 </VueGoogleTranslate>
 
-<h3>The end</h3>
+<h3 class="bg-blue">The end</h3>
 
 </div>
 
