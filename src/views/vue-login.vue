@@ -7,6 +7,8 @@
 <p>Your password is: {{ user.password }} </p>
 <input v-model="user.password" placeholder="Your password" />
 
+<p style="color:red" > {{ message }} </p>
+
 <p><button class="btn btn-primary" @click="loginClicked">Login</button></p>
 
 </div>
@@ -26,7 +28,8 @@ export default defineComponent({
   },
   setup(){
      const user = ref<User>({name:"",mail:"",password:""});
-     return {user};
+     const message = ref<string>("");
+     return {user, message };
    
   },
   mounted(){
@@ -38,11 +41,18 @@ export default defineComponent({
   methods: {
      loginClicked(){
         console.log("The login button was clicked!");
-        return; //Not yet implemented!
-
-        const client = axios.create({
-  baseURL: 'http://localhost:8080/api',
+       
+          const client = axios.create({
+  baseURL: 'http://localhost:8080',
 });
+
+type emailOwner = {
+ email: string,
+ password: string
+};
+
+let mailNotTakenYet = true;
+
 
 (async () => {
   const config: AxiosRequestConfig = {
@@ -50,24 +60,45 @@ export default defineComponent({
       'Accept': 'application/json',
     } as RawAxiosRequestHeaders,
   };
-
+  
   try {
-    const data = {'name': this.user.name, 'mail': this.user.mail, 'password': this.user.password };
-    const response: AxiosResponse = await client.post('/login', data , config);
-    console.log(response.status);
-    console.log(response.data.json);    
+    const searchResponse: AxiosResponse = await client.get(`/api/user`, config);
+    //console.log(searchResponse);
+    const emailOwners: emailOwner[] = searchResponse.data;
+    
+    emailOwners.forEach ( (owner: emailOwner) => {
+        console.log( owner.email );
+        if( owner.email == this.user.mail ) {
+            console.log(`A user with the email {this.user.mail} exists!`);
+            mailNotTakenYet = false;
+            if( owner.password == this.user.password ){
+              this.message = "You have successfully logged in";
+            }
+            else {
+              this.message = `A user with that mail exists but the password is wrong!`;
+            }
+        }
+    });
+
+    console.log( { mailNotTakenYet });
+    if( mailNotTakenYet ) {
+      this.message = "This user doesn't exist in the database!";
+    }
+
+   
   } catch(err) {
     console.log(err);
+    console.log("False is returned because an error occured!");
   }  
 })();
 
+   
 
-     }
-  },
-  computed: {
-     
-  }
-});
+
+     } //end of loginClicked
+  } //end of methods
+ 
+} );
 </script>
 
 <style scoped>

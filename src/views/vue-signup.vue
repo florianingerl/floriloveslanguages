@@ -9,6 +9,8 @@
 <p>Your password is: {{ user.password }} </p>
 <input v-model="user.password" placeholder="Your password" />
 
+<p v-if="message != ''" style="color:red"> {{ message }} </p>
+
 <p><button class="btn btn-primary" @click="signupClicked">Sign up</button></p>
 
 </div>
@@ -17,9 +19,9 @@
 </template>
 
 <script lang="ts">
+import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
 import { defineComponent, ref } from "vue";
 import type { User } from "@/types/User.ts";
-import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
 
 export default defineComponent({
   name: "SignUpVue",
@@ -28,7 +30,8 @@ export default defineComponent({
   },
   setup(){
      const user = ref<User>({name:"",mail:"",password:""});
-     return {user};
+     const message = ref<string>("");
+     return {user, message };
    
   },
   mounted(){
@@ -40,12 +43,63 @@ export default defineComponent({
   methods: {
      signupClicked(){
         console.log("The signup button was clicked!");
-return; //Not yet implemented!
-
+        this.signupIfMailNotTakenYet();
         
+      
+        
+     },
 
-const client = axios.create({
-  baseURL: 'https://httpbin.org',
+     signupIfMailNotTakenYet(){
+        const client = axios.create({
+  baseURL: 'http://localhost:8080',
+});
+
+type emailOwner = {
+ email: string
+};
+
+let mailNotTakenYet = true;
+
+
+return (async () => {
+  const config: AxiosRequestConfig = {
+    headers: {
+      'Accept': 'application/json',
+    } as RawAxiosRequestHeaders,
+  };
+  
+  try {
+    const searchResponse: AxiosResponse = await client.get(`/api/user`, config);
+    //console.log(searchResponse);
+    const emailOwners: emailOwner[] = searchResponse.data;
+    
+    emailOwners.forEach ( (owner: emailOwner) => {
+        console.log( owner.email );
+        if( owner.email == this.user.mail ) {
+            console.log(`A user with the email {this.user.mail} already exists!`);
+            mailNotTakenYet = false;
+            this.message = `A user with the email ${this.user.mail} already exists`;
+        }
+    });
+
+    console.log( { mailNotTakenYet });
+    if( mailNotTakenYet ) {
+      this.signup();
+      this.message = "You were successfully inserted into the database!";
+    }
+
+   
+  } catch(err) {
+    console.log(err);
+    console.log("False is returned because an error occured!");
+    return false;
+  }  
+})();
+     },
+
+     signup(){
+      const client = axios.create({
+  baseURL: 'http://localhost:8080',
 });
 
 (async () => {
@@ -56,9 +110,8 @@ const client = axios.create({
   };
 
   try {
-    //const data = {'message': 'Hello World!'};
-    const data = {'name': this.user.name, 'mail': this.user.mail, 'password': this.user.password };
-    const response: AxiosResponse = await client.post(`/post`, data , config);
+    const data = { "name": this.user.name,"email": this.user.mail,"password": this.user.password };
+    const response: AxiosResponse = await client.post(`/api/user`, data , config);
     console.log(response.status);
     console.log(response.data.json);    
   } catch(err) {
@@ -66,9 +119,8 @@ const client = axios.create({
   }  
 })();
      }
-  },
-  computed: {
      
+       
   }
 });
 </script>
