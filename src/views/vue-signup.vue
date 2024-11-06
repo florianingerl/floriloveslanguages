@@ -11,7 +11,7 @@
 
 <p v-if="message != ''" style="color:red"> {{ message }} </p>
 
-<p><button class="btn btn-primary" @click="signupClicked">Sign up</button></p>
+<p><button class="btn btn-primary" @click="signupClicked2">Sign up</button></p>
 
 </div>
 
@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, inject } from "vue";
 import type { User } from "@/types/User.ts";
 
 export default defineComponent({
@@ -31,7 +31,9 @@ export default defineComponent({
   setup(){
      const user = ref<User>({name:"",mail:"",password:""});
      const message = ref<string>("");
-     return {user, message };
+
+     const localStorage = inject("localStorage") as any;
+     return {user, message, localStorage };
    
   },
   mounted(){
@@ -41,6 +43,49 @@ export default defineComponent({
   
   
   methods: {
+     signupClicked2(){
+        const client = axios.create({
+  baseURL: 'http://localhost:8080',
+});
+
+(async () => {
+  const config: AxiosRequestConfig = {
+    headers: {
+      'Accept': 'application/json',
+    } as RawAxiosRequestHeaders,
+  };
+
+  try {
+    const data = {'name': this.user.name, "email": this.user.mail , "password": this.user.password };
+    
+    try {
+    const response: AxiosResponse = await client.post(`/api/register`, data , config);
+    
+    console.log(response.status);
+    console.log(response.data);   
+    
+    console.log("Here comes the token!");
+    console.log(response.data.token);
+
+    this.message = "You have registered successfully!";
+    this.localStorage.setItem("token", response.data.token );
+
+    } catch( e ){
+      const error = e as AxiosError;
+      console.log(error.status);
+      console.log(error);
+      this.message = error.response.data.message;
+
+
+    }
+
+
+  } catch(err) {
+    console.log(err);
+  }  
+})();
+     },
+
      signupClicked(){
         console.log("The signup button was clicked!");
         this.signupIfMailNotTakenYet();

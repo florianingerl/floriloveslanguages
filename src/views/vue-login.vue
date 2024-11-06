@@ -9,7 +9,7 @@
 
 <p style="color:red" > {{ message }} </p>
 
-<p><button class="btn btn-primary" @click="loginClicked">Login</button></p>
+<p><button class="btn btn-primary" @click="loginClicked2">Login</button></p>
 
 </div>
 
@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, inject } from "vue";
 import type { User } from "@/types/User.ts";
 import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
 
@@ -29,7 +29,8 @@ export default defineComponent({
   setup(){
      const user = ref<User>({name:"",mail:"",password:""});
      const message = ref<string>("");
-     return {user, message };
+     const localStorage = inject("localStorage");
+     return {user, message, localStorage };
    
   },
   mounted(){
@@ -39,6 +40,39 @@ export default defineComponent({
   
   
   methods: {
+     loginClicked2(){
+       const client = axios.create({
+  baseURL: 'http://localhost:8080',
+});
+
+
+(async () => {
+  const config: AxiosRequestConfig = {
+    headers: {
+      'Accept': 'application/json',
+    } as RawAxiosRequestHeaders,
+  };
+
+  try {
+    const data = { "email": this.user.mail, "password": this.user.password };
+    const searchResponse: AxiosResponse = await client.post(`/api/login`, data, config);
+    console.log( searchResponse.data);
+
+    console.log("Here is the token:");
+    console.log( searchResponse.data.token );
+
+    this.localStorage.setItem("token", searchResponse.data.token );
+
+    this.message = "You have successfully logged in!";
+  } catch(e) {
+    const error = e as AxiosError;
+      console.log(error.status);
+      console.log(error);
+      this.message = error.response.data.message;
+  }  
+})();
+     },
+
      loginClicked(){
         console.log("The login button was clicked!");
        
