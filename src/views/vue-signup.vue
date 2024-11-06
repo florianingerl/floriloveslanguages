@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts">
-import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
+import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders, AxiosError } from 'axios';
 import { defineComponent, ref, inject } from "vue";
 import type { User } from "@/types/User.ts";
 
@@ -74,7 +74,7 @@ export default defineComponent({
       const error = e as AxiosError;
       console.log(error.status);
       console.log(error);
-      this.message = error.response.data.message;
+      this.message = ( (error.response) as any).data.message;
 
 
     }

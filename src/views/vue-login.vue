@@ -19,7 +19,7 @@
 <script lang="ts">
 import { defineComponent, ref, inject } from "vue";
 import type { User } from "@/types/User.ts";
-import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
+import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders, AxiosError } from 'axios';
 
 export default defineComponent({
   name: "LoginVue",
@@ -29,7 +29,7 @@ export default defineComponent({
   setup(){
      const user = ref<User>({name:"",mail:"",password:""});
      const message = ref<string>("");
-     const localStorage = inject("localStorage");
+     const localStorage = inject("localStorage") as any;
      return {user, message, localStorage };
    
   },
@@ -68,7 +68,7 @@ export default defineComponent({
     const error = e as AxiosError;
       console.log(error.status);
       console.log(error);
-      this.message = error.response.data.message;
+      this.message = ( (error.response) as any).data.message;
   }  
 })();
      },
