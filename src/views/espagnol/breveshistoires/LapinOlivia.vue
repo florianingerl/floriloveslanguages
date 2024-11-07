@@ -59,9 +59,59 @@ Queria que tuviera el pelo rubio.
 </VueMCGaps>
 </VueExercise>
 
-Fue a casa de su hermano y le dijo que como tenia mas suerte que él, le podia ayudar para buscar a una novia
-El hermano de Carlos quiso dinero para ayudarle. Carlos le dio dinero. Su hermano debia apoyarlo ahora, no tenia otra opcion.
-"Pon tus botas para que vayamos al pueblo a preguntar por una conejita que conozco, estoy seguro de que te va a encantar!"
+<img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+Fue a casa de su hermano y le dijo que como tenia mas suerte que él, le podia ayudar para buscar a una novia.
+
+<VueExercise lg="fr" :topics="['Pronoms directs et indirects']" instruction="Form des phrases comme dans l'exemple">
+<p>Ejemplo: Su hermano podía ayudar a <u>Carlos</u>. -> Su hermano podía ayudarle.</p>
+
+<ol>
+<li>Carlos no pudía encontrar a su media naranja.</li>
+<li>Carlos quería comer la zanahoria que había comprado ayer.</li>
+<li>Carlos debía escuchar su hermano.</li>
+</ol>
+
+<HideShow lg="fr">
+<ol>
+<li>Carlos no pudía encontrarla.</li>
+<li>Carlos quería comerla.</li>
+<li>Carlos debía escucharlo.</li>
+</ol>
+</HideShow>
+</VueExercise>
+
+El hermano de Carlos quiso dinero para ayudarle. Carlos le dio dinero. Su hermano debia apoyarlo ahora, 
+no tenia otra opcion.
+
+<VueExercise lg="fr" :topics="['Pronoms directs et indirects']" instruction="Form des phrases comme dans l'exemple!">
+<p>Ejemplo: El hermano de Carlos quiso dinero para ayudar a Carlos. -> El hermano de Carlos quiso dinero para ayudarle.</p>
+
+<ol>
+<li>Carlos gasta dinero para comprar las zanahorias más deliciosas.</li>
+<li>Carlos escuchó su hermano para entender a su hermano.</li>
+<li>Carlos practicaba muchos deportes para impresionar a su media naranja con su apariencia atlética.</li>
+<li></li>
+</ol>
+<HideShow lg="fr">
+<ol>
+<li>Carlos gasta dinero para comprarlas.</li>
+<li>Carlos escuchó su hermano para entenderle.</li>
+<li>Carlos praticaba muchos deportes para impresionarle con su apariencia atlética.</li>
+</ol>
+</HideShow>
+</VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+"Pon tus botas para que vayamos al pueblo a preguntar por una conejita que conozco, 
+estoy seguro de que te va a encantar!"
+
+<VueExercise lg="fr" :topics="['Adjectifs possessifs']" instruction="Remplis les trous avec l'adjectif possessif qui convient!">
+<MCGaps lg="fr" :gaptexts="['']">
+
+</MCGaps>
+</VueExercise>
+
+<img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
 Cuando los dos hermanos llegaron a casa de la conejita, a Carlos no le gusto la conejita.
 Estaban a punto de irse cuando la coneja dijo: "conteis hasta tres y mireis sobre la mesa"
 La mesa no estaba lejos. Carlos podia verla.
