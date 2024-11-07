@@ -18,53 +18,27 @@ Topics:
     
 </template>
 
-<script lang="ts">
-import { defineComponent, inject } from "vue";
-import type { PropType } from "vue";
-import type { Languages } from "../../types/Languages.ts";
+<script setup lang="ts">
+import { defineProps, inject } from "vue";
+import type { Languages } from "@/types/Languages.ts";
+const props = defineProps<{
+  instruction : string,
+  lg: Languages,
+  topics?: string[]
+}>();
+props.instruction
+props.lg
+props.topics
 
-export default defineComponent ({
-  name: "VueExercise",
-  components: {
-    
-  },
-  props: {
-    instruction : {
-      required: true,
-      type: String
-    },
-    lg : {
-      required: true,
-      type: String as PropType<Languages>
-    },
-    topics: {
-      required: false,
-      type: Array as PropType<string[]>
-    }
+const window = inject("window") as any;
 
-  },
+function google(topic: string){
+  let baseUrl = "https://www.google.com/search?q=";
+  window.open(baseUrl + topic, "_blank").focus();        
+}
 
- setup(){
-    const window = inject("window") as any;
-
-    return {  window };
-  },
-
-  mounted(){
-     console.log("The setup function is executed!");
-     
-  },
-
-  methods: {
-     google(topic: string){
-        let baseUrl = "https://www.google.com/search?q=";
-        this.window.open(baseUrl + topic, "_blank").focus();
-        
-     }
-
-  }
-});
 </script>
+
 
 <style scoped>
 
