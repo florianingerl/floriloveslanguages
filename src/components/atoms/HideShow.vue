@@ -20,39 +20,17 @@
 
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import type {Languages} from "@/types/Languages.ts";
+import { defineProps, ref } from "vue";
 
-import { defineComponent } from "vue";
-import type { PropType } from "vue";
-import type { Languages } from "../../types/Languages.ts";
+const props = defineProps<{
+  lg: Languages
+}>();
 
+console.log( props.lg );
 
-export default defineComponent({
-  name: "VueHideShow",
-  components: {
-    
-  },
-  props: {
-    lg: {
-      required: true,
-      type: String as PropType<Languages>
-    }
-  },
-
-  mounted() {
-    console.log("The setup function is executed!");
-
-  },
-  setup() {
-    console.log("The setup function is executed!");
-  },
-
-  data() {
-    return {
-      show: false
-    };
-  }
-});
+const show = ref( false );
 </script>
 
 <style scoped>
