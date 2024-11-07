@@ -13,54 +13,28 @@
 
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import { computed, useSlots } from "vue";
 
-import { defineComponent } from "vue";
+const slots = useSlots() as any;
 
-
-export default defineComponent({
-  name: "VueGoogleTranslate",
-  components: {
-    
-  },
-  props: {
-   
-  },
-
-  mounted() {
-    
-  },
-  setup() {
-    
-  },
-
-  methods: {
-    getSlotChildrenText(children: any) {
+function getSlotChildrenText(children: any) {
     return children.map( (node:any) => {
     if (!node.children || typeof node.children === 'string') return node.children || ''
-    else if (Array.isArray(node.children)) return this.getSlotChildrenText(node.children)
-    else if (node.children.default) return this.getSlotChildrenText(node.children.default())
+    else if (Array.isArray(node.children)) return getSlotChildrenText(node.children)
+    else if (node.children.default) return getSlotChildrenText(node.children.default())
     }).join('')
   }
-  },
 
-  computed: {
-  translateText() {
-      if ( (this as any).$slots.default()) {
-        return this.getSlotChildrenText( (this as any).$slots.default());
+const translateText = computed(() => {
+      if ( slots.default()) {
+        return getSlotChildrenText( slots.default() );
       } else {
         return '';
       }
-  }
-},
-
-  data() {
-    return {
-     
-    };
-  }
-});
+  } ) ;
 </script>
+
 
 <style scoped>
 
