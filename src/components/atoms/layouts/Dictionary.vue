@@ -19,68 +19,43 @@
     <router-view/>
 </div>
 
- 
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import type { Dictionary } from "@/types/Dictionary.ts";
+import { onMounted, watch , inject } from "vue";
+import { useRoute } from 'vue-router';
 
-import { defineComponent , ref, inject } from "vue";
-import type { Dictionary } from "../../../types/Dictionary.ts";
+const route = useRoute();
 
-export default defineComponent ({
-  name: "VueDict",
-  components: {
-  
-  },
-  setup(){
-    const selectedDict = ref<string>("The free dictionary French - French");
-    const dictionaries = ref<Dictionary[]>([]);
-    const window = inject("window") as any;
+let selectedDict = "The free dictionary French - French";
+let dictionaries : Dictionary[] = [];
+const window = inject("window") as any;
 
-    return { selectedDict, dictionaries, window };
-  },
-
-  watch:{
-    $route (to, from){
-        console.log(to);
-        console.log(from);
-        this.setDictionaries();
-    }
-  } ,
-
-  mounted(){
-     
-   console.log("The mounted function of VueFr is executed!" );
-
-   this.setDictionaries();
-
-  },
-  
-  methods: {
-    setDictionaries() {
-         console.log(this.$route.params.language );
-   if( this.$route.params.language === 'french' ){
-    this.dictionaries = [ { name: "Word Reference French - German", url: "https://www.wordreference.com/frde/" },
+function setDictionaries() {
+         console.log(route.params.language );
+   if( route.params.language === 'french' ){
+    dictionaries = [ { name: "Word Reference French - German", url: "https://www.wordreference.com/frde/" },
                          { name: "Word Reference French - English", url: "https://www.wordreference.com/fren/" }, 
                          { name: "Larousse French - French", url: "https://www.larousse.fr/dictionnaires/francais/"},
                          { name: "The free dictionary French - French", url: "https://fr.thefreedictionary.com/" }];
    }
-   else if( this.$route.params.language === 'english' ){
-     this.dictionaries = [ { name: "Word Reference English - German", url: "https://www.wordreference.com/ende/" },
+   else if( route.params.language === 'english' ){
+     dictionaries = [ { name: "Word Reference English - German", url: "https://www.wordreference.com/ende/" },
                          { name: "Word Reference English - French", url: "https://www.wordreference.com/enfr/" }, 
                          { name: "Oxford Learner's dictionary English - English", url: "https://www.oxfordlearnersdictionaries.com/definition/english/"},
                          { name: "The free dictionary English - English", url: "https://en.thefreedictionary.com/" }];
    }
-   else if( this.$route.params.language === 'deutsch' ){
-     this.dictionaries = [ { name: "The free dictionary Deutsch - Deutsch", url: "https://de.thefreedictionary.com/" },
+   else if( route.params.language === 'deutsch' ){
+     dictionaries = [ { name: "The free dictionary Deutsch - Deutsch", url: "https://de.thefreedictionary.com/" },
                          { name: "Word Reference Deutsch - Englisch", url: "https://www.wordreference.com/deen/" },
                          { name: "Word Reference Deutsch - Französisch", url: "https://www.wordreference.com/defr/" },
                          { name: "Word Reference Deutsch - Spanisch", url: "https://www.wordreference.com/dees/" },
                          { name: "Pons Deutsch - Russisch", url: "https://de.pons.com/%C3%BCbersetzung-2/deutsch-russisch/" }
                         ];
    }
-   else if( this.$route.params.language === 'espagnol' ){
-     this.dictionaries = [ { name: "Word Reference Französisch - Spanisch", url: "https://www.wordreference.com/espfr/" },
+   else if( route.params.language === 'espagnol' ){
+     dictionaries = [ { name: "Word Reference Französisch - Spanisch", url: "https://www.wordreference.com/espfr/" },
                            { name: "The free dictionary Espagnol - Espagnol", url: "https://esp.thefreedictionary.com/" },
                          { name: "Word Reference Spanisch - Deutsch", url: "https://www.wordreference.com/espde/" }
                         ];
@@ -88,24 +63,31 @@ export default defineComponent ({
 
 
 
-   this.selectedDict = this.dictionaries[0].name;
+   selectedDict = dictionaries[0].name;
 
-    },
-    openDict(_event: Event ){
+}
+
+function openDict(_event: Event ){
         
-         let str = this.window.getSelection().toString() as string;
+         let str = window.getSelection().toString() as string;
          let baseUrl = "https://fr.thefreedictionary.com/";
-         let i = this.dictionaries.findIndex( (dict: Dictionary ) => dict.name === this.selectedDict );
+         let i = dictionaries.findIndex( (dict: Dictionary ) => dict.name === selectedDict );
          if( i!= -1 ){
-            baseUrl = this.dictionaries[i].url;
+            baseUrl = dictionaries[i].url;
          }
-         this.window.open(baseUrl + str, "_blank").focus();
+         window.open(baseUrl + str, "_blank").focus();
        
         console.log("This script has been executed!");  
-    }
   }
+
+onMounted(() => {
+   setDictionaries();
 });
+
+watch(route, () => setDictionaries() );
+
 </script>
+
 
 <style scoped>
 
