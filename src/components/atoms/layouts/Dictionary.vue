@@ -1,11 +1,7 @@
 <template>
 <div @dblclick="openDict">
 
-<div>
-<span style="font-weight:bold;">Please select your mother language</span> (You can translate each paragraph into this language by hovering over the globus):
-<div style="{display: inline}" id="google_translate_element"></div>
-</div>
-   
+
    <div> <span style="font-weight:bold;">Select your preferred dictionary</span> (You can open the dictionary by double-clicking on any word on this page):
      <select style="display:block;"  v-model="selectedDict">
    <option v-for="dict in dictionaries">{{ dict.name }}</option>

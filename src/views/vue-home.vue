@@ -11,7 +11,11 @@
 </div>
 
 <div id="main" style="padding-left:16px">
-
+    <div>
+<span style="font-weight:bold;">Please select your mother language</span> (You can translate each paragraph into this language by hovering over the globus):
+<div style="{display: inline}" id="google_translate_element"></div>
+</div>
+   
     <router-view></router-view>
 
 </div>
