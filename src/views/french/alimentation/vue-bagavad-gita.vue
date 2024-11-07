@@ -59,13 +59,13 @@ Le monde attendra-t-il jusqu'au plus jeune jour?
 <li>Est-ce que la Bhagavad-Gita est un livre avec beaucoup de pages?</li>
 </ol>
 
-<VueHideShow>
+<HideShow>
 <ol>
 <li>Comment le message du Seigneur Krishna vient-t-il au monde?</li>
 <li>Combien des années le dialogue entre Krishna et Arjuna a-t-il?</li>
 <li>La Bhagavad-Gita est-elle un livre avec beaucoup de pages?</li>
 </ol>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -94,7 +94,7 @@ et en est le résumé. La Gîtâ affirme l'unité de la vie et sert parfaitement
 import VueGaps from "./../../vue-gaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueWholeSentences from "./../../WholeSentences.vue"; 
 
 export default {
@@ -103,7 +103,7 @@ export default {
      VueGaps,
      VueQuestion,
      VueExercise,
-     VueHideShow,
+     HideShow,
      VueWholeSentences
   },
 

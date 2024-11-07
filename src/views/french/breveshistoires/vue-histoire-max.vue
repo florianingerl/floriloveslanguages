@@ -100,7 +100,7 @@ import VueMCGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueImage from "./../../vue-image.vue";
 
 export default {
@@ -110,7 +110,7 @@ export default {
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueImage,
      VueMCGaps
   },

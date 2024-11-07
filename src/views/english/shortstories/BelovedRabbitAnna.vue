@@ -191,13 +191,13 @@ Nobody came unexpectedly out of the bushes to hand over a key for the cage.
 <li>Lisa/put/rabbit/cage/run/away</li>
 <li>Lisa's rabbit/more watchful/evade/encounter/fox</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Had Lisa's rabbit not run away, it wouldn't have been caught by the fox.</li>
 <li>Had Lisa put her rabbit into a cage, it wouldn't have run away.</li>
 <li>Had Lisa's rabbit been more watchful, it could have evaded the encounter with the fox.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <VueGoogleTranslate>
@@ -252,7 +252,7 @@ import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
@@ -261,7 +261,7 @@ export default defineComponent ({
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps,
      VueGoogleTranslate
   },

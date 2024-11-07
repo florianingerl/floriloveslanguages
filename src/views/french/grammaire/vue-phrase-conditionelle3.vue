@@ -24,7 +24,7 @@
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
 
@@ -32,7 +32,7 @@ export default {
   name: "VueConditionelle3",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps,
     VueWholeSentence
   },

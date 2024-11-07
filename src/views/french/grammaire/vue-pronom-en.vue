@@ -17,13 +17,13 @@
 <li>Profitierst du von den Ferien. <br> Ja, ich profitiere von ihnen.</li>
 </ol>
 
-<VueHideShow>
+<HideShow>
 <ol>
 <li>Est-ce que vous rentrez de l'école? <br> Oui, nous en rentrons.</li>
 <li>Est-ce que tu parles de ton devoir? <br> Non, je n'en parle pas.</li>
 <li>Est-ce que tu profites des vacances? <br> Oui, j'en profite.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -35,13 +35,13 @@
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 
 export default {
   name: "VuePronomEn",
   components: {
     VueExercise,
-    VueHideShow
+    HideShow
   },
 
   mounted(){

@@ -26,14 +26,14 @@ revenez ici et fais mon test! Bonne chance!
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {
   name: "VueDontDuquelCresson",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps
   },
 

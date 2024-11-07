@@ -49,7 +49,7 @@
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
 
@@ -57,7 +57,7 @@ export default {
   name: "VueNiNi",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps,
     VueWholeSentence
   },

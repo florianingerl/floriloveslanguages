@@ -40,10 +40,10 @@ Fred admirait le courage de sa mère! Il aurait eu peur seulement à la pensée 
 <VueExercise>
 Quels mots désignent des qualités et lesquels désignent des défauts? <br>
 courage, orgueil, générosité, vanité, sérénité, patience, médiocrité, vantardise, paresse, bravoure, nervosité, rigeur, vigeur, préservance, humilité
-<VueHideShow>
+<HideShow>
 <p>Qualités: courage, générosité, vanité, sérénité, patience</p>
 <p>Défauts: orgueil, vanité, médiocrité, vantardise, paresse</p>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -221,7 +221,7 @@ import VueMCGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 
 export default {
   
@@ -230,7 +230,7 @@ export default {
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps
   },
 

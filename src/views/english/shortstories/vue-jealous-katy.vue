@@ -27,13 +27,13 @@ Instead, she quickly had to call an ambulance.
 <li>The leg of Brian is broken.</li>
 <li>The noise of the ambulance car is deafening.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Brian's friend is called Katy.</li>
 <li>Brian's leg is broken.</li>
 <li>The ambulance car's noise is deafening.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/jealouskaty.png"></img>
@@ -46,14 +46,14 @@ He even became friends with one of them.
 <p>a comic, a gameboy, a handy, some money, a diary, a towel</p>
 
 <p>Example: Brian, you should bring a comic to the hospital just in case you become bored and need something to read.</p>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ul>
 <li>Bring a handy in case you need to phone your dad.</li>
 <li>Bring some money in case you want to buy food from the trolley.</li>
 <li>Bring a diary in case you want to write down your hospital memories.</li>
 <li>Bring a towel in case they haven't got any in the hospital.</li>
 </ul>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -165,13 +165,13 @@ and getting back to healthy nutrition.
 <li>Amanda/accident/come/hospital</li>
 <li>Sonja/wrong medication/Amanda/recover/quick</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>If Amanda hadn't told Katy all this, Katy could not have warned Brian.</li>
 <li>If Amanda hadn't had an accident, she would not have come to hospital.</li>
 <li>If Sonja hadn't given the wrong medication to Amanda, Amanada would have recovered more quickly.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -219,7 +219,7 @@ import { defineComponent } from "vue";
 
 import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 
 export default defineComponent ({
@@ -227,7 +227,7 @@ export default defineComponent ({
   components: {
      VueExercise,
      VueMCGaps,
-     VueHideShow,
+     HideShow,
      VueWordOrder
   },
 

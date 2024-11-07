@@ -34,13 +34,13 @@ um ihren Wunsch einer Fischmahlzeit damit auszudrücken.
 <li>Camille, Urlaub machen, arbeiten, lieber</li>
 <li>Katze, putzen, Fell, schmutzig, sein</li>
 </ol>
-<VueHideShow lg="de">
+<HideShow lg="de">
 <ol>
 <li>Gustav geht an seinem Chef vorbei, ohne ihn zu grüßen.</li>
 <li>Camille macht lieber Urlaub, anstatt zu arbeiten.</li>
 <li>Die Katze putzt ihr Fell, um nicht schmutzig zu sein.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.png"></img>
@@ -81,13 +81,13 @@ Melli schob die Aktentasche mit ihrem Näschen zum Fischer und sagte ihm so,
 <li>Katze, angeln, können, Fische fangen (Konditionalsatz mit irrealer Bedingung) </li>
 </ol>
 
-<VueHideShow lg="de">
+<HideShow lg="de">
 <ol>
 <li>Wenn die Katze Geld gehabt hätte, hätte sie den Fisch bezahlt.</li>
 <li>Wenn die Katze keinen Hunger gehabt hätte, hätte sie keinen Fisch gewollt.</li>
 <li>Wenn die Katze angeln könnte, würde sie sich selbst Fische fangen.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <VueGoogleTranslate>
@@ -129,11 +129,11 @@ Die Katze, deren Magen knurrte, wollte sich jedoch noch nicht geschlagen geben.
 <li>Die Stimme des Fischers war sehr kräftig. Der Fischer machte lautstark Werbung für seine Fische.</li>
 </ol>
 
-<VueHideShow lg="de">
+<HideShow lg="de">
 <li>Die Katze, deren Fell dreckig war, ging unter die Dusche.</li>
 <li>Die Katze, deren Zähne scharf waren, zerriss die Aktentasche aus Versehen.</li>
 <li>Der Fischer, dessen Stimme sehr kräftig war, machte lautstark Werbung für seine Fische.</li>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/katze.png"></img>
@@ -189,7 +189,7 @@ import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueWordOrder from '@/components/molecules/WordOrder.vue';
 
 export default defineComponent ({
@@ -198,7 +198,7 @@ export default defineComponent ({
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps,
      VueWordOrder,
      VueGoogleTranslate

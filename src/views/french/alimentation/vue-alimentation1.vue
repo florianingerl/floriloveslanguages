@@ -164,12 +164,12 @@ transformé.
 <li>Sei es jedem selbst überlassen, was er essen will!</li>
 </ol>
 
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <ol>
 <li>Tout le monde a besoin des bonnes relations.</li>
 <li>À chaqun de manger ce qu'il veut!</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 Puiser les connaissances à plusieurs sources puis croiser les informations
@@ -192,14 +192,14 @@ mettre en oeuvre - aliment - souci - detoxiner
 <p>
 quelque chose dont on s'inquiète - le contraire de s'empoisoner - faire ce qu'on a appris et a décidé de faire - on peut le manger
 </p>
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <ul>
 <li>mettre en oeuvre=faire ce qu'on a appris et a décidé de faire</li>
 <li>detoxiner=le contraire de s'empoisoner</li>
 <li>souci=quelque chose dont on s'inquiète</li>
 <li>aliment=on peut le manger</li>
 </ul>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <p>
@@ -222,10 +222,10 @@ désespérer, ayez la foi.
 <li>Was für den einen jetzt gut ist, ist für den anderen schlecht.</li>
 <li>Was der oder die sagt, kann aus verschiedenen Gründen falsch sein.</li>
 </ol>
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <li>Ce qui est bon pour l'un maintenant est mauvais pour l'autre.</li>
 <li>Ce que dit un tel ou un tel peut être faux pour des raisons différentes.</li>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <h2>100% cru ou pas</h2>
@@ -246,12 +246,12 @@ Fort de ce constat, veillez à équilibrer le ratio cuit/cru.
 <li>Tu ne regardes pas le prix avant d'acheter des aliments inutiles.</li>
 </ol>
 
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <ol>
 <li>Est-ce que tu ne réfléchis pas avant de manger?</li>
 <li>Est-ce que tu ne regardes pas le prix avant d'acheter des aliments inutiles?</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -269,10 +269,10 @@ le chemin de l’alimentation santé.
 <li>Man darf mit ihm auf keinen Fall darüber sprechen.</li>
 <li>Man darf auf keinen Fall Alkohol tringen.</li>
 </ol>
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <li>Il ne faut surtout pas lui en parler.</li>
 <li>Il ne faut surtout pas boire de l'alcool.</li>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -289,13 +289,13 @@ vous facilitera la tâche afin de disposer d’un choix tout prêt d’ingrédie
 
 <VueExercise lg="fr" instruction="Décrivez les mots suivants!">
 <p>quotidien - légume - repos</p>
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <ul>
 <li>quotidien - on fait des activités bzzzz par habitude ou chaque jour</li>
 <li>légume - Une tomate, une pomme de terre et un chou-rave le sont, mais pas une banane ou une pomme</li>
 <li>repos - On en a besoin si on a travaillé beaucoup.</li>
 </ul>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <h2>Les combinaisons alimentaires</h2>
@@ -383,9 +383,9 @@ salade.
 
 <VueExercise lg="fr" instruction="Quelle est la couleur des fruits et légumes suivants?">
 <p>tomate - noix de macadamia - graines de potiron - avocat - citron</p>
-<VueHideShow lg="fr">
+<HideShow lg="fr">
 <p>Une tomate est rouge. Une noix de macadamia est blanche. Les graines de potiron sont verts. Un avocat est vert. Un citron est jaune.</p>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 Ingrédients supplémentaires, mais sans s'y limiter :
@@ -426,13 +426,13 @@ mettez en premier, cela peut affecter le goût et la texture.</li>
 <li>Zwiebeln sind sehr scharf. Füge Sie als zweites dem Salat hinzu.</li>
 <li>Bevor Sie Tomaten kaufen, versichern Sie sich, dass diese reif sind.</li>
 </ol>
-<VueHideShow>
+<HideShow>
 <ol>
 <li>L'huile d'olive est très gras. Ajoutez-le en premier à la salade!</li>
 <li>Des oignons sont très piquants. Ajoutez-les en deuxième à la salade!</li> 
 <li>Avant d'acheter des tomates, assurez-vous qu'ils soient mûres.</li>
 </ul>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <ul>
@@ -452,12 +452,12 @@ onctueux.</li>
 <li>Eine Gabel ist nützlich zum Essen. Wenn Sie keine haben, tun es Ihre Hände auch.</li>
 <li>Klopapier ist praktisch. Wenn Sie im Wald sind und keines haben, tun es ein paar Blätter von den Bäumen auch.</li>
 </ol>
-<VueHideShow>
+<HideShow>
 <ol>
 <li>Une fourchette est utile pour manger. Si vous n'en avez pas, vos mains feront l'affaire.</li>
 <li>Le papier-toilette est pratique. Si vous êtes dans la foret et si vous n'en aves pas, quelques feuilles des arbres feront l'affaire. </li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <ul>
@@ -494,9 +494,9 @@ minute.</li>
 <VueExercise instruction="Trouve les contraires des adjectives suivants!">
 Exemple: lourd <-> léger
 <p>bon - dispensable - dernier - nouveau</p>
-<VueHideShow>
+<HideShow>
 <p>bon <-> mauvais, dispensable <-> indispensable, dernier <-> premier , nouveau <-> vieux </p>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <ul>
@@ -509,9 +509,9 @@ crémeuses.</li>
 </ul>
 
 <VueExercise instruction="Trouve au moins 5 adjectives à être placé devant le nom!">
-<VueHideShow>
+<HideShow>
 nouveau, jeune, vieux, bon, mauvais, petit, grand, joli, gros
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 </p>
@@ -539,11 +539,11 @@ tomates séchées au soleil.</li>
 <VueExercise instruction="Pour tous les aliments suivants, dites s'ils sont surtout gras, sucré ou piquant">
 Exemple: Les noix sont surtout gras.
 <p>beurre d'amande - avocat - datte  - gigembre</p>
-<VueHideShow>
+<HideShow>
 <p>gras - beurre d'amande, avocat</p>
 <p>sucré - datte</p>
 <p>piquant - gigembre</p>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 </p>
@@ -566,7 +566,7 @@ Exemple: Les noix sont surtout gras.
 import VueGaps from "./../../vue-gaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueWholeSentences from "./../../WholeSentences.vue"; 
 
 export default {
@@ -575,7 +575,7 @@ export default {
      VueGaps,
      VueQuestion,
      VueExercise,
-     VueHideShow,
+     HideShow,
      VueWholeSentences
   },
 

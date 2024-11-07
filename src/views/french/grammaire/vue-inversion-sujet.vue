@@ -50,7 +50,7 @@ This is just a stupid test
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueMCGaps from "./../../MCGaps.vue";
 import VueWordOrder from "./../../vue-word-order.vue";
@@ -59,7 +59,7 @@ export default {
   name: "VueInversionSujet",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps,
     VueWordOrder,
     VueMCGaps

@@ -130,14 +130,14 @@ And you would be the turtoise that I need to advertise.
 <li>You can't sell this book. It is not good.</li>
 <li>You can't carry the turtoise. It is heavy.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Anton's tongue is too short to reach his shell.</li>
 <li>Anton's jokes aren't funny enough to make people laugh.</li>
 <li>The book is not good enough to sell.</li>
 <li>The turtoise is too heavy to carry.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <img style="float: left; height: 200px" src="@/assets/img/english/turtoise.png"></img>
@@ -185,13 +185,13 @@ And of course, the material of the boat will not be real tortoise shell material
 <li>A man needs a challenge in his life.</li>
 <li>A knife cuts a salad into small pieces.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Mice have relatively short lives.</li>
 <li>Men need challenges in their life.</li>
 <li>Knives cut salads into small pieces.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <VueGoogleTranslate>
@@ -263,7 +263,7 @@ import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
@@ -272,7 +272,7 @@ export default defineComponent ({
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps,
      VueGoogleTranslate
   },

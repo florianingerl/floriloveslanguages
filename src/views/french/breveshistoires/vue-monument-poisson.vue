@@ -96,7 +96,7 @@ import VueMCGaps from "../../../components/atoms/MCGaps.vue";
 //import VueQuestion from "./../../../components/Question.vue";
 import VueExercise from "../../../components/atoms/Exercise.vue";
 import VueWholeSentence from "../../../components/atoms/WholeSentences.vue";
-import VueHideShow from "../../../components/atoms/HideShow.vue";
+import HideShow from "../../../components/atoms/HideShow.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent ({
@@ -105,7 +105,7 @@ export default defineComponent ({
      // VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps
   },
 

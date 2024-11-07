@@ -254,14 +254,14 @@ If I hadn't cooked the food, my children wouldn't have died.
 <li>My cells weren't obedient. So they refused my orders.</li>
 </ol>
 
-<VueHideShow>
+<HideShow>
 <ol>
 <li>If I had eaten more dandelions today, I wouldn't have had to eat so much grain.</li>
 <li>If I had read this book, I wouldn't have acquired an indirect digestive aliment.</li>
 <li>If I had been able to read English texts, I would have been able to read this book.</li>
 <li>If my cells had been obedient, they wouldn't have refused my orders.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 In the second volume of my Armenian book, I have devoted considerable space to the
@@ -352,7 +352,7 @@ import VueMcGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 
 export default {
   
@@ -361,7 +361,7 @@ export default {
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow
+     HideShow
   },
 
   mounted(){

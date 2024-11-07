@@ -140,7 +140,7 @@ Erschrocken flohen das Eichhörnchen und Werner, hatten aber nun genügend Nüss
     <script lang="ts">
     import { defineComponent } from "vue";
 
-    import VueHideShow from "@/components/atoms/HideShow.vue";
+    import HideShow from "@/components/atoms/HideShow.vue";
 
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
@@ -152,7 +152,7 @@ import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
       
       components: {
          VueExercise,
-         VueHideShow,
+         HideShow,
          VueMCGaps,
          VueWordOrder,
          VueQuestion,

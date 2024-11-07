@@ -26,7 +26,7 @@ Quel fruit contient beaucoup de magnesium?
 </li>
 </ol>
 
-<VueHideShow>
+<HideShow>
 <ol>
 <li>Oui, j'en ai ajouté trois cuillères.</li>
 <li>Non, je n'en ajoute pas.</li>
@@ -34,7 +34,7 @@ Quel fruit contient beaucoup de magnesium?
 <li>Oui, j'en bois trois litres par jour.</li>
 <li>Les germes du blé en contient beaucoup.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -46,13 +46,13 @@ Quel fruit contient beaucoup de magnesium?
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 
 export default {
   name: "VuePronomEnAvecMengenwort",
   components: {
     VueExercise,
-    VueHideShow
+    HideShow
   },
 
   mounted(){

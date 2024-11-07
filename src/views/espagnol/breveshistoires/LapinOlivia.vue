@@ -83,7 +83,7 @@ import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
@@ -92,7 +92,7 @@ export default defineComponent ({
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps,
      VueGoogleTranslate
   },

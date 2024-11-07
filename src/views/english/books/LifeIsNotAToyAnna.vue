@@ -231,7 +231,7 @@ His father of course had difficulty accepting his answer but at least, he left h
 <li>June wasn't prissy. She didn't care about her clothes.</li>
 </ol>
 
-<VueHideShow lg = "en">
+<HideShow lg = "en">
 <ol>
 <li>Your stories aren't good enough to cheer children up.</li>
 
@@ -243,7 +243,7 @@ His father of course had difficulty accepting his answer but at least, he left h
 <li>Fred was too stubborn to accept help from his colleagues.</li>
 <li>June wasn't prissy enough to care about her clothes.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <p>
@@ -590,13 +590,13 @@ Just don't ruin it because then the bank might freeze our account" warned him Fr
 <li>Dave/argue/wife/all the time/negotiate/bank</li>
 <li>bank/limit/credit/Fred/schedule/urgent/meeting</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Should Edwin's children annoy him, he just occupies them with some new toy.</li>
 <li>Were Dave not to argue with his wife all the time, he wouldn't be able to negotiate with the bank.</li>
 <li>Had the bank not set a limit for their credit, Fred wouldn't have scheduled an urgent meeting.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 After that mission had been given thus to Dave, the meeting ended and
@@ -697,13 +697,13 @@ On the other hand, whenever he got some new toys from the company, he always gav
 <li><u>Dave's wife</u> makes him happy.</li>
 <li><u>Her eyes</u> make Treena such a beauty.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>What you should do, is learn more English.</li>
 <li>What makes Dave happy is his wife.</li>
 <li>What makes Treena such a beauty are her eyes.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -720,7 +720,7 @@ import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
@@ -730,7 +730,7 @@ export default defineComponent ({
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueWordOrder,
      VueMCGaps
   },

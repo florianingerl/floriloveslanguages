@@ -43,7 +43,7 @@ C'est à vous maintenant de remplir les trous avec "en", "d'en", "dans" ou "dent
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
 
@@ -51,7 +51,7 @@ export default {
   name: "VueDuDeLeTemps",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps,
     VueWholeSentence
   },

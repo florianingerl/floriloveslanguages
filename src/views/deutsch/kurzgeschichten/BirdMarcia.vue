@@ -74,13 +74,13 @@ Ich brauche Apfelkuchen für meine Enkelkinder!"
 <li>Das Enkelkind/anbeißen/Apfel</li>
 <li>Wegen/Würmern/wegwerfen/Enkelkind/Apfel</li>
 </ol>
-<VueHideShow lg="de">
+<HideShow lg="de">
 <ol>
 <li>Die Nachbarin setzte sich auf einen Stuhl hin.</li>
 <li>Das Enkelkind biss den Apfel an.</li>
 <li>Wegen den Würmern warf das Engelkind den Apfel weg.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 <VueGoogleTranslate>
@@ -131,7 +131,7 @@ In diesem Moment kam ein Mädchen in den Garten. "Oma" rief das Mädchen. "Wo bi
     
     <script lang="ts">
     import { defineComponent } from "vue";
-    import VueHideShow from "@/components/atoms/HideShow.vue";
+    import HideShow from "@/components/atoms/HideShow.vue";
 
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
@@ -143,7 +143,7 @@ import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
       components: {
          VueGoogleTranslate,
          VueExercise,
-         VueHideShow,
+         HideShow,
          VueMCGaps,
          VueWordOrder
          

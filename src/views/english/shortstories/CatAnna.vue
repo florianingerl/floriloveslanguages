@@ -23,14 +23,14 @@ Time to explain this in a bit more detail. The cat worked as a detective.
 <p>Items: a razor, an umbrella, a cell phone, <span style="{text-decoration: line-through }">a watch</span>, a map</p>
 <p>Justification: it may rain, <span style="{text-decoration: line-through}">the cat might want to know the exact time</span>, the cat might get lost, the cat might want to get rid of its long hair, the might might get bored and want to play a game</p>
 <p>Example: Take a watch in case you need to know the exact time</p>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Take a razor in case you want to get rid of your long hair.</li>
 <li>Take an umbrella in case it rains.</li>
 <li>Take a cell phone in case you get bored and want to play a game.</li>
 <li>Take a map in case you get lost.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -117,7 +117,7 @@ import { defineComponent } from "vue";
 import VueMCGaps from "../../../components/atoms/MCGaps.vue";
 import VueExercise from "../../../components/atoms/Exercise.vue";
 import VueWholeSentence from "../../../components/atoms/WholeSentences.vue";
-import VueHideShow from "../../../components/atoms/HideShow.vue";
+import HideShow from "../../../components/atoms/HideShow.vue";
 import VueWordOrder from "../../../components/molecules/WordOrder.vue";
 
 export default defineComponent ({
@@ -125,7 +125,7 @@ export default defineComponent ({
   components: {
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueMCGaps,
      VueWordOrder
   },

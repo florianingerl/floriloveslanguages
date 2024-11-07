@@ -52,13 +52,13 @@ Pay attention to get back before sunset!"
 <li>You should wear waterproof boots.</li>
 <li>You should not let yourself be killed by tigers.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>Don't steal the honey of a bear.</li>
 <li>Wear waterproof boots.</li>
 <li>Don't let yourself be killed by tigers.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 Unfortunately, it was already starting to get dark. So Clara, Benny and Anton were aware,
@@ -84,13 +84,13 @@ the deep abyss. Even just locating it from far away was difficult, let alone fir
 <li>Probability theory/difficult/stochastic differential equations</li>
 <li>Tomato/fresh/one week/one month</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>I can barely bear the heat here in summer, let alone that in Spane.</li>
 <li>Probability theory is already too difficult for me, let alone stchastic differential equations.</li>
 <li>A one-month-old tomato is not fresh any more, let alone a one-year-old.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 What they needed was a bridge. Useless to fire an arrow from that distance! 
@@ -105,12 +105,12 @@ her voice was a bit shaking because the trunk didn't look so stable with the tre
 <li><u>The cress</u> on my window sill makes nice decoration.</li>
 <li>Benny <u>barks at burglars</u> to keep them at distance.</li>
 </ol>
-<VueHideShow lg="en">
+<HideShow lg="en">
 <ol>
 <li>What makes nice decoration on my window sill, is the cress.</li>
 <li>What Benny does, is bark at burglars to keep them at distance.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 It was the old age and the unstability of the trunk that created the safety issue. 
@@ -162,13 +162,13 @@ Melli hieß, ganz süß zu miauen an. Dabei schielte sie zu den Fischen, um ihre
 <li>Camille, Urlaub machen, arbeiten, lieber</li>
 <li>Katze, putzen, Fell, schmutzig, sein</li>
 </ol>
-<VueHideShow lg="de">
+<HideShow lg="de">
 <ol>
 <li>Gustav geht an seinem Chef vorbei, ohne ihn zu grüßen.</li>
 <li>Camille macht lieber Urlaub, anstatt zu arbeiten.</li>
 <li>Die Katze putzt ihr Fell, um nicht schmutzig zu sein.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -198,13 +198,13 @@ Melli schob die Aktentasche mit ihrem Näschen zum Fischer und sagte ihm so, er 
 <li>Katze, angeln, können, Fische fangen (Konditionalsatz mit irrealer Bedingung) </li>
 </ol>
 
-<VueHideShow lg="de">
+<HideShow lg="de">
 <ol>
 <li>Wenn die Katze Geld gehabt hätte, hätte sie den Fisch bezahlt.</li>
 <li>Wenn die Katze keinen Hunger gehabt hätte, hätte sie keinen Fisch gewollt.</li>
 <li>Wenn die Katze angeln könnte, würde sie sich selbst Fische fangen.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 
@@ -236,11 +236,11 @@ Die Katze, deren Magen knurrte, wollte sich jedoch noch nicht geschlagen geben. 
 <li>Die Stimme des Fischers war sehr kräftig. Der Fischer machte lautstark Werbung für seine Fische.</li>
 </ol>
 
-<VueHideShow lg="de">
+<HideShow lg="de">
 <li>Die Katze, deren Fell dreckig war, ging unter die Dusche.</li>
 <li>Die Katze, deren Zähne scharf waren, zerriss die Aktentasche aus Versehen.</li>
 <li>Der Fischer, dessen Stimme sehr kräftig war, machte lautstark Werbung für seine Fische.</li>
-</VueHideShow>
+</HideShow>
 </VueExercise>
 
 Keinen Blick in die Schaufenster verschwendend und von ihrem knurrenden Magen getrieben, lief die Katze zurück zum Fischer, wo sie wieder zum Miauen begann.
@@ -274,7 +274,7 @@ import VueMCGaps from "./../../MCGaps.vue";
 import VueQuestion from "./../../Question.vue";
 import VueExercise from "./../../Exercise.vue";
 import VueWholeSentence from "./../../WholeSentences.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueImage from "./../../vue-image.vue";
 
 export default {
@@ -284,7 +284,7 @@ export default {
      VueQuestion,
      VueExercise,
      VueWholeSentence,
-     VueHideShow,
+     HideShow,
      VueImage,
      VueMCGaps
   },

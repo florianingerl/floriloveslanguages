@@ -4,11 +4,11 @@
 <p>{{index+1}}.{{ sentence.wrongOrder }}</p>
 </div>
 
-<VueHideShow :lg="lg">
+<HideShow :lg="lg">
 <div v-for="(sentence, index) in sentences">
 <p>{{index+1}}.{{ sentence }}</p>
 </div>
-</VueHideShow>
+</HideShow>
 
 </template>
 
@@ -19,7 +19,7 @@ import type { PropType } from "vue";
 import type { WordOrderExercise } from "../../types/WordOrderExercise.ts";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import VueHideShow from '@/components/atoms/HideShow.vue';
+import HideShow from '@/components/atoms/HideShow.vue';
 import type { Languages } from "../../types/Languages.ts";
 
 
@@ -49,7 +49,7 @@ function shuffle<T>(array: T[] ): void {
 }
 
 export default defineComponent({
-  components: { Button , Input, VueHideShow },
+  components: { Button , Input, HideShow },
   props: {
     sentences: {
       required: true,

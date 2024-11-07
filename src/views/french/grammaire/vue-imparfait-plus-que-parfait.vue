@@ -20,14 +20,14 @@
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {
   name: "VuePronomEnAvecMengenwort",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps
   },
 

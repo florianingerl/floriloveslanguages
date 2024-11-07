@@ -40,7 +40,7 @@ More examples:
 <li>His business is open everytime. (Christmas Even)</li>
 </ol>
 
-<VueHideShow>
+<HideShow>
 <ol>
 <li>He doesn't even like beetroot. (And beetroot is really delicious)</li>
 <li>He can't even say hello.</li>
@@ -52,7 +52,7 @@ More examples:
 
 </ol>
 
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 </section>
@@ -65,14 +65,14 @@ More examples:
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {
   name: "VueEven",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps
   },
 

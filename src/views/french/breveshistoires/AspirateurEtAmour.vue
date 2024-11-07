@@ -160,14 +160,14 @@ import { defineComponent } from "vue";
 import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
-import VueHideShow from "@/components/atoms/HideShow.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
 
 export default defineComponent ({
   
   components: {
      VueQuestion,
      VueExercise,
-     VueHideShow,
+     HideShow,
      VueMCGaps
   },
 

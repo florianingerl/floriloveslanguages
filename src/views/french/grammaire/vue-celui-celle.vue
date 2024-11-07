@@ -25,14 +25,14 @@ revenez ici et faites mon test en remplissant les trous avec celui, celle, ceux 
 
 <script>
 import VueExercise from "./../../Exercise.vue";
-import VueHideShow from "./../../HideShow.vue";
+import HideShow from "./../../HideShow.vue";
 import VueGaps from "./../../vue-gaps.vue";
 
 export default {
   name: "VueCeluiCelle",
   components: {
     VueExercise,
-    VueHideShow,
+    HideShow,
     VueGaps
   },
 
