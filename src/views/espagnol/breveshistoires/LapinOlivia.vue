@@ -6,10 +6,10 @@
 
 <img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 El conejo se llamaba Carlos. Tenia dos anos.
 Tenia  grandes orejas.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['tener à l\'imparfait']" instruction="Remplis les trous avec le verbe tener à l'imparfait!">
 <VueMCGaps lg="fr" :gaptexts="['Los abuelos de Carlos {tenían} orejas grandes.',
@@ -18,11 +18,11 @@ Tenia  grandes orejas.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Un dia se pregunto: "Como podria encontrar a mi media naranja, una conejita hermosa y amable?"
 Carlos no encontró ninguna conejita.
 Estaba triste.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Ser ou estar']" instruction="Remplis les trous avec ser ou estar à la bonne conjugaison!">
 <VueMCGaps lg="fr" :gaptexts="['Carlos {era} uno conejo amable.',
@@ -33,9 +33,9 @@ Estaba triste.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Pero esto duro solo un momento! "Muevete! se dijo, hazte fuerza para encontrarla!"
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Pero ou perro']" instruction="Remplis les trous avec pero ou perro!">
 <VueMCGaps lg="fr" :gaptexts="['Carlos no tenía mucho dinero {pero} era amable.',
@@ -46,10 +46,10 @@ Pero esto duro solo un momento! "Muevete! se dijo, hazte fuerza para encontrarla
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Queria encontrar la conejita más guapa del mundo.
 Queria que tuviera el pelo rubio.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Superlatif']" instruction="Remplis les trous avec l'adjectif donné au superlatif!">
 <VueMCGaps lg="fr" :gaptexts="['Carlos tenía las orejas {más grandes} (grande) de toda su familia.',
@@ -84,7 +84,7 @@ import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
 import HideShow from "@/components/atoms/HideShow.vue";
-import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
+import GoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
   
@@ -94,7 +94,7 @@ export default defineComponent ({
      VueWholeSentence,
      HideShow,
      VueMCGaps,
-     VueGoogleTranslate
+     GoogleTranslate
   },
 
   mounted(){

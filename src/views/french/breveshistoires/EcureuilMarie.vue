@@ -6,12 +6,12 @@
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Comme tout le  monde le sait, les écureuils aiment les noix.
 L'écureuil ci-contre ne faisait pas d'exception.
 Il se baladait ce jour-là d'arbre en arbre et ne put s'empêcher de sourire en apercevant un tas de noisettes 
 en bas du grand arbre sur lequel il se trouvait.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Subordonnée relative introduite par une préposition']" instruction="Fill in the gaps by the correct preposition and lequel, laquelle, lesquels ou lesquelles!">
 <VueMCGaps lg="fr" :same="true" :gaptexts="['L\'arbre {sous lequel|} il y avait beaucoup de noisettes était la maison de l\'écureuil et sa famille!',
@@ -21,11 +21,11 @@ en bas du grand arbre sur lequel il se trouvait.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Pour les atteindre, l'écureuil, du nom de Fabrice, s'élança dans les airs et atterrit sur le sol en dessinant un grand arc.
 Il était en train de stabiliser son atterrissage tout en gardant un œil protecteur sur les belles noisettes à proximité,
 lorsque soudain un oiseau vint à passer et prit dans son bec une belle noisette.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['atterir, attirer, atteindre ou attendre']" instruction="Remplis les trous avec le verbe atterir, atteindre ou attendre à la bonne conjugaison!">
 <VueMCGaps lg="fr" :gaptexts="['L\'écureuil descendit de l\'arbre et {atteignit} les noisettes sans s\'être blessé.',
@@ -36,12 +36,12 @@ lorsque soudain un oiseau vint à passer et prit dans son bec une belle noisette
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 "Va t-en!" ordonna Fabrice, qui était tout affolé, à l'oiseau. "Ces noix sont à  moi. 
 Les oiseaux comme toi devraient manger des vers!"
 L'oiseau ne prit pas ses propos à la légère : il se gonfla d'orgueil, ce qui étoffa considérablement son plumage 
 et se sentit prêt à lutter pour défendre son nouveau butin.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Alternatifs pour dire']" instruction="Remplis les trous avec l'alternatif pour dire qui convient!">
 <VueMCGaps lg="fr" :same="true" :gaptexts="['<<Tu pourrais manger des vers au lieu de mes noisettes.>> {proposa|} l\'écureil à l\'oiseau.',
@@ -54,12 +54,12 @@ et se sentit prêt à lutter pour défendre son nouveau butin.
 
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 "Si tu ne t'en vas pas, je te battrai et je te préviens que mes doigts sont pointus!" menaça Fabrice.
 Si l'oiseau avait eu un charactère faible, 
 il aurait suivi le vœu de l'écureuil, mais celui-là ne se soumettait pas aux ordres d'animaux 
 qui ne pouvaient même pas voler.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Phrases conditionnels']" instruction="Remplis les trous pour que les phrases conditionnels soient correctes!">
 <VueMCGaps lg="fr" :gaptexts="['Même si un écureuil {avait} (avoir) des ailes, il ne {pourrait} (pouvoir) pas voler étant trop lourd.',
@@ -69,13 +69,13 @@ qui ne pouvaient même pas voler.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 En ne se soumettant pas, il montrait sa force et son courage :
  il s'affirma et cela lui valut le respect de son adversaire.
 "Si tu me vole plus de huit noix, " menaça l'écureuil,
  "je te déchirerai en huit cents morceaux et je récupèrerai les noix dans ton ventre. 
  Je ne crois pas que tu veuilles cela!"
- </VueGoogleTranslate>
+ </GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Subjonctif']" instruction="Remplis les trous avec le verbe donné au subjonctif!">
 <VueMCGaps lg="fr" :gaptexts="['Il est fort probable que l\'oiseau ne {veuille} (vouloir) pas simplement s\'en aller.',
@@ -85,11 +85,11 @@ En ne se soumettant pas, il montrait sa force et son courage :
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Etonné et furieux d'entendre cette menace, 
 car il avait beau apaiser la situation,
  l'oiseau sentit ses plumes s'agiter comme avant la tempête. 
- </VueGoogleTranslate>
+ </GoogleTranslate>
 
  <VueExercise lg="fr" :topics="['Avoir beau faire qc']" instruction="Réponds à la question!">
 <VueQuestion lg="fr" :question="{
@@ -104,11 +104,11 @@ car il avait beau apaiser la situation,
  
  <img style="float: right; height: 200px" src="@/assets/img/deutsch/vogel.jpg"></img>
 
- <VueGoogleTranslate>
+ <GoogleTranslate>
  "Je ne pense pas que ce soit la meilleure façon de régler un conflit que de me menacer de la sorte!" s'exclama-t-il.
 "Ok" reprit l'écureuil. "Je te permets de prendre treize noix au lieu de seulement huit. 
 C'est à prendre ou à laisser! Si tu n'es pas d'accord, j'irai chercher mon grand frère qui te tuera sans pitié."
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Phrases conditionnels']" instruction="Remplis les trous de sorte que les phrases conditionnels soient correctes!">
 <VueMCGaps lg="fr" :gaptexts="['Si tu ne me {laisses} (laisser) pas tranquille, j\'{appelerai} (appeler) la police.',
@@ -118,11 +118,11 @@ C'est à prendre ou à laisser! Si tu n'es pas d'accord, j'irai chercher mon gra
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 Par hasard, le grand frère de l'écureuil était au-dessus des deux animaux,
  et en entendant ces mots, descendit en cascade de l'arbre pour joindre son frère.
 "Calme-toi!" lui dit-il prudemment. Il savait que la moutarde lui montait vite au nez parfois.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Prépositions']" instruction="Remplis les trous avec la bonne préposition!">
 <VueMCGaps lg="fr" :same="true" :gaptexts="['Les animaux se disputent {à propos|} des noisettes.',
@@ -132,10 +132,10 @@ Par hasard, le grand frère de l'écureuil était au-dessus des deux animaux,
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 "Il n'y a pas de raison pour s'agiter ainsi " ajouta le frère qui s'appelait Martin, " car j'ai découvert un autre arbre pas très loin qui porte beaucoup de noisettes lui aussi. Cher oiseau, si tu veux bien quitter cet arbre, je te dirai l'endroit où se trouve l'autre arbre!"
 Soulagé qu'un compromis soit annoncé, l'oiseau consentit à faire la paix en acceptant la proposition de Martin.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <h2>FIN</h2>
 
@@ -151,7 +151,7 @@ import VueMCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import HideShow from "@/components/atoms/HideShow.vue";
-import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
+import GoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
   
@@ -160,7 +160,7 @@ export default defineComponent ({
      VueExercise,
      HideShow,
      VueMCGaps,
-     VueGoogleTranslate
+     GoogleTranslate
   },
 
   mounted(){

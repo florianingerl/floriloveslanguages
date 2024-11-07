@@ -667,11 +667,11 @@ had given some creativity to Dave, so they profited a lot from each other.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 But they also had a few things in common. For example, they both liked expensive and fashionable clothes 
 and gold jewellery that shone from far away. So in a way, it made sense for them to become a couple and 
 get married at the young age of 18.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="en" :topics="['Prepositions']" instruction="Fill in the gaps by the correct preposition!">
 <VueMCGaps lg="en" :same="true" :gaptexts="['{For|} her wedding with Dave, Treena had bought a nice wedding dress.',
@@ -681,12 +681,12 @@ get married at the young age of 18.
 </VueMCGaps>
 </VueExercise>
 
-<VueGoogleTranslate>
+<GoogleTranslate>
 With Dave receiving very often big bonuses from his boss Fred, it is clear that he could afford all the afore mentioned 
 expensive stuff. What is less obvious is, how his wife managed to fulfill her need for the most expensive things.
 Although Dave often got these bonuses, usually he wasn't ready to share the money with his wife. 
 On the other hand, whenever he got some new toys from the company, he always gave those to Treena which the woman hated and this was one of the reasons why they argued a lot.
-</VueGoogleTranslate>
+</GoogleTranslate>
 
 <VueExercise lg="en" :topics="['Emphasis with what ... + is/was']" instruction="Emphasis the underlined part as in the example!">
 <p>Example 1: <u>More free time</u> would make me happier. -> What would make me happier is more free time.</p>
@@ -721,12 +721,12 @@ import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
 import VueWordOrder from "@/components/molecules/WordOrder.vue";
 import HideShow from "@/components/atoms/HideShow.vue";
-import VueGoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
+import GoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
 
 export default defineComponent ({
   
   components: {
-     VueGoogleTranslate,
+     GoogleTranslate,
      VueQuestion,
      VueExercise,
      VueWholeSentence,
