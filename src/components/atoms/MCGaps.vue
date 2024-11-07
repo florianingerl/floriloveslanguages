@@ -39,138 +39,60 @@
     
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import type { Languages } from "@/types/Languages.ts";
+import type { Gap } from "@/types/Gap.ts";
+import { ref, onMounted } from "vue";
 
-import { ref, defineComponent } from "vue";
-import type { Languages } from "../../types/Languages.ts";
-import type { PropType } from "vue";
-import type { Gap } from "../../types/Gap.ts";
+const props = defineProps<{
+  lg: Languages,
+  gaptext?: string,
+  gaptexts?: string[],
+  same?: boolean,
+  numbering?: boolean
 
-export default defineComponent({
-  name: "VueMCGaps",
-  components: {
-    
-  },
-  props: {
-    gaptext: {
-      required: false,
-      type: String
-    },
-    gaptexts: {
-      required: false,
-      type: Array as PropType<string[]>
-    },
-    lg : {
-      required: true,
-      type: String as PropType<Languages>
-    },
-    same: {
-      required: false,
-      type: Boolean
-    },
-    numbering: {
-      required: false,
-      type: Boolean
-    }
-  },
+}>();
 
-  setup(){
+const gaps = ref<Array<Array<Gap>>>([]);
+const validated = ref<boolean>(false);
 
-    const gaps = ref<Array<Array<Gap>>>([]);
-    const validated = ref<boolean>(false);
-
-    return { validated, gaps };
-
-  },
-
-  mounted(){
-     console.log("The setup function is executed!");
-     
-    
-     if(this.gaptexts ){ //gaptext is an array of gaptexts
-      console.log(this.gaptexts);
-      this.parseGapTexts(this.gaptexts);
-     }
-     else if(this.gaptext){
-      this.parseGapText(this.gaptext);
-     }
-
-     console.log( "The value of this.same is " + this.same );
-     let alloptions : string[] = [];
-     if(this.same){
-       
-        console.log( "The value of this.gaps is " + this.gaps );
-       this.gaps.forEach( (innergaps: Array<Gap>) => {
-           innergaps.forEach( (gap: Gap) => {
-           if(gap.options ) { 
-           gap.options.forEach( (option:string) => {
-              if( alloptions.indexOf(option) == -1 && option != '' ){
-                alloptions.push(option);
-              }
-           });
-           }
-       });
-  
-
-       });
-     }
-
-       this.gaps.forEach( (innergaps: Array<Gap>) => {
-        innergaps.forEach(
-        (gap:Gap) => {
-          gap.solution = (gap.options ? gap.options[0] : gap.gap) as string;
-          if( gap.options  ){
-            if(!this.same){
-            gap.options = this.shuffle(gap.options);
-            }
-            else {
-              gap.options = [...alloptions];
-            }
-          }
-          
-
-       });
-
-     });
-     },
-  
-  
-  methods: {
-    
-     buttonValidateClicked(){
-        this.validated = true;
+function buttonValidateClicked(){
+        validated.value = true;
         console.log("The button validated was clicked!");
-     },
-     showSolutionClicked(){
-        this.validated = true;
-        this.gaps.forEach( (innergaps: Array<Gap>) => {
+}
+
+function showSolutionClicked(){
+        validated.value = true;
+        gaps.value.forEach( (innergaps: Array<Gap>) => {
           innergaps.forEach( (gap:Gap) => {
              gap.guess = gap.solution;
              } );
           
         } );
-     },
+}
 
-     shuffle<T>(array: Array<T>){
-      if(this.same){
+function shuffle<T>(array: Array<T>){
+      if(props.same){
         return array;
       }
       let newarray = [...array];
       newarray.sort( (_a: T,_b:T) => 0.5 - Math.random() );
       return newarray;
-      },
-     parseGapTexts(gaptexts: string[] ){
+}
+
+function parseGapTexts(gaptexts: string[] ){
       console.log("parseGapTexts called!");
         gaptexts.forEach( (gaptext:string) => {
            console.log(gaptext + " is now parsed!");
-           this.parseGapText(gaptext);
+           parseGapText(gaptext);
         } );
-     },
-     parseGapText(data: string ){
+}
+
+function parseGapText(data: string ){
       if(!data.endsWith("}")){
         data += "{}";
       }
-      let gaps : Gap[] = [];
+      let gapsl : Gap[] = [];
       let i = 0;
       while (true){
         let gap : Gap = {text: "", solution: "", guess: ""};
@@ -189,13 +111,63 @@ export default defineComponent({
 
         i++;
         gap.guess = "";
-        gaps.push(gap);
+        gapsl.push(gap);
       }
-      console.log(gaps);
-      this.gaps.push(gaps);
+      console.log(gapsl);
+      gaps.value.push(gapsl);
+}
+
+onMounted( ()=> {
+     console.log("The setup function is executed!");
+     
+    
+     if(props.gaptexts ){ //gaptext is an array of gaptexts
+      console.log(props.gaptexts);
+      parseGapTexts(props.gaptexts);
      }
-  }
-});
+     else if(props.gaptext){
+      parseGapText(props.gaptext);
+     }
+
+     console.log( "The value of this.same is " + props.same );
+     let alloptions : string[] = [];
+     if(props.same){
+       
+        console.log( "The value of gaps.value is " + gaps.value );
+       gaps.value.forEach( (innergaps: Array<Gap>) => {
+           innergaps.forEach( (gap: Gap) => {
+           if(gap.options ) { 
+           gap.options.forEach( (option:string) => {
+              if( alloptions.indexOf(option) == -1 && option != '' ){
+                alloptions.push(option);
+              }
+           });
+           }
+       });
+  
+
+       });
+     }
+
+       gaps.value.forEach( (innergaps: Array<Gap>) => {
+        innergaps.forEach(
+        (gap:Gap) => {
+          gap.solution = (gap.options ? gap.options[0] : gap.gap) as string;
+          if( gap.options  ){
+            if(!props.same){
+            gap.options = shuffle(gap.options);
+            }
+            else {
+              gap.options = [...alloptions];
+            }
+          }
+          
+
+       });
+
+     });
+     } );
+
 </script>
 
 <style scoped>
