@@ -60,7 +60,9 @@ Queria que tuviera el pelo rubio.
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+<GoogleTranslate>
 Fue a casa de su hermano y le dijo que como tenia mas suerte que él, le podia ayudar para buscar a una novia.
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Pronoms directs et indirects']" instruction="Form des phrases comme dans l'exemple">
 <p>Ejemplo: Su hermano podía ayudar a <u>Carlos</u>. -> Su hermano podía ayudarle.</p>
@@ -80,8 +82,10 @@ Fue a casa de su hermano y le dijo que como tenia mas suerte que él, le podia a
 </HideShow>
 </VueExercise>
 
+<GoogleTranslate>
 El hermano de Carlos quiso dinero para ayudarle. Carlos le dio dinero. Su hermano debia apoyarlo ahora, 
 no tenia otra opcion.
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Pronoms directs et indirects']" instruction="Form des phrases comme dans l'exemple!">
 <p>Ejemplo: El hermano de Carlos quiso dinero para ayudar a Carlos. -> El hermano de Carlos quiso dinero para ayudarle.</p>
@@ -102,8 +106,10 @@ no tenia otra opcion.
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+<GoogleTranslate>
 "Pon tus botas para que vayamos al pueblo a preguntar por una conejita que conozco, 
 estoy seguro de que te va a encantar!"
+</GoogleTranslate>
 
 <VueExercise lg="fr" :topics="['Adjectifs possessifs']" instruction="Remplis les trous avec l'adjectif possessif qui convient!">
 <MCGaps lg="fr" :gaptexts="['']">
@@ -112,12 +118,15 @@ estoy seguro de que te va a encantar!"
 </VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/english/rabbit.png"></img>
+
+<GoogleTranslate>
 Cuando los dos hermanos llegaron a casa de la conejita, a Carlos no le gusto la conejita.
 Estaban a punto de irse cuando la coneja dijo: "conteis hasta tres y mireis sobre la mesa"
 La mesa no estaba lejos. Carlos podia verla.
 En la mesa del salon, habia una botella y Carlos entendio que debia beber el liquido extrano que esataba adentro
 Cuando Carlos bebio el liquido, su cabeza aun funcionaba. No vio estrellas.
 Espero un momento, y de repente vio a la coneja con ojos nuevos: "Qué guapa eres!"
+</GoogleTranslate>
 
 <h3 class="bg-blue">The end</h3>
 
