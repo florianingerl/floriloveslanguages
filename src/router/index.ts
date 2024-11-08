@@ -19,6 +19,7 @@ import VueEcureuilMarie from "@/views/french/breveshistoires/EcureuilMarie.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
+import VueLapinMarie from "@/views/french/breveshistoires/LapinMarie.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueBelovedRabbit from "@/views/english/shortstories/BelovedRabbitAnna.vue";
@@ -98,6 +99,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: "L'amour du premier regard",
+              path: "lapinmarie",
+              component: VueLapinMarie
+            },
             {
               name: 'Pas assez de noisettes pour un écureuil et un oiseau',
               path: 'ecureuilmarie',
