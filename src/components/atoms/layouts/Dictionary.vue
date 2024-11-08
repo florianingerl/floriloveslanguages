@@ -51,9 +51,10 @@ function setDictionaries() {
                         ];
    }
    else if( route.params.language === 'espagnol' ){
-     dictionaries = [ { name: "Word Reference Französisch - Spanisch", url: "https://www.wordreference.com/espfr/" },
-                           { name: "The free dictionary Espagnol - Espagnol", url: "https://esp.thefreedictionary.com/" },
-                         { name: "Word Reference Spanisch - Deutsch", url: "https://www.wordreference.com/espde/" }
+     dictionaries = [ { name: "Word Reference Französisch - Spanisch", url: "https://www.wordreference.com/esfr/" },
+                           { name: "The free dictionary Espagnol - Espagnol", url: "https://es.thefreedictionary.com/" },
+                         { name: "Word Reference Spanisch - Deutsch", url: "https://www.wordreference.com/esde/" },
+                          { name: "Word Reference Spanisch - Englisch", url: "https://www.wordreference.com/esen/" },
                         ];
    }
 
