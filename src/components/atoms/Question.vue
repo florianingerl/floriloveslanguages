@@ -38,89 +38,78 @@
 
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from "vue";
-import type { PropType } from "vue";
-import type { Languages } from "../../types/Languages.ts";
-import type { Question, Option } from "../../types/Question.ts";
+<script setup lang="ts">
+import { ref, onMounted, watch, defineEmits, defineProps } from "vue";
+import type { Languages } from "@/types/Languages.ts";
+import type { Question, Option } from "@/types/Question.ts";
 
-export default defineComponent ({
-  name: "VueQuestion",
-  props: {
-    hasNextButton : {
-      required: false,
-      type: Boolean
-    },
-    lg : {
-      required: true,
-      type: String as PropType<Languages>
-    },
-    question: {
-      required: true,
-      type: Object as PropType<Question>
-    }
-  },
-  setup(props){
-    const question2 = ref<Question>(props.question);
-    return {question2}; 
-  },
-  watch: {
-    question(newQuestion: Question, _oldQuestion: Question){
-      console.log("The watcher was called!");
-      this.question2 = newQuestion;
-      
-    }
-  },
-  methods: {
-    getOptionsForLg() : Array<Option> {
-      if(this.lg==='de' || this.lg === 'en' && this.question2.optionsEn == undefined || this.lg === 'fr' && this.question2.optionsFr == undefined){
-        console.log("this.question2.options is returned!");
-        return this.question2.options as Array<Option>;
+
+const props = defineProps<{
+  hasNextButton? : boolean,
+  lg: Languages,
+  question: Question
+}>();
+
+const emit= defineEmits(["answeredEvent"])
+
+const question2 = ref<Question>(props.question);
+
+watch(props.question, (newQ: Question, oldQ : Question ) => { 
+   oldQ;
+   question2.value = newQ; 
+});
+
+function getOptionsForLg() : Array<Option> {
+      if(props.lg==='de' || props.lg === 'en' && question2.value.optionsEn == undefined || props.lg === 'fr' && question2.value.optionsFr == undefined){
+        console.log("question2.value.options is returned!");
+        return question2.value.options as Array<Option>;
       }
-      else if(this.lg === 'en'){
-        return this.question2.optionsEn as Array<Option>;
+      else if(props.lg === 'en'){
+        return question2.value.optionsEn as Array<Option>;
       }
-      else if(this.lg === 'fr'){
-        return this.question2.optionsFr as Array<Option>;
+      else if(props.lg === 'fr'){
+        return question2.value.optionsFr as Array<Option>;
       }
       else {
         return new Array<Option>(); //This case should never happens
       }
-    },
-    validate(){
+}
+function validate(){
       console.log("The validate button was clicked!");
-      if(this.question2.correctlyAnswered != undefined ) return;
+      if(question2.value.correctlyAnswered != undefined ) return;
       
-      this.question2.correctlyAnswered = true;
+      question2.value.correctlyAnswered = true;
 
-      this.getOptionsForLg().forEach( (option: Option) => {
+      getOptionsForLg().forEach( (option: Option) => {
         if(option.checked == undefined ){
           option.checked = false;
         }
           console.log( "checked: " + option.checked + " correct: " + option.correct );
           if(option.checked != option.correct ){
             console.log("It thought that option.checked wasn't option.correct!");
-            this.question2.correctlyAnswered = false;
+            question2.value.correctlyAnswered = false;
           }
       });
 
-      this.$emit("answered-event");
-    },
-    showSolution(){
+      emit("answeredEvent");
+}
+
+function showSolution(){
       console.log("The show solution button was clicked!");
      
-      this.getOptionsForLg().forEach( (option: Option) => { option.checked = option.correct; });
-      if(this.question2.correctlyAnswered == undefined){
-        this.question2.correctlyAnswered = false;
+      getOptionsForLg().forEach( (option: Option) => { option.checked = option.correct; });
+      if(question2.value.correctlyAnswered == undefined){
+        question2.value.correctlyAnswered = false;
       }
-    }
-  },
-  mounted() {
-    console.log('Vue Question Component mounted');
-    this.question2 = this.question;
+}
 
-    if(!this.question2){
-      this.question2 = 
+
+onMounted( () => {
+    console.log('Vue Question Component mounted');
+    question2.value = props.question;
+
+    if(!question2.value){
+      question2.value = 
       {
 		question: "Das ist eine Test-Frage aus Question.vue?",
 		imageUrl: "assets/img/rawfood/brokolisalat.JPG",
@@ -132,10 +121,10 @@ export default defineComponent ({
 	    };
     }
 
-    this.getOptionsForLg().forEach( (option:Option) => { option.checked = false; });
+    getOptionsForLg().forEach( (option:Option) => { option.checked = false; });
     
-  }
-});
+  });  
+
 </script>
 
 <style scoped>
