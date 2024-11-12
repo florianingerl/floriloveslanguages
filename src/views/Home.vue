@@ -1,16 +1,23 @@
 <template>
 
 <div class="topnav" >
-   <router-link :class="{active : $route.fullPath.includes('/french') }" to="/fr/french">Français</router-link>
-   <router-link :class="{active : $route.fullPath.includes('/english') }" to="/en/english">English</router-link>
-   <router-link :class="{active : $route.fullPath.includes('/deutsch') }" to="/de/deutsch">Deutsch</router-link>
-   <router-link :class="{active : $route.fullPath.includes('/espagnol') }" to="/esp/espagnol">Espagñol</router-link>
-   <!-- <router-link :class="{active : $route.fullPath.includes('/informatik') }" to="/informatik">Computer science</router-link> -->
+   <router-link :class="{active : route.fullPath.includes('/french') }" to="/fr/french">Français</router-link>
+   <router-link :class="{active : route.fullPath.includes('/english') }" to="/en/english">English</router-link>
+   <router-link :class="{active : route.fullPath.includes('/deutsch') }" to="/de/deutsch">Deutsch</router-link>
+   <router-link :class="{active : route.fullPath.includes('/espagnol') }" to="/esp/espagnol">Espagñol</router-link>
+   <!-- <router-link :class="{active : route.fullPath.includes('/informatik') }" to="/informatik">Computer science</router-link> -->
+   <div v-if="!userStore.user">
    <router-link class="btn btn-secondary" to="/login">Login</router-link>
    <router-link class="btn btn-primary" to="/signup">Sign up</router-link>
+   </div>
+   <div v-if="userStore.user">
+      You are logged in as {{ userStore.user.name }} and your email is {{ userStore.user.email }} 
+   </div>
 </div>
 
 <div id="main" style="padding-left:16px">
+
+<p> userStore.user = {{ userStore.user }} </p>
     <div>
 <span style="font-weight:bold;">Please select your mother language</span> (You can translate each paragraph into this language by hovering over the globus):
 <div style="{display: inline}" id="google_translate_element"></div>
@@ -22,39 +29,19 @@
     
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import { onMounted } from "vue";
+import { useRoute } from 'vue-router';
+import { useUserStore } from '@/stores/userStore.ts';
 
-export default defineComponent({
-  name: "HomeView",
-  components: {
-  
-  },
-  data() {
-    return {
-       responsive: false
-    };
-  },
+const userStore = useUserStore();
+const route = useRoute();
 
-  mounted(){
-    console.log("Mounted function of vue-home is executed!");
-    console.log(this.$route);
-  },
-  setup(){
-   console.log("The setup function is executed!");
-
-   
-  },
-  
-  methods: {
-     myFunction() {
-      this.responsive = !this.responsive;
-     }
-  },
-  computed: {
-     
-  }
+onMounted( () => {
+  console.log("Mounted function of vue-home is executed!");
+  console.log(route);
 });
+
 </script>
 
 <style scoped>

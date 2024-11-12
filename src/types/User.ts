@@ -1,7 +1,7 @@
 interface User {
     name: string,
-    mail: string,
-    password: String
+    email: string,
+    password: string
 }
 
 export type {User};

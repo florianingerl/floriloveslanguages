@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 //import HomeView from '@/views/HomeView.vue';
-import HomeView from '@/views/vue-home.vue'
+import HomeView from '@/views/Home.vue'
 import VueDict from "@/components/atoms/layouts/Dictionary.vue";
 import VueAnnaCat from "@/views/english/shortstories/CatAnna.vue";
 import VueTurtoiseAnna from "@/views/english/shortstories/TurtoiseAnna.vue";
@@ -23,8 +23,8 @@ import VueLapinMarie from "@/views/french/breveshistoires/LapinMarie.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueBelovedRabbit from "@/views/english/shortstories/BelovedRabbitAnna.vue";
-import VueSignUp from "@/views/vue-signup.vue";
-import VueLogin from "@/views/vue-login.vue";
+import VueSignUp from "@/views/Signup.vue";
+import VueLogin from "@/views/Login.vue";
 
 
 const router = createRouter({

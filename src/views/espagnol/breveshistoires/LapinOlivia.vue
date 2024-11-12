@@ -128,6 +128,27 @@ Cuando Carlos bebio el liquido, su cabeza aun funcionaba. No vio estrellas.
 Espero un momento, y de repente vio a la coneja con ojos nuevos: "Qué guapa eres!"
 </GoogleTranslate>
 
+La coneja se sorprendio: "Mira lo que has dicho, que yo soy guapa? Pero tu lo eres también"! Es que me compré una crema magica muy cara para ser guapa
+La crema magica, la he comprado en el centro comercial de esta ciudad.
+Como ya lo he dicho, la crema no estaba barata. Pero cada sabado, el centro comercial vende las cremas más baratas que de costumbre.
+No sabia cual crema debia comprar entonces, probe cada una de ellas y le pregunté a un hombre con cual me veia mejor. Me dijo que con la ultima me veia estupenda!
+"Hay tambien cremas para los hombres, o solo para las mujeres." se preguntó Carlos.
+Pregunto a la coneja "Donde podria encontrar una tienda en la que suelen ir los hombres para comprar articulos de belleza?" Asi podré comprar una crema para verme super hermoso!
+Hay una tienda cerca de la playa. Puedes estar contento porque tu habitacion
+esta cerca de la playa pero yo, en cambnio, tengo que caminar veinte minutos para ir a la playa y comprarme cremas. estoy celosa de tu habitacion cerca de la playa.
+Carlos dijo: "Como sabes que vivo cerca de la playa? A quien has visto y que te ha dicho esto? Estas espiandome? que quieres de mi?"
+La conejta se llama Joséphine.
+Joséphine estaba enfadada. "No digas cosas como las que has dicho. Dime cosas que a mi me gustan."
+J
+La coneja siguio: "Podria decirte la verdad pero no me atrevo..." Carlos que queria hacerse perdonar le dijo :"Tienes razon no debo halarte asi, y puedes contarme todo lo que quieres"
+Entonces Joséphine le comento: "Es que me gustas desde hace mucho tiempo, desde que te vi en el campo de futbol"
+Carlos estuvo sorprendido cuando oyo estas frases. A él le gustaba jugar futbol pero no lo hacia
+para impresionar  a las mujeres.
+Sus motivos eran puros,  solo queria jugar y divertirse, asi como cuando iba a jugar tenis con su raqueta nueva. Se dio cuenta de que Josephine era una  belle persona, una coneja que ademas de guapa, tenia un gran corazon.
+Te quiero y quiero tener conejitos contigo en una union libre
+
+Fin
+
 <h3 class="bg-blue">The end</h3>
 
 </div>
