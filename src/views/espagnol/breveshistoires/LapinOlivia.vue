@@ -128,10 +128,46 @@ Cuando Carlos bebio el liquido, su cabeza aun funcionaba. No vio estrellas.
 Espero un momento, y de repente vio a la coneja con ojos nuevos: "Qué guapa eres!"
 </GoogleTranslate>
 
-La coneja se sorprendio: "Mira lo que has dicho, que yo soy guapa? Pero tu lo eres también"! Es que me compré una crema magica muy cara para ser guapa
-La crema magica, la he comprado en el centro comercial de esta ciudad.
-Como ya lo he dicho, la crema no estaba barata. Pero cada sabado, el centro comercial vende las cremas más baratas que de costumbre.
-No sabia cual crema debia comprar entonces, probe cada una de ellas y le pregunté a un hombre con cual me veia mejor. Me dijo que con la ultima me veia estupenda!
+"Por qué eres tan guapa? Quiero ser tan guapo como tu."
+<VueExercise lg="fr" :topics="['Espagnol facile comparatif']" instruction="Remplis les trous de sorte que le comparatif soit bien formé!">
+<MCGaps lg="fr" :gaptexts="['Las orejas de Carlos son {tan} grandes como las de la coneja Josephine.',
+'Carlos es {más} joven que su padre.',
+'Carlos es {muenos} hermoso que la coneja Josephine.',
+'Una crema magica para ser guapa es más carro {que} una zanahoria.',
+'La hermana de la coneja Josephine es tan hermosa {como} ella.']">
+
+</MCGaps>
+</VueExercise>
+
+La coneja se sorprendio: 
+"Mira lo que has dicho, que yo soy guapa? Pero tu lo eres también"! Es que me compré una crema magica muy cara 
+para ser guapa.
+La crema magica, la he comprado en el centro comercial de esta ciudad."
+<VueExercise lg="fr" :topics="['Espagnol facile adjectifs demonstratif']" instruction="Remplis les trous avec este, esta, estos, estas!" >
+<MCGaps lg="fr" :gaptexts="['{Este} conejo es pequeño.',
+'{Esta} coneja es también pequeño',
+'{Estos} dos conejos son pequeños.',
+'Josephine tenía una hermana et {estas} dos conejas que utilisaban una crema magica y carro para ser guapa.']">
+
+</MCGaps>
+</VueExercise>
+
+"Como ya lo he dicho, la crema no estaba barata. Pero cada sabado, 
+el centro comercial vende las cremas más baratas que de costumbre."
+
+
+<VueExercise lg="fr" :topics="['Espagnol facile jours de la semaine']" instruction="Remplis les trous avec le bon jour de la semaine!">
+<MCGaps lg="fr" :gaptexts="['El sabado y el {domingo} son los dos diaz de la fin de la semana.',
+'El {lunes} es lo premiero diaz de la semana.',
+'Es {martes} y ya hay quatro diaz hasta la fin de la semana.',
+'Es {miércoles}, ya he trabajado dos diaz esta semana.']">
+
+</MCGaps>
+</VueExercise>
+
+No sabia cual crema debia comprar entonces, 
+probe cada una de ellas y le pregunté a un hombre con cual me veia mejor. 
+Me dijo que con la ultima me veia estupenda!
 "Hay tambien cremas para los hombres, o solo para las mujeres." se preguntó Carlos.
 Pregunto a la coneja "Donde podria encontrar una tienda en la que suelen ir los hombres para comprar articulos de belleza?" Asi podré comprar una crema para verme super hermoso!
 Hay una tienda cerca de la playa. Puedes estar contento porque tu habitacion
@@ -159,7 +195,7 @@ Fin
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import VueMCGaps from "@/components/atoms/MCGaps.vue";
+import MCGaps from "@/components/atoms/MCGaps.vue";
 import VueQuestion from "@/components/atoms/Question.vue";
 import VueExercise from "@/components/atoms/Exercise.vue";
 import VueWholeSentence from "@/components/atoms/WholeSentences.vue";
@@ -173,7 +209,7 @@ export default defineComponent ({
      VueExercise,
      VueWholeSentence,
      HideShow,
-     VueMCGaps,
+     MCGaps,
      GoogleTranslate
   },
 
