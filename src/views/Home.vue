@@ -10,18 +10,16 @@
    <router-link class="btn btn-secondary" to="/login">Login</router-link>
    <router-link class="btn btn-primary" to="/signup">Sign up</router-link>
    </div>
+   
    <div v-if="userStore.user">
-      You are logged in as {{ userStore.user.name }} and your email is {{ userStore.user.email }} 
+      <a href="">You are logged in as {{ userStore.user.name }} and your email is {{ userStore.user.email }} </a>
    </div>
 </div>
 
 <div id="main" style="padding-left:16px">
 
-<p> userStore.user = {{ userStore.user }} </p>
-    <div>
 <span style="font-weight:bold;">Please select your mother language</span> (You can translate each paragraph into this language by hovering over the globus):
 <div style="{display: inline}" id="google_translate_element"></div>
-</div>
    
     <router-view></router-view>
 
