@@ -1,18 +1,18 @@
-Attachment Reponseaunedemandedecours.pdf added.Conversation opened. 1 unread message.
-
-Skip to content
-Using Gmail with screen readers
-Conversations
-11.54 GB of 15 GB (76%) used
-Cancel subscription
-Terms · Privacy · Program Policies
-Last account activity: 1 hour ago
-Details
 Jadis, il y avait un lion qui s'appelait Simba et il vivait seul.
 Il passait ses journées à se reposer.
 Bien que se baigner toute la journée dans le soleil était reposant,
 il ne se sentait pas très bien. Sans cesse, il éprouvait un sentiment de manque sans savoir ce qu'il lui manquait.
 Il pensa qu'il lui manquait  peut-être un compagnon avec qui jouer .
+<VueExercice lg="fr" :topics="['Les mots de liaison', 'Les conjonctions']"
+ instruction="Remplis les trous avec la bonne conjonction!">
+<MCGaps lg="fr" :gatexts="['{Après|} avoir mangé une antilope, le lion doit dormir pendant tout le reste de la journée.',
+'{Avant|} de déglutir, il faut bien macher sa nourriture.']">
+
+</MCGaps>
+</VueExercice>
+
+macher, avant 
+
 Il y songeait souvent, mais il voulait seulement jouer au foot et tous les autres lions qu'il connaissait ne pouvaient pas y jouer à son niveau. Donc, quoi faire avec eux?
 Il se dit alors qu'il pouvait leur proposer d'autres activités que le foot puisque ses compagnons de route étaient décidément bien nuls au foot.
 Il aimerait aussi jouer aux échecs avec quelqu'un mais tous ses proches ne savaient pas

@@ -1,13 +1,8 @@
-//import './assets/index.css'
-import 'bootstrap/dist/css/bootstrap.css';
+import './assets/styles/index.css'
 import { createApp } from 'vue';
 import { createPinia } from 'pinia'
 import { useUserStore } from './stores/userStore';
-
-//import App from './App.vue'
-//import HomeView from '@/views/Home.vue';
 import App from './App.vue';
-//import HomeView from './views/AboutView.vue';
 import router from './router';
 
 const pinia = createPinia()
