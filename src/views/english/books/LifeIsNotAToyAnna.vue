@@ -770,15 +770,74 @@ Treena was eating her raw fish with her fingers.
 
 </VueExercise>
 
-"Hi, Dave, I'm the wife of Edwin and I really need to make a phone call to Vanessa. Can you provide your phone for that, please? Your phone is needed really badly, because my oldest son broke mine this morning" asked Vanessa, pretending to be Brigitte.
-Dave whose stomach was still growling, didn't grasp at all that Vanessa played now the role of Brigitte, nor did he know who all these children were and where they belonged. But he was happy that he had a working phone. The phone was thus handed over to Vanessa.
+"Hi, Dave, I'm the wife of Edwin and I really need to make a phone call to Vanessa.
+ Can you provide your phone for that, please? Your phone is needed really badly, because my oldest son broke mine this morning" asked Vanessa,
+  pretending to be Brigitte.
+Dave whose stomach was still growling, didn't grasp at all that Vanessa played now the role of Brigitte,
+ nor did he know who all these children were and where they belonged. But he was happy that he had a working phone. 
+ The phone was thus handed over to Vanessa.
 Vanessa happily accepted the phone and lifted it to her lips to start talking to Brigitte as soon as the other woman picked up.
 
-"I really need you to come to the sushi restaurant because I want to switch back our places. Having 6 children is exhausting and I want my real life back, please!" begged Vanessa. "If you come quickly, you will be even presented to Dave's wife who is also in the restaurant" added Vanessa.
-Brigitte who was relaxing in Vanessas room with a book that she had been wanting to read for a long time, simply didn't want to help Vanessa and refused to come.
-"I have just started to read a good book" she explained to Vanessa. "It still has another 600 pages and I don't want to switch roles before I won't have read them. And please don't make me hurry. I want to take my time reading all those pages!"
-"That's not fair! I insist on changing back our roles before those 600 pages will have been read", answered Vanessa. "I will leave your children here by themselves if you don't come. I'm going to leave in 30 minutes so you better hurry."
+
+<VueExercise lg="en" :topics="['The passive voice']" instruction="Transform once again these sentences into passive conserving the time!">
+Example: Dave helped Vanessa. -> Vanessa was helped by Dave.
+<ol>
+   <li>
+Vanessa had taken Brigitte's role and vice versa.
+   </li>
+   <li>
+      The children had exhausted Vanessa's energy.
+   </li>
+   <li>Vanessa has received a SMS.</li>
+   <li>Dave's stomach needed food.</li>
+</ol>   
+
+   <HideShow lg="en">
+<ol>
+   <li>Brigitte's role had been taken by Vanessa and vice versa.</li>
+   <li>Vanessa's energy had been exhausted by the children.</li>
+   <li>A SMS has been received by Vanessa.</li>
+   <li>Food was needed by Dave's stomach.</li>
+</ol>
+</HideShow>
+
+</VueExercise>
+
+"I really need you to come to the sushi restaurant because I want to switch back our places.
+ Having 6 children is exhausting and I want my real life back, please!" begged Vanessa. 
+ "If you come quickly, you will be even presented to Dave's wife who is also in the restaurant" added Vanessa.
+Brigitte who was relaxing in Vanessas room with a book that she had been wanting to read for a long time, 
+simply didn't want to help Vanessa and refused to come.
+"I have just started to read a good book" she explained to Vanessa. "It still has another 600 pages and I don't want to switch roles before 
+I won't have read them. And please don't make me hurry. I want to take my time reading all those pages!"
+"That's not fair! I insist on changing back our roles before those 600 pages will have been read", answered Vanessa. 
+"I will leave your children here by themselves if you don't come. I'm going to leave in 30 minutes so you better hurry."
 "I have been enduring the noise of you kids for two days now and it's enough!" she added. 
+
+<VueExercise lg="en" :topics="['The passive voice']" instruction="Transform once again these sentences into passive conserving the time!">
+Example: Vanessa can't endure children very long. -> Children can't be endured by Vanessa very long.
+<ol>
+   <li>
+      Dave could give the phone to Vanessa.
+   </li>
+   <li>
+      The children must eat the raw fish.
+   </li>
+   <li>Brigitte could not read the book for a long time.</li>
+   <li>Brigitte and Vanessa had switched their roles.</li>
+</ol>   
+
+   <HideShow lg="en">
+<ol>
+   <li>The phone dould be given to Vanessa by Dave.</li>
+   <li>The raw fish must be eaten by the children.</li>
+   <li>The book could not be read by Brigitte for a long time.</li>
+   <li>Their roles had been switched by Brigitte and Vanessa.</li>
+</ol>
+</HideShow>
+
+</VueExercise>
+
 But these last words were not even heard by Brigitte who had come to a particularly exciting part in her book and had thus hung up the phone.
 Vanessa was determined to leave the children but she felt somewhat guilty so she said to Dave:
 "I have to go somewhere very urgently so the children are going to be left here. Can you keep an eye on them until I come back, please?" she asked. "This can be good practice for you two if you ever want to have kids which I don't recommend at all by the way."
