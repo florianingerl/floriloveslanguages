@@ -707,6 +707,60 @@ On the other hand, whenever he got some new toys from the company, he always gav
 </VueExercise>
 
 
+So his wife dragged Dave to the Shusy restaurant. Because it was noon, it wasn't a romantic dinner with dimly lit candles,
+ but instead with the noise of the traffic just outside.
+While the lunch was being served to Dave and his wife, they discussed the last 5 years of their marriage and Treena also surprised Dave with some news.
+"Are you firmly in your seat?" asked Treena who had some stunning news. "I have to tell you what I already now for two weeks. I didn't want to tell you immediately because I wasn't 100% sure yet. But now it's a fact. I am pregnant and we will get a litte boy next year in Octorber. Are you happy?"
+Dave didn't answer for while. "So what do you say to this piece of news?"
+<VueExercise lg="en" :topics="['The passive voice']" instruction="Transform these sentences into passive conserving the time!">
+Example: His wife dragged Dave to the Shusy restaurant. -> Dave was dragged to the Shushy restaurant by his wife.
+<ol>
+   <li>
+The noise of the traffic made Dave a bit dizzy.
+   </li>
+   <li>
+      Dave has given a baby to Treena. (Treena should become the subject of the passive sentence.)
+   </li>
+   <li>Dave and Treena were waiting for the food.</li>
+   <li>The restaurant regularly serves raw fish.</li>
+</ol>   
+
+   <VueHideShow lg="en">
+<ol>
+   <li>Dave was made a bit dizzy by the noise of the traffic.</li>
+   <li>Treena has been given a baby.</li>
+   <li>The food was being waited for by Dave and Treena.</li>
+   <li>Raw fish is regularly served by the restaurant.</li>
+</ol>
+</VueHideShow>
+
+</VueExercise>
+
+
+"Our food is still being cooked, I think!" answered Dave whose stomach growled and who couldn't think clearly.
+"You didn't hear me, or what? asked Treena. "It has just been anounced by me that we would have a baby and you are only thinking about food?!"
+
+"Sorry, my dear wife, I'm just very hungry but I'm of course happy for this great news! Although I always wanted to have a baby girl, not a boy."
+A baby boy had always been wanted by Treena.
+As Treena was thinking of how to explain to her husband that little boy are much nicer than litte girls, suddenly Vanness - who played the role of Brigitte - and all of her kids entered the restaurant.
+If the noise of the traffic had already been loud, all the kids brought on top of it the noise comparable to a rock concert to the atmosphere in the restaurant.
+Vanessa who had spent the whole day with the children was really exhausted and as soon as she noticed her colleague, Dave, she quickly ran to his table.
+
+"Hi, Dave, I'm the wife of Edwin and I really need to make a phone call to Vanessa. Can you provide your phone for that, please? Your phone is needed really badly, because my oldest son broke mine this morning" asked Vanessa, pretending to be Brigitte.
+Dave whose stomach was still growling, didn't grasp at all that Vanessa played now the role of Brigitte, nor did he know who all these children were and where they belonged. But he was happy that he had a working phone. The phone was thus handed over to Vanessa.
+Vanessa happily accepted the phone and lifted it to her lips to start talking to Brigitte as soon as the other woman picked up.
+
+"I really need you to come to the sushi restaurant because I want to switch back our places. Having 6 children is exhausting and I want my real life back, please!" begged Vanessa. "If you come quickly, you will be even presented to Dave's wife who is also in the restaurant" added Vanessa.
+Brigitte who was relaxing in Vanessas room with a book that she had been wanting to read for a long time, simply didn't want to help Vanessa and refused to come.
+"I have just started to read a good book" she explained to Vanessa. "It still has another 600 pages and I don't want to switch roles before I won't have read them. And please don't make me hurry. I want to take my time reading all those pages!"
+"That's not fair! I insist on changing back our roles before those 600 pages will have been read", answered Vanessa. "I will leave your children here by themselves if you don't come. I'm going to leave in 30 minutes so you better hurry."
+"I have been enduring the noise of you kids for two days now and it's enough!" she added. 
+But these last words were not even heard by Brigitte who had come to a particularly exciting part in her book and had thus hung up the phone.
+Vanessa was determined to leave the children but she felt somewhat guilty so she said to Dave:
+"I have to go somewhere very urgently so the children are going to be left here. Can you keep an eye on them until I come back, please?" she asked. "This can be good practice for you two if you ever want to have kids which I don't recommend at all by the way."
+While Vanessa was leaving the restaurant, Alexander just entered and they two hit each other badly on their head. Vanessa was completely knocked out. Alexander whose plan had been to listen to gossip in this Sushy restaurant for this books, just struggled a moment for balance and then examined the women lying before him on the floor.
+
+
 </div>
 
 </template>
