@@ -20,6 +20,7 @@ import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
 import VueLapinMarie from "@/views/french/breveshistoires/LapinMarie.vue";
+import VueLionMarie from "@/views/french/breveshistoires/LionMarie.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
 import VueJealousyFraud from "@/views/english/shortstories/vue-jealous-katy.vue";
 import VueBelovedRabbit from "@/views/english/shortstories/BelovedRabbitAnna.vue";
@@ -99,6 +100,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Les meilleurs chasseur du monde',
+              path: "lionmarie",
+              component: VueLionMarie
+            },
             {
               name: "L'amour du premier regard",
               path: "lapinmarie",

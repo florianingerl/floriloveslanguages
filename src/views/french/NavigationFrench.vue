@@ -12,6 +12,13 @@
 
 
 <tr>
+
+   <td>6</td>
+       <td><router-link to="/fr/french/breveshistoires/lionmarie">Les meilleurs chasseurs du monde</router-link></td>
+       <td>Flori10</td>
+    </tr>
+
+    <tr>
     <td>5</td>
        <td><router-link to="/fr/french/breveshistoires/lapinmarie">L'amour du premier regard</router-link></td>
        <td>Flori10</td>
