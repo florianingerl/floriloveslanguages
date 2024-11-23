@@ -725,14 +725,14 @@ The noise of the traffic made Dave a bit dizzy.
    <li>The restaurant regularly serves raw fish.</li>
 </ol>   
 
-   <VueHideShow lg="en">
+   <HideShow lg="en">
 <ol>
    <li>Dave was made a bit dizzy by the noise of the traffic.</li>
    <li>Treena has been given a baby.</li>
    <li>The food was being waited for by Dave and Treena.</li>
    <li>Raw fish is regularly served by the restaurant.</li>
 </ol>
-</VueHideShow>
+</HideShow>
 
 </VueExercise>
 
@@ -742,9 +742,33 @@ The noise of the traffic made Dave a bit dizzy.
 
 "Sorry, my dear wife, I'm just very hungry but I'm of course happy for this great news! Although I always wanted to have a baby girl, not a boy."
 A baby boy had always been wanted by Treena.
-As Treena was thinking of how to explain to her husband that little boy are much nicer than litte girls, suddenly Vanness - who played the role of Brigitte - and all of her kids entered the restaurant.
+As Treena was thinking of how to explain to her husband that little boy are much nicer than litte girls, suddenly Vannessa - who played the role of Brigitte - and all of her kids entered the restaurant.
 If the noise of the traffic had already been loud, all the kids brought on top of it the noise comparable to a rock concert to the atmosphere in the restaurant.
 Vanessa who had spent the whole day with the children was really exhausted and as soon as she noticed her colleague, Dave, she quickly ran to his table.
+
+<VueExercise lg="en" :topics="['The passive voice']" instruction="Transform once again these sentences into passive conserving the time!">
+Example: Dave was listening to a rock concert. -> The rock concert was being listened to by Dave.
+<ol>
+   <li>
+Treena was eating her raw fish with her fingers.
+   </li>
+   <li>
+      Treena had always preferred raw fish to cooked.
+   </li>
+   <li>Treena had been waiting for a baby for a long time.</li>
+   <li>Treena has never insulted Dave.</li>
+</ol>   
+
+   <HideShow lg="en">
+<ol>
+   <li>The raw fish was being eaten by Treena with her fingers.</li>
+   <li>Raw fish had always been preferred by Treena to cooked.</li>
+   <li>A baby had being waited for by Treena for a long time.</li>
+   <li>Dave has never been insulted by Treena.</li>
+</ol>
+</HideShow>
+
+</VueExercise>
 
 "Hi, Dave, I'm the wife of Edwin and I really need to make a phone call to Vanessa. Can you provide your phone for that, please? Your phone is needed really badly, because my oldest son broke mine this morning" asked Vanessa, pretending to be Brigitte.
 Dave whose stomach was still growling, didn't grasp at all that Vanessa played now the role of Brigitte, nor did he know who all these children were and where they belonged. But he was happy that he had a working phone. The phone was thus handed over to Vanessa.
