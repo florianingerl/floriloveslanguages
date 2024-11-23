@@ -12,9 +12,9 @@
 
         <VueExercise lg="fr" :topics="['La préfixe re']"
             instruction="Remplis le trou avec le verbe avec le préfixe re qui convient!">
-            <MCGaps lg="fr" :same="true" :gaptexts="['Ne re{|tarde} pas tes devoirs. Il vaut mieux de les faire maintenant.',
-                'Je ne veux plus te re{|voir} à moins que tu ne t\'excuse.',
-                'Simba ne re{|trouve} pas ses lunettes qu\'il a perdues quelque part.']">
+            <MCGaps lg="fr" :same="true" :gaptexts="['Ne re{tarde|} pas tes devoirs. Il vaut mieux de les faire maintenant.',
+                'Je ne veux plus te re{voir|} à moins que tu ne t\'excuse.',
+                'Simba ne re{trouve|} pas ses lunettes qu\'il a perdues quelque part.']">
             </MCGaps>
         </VueExercise>
         Bien que se baigner toute la journée dans le soleil fût reposant,
@@ -23,9 +23,9 @@
         Il pensa qu'il lui manquait peut-être un compagnon avec qui jouer.
 
         <VueExercise lg="fr" :topics="['Les conjunctions']" instruction="Remplis le trou avec la bonne conjunction!">
-            <MCGaps lg="fr" :same="true" :gaptexts="['{|Après} avoir mangé un antilope, un lion doit dormir tout le reste de la journée.',
-                '{|Avant} de se coucher, Simba lit normalement un livre.',
-                '{|Bien que} Simba n\'aie pas peur, il évite si possible une rencontre avec d\'autres lions.']">
+            <MCGaps lg="fr" :same="true" :gaptexts="['{Après|} avoir mangé un antilope, un lion doit dormir tout le reste de la journée.',
+                '{Avant|} de se coucher, Simba lit normalement un livre.',
+                '{Bien que|} Simba n\'aie pas peur, il évite si possible une rencontre avec d\'autres lions.']">
 
             </MCGaps>
         </VueExercise>
@@ -56,10 +56,10 @@
         qu'initialement: avec qui faire ce fameux gâteau?
         <VueExercise lg="fr" :topics="['Les pronoms interrogatifs']"
             instruction="Remplis les trous avec le pronom interrogatif qui convient!">
-            <MCGaps lg="fr" :same="true" :gaptexts="['{|Pourquoi} n\'as-tu pas conviance en moi? Je ne t\'ai jamais raconté de mensonges.',
-                '{|Que} veut-Simba jouer avec des amis?',
-                'Dans {|quel} pays vivait Simba?',
-                '{|Où} peut Simba trouver des amis avec qui il peut jouer?']">
+            <MCGaps lg="fr" :same="true" :gaptexts="['{Pourquoi|} n\'as-tu pas conviance en moi? Je ne t\'ai jamais raconté de mensonges.',
+                '{Que|} veut-Simba jouer avec des amis?',
+                'Dans {quel|} pays vivait Simba?',
+                '{Où|} peut Simba trouver des amis avec qui il peut jouer?']">
 
             </MCGaps>
         </VueExercise>
@@ -86,20 +86,44 @@
         "ça va bien mon cher oncle! Il y a longtemps qu'on n'a pas fait quelque chose ensemble! Ca te ferait du bien
         si on chassait des bêtes ensemble pour en faire un grand gâteau. Qu'en penses-tu?"
 <VueExercise lg="fr" :topics="['Le gérondif']" instruction="Remplis les trous avec le verbe donné au gérondif!">
-    <MCGaps lg="fr" :gaptexts="['En ']">
+    <MCGaps lg="fr" :gaptexts="['En {attendant} (attendre) jusqu\'a ce que un antilope ne vienne, Simba lisait un livre.',
+        'En {mangeant} (manger) un antilope, Simba pensa qu\'il serait bon s\'il pourrait la partager avec quelqu\'un.',
+        'En {digérant} (digérer) l\'antilope, l\'estomac de Simba fit des grognements.'
+    ]">
 
     </MCGaps>
 </VueExercise>
 
-        _ Quel plaisir de te retrouver mon cher neveu!! Et quelle merveilleuse idée me proposes-tu là! Je serais bien
-        sûr ravi de t'accompagner pour chasser toutes ces bêtes!
-        _ Quelle chance! Je viens d'entendre un bruit qui rassemble à un lapin qui a peut-être perdu son chemin. Regarde
-        là-bas dans le bois! Le voilà. Comment s'y prendre maintenant pour le capturer?
-        _ Avant de se jeter sur lui comme des brutes, il vaudrait mieux établir un plan, une ruse. Qu'en penses-tu? As-
-        tu une idée plus ingénieuse?
-        _ Oncle! Désolé de te le dire, mais tu es déjà très vieux et du coup, je te propose que tu ailles simplement
+        "Quel plaisir de te retrouver mon cher neveu!! Et quelle merveilleuse idée me proposes-tu là! Je serais bien
+        sûr ravi de t'accompagner pour chasser toutes ces bêtes!"
+        "Quelle chance! Je viens d'entendre un bruit qui rassemble à un lapin qui a peut-être perdu son chemin. Regarde
+        là-bas dans le bois! Le voilà. Comment s'y prendre maintenant pour le capturer?"
+
+        <VueExercise lg="fr" :topics="['Phrases relatives']" instruction="Fais une phrase à partir de deux comme dans l'exemple">
+<p>Exemple: Simba vit un lapin. Le lapin s'approcha de lui. -> Simba vit un lapin qui s'approcha de lui.</p>
+
+<ol>
+<li>Simba adressa la parole au lapin. Le lapin avait peur de lui.</li>
+<li>Simba ne dit pas la verité au lapin. Il voulait manger le lapin.</li>
+<li>Le lapin avait conviance en Simba. Simba voulait le manger.</li>
+</ol>
+
+<HideShow lg="fr">
+    <ol>
+        <li>Simba adressa la parole au lapin qui avait peur de lui.</li>
+        <li>Simba ne dit pas la verité au lapin qu'il voulait manger.</li>
+        <li>Le lapin avait conviance en Simba qui voulait le manger.</li>
+    </ol>
+</HideShow>
+        </VueExercise>
+
+        "Avant de se jeter sur lui comme des brutes, il vaudrait mieux établir un plan, une ruse. Qu'en penses-tu? As-
+        tu une idée plus ingénieuse?"
+        "Oncle! Désolé de te le dire, mais tu es déjà très vieux et du coup, je te propose que tu ailles simplement
         effrayer le lapin en faisant ton grognement le plus effrayant possible et le lapin va s'enfuir dans l'autre
-        direction où je vais le guetter.
+        direction où je vais le guetter."
+
+        
         _Après avoir poussé ce furieux grognement, tu t'imagines vraiment que le lapin va déguerpir dans l'autre
         direction? Je pense plutôt qu'il tombera foudroyé au sol par la peur, et alors plus besoin de l'attraper!
 
