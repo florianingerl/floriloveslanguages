@@ -122,20 +122,43 @@
         "Oncle! Désolé de te le dire, mais tu es déjà très vieux et du coup, je te propose que tu ailles simplement
         effrayer le lapin en faisant ton grognement le plus effrayant possible et le lapin va s'enfuir dans l'autre
         direction où je vais le guetter."
+        <VueExercise lg="fr" :topics="['Subjonctif']" instruction="Remplis les trous avec le verbe donné au subjonctif!">
+<MCGaps lg="fr" :gaptexts="['Simba voulait que son oncle {fasse} (faire) ce qu\'il lui avait proposé.',
+    'Bien que l\'oncle de Simba {soit} (être) vieux, il pouvait toujours chasser des bêtes.',
+    'Les lapins se cachent dans les bois de peur que les lions ne les {trouvent} (trouver).'
+]">
+
+</MCGaps>
+        </VueExercise>
 
         
-        _Après avoir poussé ce furieux grognement, tu t'imagines vraiment que le lapin va déguerpir dans l'autre
-        direction? Je pense plutôt qu'il tombera foudroyé au sol par la peur, et alors plus besoin de l'attraper!
+        "Après avoir poussé ce furieux grognement, tu t'imagines vraiment que le lapin va déguerpir dans l'autre
+        direction? Je pense plutôt qu'il tombera foudroyé au sol par la peur, et alors plus besoin de l'attraper!"
 
         Aussitôt, Simba se souvint de son propre père qui n'avait pas besoin de chasser ces brutes lui aussi parce que
         sa voix suffisait déjà pour les tuer. Il aurait aimé avoir une telle voix lui aussi. Mais ce n'était pas si
         grave, car comme cela, il avait souvent l'occasion de s'entraîner un peu en chassant des bêtes.
+
+        <VueExercise lg="fr" :topics="['Les quantités imprécises']" instruction="Remplis les trous avec les quantités imprécises telle que un peu de, beaucoup de, pas mal de, assez de, trop de">
+<MCGaps lg="fr" :same="true" :gaptexts="['Étant très vieux, l\'oncle de Simba a {beaucoup|} d\'expérience.',
+    'Quand tu as {trop|} mangé, tu ne peux presque plus te bouger et le sommeil te conquerit.',
+    'La voix du père de Simba était {assez|} effrayante qu\'elle pouvait tuer les lapins.',
+    'Il n\'y avait {pas mal|} de lapins qui ont été tués par la voix du père de Simba.'
+]">
+
+</MCGaps>
+        </VueExercise>
 
         Toutefois, il ne voulait gaspiller ni son temps ni son énergie pour des choses futiles et il se dit qu'il
         n'était peut-être pas nécessaire de s'user la voix alors que son oncle pouvait très bien le faire lui-même.
         "Bonne idée, mon cher oncle! Alors, essaye de tuer le lapin en grognant! Va-y!" dit Simba.
         L'oncle ne tarda pas à suivre ces instructions et il poussa un son. Mais quelle pitoyable son! Le lapin ne tomba
         pas mort par terre. Rien ne se passa.
+<VueExercise lg="fr" :topics="['La négation']" instruction="Forme la phrase négative comme dans l'example!">
+<p>Example: </p>
+</VueExercise>
+
+
         L'oncle avait-t-il pris froid?
         Simba se demanda vraiment comment ils allaient attraper ce pauvre petit lapin, qui soit dit en passant , était
         complètement innocent. Que son oncle l'attrape était une chose, mais que lui-même, Simba à la petite voix

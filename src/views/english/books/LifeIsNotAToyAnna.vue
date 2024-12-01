@@ -844,6 +844,38 @@ Vanessa was determined to leave the children but she felt somewhat guilty so she
 While Vanessa was leaving the restaurant, Alexander just entered and they two hit each other badly on their head. Vanessa was completely knocked out. Alexander whose plan had been to listen to gossip in this Sushy restaurant for this books, just struggled a moment for balance and then examined the women lying before him on the floor.
 
 
+
+"Are you ok? What is your name? " Alexander continued to talk stupidly to the unconscious woman like that. Since Alexander loved the sound of his own voice so much, he completely forgot to call an ambulance.
+Thankfully, Vanessa was though as old boots so she didn't need any medical help and she woke up a few minutes later on her own. Feeling a bit dizzy and confused, she decided to go back to the restaurant to have a warm tea. And Alexander followed her.
+
+And guess who entered the restaurant now as well ? It was Fred, the father of Alexander and boss of the toy company who often liked to eat sushi. When Alexander saw him entering the restaurant he wasn't pleased at all but he played it cool and pretended not to see him.
+When Fred realized that one of his employees, Dave was also in the restaurant, he went to his table to say hello. But to his surprise, there were already 6 children and a woman sitting with Dave. The adults looked completely lost with all these kids so Fred offered to give them a helping hand with the children which they accepted. So Fred joined their table.
+
+With the best intentions, Fred gave the children nice instruments to play with to have them occupied. Can you imagine what happened when Fred distruted six flutes to the six children? 
+Well, the noise became absolutely deafening! Impossible to not lose track of which kid was making the most noise!
+The situation quickly got out of control so Fred decided to call Edwin to come pick up his children. When the man arrived, he was hopping mad at his wife for leaving their kids alone in a restaurant so he phoned Brigitte to demand explanation.
+Deep down in her heart, Brigitte loved her children. But when he received the phone call of her husband and heard the noise of them in the background, she almost got a heart attack.
+Because she didn't want to pay for all the damage that her children might cause in the restaurant, she rushed as quickly as possible to join her husband.
+While Brigitte and Edwin were trying to calm down their children and take away all the flutes they had just received, the restaurant's door opened once more and by coincidence Sally walked in with her boyfriend, Anton who was a History teacher.
+
+"What a great surprise to find everyone here" said Sally who was thick as two short planks. "We came to eat some sushi because my love has to give a presentation about Japanese history tomorrow and we wanted to get inspired."
+Meanwhile, Miranda, the wife of Fred, was sitting alone at home. She wasn't feeling well and needed a shoulder to cry on. "Anyone who has hears would do" she thought. By coincidence, she also was craving raw fish at this present moment, so she also rushed to the sushi restaurant.
+Miranda had a quick temper, so when she noticed that her husband was having lunch there without her, she got really angry.
+
+"Why didn' you call me and invite me for lunch?" she demanded from Fred. But her husband's mouth was so full of sushi that he couldn't reply.
+There was second reason why Fred didn't reply. The deafening noise of the children.
+In the background, you coud see the Japenese restaurant owners calling for the police. However, the police officer at the phone didn't understand a word. So no rescue! 
+And usually people always call children the salt of the earth!
+When Fred noticed the very unpleased restaurant owners, he decided to go and talk to them.
+
+"I would like to offer to pay double for the consumption of everyone here today! I'm their boss and I want to use this occasion to have a lunch with my employees and family. Please accept this check from me!"
+
+Since Fred went to great length to solve the chaos, the owners agreed and they closed the restaurant so other customers couldn't enter and Fred and his employees could have their lunch.
+What miracle! Everyone was now completely relaxed and as everyone knows: the noise of children isn't noise but rather music.
+They all had a happy time together, they became close friends, and at midnight, when they finally got tired, Fred - being a man of his word - paid a small fortune to the Japanese restaurant owners.
+
+The end
+
 </div>
 
 </template>
