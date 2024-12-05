@@ -19,6 +19,7 @@ import VueEcureuilMarie from "@/views/french/breveshistoires/EcureuilMarie.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
+import VuePouleLapinMarie from "@/views/french/breveshistoires/PouleLapinMarie.vue";
 import VueLapinMarie from "@/views/french/breveshistoires/LapinMarie.vue";
 import VueLionMarie from "@/views/french/breveshistoires/LionMarie.vue";
 import VueAnnaStory from "@/views/english/books/LifeIsNotAToyAnna.vue";
@@ -100,6 +101,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Une poule et un lapin s\'approchent',
+              path: 'poulelapinmarie',
+              component: VuePouleLapinMarie
+            },
             {
               name: 'Les meilleurs chasseur du monde',
               path: "lionmarie",

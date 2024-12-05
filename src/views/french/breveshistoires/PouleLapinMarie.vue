@@ -1,3 +1,12 @@
+<template>
+<div>
+
+<h1>Une poule et un lapin s'approchent</h1>
+<h4><i>par Florian Ingerl et <a href="https://mariefaure.fr/">Marie Faure</a></i></h4>
+
+<img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
+
+
 La poule aimait se balader dans les prés. En se baladant ainsi, la poule qui, au fait, s'appelait Joséphine scrutait la terre pour y récupérer quelque chose à manger.
 Jo le lapin, un témoin amusé par les déambulations de Joséphine, la héla prudemment : "Bonjour jeune dame, que cherches-tu par ici? "
 Difference que et quoi???
@@ -30,4 +39,66 @@ Heureux de participer à cette merveilleuse saga, Patrick accepta
 avec grand plaisir la proposition plus que douteuse de Jo.
 Mais tout le monde s'en réjouit et pour fêter cette victoire, Patrick offrit à tout le bar sa tournée générale.
 Fin
-dindon de la farce
+
+</div>
+
+
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+import VueMCGaps from "@/components/atoms/MCGaps.vue";
+import VueQuestion from "@/components/atoms/Question.vue";
+import VueExercise from "@/components/atoms/Exercise.vue";
+import HideShow from "@/components/atoms/HideShow.vue";
+import GoogleTranslate from "@/components/atoms/GoogleTranslate.vue";
+
+export default defineComponent ({
+  
+  components: {
+     VueQuestion,
+     VueExercise,
+     HideShow,
+     VueMCGaps,
+     GoogleTranslate
+  },
+
+  mounted(){
+     console.log("The mounted function of VueRowFood was called!");
+     
+  },
+  setup(){
+   console.log("The setup function of VueRawFood  is executed!");
+  },
+  data(){
+        return {
+               
+        };
+  },
+  methods: {
+       
+  }
+});
+</script>
+
+<style scoped>
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
