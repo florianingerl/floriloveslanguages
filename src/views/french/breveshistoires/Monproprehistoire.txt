@@ -1,7 +1,7 @@
 14 , vrai, inutile, légère
 Antoine était un petit garçon de quatorze ans. Alors, cette dernière phrase n'est plas complètement vrai.
 En réalité, Antoine venait d'Allemagne et s'appelait donc Anton. Mais en vivant en France où personne ne pouvait prononcer
-ce nom correctement, il avait changé son nom pour s'épargner la peine d'expliquer à tout le monde comment prononcer
+ce nom correctement, il avait changé son nom pour s'épargner la peine d'expliquer à toute le monde comment prononcer
 son nom ce qui était inutile en tous cas parce que on ne voit la plupart des gens qu'une seule fois.
 Il valait mieux d'entreprendre quelque chose d'utile, faire du sport par exemple, pour devenir plus léger.
 
@@ -15,7 +15,7 @@ et l'appelait vaniteux. Antoine s'en fichait.
 
 Un jour, quand le soleil était radieux et le ciel privé de nuages, Antoine se mit en route avec son camion 
 pour la chasse. Il avait tant faim. Par conséquent, ce dont il avait desesperemment besoin, c'était un sanglier très gras,
-prépare avec du sel et d'autres épices. Après être arrivé dans la forêt, Antoine monta l'affût, recharga son fusil 
+préparé avec du sel et d'autres épices. Après être arrivé dans la forêt, Antoine monta l'affût, recharga son fusil 
 et commença à guetter les sangliers. Ce qui coutaît beaucoup de temps, mais n'était pas de temps gaspillé parce qu'il
 était dans l'air frais. De plus, il était très motivé de rentrer avec de la viande parce sa femme avait sûrement aussi femme.
 Et sa femme, qui le seduissait toujours avec sa beauté, amait les sangliers même plus que lui.
@@ -27,13 +27,6 @@ privé, ce dont, dont, ce que, seduire, lick, l'affût, sel
 
 tantôt, pencher, plancher, seduissant, affoler, grater, 
 
-affolerv.t. [ de fol, fou ]
-Faire perdre son sang-froid à qqn, un animal ; le rendre comme fou : Les hurlements des enfants affolèrent les oiseaux effrayer, épouvanter ; calmer, rassurer terrifier
-s'affolerv.pr.
-Être saisi par la peur ; perdre son sang-froid : Elles se sont affolées et ont sauté. Ne vous affolez pas, nous le retrouverons s'inquiéter, se tourmenter
-
-Tantôt..., tantôt...,
-exprime l'alternance, la succession : Des lumières tantôt blanches, tantôt bleues. Tantôt elle l'aime, tantôt elle le déteste.
 
 Mais il lui faudrait de la chance pour attraper un sanglier gras pour lui et sa femme.
 Tantôt il attrapait plusieurs sangliers en une seule heure, tantôt il n'attrapait rien du tout.
@@ -45,90 +38,4 @@ sac à dos. Quand il fit ce geste, le plancher grinca dangereusement, mais Antoi
 
 gare, butin, macher, seigle, parreseux, goûter, essayer, tenter, retrouver, regagner
 
-2. gareinterj. [ impér. de garer ]
-Exclamation servant à avertir d'un danger imminent ou à menacer d'un châtiment : Gare, devant ! laissez passer tu risques d'être puni
-Sans crier gare,
-sans prévenir : Ils sont partis sans crier gare inopinément, à l'improviste
-
-butinn.m. [ de l'anc. bas all. bute, partage ]
-1. Produit d'un vol : Le montant du butin s'élève à 10 000 euros.
-2. Ce qu'on enlève à l'ennemi : Les vainqueurs ont amassé un important butin de guerre prise
-3. Litt. Produit d'une recherche : Le butin des fouilles d'un archéologue.
-
-Avec ses lunettes, il pouvait voir beaucoup mieux. Pour se motiver encore, il se rappella pourquoi il chassait:
-Parce qu'il ne voulait pas seulement manger de bouilles de seigle, mais parfais aussi de la viande grasse. Quel plaisir
-de macher de la viande très grasse d'un lapin ou d'un autre bête. 
-Soudainement, sans crier gare, deux lapin apparûrent sans se rendre compte de lui et son fusil, bien chargé et prête
-à tirer. Antoine visa l'un des deux lapins et tira.
-Mais rien ne se produisit. Qu'est-ce qui s'était passé? "J'ai dû oublier de mettre de la poudre dans le fusil!" exclama
-Antoine, se reprochant ce fait lui-même. Mais il faillait faire vite maintenant avant que les lapins ne s'en aillent.
-"Où est mon sac à dos avec la poudre?" se demanda Antoine, scrutisant le plancher de l'affût avec ses yeux.
-Après avoir retrouvé son sac à dos, il essaya d'en mettre dans son fusil. Mais il rencontra des difficultés à y parvenir
-parce que il était tellement pressé que ses mains tremblaient. Voulant désperement gôuter la viande des deux lapins,
-il se forca à se calmer et placer la poudre au bon endroit dans son fusil. "Où sont les lapins maintenant?" voulait-il
-savoir un levant à nouveau la tête.
-
-ruisselant, queue, bandage, creux, sacré, combler, conger, consacrer, fastidieux, 
-
-ruisselerv.i.
-1. Couler sans arrêt et en abondance : L'eau ruisselle du toit.
-2. Être couvert d'un liquide qui coule : Nous ruisselions de sueur.
-
-bandagen.m.
-1. Action de bander une partie du corps ; pansement ainsi constitué : Resserrer un bandage.
-2. Cercle métallique ou bande de caoutchouc entourant la jante d'une roue.
-
-comblerv.t. [ lat. cumulare, amonceler, de cumulus, monceau ]
-1. Remplir entièrement : Combler un puits remblayer ; creuser
-2. Faire disparaître en apportant ce qui manque : Combler des lacunes. Il faut trouver un financement pour combler le déficit.
-3. Satisfaire pleinement qqn, ses désirs : Ce nouveau film a comblé tous mes espoirs contenter, exaucer
-Combler qqn de bienfaits, d'honneurs, de cadeaux,
-les lui donner en grande quantité.
-
-cognerv.t. ind. [ du lat. cuneus, coin ]
-1. (sur) Frapper avec force sur qqch : Il cogne sur des piquets pour les enfoncer taper
-2. (sur) Frapper qqn à coups de poing ; battre : Le boxeur cogne sur son adversaire.
-3. (à, sur) Donner des coups sur qqch : Cognez à la porte, la sonnette est en panne frapper taper
-4. (dans) Heurter involontairement un obstacle : Le bus est venu cogner dans la vitrine.
-v.t.
-1. Heurter involontairement : La voiture a cogné le poteau en reculant.
-2. Fam. Frapper qqn battre
-se cognerv.pr.
-Se heurter à qqch : Elle s'est cognée contre le pied de la table.
-
-Il sentit sa rapide respiration et la sueur ruisselant de son front, lui obscurant un peu la vue. 
-"Où sont ces sacrés lapins maintenant?" Parce qu'il était si nerveux, il se cogna le pied contre son sac à dos.
-Mais il sentit aussi son ventre qui était creux. Que ne donnerait-il pour un ventre comblé avec la viande des deux lapins.
-Et heureusement, il les recupèra au bord d'un petit groupe d'arbres, pas trop loin pour les attendre avec son fusil.
-
-Il tira et manqua malheuresement son but. C'était fastidieux! "Pourquoi ne peux-je me pas concentrer et cibler bien au premier coup?"
-se reprocha-t-il. Il faillait consacrer au moins deux heures par jours pour s'êntrainer à bien cibler. 
-
-grogner, gaspiller, gacher, gater, fesse = Gesäß, ferses, brins, brins , goute
-
-Il lui fallait se concentrer maintenant pour ne pas gaspiller trop de poudre. Son estomac émit un fort grognement
-lui disant que il était temps maintenant de lui donner de la viande. Heuresement, il n'y avait pas de pluie qui aurait gaché toute sa
-chasse.
-
-brin[ brɛ̃] n.m.
-1. Petite partie d'une chose mince et allongée ; petite tige : Un brin d'herbe. Un brin de muguet.
-2. Petite quantité de ; un petit peu : Un brin de fantaisie. Je suis un brin inquiète. Va vite faire un brin de toilette.
-3. Fil qui, tordu avec d'autres, forme un câble ou un cordage : Une corde à trois brins.
-Un beau brin de fille,
-Fam. une belle fille.
-
-grognerv.i. [ lat. grunnire ]
-1. Émettre un grognement, en parlant du porc, de l'ours, du sanglier.
-2. Fam. Manifester son mécontentement en protestant sourdement, par des paroles indistinctes : Il grogne contre son ordinateur grommeler, maugréer
-
-
-concevoir
-
-concevoirv.t. [ lat. concipere ]
-1. Se représenter par la pensée : Je conçois avec peine que l'on ne se mobilise pas contre la pollution comprendre admettre
-2. Élaborer dans son esprit en vue d'une réalisation : L'architecte a conçu le lotissement pour que les habitants aient tous un accès à la forêt créer, imaginer, penser
-3. Sout. Sentir naître en soi un sentiment, une idée : Elle a conçu une très vive amertume de votre refus éprouver, ressentir
-4. Litt. Accomplir l'acte sexuel par lequel sera engendré un enfant ; être enceinte, en parlant d'une femme : Nous avons conçu notre enfant en mai.
-Bien, mal conçu,
-bien, mal adapté à l'usage qu'on doit en faire : Une habitation bien conçue agencée, organisée
-récuperer
+Avec ses lunettes, il pouvait voir beaucoup mieux. 
