@@ -7,8 +7,21 @@
 <img style="float: right; height: 200px" src="@/assets/img/deutsch/eichhoernchen.png"></img>
 
 
-La poule aimait se balader dans les prés. En se baladant ainsi, la poule qui, au fait, s'appelait Joséphine scrutait la terre pour y récupérer quelque chose à manger.
+La poule aimait se balader dans les prés. En se baladant ainsi, 
+la poule qui, au fait, s'appelait Joséphine scrutait la terre pour y récupérer quelque chose à manger.
 Jo le lapin, un témoin amusé par les déambulations de Joséphine, la héla prudemment : "Bonjour jeune dame, que cherches-tu par ici? "
+
+<VueExercise lg="fr" :topics="['Quoi ou que']" instruction="Remplis les trous avec quoi ou que!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['{Qu\'}est-ce que tu as dans le panier que tu caches derrière ton dos?',
+'Tu as l\'air de rêvasser, à quoi penses-tu en remplissant ce vase?',
+'La patte {avec laquelle} l\'écureuil ouvre les noisettes est très agile.']">
+
+</VueMCGaps>
+</VueExercise>
+
+
+
+
 Difference que et quoi???
 "Bonjour jeune monsieur!" répondit Joséphine. "Je cherche simplement
 de la nourriture parce que - comme tu le vois - je suis très maigre. Mais, je n'aurais rien contre le fait de faire la connaissance d'un joli coq qui m'offrirait des pâquerettes. Depuis la mort de mon troisième coq, personne ne m'a offert de fleurs."
