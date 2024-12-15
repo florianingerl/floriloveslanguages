@@ -2,7 +2,7 @@
 <div>
 
 <h1>Une poule et un lapin s'approchent</h1>
-<h4><i>par Florian Ingerl et <a href="https://mariefaure.fr/">Marie Faure</a></i></h4>
+<h4><i>par Florian Ingerl</h4>
 
 <img style="float: right; height: 200px" src="@/assets/img/francais/poule.png"></img>
 

@@ -11,7 +11,7 @@ Werner war ein sehr netter Vogel. Deswegen hatte er auch viele Freunde.
 Vielleicht war er trotzdem manchmal einsam. Er sang immer gerne, und hatte Spaß in der Sonne.
 </GoogleTranslate>
 
-<VueExercise lg="de" :topics="['In oder auf']" instruction="Befülle die Lücken mit in oder aus!">
+<VueExercise lg="de" :topics="['In oder auf']" instruction="Befülle die Lücken mit in oder auf!">
 <VueMCGaps lg="de" :gaptexts="['Das Eichhörnchen sieht viele Nüsse {auf} der Straße liegen.',
 'Der Vogel sitzt {auf} dem Ast.',
 '{In} seinen Träumen kann Anton klettern wie ein Eichhörnchen.',
