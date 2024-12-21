@@ -77,22 +77,58 @@ l'influence de l'alcool ou la réalité? Il vit la poule Joséphine qui l'avait 
 </VueExercise>
 
 C'est à cet instant précis que Patrick, le chien serveur du café, 
-vint lui apporter la liste de tout ce qu'il venait de consommer et l'addition qui en résultait. Etonné par les propos tenus par cette jolie poulette, il se coinça la queue dans les plis de son tablier.
-queue
+vint lui apporter la liste de tout ce qu'il venait de consommer et l'addition qui en résultait.
+Etonné par les propos tenus par cette jolie poulette, 
+il se coinça la queue dans les plis de son tablier.
+<VueExercise lg="fr" :topics="['Les animaux en français']" instruction="Remplis les trous par le bon animal!">
+<VueMCGaps lg="fr" :same="true" :gaptexts="['{Le chien|} est le meilleur ami de l\'homme.',
+'{Les poules|} fournissent des œufs.',
+'{Les lapins|} aiment les carottes.']">
+</VueMCGaps>
+</VueExercise>
 
-la liste
-"Il faut que quelqu'un paie l'addition qui se trouve sur le plateau de ce chien serveur!" se dit Jo, le lapin ivre,
-qui n'avait pas apporté d'argent. "La poule semble me trouver sympa. Elle pourrait payer" pensa t-il.
-Comme Jo avait toujours dans ses poches quelques bricoles à vendre, il en proposa quelques unes à Joséphine...C'était en réalité une astuce pour qu'elle sorte son portefeuille, première étape pour le paiement de son addition.
-"Je n'ai pas besoin de ces trucs inutiles que tu me proposes!" Par ses mots, la poule Joséphine refusa
+"Il faut que quelqu'un paie l'addition qui se trouve sur le plateau de ce chien serveur!" se dit Jo,
+ le lapin ivre,qui n'avait pas apporté d'argent. "La poule semble me trouver sympa. 
+ Elle pourrait payer" pensa t-il.
+Comme Jo avait toujours dans ses poches quelques bricoles à vendre, 
+il en proposa quelques unes à Joséphine...C'était en réalité une astuce 
+pour qu'elle sorte son portefeuille, première étape pour le paiement de son addition.
+"Je n'ai pas besoin de ces trucs inutiles que tu me proposes!" 
+Par ses mots, la poule Joséphine refusa
 catégoriquement l'offre du lapin Jo.
+<VueExercise lg="fr" :topics="['qui ou que']" instruction="Remplis les trous par qui ou que!">
+<VueMCGaps lg="fr" :gaptexts="['Les bricoles {que} Jo porte toujours dans ses poches ne servent à rien.',
+'Le chien {qui} avait servi à Jo lui donna l\'addition.',
+'La poule {qui} avait suivi Jo ne veut pas payer l\'addition de celui-ci.',
+'L\'alcool {que} Jo avait bu était très fort.']">
+</VueMCGaps>
+</VueExercise>
 
 <img style="float: right; height: 200px" src="@/assets/img/francais/poule.png"></img>
-Alors, le lapin se tourna vers le chien et ce fut à lui qu'il proposa de prendre ses bricoles au lieu de l'argent.
+Alors, le lapin se tourna vers le chien et ce fut à lui 
+qu'il proposa de prendre ses bricoles au lieu de l'argent.
 Heureux de participer à cette merveilleuse saga, Patrick accepta
 avec grand plaisir la proposition plus que douteuse de Jo.
-Mais tout le monde s'en réjouit et pour fêter cette victoire, Patrick offrit à tout le bar sa tournée générale.
-Fin
+<VueExercise lg="fr" :topics="['Mise en relief avec c\'est ou ce sont']" instruction="Mets en relief la partie de la phrase soulignée comme dans l'exemple!">
+<p>Exemple: Jo porte <u>des bricoles</u> dans ses poches. -> Ce sont des bricoles que Jo porte dans ses poches.</p>
+
+<ol>
+<li>La poule Joséphine veut épouser <u>un coq</u>.</li>
+<li>Patrick a donné <u>l'addition</u> à Jo.</li>
+<li>Jo a offert <u>ses bricoles</u> à Patrick.</li>
+</ol>
+<HideShow lg="fr">
+<ol>
+<li>C'est un coq que la poule Joséphine veut épouser.</li>
+<li>C'est l'addition que Patrick a donnée à Jo.</li>
+<li>Ce sont ses bricoles que Jo a offertes à Patrick.</li>
+</ol>
+</HideShow>
+</VueExercise>
+Mais tout le monde s'en réjouit et pour fêter cette victoire, 
+Patrick offrit à tout le bar sa tournée générale.
+
+<h3>Fin</h3>
 
 </div>
 
