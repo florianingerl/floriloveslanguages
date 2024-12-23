@@ -25,7 +25,7 @@
         <VueExercise lg="fr" :topics="['Les conjunctions']" instruction="Remplis le trou avec la bonne conjunction!">
             <MCGaps lg="fr" :same="true" :gaptexts="['{Après|} avoir mangé un antilope, un lion doit dormir tout le reste de la journée.',
                 '{Avant|} de se coucher, Simba lit normalement un livre.',
-                '{Bien que|} Simba n\'aie pas peur, il évite si possible une rencontre avec d\'autres lions.']">
+                '{Bien que|} Simba n\'ait pas peur, il évite si possible une rencontre avec d\'autres lions.']">
 
             </MCGaps>
         </VueExercise>

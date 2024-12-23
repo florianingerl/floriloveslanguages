@@ -68,25 +68,86 @@ Cela l'empêchait d'explorer de nouvelles relations sans préjudices.
 Elle connaissait aussi des humains sympas. 
 Par exemple, il y avait ce petit gamin qui travaillait à la ferme et qui balayait avec grand soin sa maison 
 et celle de son bébé, ce dont elle lui était très reconnaissante. 
-<VueExercise lg="fr" :topics="['se balader, bavarder ou balayer']" instruction="Remplis les trous avec se balader, bavarder ou balayer à bonne conjugaison!">
+<VueExercise lg="fr" :topics="['se balader, bavarder ou balayer']" instruction="Remplis les trous avec se balader, bavarder ou balayer à la bonne conjugaison!">
+<VueMCGaps lg="fr" :gaptexts="['Après avoir {balayé} dans la maison de la vache, celle-ci n\'est plus sale.',
+    'Le gamin aime {barvarder} avec les vaches bien que celles-ci ne puissent pas le comprendre.',
+    'J\'aimerais {me balader} toute la journée dans la nature et observer les vaches et leur beauté.'
+]">
 
+</VueMCGaps>
 </VueExercise>
 
 
-"Comment est-ce que je pourrais exprimer ma gratitude? " se demanda la maman vache. "Lui offrir du lait? De son salaire maigre, il ne peut sûrement jamais s'acheter du lait de qualité."
-Elle se dit alors qu'elle pourrait attendre le bon moment pour cela et atteignit tranquillement le bord du pré avec son bébé pour voir si le jeune garçon apparaitrait.
-Juste quand la maman vache avait rempli tout un seau avec du lait frais, le gamin surgit. On pouvait le reconnaître facilement grâce à sa casquette qu'il portait toujours, même quand il n'y avait pas de soleil.
+"Comment est-ce que je pourrais exprimer ma gratitude? " se demanda la maman vache. 
+"Lui offrir du lait? De son salaire maigre, il ne peut sûrement jamais s'acheter du lait 
+de qualité."
+Elle se dit alors qu'elle pourrait attendre le bon moment pour cela et atteignit tranquillement
+ le bord du pré avec son bébé pour voir si le jeune garçon apparaitrait.
+<VueExercise lg="fr" :topics="['attendre ou atteindre']" instruction="Remplis les trous par attendre ou atteindre!">
+    <VueMCGaps lg="fr" :gaptexts="['La vache n\'{attend} plus que le taurreau qui l\'a quittée revienne.',
+        'Le but que la vache veut {atteindre}, c\'est de donner 20 litres de lait par jour.',
+        'Quand j\'ai envie de boire du lait, je n\'{attend} pas qu\'une vache vienne et je l\'achète au supermarché.',
+        'Après avoir {atteint} la rivière, la vache boit de l\'eau.'
+    ]">
+         
+    </VueMCGaps>
+
+</VueExercise>
+
+Juste quand la maman vache avait rempli tout un seau avec du lait frais, 
+le gamin surgit. On pouvait le reconnaître facilement grâce à sa casquette qu'il portait 
+toujours, même quand il n'y avait pas de soleil.
 
 <img style="float: right; height: 200px" src="@/assets/img/francais/vache.jpg"></img>
-Elle était contente car tant qu'elle aurait du lait, elle pourrait lui en donner autant chaque jour.
+Elle était contente car tant qu'elle aurait du lait, 
+elle pourrait lui en donner autant chaque jour.
 "Merci beaucoup!" s'exclama le gamin en se penchant sur le seau et en voyant le lait frais.
-"J'ai tant de travail que je ne peux pas l'accomplir sans avoir mangé quelque chose de gras." En buvant le lait, le gamin caressait la vache et pensait à haute voix: "Malheureusement, tu ne peux fournir que du lait et pas d'huile. En effet, j'aurais besoin d'huile pour ma mobylette et ma camionnette."
+"J'ai tant de travail que je ne peux pas l'accomplir sans avoir mangé quelque chose de gras." 
+
+<VueExercise lg="fr" :topics="['tant ou autant']" instruction="Remplis les trous par tant ou autant!">
+<VueMCGaps lg="fr" :gaptexts="['Le gamin a {tant} travaillé. Il doit être fatigué.',
+    '{Tant} qu\'il y a du travail à faire, le gamin ne peut pas s\'en aller.',
+    'Le bébé de la vache boit {autant} de lait que nécessaire pour appaiser sa faim.',
+    'Il y a {autant} de vache dans la prairie pour produire énormement de lait et pour rendre tous les gens qui en boit trop malades.'
+]">
+
+</VueMCGaps>
+</VueExercise>
+En buvant le lait, le gamin caressait la vache et pensait à haute voix: "Malheureusement, 
+tu ne peux fournir que du lait et pas d'huile. 
+En effet, j'aurais besoin d'huile pour ma mobylette et ma camionnette."
 "Je t'ai offert du lait, lui répondit la vache, et ceci a été fait le cœur ouvert."
+<VueExercise lg="fr" :topics="['offrir ou ouvrir']" instruction="Remplis les trous avec offrir ou ouvrir à la bonne conjugaison!">
+<VueMCGaps lg="fr" :gaptexts="['Bien que la vache se méfie de tous les taurreaux, l\'un d\'eux lui a {offert} un bébé.',
+    'Quand il fait chaud dans la maison de la vache, le gamin {ouvre} les fenêtres.',
+    'Quand le gamin est de bonne humeur, il {offre} un sourire aux animaux dont il prend soin.',
+    'Le matin, le gamin {ouvre} les mangeoirs pour nourrir les vaches.',
+    'Avant de conduire les vaches dans la prairie, le gamin doit {ouvrir} la porte de la ferme avec ses clés.'
+]">
+
+</VueMCGaps>
+</VueExercise>
+
 <img style="float: right; height: 200px" src="@/assets/img/francais/vache.jpg"></img>
-"Mais mon lait ne peut bien sûr pas remplacer l'huile dont tu as besoin. " Parce que la vache ne pouvait aider le gamin d'une autre manière, elle lui offrit simplement un sourire. Et en voyant ce sourire radieux, le gamin oubliait toutes ses obligations et n'avait plus besoin de conduire n'importe où.
+"Mais mon lait ne peut bien sûr pas remplacer l'huile dont tu as besoin. "
+Parce que la vache ne pouvait aider le gamin d'une autre manière, 
+elle lui offrit simplement un sourire. 
+Et en voyant ce sourire radieux, le gamin oubliait toutes ses obligations 
+et n'avait plus besoin de conduire n'importe où.
+<VueExercise lg="fr" :topics="['dont ou où']" instruction="Remplis les trous avec dont ou où!">
+<VueMCGaps lg="fr" :gaptexts="['La vache a trois petits, {dont} deux males.',
+    '{Où} est-ce qu\'on peut trouver des vaches heureuses? Dans la prairie ou dans une cage?',
+    'La vache {dont} le bébé est toujours très petit prend soin de celui-ci toute la journée.',
+    'Je n\'achète pas de lait au supermarché où il est trop chèr et pas frais.'
+
+]">
+
+</VueMCGaps>
+</VueExercise>
+
 La morale: Un sourire peut solutionner tous vos problèmes.
 
-Fin
+<h3>Fin</h3>
     
     </div>
     
