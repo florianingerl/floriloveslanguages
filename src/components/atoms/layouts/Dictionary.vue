@@ -21,6 +21,11 @@
 import type { Dictionary } from "@/types/Dictionary.ts";
 import { onMounted, watch , inject, ref } from "vue";
 import { useRoute } from 'vue-router';
+import { useUserStore } from '@/stores/userStore.ts';
+//import axios, { AxiosResponse, AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
+
+const userStore = useUserStore();
+console.log(userStore);
 
 const route = useRoute();
 
@@ -82,6 +87,52 @@ onMounted(() => {
 });
 
 watch(route, () => setDictionaries() );
+
+ /*
+watch(selectedDict, async (newSelectedDict, _) => {
+   if(!userStore.user){
+      return;
+   }
+  
+   let dictUrl = "";
+   let i = dictionaries.value.findIndex( (dict: Dictionary ) => dict.name === newSelectedDict );
+   if( i!= -1 ){
+      dictUrl = dictionaries.value[i].url;
+   }
+
+   //dictUrl
+   //userStore.user.email
+   //route.params.language
+   //updateDictPref();
+
+})*/
+
+
+/*
+function updateDictPref(){
+ 
+const client = axios.create({
+  baseURL: 'http://localhost:8080',
+});
+
+(async () => {
+  const config: AxiosRequestConfig = {
+    headers: {
+      'Accept': 'application/json',
+    } as RawAxiosRequestHeaders,
+  };
+
+  try {
+    const data = { "userEmail": userStore.user?.email,"lg": route.params.language };
+    const response: AxiosResponse = await client.post(`/api/dictprefbymailandlg`, data , config);
+    console.log(response.status);
+    console.log(response.data.json);    
+  } catch(err) {
+    console.log(err);
+  }  
+})();
+
+}*/
 
 </script>
 
