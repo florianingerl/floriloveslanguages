@@ -19,6 +19,7 @@ import VueEcureuilMarie from "@/views/french/breveshistoires/EcureuilMarie.vue";
 import VueMaxHistoire2 from "@/views/french/breveshistoires/HistoireMax2.vue";
 import VueRenardPoule from "@/views/french/breveshistoires/vue-renard-poule.vue";
 import VueAspirateurEtAmour from "@/views/french/breveshistoires/AspirateurEtAmour.vue";
+import VueTapeRhinocerosMarie from "@/views/french/breveshistoires/RhinocerosMarie.vue";
 import VuePouleLapinMarie from "@/views/french/breveshistoires/PouleLapinMarie.vue";
 import VueLapinMarie from "@/views/french/breveshistoires/LapinMarie.vue";
 import VueVacheGaminMarie from "@/views/french/breveshistoires/VacheMarie.vue";
@@ -102,6 +103,11 @@ const router = createRouter({
           name: "Histoires brèves",
           path: 'breveshistoires',
           children: [
+            {
+              name: 'Une tape presque aveugle sauvegarde d\'un gros rhinocéros',
+              path: 'taperhinoceros',
+              component: VueTapeRhinocerosMarie
+            },
             {
               name: 'Une vache ne peut pas donner d\'huile',
               path: 'vachegaminmarie',

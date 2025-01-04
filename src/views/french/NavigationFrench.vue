@@ -10,6 +10,13 @@
     </thead>
     <tbody> 
      
+        
+      <tr>
+
+<td>8</td>
+    <td><router-link to="/fr/french/breveshistoires/taperhinoceros">Une tape presque aveugle sauvegarde la vie d'un gros rhinocéros</router-link></td>
+    <td>Flori10</td>
+ </tr>
 
       
       <tr>
