@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <h1>Une taupe presque aveugle sauvegarde la vie d'un gros rhinocéros</h1>
+        <h1>Le voyage d'un poisson</h1>
         <h4><i>par Florian Ingerl</i></h4>
 
         <img style="float: right; height: 200px" src="@/assets/img/francais/poisson.png"></img>
