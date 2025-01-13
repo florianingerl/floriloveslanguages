@@ -11,7 +11,7 @@
         "Quel joli monument!" pensa Antoine en voyant le monument d'un poisson au centre-ville.
         Effectivement, le monument admiré par Antoine était placé en plein milieu de la place centrale du centre-ville.
         Peut-être y avait-il une raison à cela?
-        <VueExercise lg="fr" :topics="['Poisson ou poison']" instruction="Remplis les trous avec poisson ou poison">
+        <VueExercise lg="fr" :topics="['Poisson ou poison']" instruction="Remplis les trous avec poisson ou poison!">
             <MCGaps lg="fr" :gaptexts="['Dans la mer, il y a des {poissons} de chaque taille.',
                 'Si tu manges du {poison}, tu deviendras malade.'
             ]">
@@ -31,7 +31,7 @@
                     Les poissons vivent dans la mer.</li>
                 <li>Le monument a été construit il y a 50 ans.</li>
                 <li>
-                    Le poisson du monument est verd.
+                    Le poisson du monument est vert.
                 </li>
             </ol>
             <HideShow lg="fr">
@@ -51,10 +51,10 @@
         Et tout à coup, Antoine se souvint de son grand-père qui lui avait raconté une histoire entendue au restaurant
         de cette même place
         dont le héros était Karl, le poisson vagabond.
-        <VueExercise lg="fr" :topics="['Dans, dont ou d\'en']" instruction="Remplis les trous par dans, dont ou d\'en">
+        <VueExercise lg="fr" :topics="['Dans, dont ou d\'en']" instruction="Remplis les trous par dans, dont ou d'en">
             <MCGaps lg="fr" :gaptexts="['<<Cher grand-père. Pourrais tu me raconter une autre histoire de ta vie?>> demanda Antoine à son grand-père qui répondit: <<Mais je viens d\'en raconter 10. Je suis fatigué maintenant.>>',
-                'Quand toute la famille est rassemblée {dans} la salle de séjour, le grand-père raconte souvent quelques anecdote de sa vie.',
-                'Le grand-père {dont} les histoires sont toujours très amusantes a est déjà à la retraite.'
+                'Quand toute la famille est rassemblée {dans} la salle de séjour, le grand-père raconte souvent quelques anecdotes de sa vie.',
+                'Le grand-père {dont} les histoires sont toujours très amusantes est déjà à la retraite.'
             ]">
 
             </MCGaps>
@@ -87,7 +87,7 @@
         Les pirates s'arrêtèrent au prochain port et le vendirent à un particulier qui le mit dans son aquarium.
         <VueExercise lg="fr" :topics="['Oeuf ou oreille']" instruction="Remplis les trous par oeuf ou oreille!">
             <MCGaps lg="fr" :gaptexts="['Les poules fournissent des {oeufs} pour que les hommes puissent les manger.',
-                'Quand les pirates mangent leurs {oeufs}, leurs {oreilles} ne veulent pas entendre que trop d\'{oeufs} ne soient pas bons pour la santé.'
+                'Quand les pirates mangent leurs {oeufs}, leurs {oreilles} ne veulent pas entendre que trop d\'{oeufs} ne sont pas bons pour la santé.'
             ]">
 
             </MCGaps>
@@ -113,8 +113,8 @@
         vendre cher,
         il voulait vendre Karl et espérait en obtenir un bon prix parce que Karl était vraiment mignon.
         <VueExercise lg="fr" :topics="['N\'importe qui ou qui que ce soit']"
-            instruction="Remplis les trous par n\'importe qui ou qui que ce soit!">
-            <MCGaps lg="fr" :gaptexts="['Monsieur Ibrahim ne voulait pas vendre Karl à {n\'importe qui}. Il intendait de le vendre seulement à quelqu\'un qui traîterait Karl bien.',
+            instruction="Remplis les trous par n'importe qui ou qui que ce soit!">
+            <MCGaps lg="fr" :gaptexts="['Monsieur Ibrahim ne voulait pas vendre Karl à {n\'importe qui}. Il voulait le vendre seulement à quelqu\'un qui traîterait Karl bien.',
                 'Monsieur Ibrahim ne veut pas vendre Karl à {qui que ce soit}! Il veut le garder comme son animal domestique.'
             ]">
 
@@ -126,11 +126,11 @@
         bien que cela puisse sembler être une excellente nouvelle pour Monsieur Ibrahim,
         lorsque celui-ci apprit que son interlocuteur était le grand chef du plus grand restaurant de la ville,
         il refusa illico son offre, pourtant très alléchante.
-        <VueExercise lg="fr" :topcis="['Conjunctions suivi du subjonctif']"
-            instruction="Remplis les trous par la bonne conjunction et le verbe donne au subjonctif!">
+        <VueExercise lg="fr" :topcis="['Conjonctions suivi du subjonctif']"
+            instruction="Remplis les trous par la bonne conjonction et le verbe donne au subjonctif!">
             <MCGaps lg="fr" :gaptexts="['{Bien que|À condition que} le proprietaire du restaurant {offre} (offrir) un bon prix à Monsieur Ibrahim, celui-ci ne vendit pas Karl.',
-                '{À condition que|Bien que} un acheteur n\'{intente} (intender) pas à manger Karl, Monsieur Ibrahim lui le vendrait.',
-                '{Au moins que} quelqu\'un ne lui {donne} (donner) un million d\'euros pour Karl, Monsieur Ibrahim ne vendrait pas Karl à quelqu\'un qui a faim.'
+                '{À condition qu\'|Bien qu\'}un acheteur ne {veuille} (vouloir) pas manger Karl, Monsieur Ibrahim lui le vendrait.',
+                '{Au moins que|À condition que} quelqu\'un ne lui {donne} (donner) un million d\'euros pour Karl, Monsieur Ibrahim ne vendrait pas Karl à quelqu\'un qui a faim.'
             ]">
 
             </MCGaps>
@@ -145,7 +145,11 @@
         douce qu'ici?" se demanda Karl.
 
         <VueExercise lg="fr" :topcis="['L\'adjectif']" instruction="Remplis les trous par doux/douce ou gros/grosse!">
-            <MCGaps lg="fr" :gaptexts="['']">
+            <MCGaps lg="fr" :gaptexts="['Si tu manges beaucoup de viande, tu deviendras {gros}.',
+                'Mangeant toujours trop de poissons, ma mère est déjà très {grosse}.',
+                'D\'observer les poissons dans un lac peut te donner un sentiment assez {doux}.',
+                'Quand un voleur s\'approche du magasin, il fait ses pas {doucement} pour ne pas être entendu.'
+            ]">
 
             </MCGaps>
         </VueExercise>
@@ -157,16 +161,42 @@
         "Je vais empoisonner mon propre aquarium et Monsieur Ibrahim va être obligé de trouver un autre endroit pour
         moi. Soit il m'amène chez le médecin soit il me jette directement dans le lac le plus proche" C'était au moins
         ce qu'il espérait.
+<VueExercise lg="fr" :topics="['chez ou à']" instruction="Remplis les trous avec chez ou à">
+<MCGaps lg="fr" :gaptexts="['{Chez} Monsieur Ibrahim, le poisson Karl se sentait toujours à l\'aise.',
+    'Monsieur Ibrahim va {à} la bibliothèque pour y chercher un livre sur les poissons.',
+    '{Chez} le médecin, on doit faire attention à ne pas se laisser empoisonner.'
+]">
+
+</MCGaps>
+</VueExercise>
+
         Seule cette idée d'empoisonner son propre aquarium le maintenait en vie: il voulait à tout prix s'extirper de
         cette situation qui le faisait dépérir de l'intérieur. Il passa donc à l'action immédiatement.
         Alors, il cessa de se laver les dents ou les mains, il ne prenait plus de douche et il ne nettoyait plus le
         plancher ou les murs de l'aquarium de sorte que l'aquarium devint très sale. Surpris, Monsieur Ibrahim remarqua
         la couleur presque noire de l'aquarium et se pencha au-dessus et dit:
+<VueExercise lg="fr" :topics="['se laver ou se lever']" instruction="Remplis les trous par se laver ou se lever!">
+<MCGaps lg="fr" :gaptexts="['Monsieur Ibrahim doit {se lever} tôt pour ouvrir son magasin à 8 heures.',
+    'Monsieur Ibrahim doit {se laver} tous les matins pour que il ne pue pas.'
+]">
+
+</MCGaps>
+</VueExercise>
+
+
         "Mais qu'est-ce qui te prend mon cher ami de te prélasser dans cette bouillasse bien noire! J'ai failli ne plus
         te voir, j'ai cru que cette saleté t'avait englouti! Viens un peu par là, que je te sorte de cette mélasse, nous
         allons de ce pas prendre un bain au lac!"
         "D'ici demain, tu ne seras plus un poisson sale mais du retrouvera ta couleur d'origine. Entretemps, je dois
         acheter un petit filet pour que tu ne t'enfuies pas dans le lac!"
+
+        <VueExercise lg="fr" :topics="['faillir ou falloir']" instruction="Remplis les trous par faillir ou falloir!">
+<MCGaps lg="fr" :gaptexts="['Le poisson Karl a {failli} mourir dans l\'eau sale, mais heureusement, Monsieur Ibrahim l\'a sorti à temps de l\'aquarium.',
+    'Il {faut} que Karl revienne à la mer pour y être plus heureux.'
+]">
+     
+</MCGaps>
+        </VueExercise>
 
         <img style="float: right; height: 200px" src="@/assets/img/francais/poisson.png"></img>
         A la perspective de plonger dans le lac, Karl se réjouit aussitôt. Un immense sourire parcourut son visage :
@@ -175,12 +205,28 @@
         Et il avait aussi une ruse en tête pour s'enfuir du filet. Aussitôt que Monsieur Ibrahim plongera le filet avec
         lui dans le lac, il nagera avec tant de force que Monsieur Ibrahim ne sera plus capable te tenir le filet. Pour
         se préparer, il entraîna ses muscles toute la journée.
+<VueExercise lg="fr" :topics="['tenir ou tenter']" instruction="Remplis les trous par tenir ou tenter à la bonne conjugaison au présent de l'indicatif!">
+<MCGaps lg="fr" :gaptexts="['Monsieur Ibrahim {tient} un petit magasin.',
+    'Parfois, quelqu\'un {tente} de voler quelque chose au magasin, mais Monsieur Ibrahim fait toujours attention et appelle aussitôt la police quand il voit un voleur.'
+]">
+
+</MCGaps>
+</VueExercise>
+
         Son plan pouvait marcher à condition que Monsieur Ibrahim soit plus faible que lui. Etait-ce possible? Il
         s'entraîna donc toute la journée dans son bocal, fit des pompes, des étirements, des extensions, s'étira de tout
         son long dans son aquarium jusqu'à ce qu'inévitablement Monsieur Ibrahim remarque son petit manège.
         Le lendemain, Monsieur Ibrahim amena bien Karl au lac le plus proche, le mit dans le filet et le plongea dans le
         lac où Karl commença aussitôt à nager aussi vite qu'il le pouvait. Parce que ses muscles étaient si entraînés,
         Monsieur Ibrahim dut utiliser les siens aussi pour maintenir le filet.
+        <VueExercise lg="fr" :topics="['Conjonctions et subjonctif']" instruction="Remplis les trous avec le verbe donné au subjonctif et avec la bonne conjonction!">
+<MCGaps lg="fr" :gaptexts="['Le poisson Karl nage {jusqu\'à|bien que} ce que Monsieur Ibrahim {relâche} (relâcher) le filet.',
+    '{Bien que|jusqu\'a} les hommes {soient} (être) normalement plus forts que les poissons, Monsieur Ibrahim ne pouvait pas resister la force du poisson Karl.',
+    '{À condition que|Bien que} Karl {soit} (être) plus fort que Monsieur Ibrahim, il va s\'enfuir dans le lac.'
+]">
+
+</MCGaps>
+        </VueExercise>
 
         <img style="float: right; height: 200px" src="@/assets/img/francais/poisson.png"></img>
         Cette tactique rajouta du fil à retordre à notre ami Karl. En effet, il avait bien prévu que Monsieur Ibrahim ne
@@ -188,6 +234,15 @@
         Soudainement, le fil ne résista plus et il se déchira, laissant un trou à Karl pour s'enfuir.
         Et Karl ne rata pas cette occasion. Il passa à travers le trou et faillit se laisser attraper par la main de
         Monsieur Ibrahim, mais il l'évita heureusement .
+        <VueExercise lg="fr" :topics="['Pronoms interrogatifs quel,quelle,quels,quelles']" instruction="Remplis les trous avec quel,quelle,quels ou quelles!">
+<MCGaps lg="fr" :gaptexts="['{Quelle} chance pour Karl que Monsieur Ibrahim ne fait jamais de sport et n\'a donc presque pas de muscles!',
+    '{Quel} livre religieux lit Monsieur Ibrahim regulièrement bien qu\'il connaisse son contenu déjà par coeur? Le Koran.',
+    'Étant à nouveau libre, Karl se demande {quels} endroits il veut explorer d\'abord.',
+    '{Quelles} sont les préoccupations de Monsieur Ibrahim?'
+]">
+
+</MCGaps>
+        </VueExercise>
         Et il se retrouva aussitôt libre! Quelle joie de retrouver sa liberté de mouvement, d'aller où il souhaitait et
         de retrouver ses amis qui avaient tous assisté à la scène et qui lui firent un accueil triomphant.
         Très heureux, il se construisit une petite maison au milieu d'une forêt d'algues et il y vit peut-être encore
